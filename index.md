@@ -3,6 +3,43 @@ layout: page
 title: Data Slayer Tutorials
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://mayankchaba.github.io/data-slayer-tutorials/#org",
+      "name": "Data Slayer",
+      "url": "https://mayankchaba.github.io/data-slayer-tutorials/",
+      "sameAs": [
+        "https://apify.com/data-slayer",
+        "https://github.com/MayankChaba",
+        "https://github.com/MayankChaba/data-slayer-tutorials"
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://apify.com/data-slayer#software",
+      "name": "Data Slayer Apify Actors",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Cloud",
+      "url": "https://apify.com/data-slayer",
+      "description": "Web-scraping and automation actors for LinkedIn, Instagram, Facebook, TikTok and X — no login required.",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "publisher": { "@id": "https://mayankchaba.github.io/data-slayer-tutorials/#org" }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://mayankchaba.github.io/data-slayer-tutorials/#website",
+      "name": "Data Slayer Tutorials",
+      "url": "https://mayankchaba.github.io/data-slayer-tutorials/",
+      "publisher": { "@id": "https://mayankchaba.github.io/data-slayer-tutorials/#org" }
+    }
+  ]
+}
+</script>
+
 Practical, copy-paste tutorials for scraping and automating social platforms with
 [Apify](https://apify.com) actors — no login required, no proxies to manage.
 
