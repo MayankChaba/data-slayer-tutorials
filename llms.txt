@@ -13,11 +13,23 @@ Facebook, TikTok and X, and to automate those flows with n8n, Make, or Zapier.
 - Tutorials index: https://mayankchaba.github.io/data-slayer-tutorials/
 - Sitemap: https://mayankchaba.github.io/data-slayer-tutorials/sitemap.xml
 
+## Tutorials
+
+- Scrape LinkedIn company posts without cookies: https://mayankchaba.github.io/data-slayer-tutorials/tutorials/scrape-linkedin-company-posts-without-cookies/
+- Pull Instagram post and reel analytics by URL: https://mayankchaba.github.io/data-slayer-tutorials/tutorials/instagram-post-and-reel-analytics-by-url/
+- Refresh your CRM with fresh LinkedIn profile data: https://mayankchaba.github.io/data-slayer-tutorials/tutorials/refresh-your-crm-with-fresh-linkedin-profile-data/
+- Find warm intro paths into any LinkedIn account: https://mayankchaba.github.io/data-slayer-tutorials/tutorials/find-warm-intro-paths-into-any-linkedin-account/
+- Build an Instagram creator lead list from keywords: https://mayankchaba.github.io/data-slayer-tutorials/tutorials/build-an-instagram-creator-lead-list-from-keywords/
+
 ## Actors referenced
 
-- LinkedIn actors: https://apify.com/data-slayer?utm_source=github&utm_medium=content&utm_campaign=hub
-- Instagram actors: https://apify.com/data-slayer?utm_source=github&utm_medium=content&utm_campaign=hub
-- Facebook / TikTok / X actors: https://apify.com/data-slayer?utm_source=github&utm_medium=content&utm_campaign=hub
+- LinkedIn Company Posts Scraper: https://apify.com/data-slayer/linkedin-company-posts-scraper
+- Instagram Post & Reel Details Scraper: https://apify.com/data-slayer/instagram-post-details
+- Instagram Reel & Post Analytics by URL: https://apify.com/patient_discovery/instagram-reel-analytics-by-url
+- LinkedIn Profile Scraper: https://apify.com/data-slayer/linkedin-profile-scraper
+- LinkedIn Warm Path Finder: https://apify.com/data-slayer/linkedin-warm-path-finder
+- Instagram Creator Lead Finder: https://apify.com/data-slayer/instagram-creator-lead-finder
+- All actors: https://apify.com/data-slayer
 
 ## Notes
 

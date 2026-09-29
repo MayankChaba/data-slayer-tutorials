@@ -55,12 +55,13 @@ and the actor that does the work.
 
 ## Tutorials
 
-Tutorials are being published here. Each one targets a specific job to be done:
+- [Scrape LinkedIn company posts without cookies](/data-slayer-tutorials/tutorials/scrape-linkedin-company-posts-without-cookies/) — competitor content audits and engagement benchmarks, no LinkedIn login.
+- [Pull Instagram post & reel analytics by URL](/data-slayer-tutorials/tutorials/instagram-post-and-reel-analytics-by-url/) — views, likes, comments, shares, and saves in bulk.
+- [Refresh your CRM with fresh LinkedIn profile data](/data-slayer-tutorials/tutorials/refresh-your-crm-with-fresh-linkedin-profile-data/) — turn a column of profile URLs into current, clean CRM records.
+- [Find warm intro paths into any LinkedIn account](/data-slayer-tutorials/tutorials/find-warm-intro-paths-into-any-linkedin-account/) — ranked warm paths and the best connector to ask.
+- [Build an Instagram creator lead list from keywords](/data-slayer-tutorials/tutorials/build-an-instagram-creator-lead-list-from-keywords/) — evidence-backed creator outreach lists from keywords and hashtags.
 
-- Scrape LinkedIn company posts without cookies
-- Pull Instagram post & reel analytics by URL
-- Refresh a CRM from LinkedIn profile URLs
-- …and more
+More tutorials are published regularly — each one targets a specific job to be done.
 
 ## The actors
 
