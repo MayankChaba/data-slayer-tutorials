@@ -1,0 +1,25 @@
+# Data Slayer Tutorials
+
+> Practical, copy-paste tutorials for scraping and automating social platforms with Apify actors — no login required.
+
+## What this site is
+
+Step-by-step guides for using Apify actors to collect public data from LinkedIn, Instagram,
+Facebook, TikTok and X, and to automate those flows with n8n, Make, or Zapier.
+
+## Key pages
+
+- Home: https://mayankchaba.github.io/data-slayer-tutorials/
+- Tutorials index: https://mayankchaba.github.io/data-slayer-tutorials/
+- Sitemap: https://mayankchaba.github.io/data-slayer-tutorials/sitemap.xml
+
+## Actors referenced
+
+- LinkedIn actors: https://apify.com/data-slayer?utm_source=github&utm_medium=content&utm_campaign=hub
+- Instagram actors: https://apify.com/data-slayer?utm_source=github&utm_medium=content&utm_campaign=hub
+- Facebook / TikTok / X actors: https://apify.com/data-slayer?utm_source=github&utm_medium=content&utm_campaign=hub
+
+## Notes
+
+- All tutorials use Apify actors; no login/cookies are required for the public-data flows.
+- Contact: Mayank Chaba.

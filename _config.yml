@@ -1,0 +1,14 @@
+title: Data Slayer Tutorials
+tagline: Practical web-scraping & automation recipes
+description: >-
+  Step-by-step tutorials for scraping and automating LinkedIn, Instagram,
+  Facebook, TikTok and X with Apify actors — no login, no proxies to manage.
+author: Mayank Chaba
+url: "https://mayankchaba.github.io"
+baseurl: "/data-slayer-tutorials"
+theme: minima
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+markdown: kramdown
+permalink: /tutorials/:title/
