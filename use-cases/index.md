@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Use cases"
+permalink: "/use-cases/"
 ---
 
 Step-by-step guides for the jobs people actually search for — each one built on a
