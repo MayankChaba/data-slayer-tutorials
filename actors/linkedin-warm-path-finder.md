@@ -5,7 +5,7 @@ description: "Find warm introduction paths to any LinkedIn target from your own 
 actor_slug: "linkedin-warm-path-finder"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/linkedin-warm-path-finder?utm_source=github&utm_medium=content&utm_campaign=linkedin-warm-path-finder"
-actor_pricing: "$30 per 1,000 results (Free tier)"
+actor_pricing: "$30.00 per 1,000 results (Free tier)"
 categories: ["LEAD_GENERATION", "SOCIAL_MEDIA", "MARKETING"]
 permalink: /actors/linkedin-warm-path-finder/
 ---
@@ -56,7 +56,7 @@ The `OUTPUT` key-value-store record reports connectors resolved, targets, and ho
 
 ## Pricing
 
-**$30 per 1,000 results** (Free tier)  
+**$30.00 per 1,000 results** (Free tier)  
 Actor start: $0.02 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
@@ -82,4 +82,4 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Categories
 
-`LEAD_GENERATION`, `SOCIAL_MEDIA`, `MARKETING`
+Lead Generation, Social Media, Marketing

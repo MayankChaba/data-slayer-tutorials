@@ -1,6 +1,6 @@
 ---
 layout: actor
-title: "LinkedIn Company Data Extractor "
+title: "LinkedIn Company Data Extractor"
 description: "LinkedIn company data extractor. Pull 900+ structured data points from any LinkedIn company page — employee count, industry, headquarters, funding rounds, investors, open job count, and affiliated companies. No cookies. No LinkedIn account required. Built for data engineers and business intelligence"
 actor_slug: "linkedin-company-data-extractor"
 actor_account: "iron-crawler"
@@ -74,9 +74,8 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Get started
 
-**[Run LinkedIn Company Data Extractor
- on Apify →](https://apify.com/iron-crawler/linkedin-company-data-extractor?utm_source=github&utm_medium=content&utm_campaign=linkedin-company-data-extractor)**
+**[Run LinkedIn Company Data Extractor on Apify →](https://apify.com/iron-crawler/linkedin-company-data-extractor?utm_source=github&utm_medium=content&utm_campaign=linkedin-company-data-extractor)**
 
 ## Categories
 
-`SOCIAL_MEDIA`, `LEAD_GENERATION`
+Social Media, Lead Generation

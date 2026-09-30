@@ -5,7 +5,7 @@ description: "Find LinkedIn companies by industry, location, headcount, type and
 actor_slug: "linkedin-company-search"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/linkedin-company-search?utm_source=github&utm_medium=content&utm_campaign=linkedin-company-search"
-actor_pricing: "$4 per 1,000 results (Free tier)"
+actor_pricing: "$4.00 per 1,000 results (Free tier)"
 categories: ["LEAD_GENERATION", "BUSINESS", "SOCIAL_MEDIA"]
 permalink: /actors/linkedin-company-search/
 ---
@@ -47,7 +47,7 @@ Each dataset row includes:
 
 ## Pricing
 
-**$4 per 1,000 results** (Free tier)
+**$4.00 per 1,000 results** (Free tier)
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
 See the live pricing on the [Apify listing](https://apify.com/data-slayer/linkedin-company-search).
@@ -74,4 +74,4 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Categories
 
-`LEAD_GENERATION`, `BUSINESS`, `SOCIAL_MEDIA`
+Lead Generation, Business, Social Media

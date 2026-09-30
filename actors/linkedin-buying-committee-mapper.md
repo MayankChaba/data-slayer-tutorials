@@ -5,7 +5,7 @@ description: "Map a LinkedIn company into its buying committee: economic buyer, 
 actor_slug: "linkedin-buying-committee-mapper"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/linkedin-buying-committee-mapper?utm_source=github&utm_medium=content&utm_campaign=linkedin-buying-committee-mapper"
-actor_pricing: "$40 per 1,000 results (Free tier)"
+actor_pricing: "$40.00 per 1,000 results (Free tier)"
 categories: ["LEAD_GENERATION", "MARKETING"]
 permalink: /actors/linkedin-buying-committee-mapper/
 ---
@@ -48,7 +48,7 @@ The `OUTPUT` key-value-store record reports members found, returned, and the rol
 
 ## Pricing
 
-**$40 per 1,000 results** (Free tier)  
+**$40.00 per 1,000 results** (Free tier)  
 Actor start: $0.05 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
@@ -72,4 +72,4 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Categories
 
-`LEAD_GENERATION`, `MARKETING`
+Lead Generation, Marketing

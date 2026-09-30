@@ -1,11 +1,11 @@
 ---
 layout: actor
-title: "LinkedIn Profile Extractor + Verified Email "
+title: "LinkedIn Profile Extractor + Verified Email"
 description: "LinkedIn profile extractor with verified email export. Submit any LinkedIn profile URL and get a full contact record — name, job title, company, headline, and verified email address — ready to drop into your outreach tool or CRM. No cookies. No login. No subscription. "
 actor_slug: "linkedin-profile-extractor"
 actor_account: "patient_discovery"
 actor_url: "https://apify.com/patient_discovery/linkedin-profile-extractor?utm_source=github&utm_medium=content&utm_campaign=linkedin-profile-extractor"
-actor_pricing: "$15 per 1,000 results (Free tier)"
+actor_pricing: "$15.00 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA", "LEAD_GENERATION"]
 permalink: /actors/linkedin-profile-extractor/
 ---
@@ -42,7 +42,7 @@ Paste LinkedIn profile URLs, get back a complete contact list ready for outreach
 
 ## Pricing
 
-**$15 per 1,000 results** (Free tier)  
+**$15.00 per 1,000 results** (Free tier)  
 Actor start: $0.0001 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
@@ -62,9 +62,8 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Get started
 
-**[Run LinkedIn Profile Extractor + Verified Email
- on Apify →](https://apify.com/patient_discovery/linkedin-profile-extractor?utm_source=github&utm_medium=content&utm_campaign=linkedin-profile-extractor)**
+**[Run LinkedIn Profile Extractor + Verified Email on Apify →](https://apify.com/patient_discovery/linkedin-profile-extractor?utm_source=github&utm_medium=content&utm_campaign=linkedin-profile-extractor)**
 
 ## Categories
 
-`SOCIAL_MEDIA`, `LEAD_GENERATION`
+Social Media, Lead Generation

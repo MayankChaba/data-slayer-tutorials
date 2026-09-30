@@ -5,7 +5,7 @@ description: "Search public Twitter/X posts and profiles by keyword, hashtag, me
 actor_slug: "twitter-search"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/twitter-search?utm_source=github&utm_medium=content&utm_campaign=twitter-search"
-actor_pricing: "$2.5 per 1,000 results (Free tier)"
+actor_pricing: "$2.50 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA", "AUTOMATION", "LEAD_GENERATION"]
 permalink: /actors/twitter-search/
 ---
@@ -76,7 +76,7 @@ _(continued on the Apify listing)_
 
 ## Pricing
 
-**$2.5 per 1,000 results** (Free tier)  
+**$2.50 per 1,000 results** (Free tier)  
 Actor start: $0.002 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
@@ -112,4 +112,4 @@ Also available on:
 
 ## Categories
 
-`SOCIAL_MEDIA`, `AUTOMATION`, `LEAD_GENERATION`
+Social Media, Automation, Lead Generation

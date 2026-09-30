@@ -5,7 +5,7 @@ description: "Analyze competitor LinkedIn content: themes, posting cadence, form
 actor_slug: "linkedin-competitor-content-intelligence"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/linkedin-competitor-content-intelligence?utm_source=github&utm_medium=content&utm_campaign=linkedin-competitor-content-intelligence"
-actor_pricing: "$30 per 1,000 results (Free tier)"
+actor_pricing: "$30.00 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA", "MARKETING"]
 permalink: /actors/linkedin-competitor-content-intelligence/
 ---
@@ -53,7 +53,7 @@ The `OUTPUT` key-value-store record reports sources, posts analyzed, and rows wr
 
 ## Pricing
 
-**$30 per 1,000 results** (Free tier)  
+**$30.00 per 1,000 results** (Free tier)  
 Actor start: $0.02 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
@@ -79,4 +79,4 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Categories
 
-`SOCIAL_MEDIA`, `MARKETING`
+Social Media, Marketing

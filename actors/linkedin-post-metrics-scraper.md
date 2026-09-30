@@ -1,6 +1,6 @@
 ---
 layout: actor
-title: "LinkedIn Post Metrics Scraper "
+title: "LinkedIn Post Metrics Scraper"
 description: "LinkedIn post metrics scraper. Extract likes, comments, shares, and full reaction breakdowns from any LinkedIn post URL. Returns author info, post text, media attachments, and engagement counts in structured JSON. No cookies. No LinkedIn login. Built for analytics pipelines and content researchers."
 actor_slug: "linkedin-post-metrics-scraper"
 actor_account: "iron-crawler"
@@ -73,9 +73,8 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Get started
 
-**[Run LinkedIn Post Metrics Scraper
- on Apify →](https://apify.com/iron-crawler/linkedin-post-metrics-scraper?utm_source=github&utm_medium=content&utm_campaign=linkedin-post-metrics-scraper)**
+**[Run LinkedIn Post Metrics Scraper on Apify →](https://apify.com/iron-crawler/linkedin-post-metrics-scraper?utm_source=github&utm_medium=content&utm_campaign=linkedin-post-metrics-scraper)**
 
 ## Categories
 
-`SOCIAL_MEDIA`, `LEAD_GENERATION`
+Social Media, Lead Generation

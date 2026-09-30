@@ -1,6 +1,6 @@
 ---
 layout: actor
-title: "LinkedIn Company Content Scraper "
+title: "LinkedIn Company Content Scraper"
 description: "LinkedIn company content scraper. Extract all posts from any LinkedIn company page — post text, likes, comments, shares, reaction type breakdown, and media. Supports full pagination to retrieve complete post history. No cookies or LinkedIn account required. Built for data engineers and competitive i"
 actor_slug: "linkedin-company-content-scraper"
 actor_account: "iron-crawler"
@@ -59,9 +59,8 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Get started
 
-**[Run LinkedIn Company Content Scraper
- on Apify →](https://apify.com/iron-crawler/linkedin-company-content-scraper?utm_source=github&utm_medium=content&utm_campaign=linkedin-company-content-scraper)**
+**[Run LinkedIn Company Content Scraper on Apify →](https://apify.com/iron-crawler/linkedin-company-content-scraper?utm_source=github&utm_medium=content&utm_campaign=linkedin-company-content-scraper)**
 
 ## Categories
 
-`SOCIAL_MEDIA`, `LEAD_GENERATION`
+Social Media, Lead Generation

@@ -98,4 +98,4 @@ Also available on:
 
 ## Categories
 
-`SOCIAL_MEDIA`
+Social Media

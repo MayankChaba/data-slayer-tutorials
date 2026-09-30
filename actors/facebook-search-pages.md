@@ -5,7 +5,7 @@ description: "Search Facebook pages."
 actor_slug: "facebook-search-pages"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/facebook-search-pages?utm_source=github&utm_medium=content&utm_campaign=facebook-search-pages"
-actor_pricing: "$7 per 1,000 results (Free tier)"
+actor_pricing: "$7.00 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA"]
 permalink: /actors/facebook-search-pages/
 ---
@@ -68,7 +68,7 @@ Transform your lead generation strategy with this powerful Facebook page scraper
 
 ## Pricing
 
-**$7 per 1,000 results** (Free tier)  
+**$7.00 per 1,000 results** (Free tier)  
 Actor start: $0.002 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
@@ -100,4 +100,4 @@ Also available on:
 
 ## Categories
 
-`SOCIAL_MEDIA`
+Social Media

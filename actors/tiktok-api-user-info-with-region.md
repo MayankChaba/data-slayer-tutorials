@@ -5,7 +5,7 @@ description: "Get TikTok user info with region."
 actor_slug: "tiktok-api-user-info-with-region"
 actor_account: "patient_discovery"
 actor_url: "https://apify.com/patient_discovery/tiktok-api-user-info-with-region?utm_source=github&utm_medium=content&utm_campaign=tiktok-api-user-info-with-region"
-actor_pricing: "$2.5 per 1,000 results (Free tier)"
+actor_pricing: "$2.50 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA"]
 permalink: /actors/tiktok-api-user-info-with-region/
 ---
@@ -60,7 +60,7 @@ This TikTok user data scraper is an essential web scraping tool for sales and ma
 
 ## Pricing
 
-**$2.5 per 1,000 results** (Free tier)  
+**$2.50 per 1,000 results** (Free tier)  
 Actor start: $0.002 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
@@ -89,4 +89,4 @@ Also available on:
 
 ## Categories
 
-`SOCIAL_MEDIA`
+Social Media

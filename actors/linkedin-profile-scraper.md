@@ -5,7 +5,7 @@ description: "Scrape fresh LinkedIn profile data in bulk from profile URLs with 
 actor_slug: "linkedin-profile-scraper"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/linkedin-profile-scraper?utm_source=github&utm_medium=content&utm_campaign=linkedin-profile-scraper"
-actor_pricing: "$4 per 1,000 results (Free tier)"
+actor_pricing: "$4.00 per 1,000 results (Free tier)"
 categories: ["LEAD_GENERATION", "SOCIAL_MEDIA", "BUSINESS"]
 permalink: /actors/linkedin-profile-scraper/
 ---
@@ -83,7 +83,7 @@ Give an AI agent structured professional context before meeting preparation, res
 
 ## Pricing
 
-**$4 per 1,000 results** (Free tier)
+**$4.00 per 1,000 results** (Free tier)
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
 See the live pricing on the [Apify listing](https://apify.com/data-slayer/linkedin-profile-scraper).
@@ -105,4 +105,4 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Categories
 
-`LEAD_GENERATION`, `SOCIAL_MEDIA`, `BUSINESS`
+Lead Generation, Social Media, Business

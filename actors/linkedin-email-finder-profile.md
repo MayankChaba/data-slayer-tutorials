@@ -1,6 +1,6 @@
 ---
 layout: actor
-title: "LinkedIn Email Finder from Profile "
+title: "LinkedIn Email Finder from Profile"
 description: "LinkedIn email finder from profile URL. Input any LinkedIn profile link, get back verified contact data — email address, job title, company name, and 500+ profile data points. Works without cookies or session tokens. Built for developers, sales engineers, and data teams running enrichment pipelines "
 actor_slug: "linkedin-email-finder-profile"
 actor_account: "iron-crawler"
@@ -75,9 +75,8 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Get started
 
-**[Run LinkedIn Email Finder from Profile
- on Apify →](https://apify.com/iron-crawler/linkedin-email-finder-profile?utm_source=github&utm_medium=content&utm_campaign=linkedin-email-finder-profile)**
+**[Run LinkedIn Email Finder from Profile on Apify →](https://apify.com/iron-crawler/linkedin-email-finder-profile?utm_source=github&utm_medium=content&utm_campaign=linkedin-email-finder-profile)**
 
 ## Categories
 
-`SOCIAL_MEDIA`, `LEAD_GENERATION`
+Social Media, Lead Generation

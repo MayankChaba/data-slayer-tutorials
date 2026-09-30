@@ -5,7 +5,7 @@ description: "Find and qualify Instagram creators from keywords and hashtags. Ex
 actor_slug: "instagram-creator-lead-finder"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/instagram-creator-lead-finder?utm_source=github&utm_medium=content&utm_campaign=instagram-creator-lead-finder"
-actor_pricing: "$3 per 1,000 results (Free tier)"
+actor_pricing: "$3.00 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA", "LEAD_GENERATION"]
 permalink: /actors/instagram-creator-lead-finder/
 ---
@@ -14,7 +14,7 @@ Find and qualify Instagram creators from keywords and hashtags. Export public pr
 
 ## Pricing
 
-**$3 per 1,000 results** (Free tier)
+**$3.00 per 1,000 results** (Free tier)
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
 See the live pricing on the [Apify listing](https://apify.com/data-slayer/instagram-creator-lead-finder).
@@ -25,4 +25,4 @@ See the live pricing on the [Apify listing](https://apify.com/data-slayer/instag
 
 ## Categories
 
-`SOCIAL_MEDIA`, `LEAD_GENERATION`
+Social Media, Lead Generation

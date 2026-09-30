@@ -5,7 +5,7 @@ description: "Get TikTok user followers."
 actor_slug: "tiktok-api-user-followers"
 actor_account: "monumental_world"
 actor_url: "https://apify.com/monumental_world/tiktok-api-user-followers?utm_source=github&utm_medium=content&utm_campaign=tiktok-api-user-followers"
-actor_pricing: "$2.5 per 1,000 results (Free tier)"
+actor_pricing: "$2.50 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA"]
 permalink: /actors/tiktok-api-user-followers/
 ---
@@ -81,7 +81,7 @@ Whether you need an Instagram scraper alternative, want to export followers for 
 
 ## Pricing
 
-**$2.5 per 1,000 results** (Free tier)  
+**$2.50 per 1,000 results** (Free tier)  
 Actor start: $0.002 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
@@ -113,4 +113,4 @@ Also available on:
 
 ## Categories
 
-`SOCIAL_MEDIA`
+Social Media

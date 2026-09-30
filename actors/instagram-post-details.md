@@ -5,7 +5,7 @@ description: "Scrape Instagram post & Reel details by URL — 128 fields: views,
 actor_slug: "instagram-post-details"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/instagram-post-details?utm_source=github&utm_medium=content&utm_campaign=instagram-post-details"
-actor_pricing: "$2.5 per 1,000 results (Free tier)"
+actor_pricing: "$2.50 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA", "LEAD_GENERATION"]
 permalink: /actors/instagram-post-details/
 ---
@@ -51,7 +51,7 @@ Each output includes `metrics_availability.share_count` and `metrics_availabilit
 
 ## Pricing
 
-**$2.5 per 1,000 results** (Free tier)  
+**$2.50 per 1,000 results** (Free tier)  
 Actor start: $0.002 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
@@ -76,4 +76,4 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Categories
 
-`SOCIAL_MEDIA`, `LEAD_GENERATION`
+Social Media, Lead Generation

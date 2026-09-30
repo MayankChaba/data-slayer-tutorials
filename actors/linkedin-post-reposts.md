@@ -5,7 +5,7 @@ description: "Extract every repost of any LinkedIn post with reposter names and 
 actor_slug: "linkedin-post-reposts"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/linkedin-post-reposts?utm_source=github&utm_medium=content&utm_campaign=linkedin-post-reposts"
-actor_pricing: "$2 per 1,000 results (Free tier)"
+actor_pricing: "$2.00 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA", "MARKETING"]
 permalink: /actors/linkedin-post-reposts/
 ---
@@ -44,7 +44,7 @@ _(continued on the Apify listing)_
 
 ## Pricing
 
-**$2 per 1,000 results** (Free tier)
+**$2.00 per 1,000 results** (Free tier)
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
 See the live pricing on the [Apify listing](https://apify.com/data-slayer/linkedin-post-reposts).
@@ -68,4 +68,4 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Categories
 
-`SOCIAL_MEDIA`, `MARKETING`
+Social Media, Marketing

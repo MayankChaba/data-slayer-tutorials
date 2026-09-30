@@ -5,7 +5,7 @@ description: "Expand seed companies into a segmented market map via LinkedIn sim
 actor_slug: "linkedin-market-map-builder"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/linkedin-market-map-builder?utm_source=github&utm_medium=content&utm_campaign=linkedin-market-map-builder"
-actor_pricing: "$20 per 1,000 results (Free tier)"
+actor_pricing: "$20.00 per 1,000 results (Free tier)"
 categories: ["LEAD_GENERATION", "SOCIAL_MEDIA", "MARKETING"]
 permalink: /actors/linkedin-market-map-builder/
 ---
@@ -54,7 +54,7 @@ The `OUTPUT` key-value-store record reports seeds, filters, companies found, ret
 
 ## Pricing
 
-**$20 per 1,000 results** (Free tier)  
+**$20.00 per 1,000 results** (Free tier)  
 Actor start: $0.05 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
@@ -84,4 +84,4 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Categories
 
-`LEAD_GENERATION`, `SOCIAL_MEDIA`, `MARKETING`
+Lead Generation, Social Media, Marketing

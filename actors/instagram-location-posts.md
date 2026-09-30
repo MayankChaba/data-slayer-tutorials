@@ -5,7 +5,7 @@ description: "Get Instagram location posts."
 actor_slug: "instagram-location-posts"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/instagram-location-posts?utm_source=github&utm_medium=content&utm_campaign=instagram-location-posts"
-actor_pricing: "$2.5 per 1,000 results (Free tier)"
+actor_pricing: "$2.50 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA"]
 permalink: /actors/instagram-location-posts/
 ---
@@ -73,7 +73,7 @@ This Instagram scraper provides comprehensive location-based Instagram data extr
 
 ## Pricing
 
-**$2.5 per 1,000 results** (Free tier)  
+**$2.50 per 1,000 results** (Free tier)  
 Actor start: $0.002 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
@@ -105,4 +105,4 @@ Also available on:
 
 ## Categories
 
-`SOCIAL_MEDIA`
+Social Media

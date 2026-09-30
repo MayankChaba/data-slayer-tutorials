@@ -1,11 +1,11 @@
 ---
 layout: actor
-title: "LinkedIn Contact Data Enrichment Tool "
+title: "LinkedIn Contact Data Enrichment Tool"
 description: "LinkedIn contact enrichment tool. Transform LinkedIn profile URLs into structured contact records with 500+ fields — work history, education, skills, certifications, and verified email. No cookies. No LinkedIn login required. Outputs clean JSON for CRM import, research datasets, and data enrichment "
 actor_slug: "linkedin-contact-enrichment"
 actor_account: "monumental_world"
 actor_url: "https://apify.com/monumental_world/linkedin-contact-enrichment?utm_source=github&utm_medium=content&utm_campaign=linkedin-contact-enrichment"
-actor_pricing: "$15 per 1,000 results (Free tier)"
+actor_pricing: "$15.00 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA", "LEAD_GENERATION"]
 permalink: /actors/linkedin-contact-enrichment/
 ---
@@ -64,7 +64,7 @@ Enrich any LinkedIn profile URL into a comprehensive contact record. Returns 500
 
 ## Pricing
 
-**$15 per 1,000 results** (Free tier)  
+**$15.00 per 1,000 results** (Free tier)  
 Actor start: $0.0001 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
@@ -84,9 +84,8 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Get started
 
-**[Run LinkedIn Contact Data Enrichment Tool
- on Apify →](https://apify.com/monumental_world/linkedin-contact-enrichment?utm_source=github&utm_medium=content&utm_campaign=linkedin-contact-enrichment)**
+**[Run LinkedIn Contact Data Enrichment Tool on Apify →](https://apify.com/monumental_world/linkedin-contact-enrichment?utm_source=github&utm_medium=content&utm_campaign=linkedin-contact-enrichment)**
 
 ## Categories
 
-`SOCIAL_MEDIA`, `LEAD_GENERATION`
+Social Media, Lead Generation

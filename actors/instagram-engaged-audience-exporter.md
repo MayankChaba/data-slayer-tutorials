@@ -5,7 +5,7 @@ description: "Combine public Instagram likers and commenters from multiple posts
 actor_slug: "instagram-engaged-audience-exporter"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/instagram-engaged-audience-exporter?utm_source=github&utm_medium=content&utm_campaign=instagram-engaged-audience-exporter"
-actor_pricing: "$0.8 per 1,000 results (Free tier)"
+actor_pricing: "$0.80 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA", "MARKETING"]
 permalink: /actors/instagram-engaged-audience-exporter/
 ---
@@ -14,7 +14,7 @@ Combine public Instagram likers and commenters from multiple posts and Reels int
 
 ## Pricing
 
-**$0.8 per 1,000 results** (Free tier)
+**$0.80 per 1,000 results** (Free tier)
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
 See the live pricing on the [Apify listing](https://apify.com/data-slayer/instagram-engaged-audience-exporter).
@@ -25,4 +25,4 @@ See the live pricing on the [Apify listing](https://apify.com/data-slayer/instag
 
 ## Categories
 
-`SOCIAL_MEDIA`, `MARKETING`
+Social Media, Marketing

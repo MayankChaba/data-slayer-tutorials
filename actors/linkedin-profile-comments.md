@@ -5,7 +5,7 @@ description: "Extract comments written by any LinkedIn profile, with the comment
 actor_slug: "linkedin-profile-comments"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/linkedin-profile-comments?utm_source=github&utm_medium=content&utm_campaign=linkedin-profile-comments"
-actor_pricing: "$2 per 1,000 results (Free tier)"
+actor_pricing: "$2.00 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA", "LEAD_GENERATION", "MARKETING"]
 permalink: /actors/linkedin-profile-comments/
 ---
@@ -45,7 +45,7 @@ _(continued on the Apify listing)_
 
 ## Pricing
 
-**$2 per 1,000 results** (Free tier)
+**$2.00 per 1,000 results** (Free tier)
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
 See the live pricing on the [Apify listing](https://apify.com/data-slayer/linkedin-profile-comments).
@@ -70,4 +70,4 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Categories
 
-`SOCIAL_MEDIA`, `LEAD_GENERATION`, `MARKETING`
+Social Media, Lead Generation, Marketing

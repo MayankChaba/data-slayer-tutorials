@@ -5,7 +5,7 @@ description: "Research curated, high-performing TikTok ads from Creative Center 
 actor_slug: "tiktok-top-ads-scraper"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/tiktok-top-ads-scraper?utm_source=github&utm_medium=content&utm_campaign=tiktok-top-ads-scraper"
-actor_pricing: "$1.5 per 1,000 results (Free tier)"
+actor_pricing: "$1.50 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA", "MARKETING"]
 permalink: /actors/tiktok-top-ads-scraper/
 ---
@@ -14,7 +14,7 @@ Research curated, high-performing TikTok ads from Creative Center by country, 7/
 
 ## Pricing
 
-**$1.5 per 1,000 results** (Free tier)
+**$1.50 per 1,000 results** (Free tier)
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
 See the live pricing on the [Apify listing](https://apify.com/data-slayer/tiktok-top-ads-scraper).
@@ -25,4 +25,4 @@ See the live pricing on the [Apify listing](https://apify.com/data-slayer/tiktok
 
 ## Categories
 
-`SOCIAL_MEDIA`, `MARKETING`
+Social Media, Marketing

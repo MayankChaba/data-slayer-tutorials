@@ -5,7 +5,7 @@ description: "Get Twitter user tweets."
 actor_slug: "twitter-user-tweets"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/twitter-user-tweets?utm_source=github&utm_medium=content&utm_campaign=twitter-user-tweets"
-actor_pricing: "$2.5 per 1,000 results (Free tier)"
+actor_pricing: "$2.50 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA"]
 permalink: /actors/twitter-user-tweets/
 ---
@@ -72,7 +72,7 @@ This Twitter scraper enables seamless twitter data extraction for professionals 
 
 ## Pricing
 
-**$2.5 per 1,000 results** (Free tier)  
+**$2.50 per 1,000 results** (Free tier)  
 Actor start: $0.002 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
@@ -104,4 +104,4 @@ Also available on:
 
 ## Categories
 
-`SOCIAL_MEDIA`
+Social Media

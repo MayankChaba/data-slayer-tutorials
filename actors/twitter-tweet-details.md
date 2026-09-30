@@ -25,4 +25,4 @@ See the live pricing on the [Apify listing](https://apify.com/data-slayer/twitte
 
 ## Categories
 
-`SOCIAL_MEDIA`, `LEAD_GENERATION`, `AUTOMATION`
+Social Media, Lead Generation, Automation

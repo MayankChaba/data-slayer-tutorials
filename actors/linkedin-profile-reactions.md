@@ -5,7 +5,7 @@ description: "Extract all reactions across any LinkedIn profile's posts with rea
 actor_slug: "linkedin-profile-reactions"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/linkedin-profile-reactions?utm_source=github&utm_medium=content&utm_campaign=linkedin-profile-reactions"
-actor_pricing: "$2 per 1,000 results (Free tier)"
+actor_pricing: "$2.00 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA", "LEAD_GENERATION"]
 permalink: /actors/linkedin-profile-reactions/
 ---
@@ -47,7 +47,7 @@ _(continued on the Apify listing)_
 
 ## Pricing
 
-**$2 per 1,000 results** (Free tier)
+**$2.00 per 1,000 results** (Free tier)
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
 See the live pricing on the [Apify listing](https://apify.com/data-slayer/linkedin-profile-reactions).
@@ -72,4 +72,4 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Categories
 
-`SOCIAL_MEDIA`, `LEAD_GENERATION`
+Social Media, Lead Generation

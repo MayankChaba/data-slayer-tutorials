@@ -5,7 +5,7 @@ description: "Get all Instagram Reels using a specific audio track — no login.
 actor_slug: "instagram-reels-by-audio"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/instagram-reels-by-audio?utm_source=github&utm_medium=content&utm_campaign=instagram-reels-by-audio"
-actor_pricing: "$2 per 1,000 results (Free tier)"
+actor_pricing: "$2.00 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA"]
 permalink: /actors/instagram-reels-by-audio/
 ---
@@ -69,7 +69,7 @@ Each Reel in the output includes 125+ fields — the same rich data as our Reels
 
 ## Pricing
 
-**$2 per 1,000 results** (Free tier)
+**$2.00 per 1,000 results** (Free tier)
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
 See the live pricing on the [Apify listing](https://apify.com/data-slayer/instagram-reels-by-audio).
@@ -92,4 +92,4 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Categories
 
-`SOCIAL_MEDIA`
+Social Media

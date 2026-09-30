@@ -5,7 +5,7 @@ description: "Extract public Facebook comments and replies from known post, Reel
 actor_slug: "facebook-comments-scraper"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/facebook-comments-scraper?utm_source=github&utm_medium=content&utm_campaign=facebook-comments-scraper"
-actor_pricing: "$1.8 per 1,000 results (Free tier)"
+actor_pricing: "$1.80 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA", "LEAD_GENERATION", "AUTOMATION"]
 permalink: /actors/facebook-comments-scraper/
 ---
@@ -14,7 +14,7 @@ Extract public Facebook comments and replies from known post, Reel, video, photo
 
 ## Pricing
 
-**$1.8 per 1,000 results** (Free tier)
+**$1.80 per 1,000 results** (Free tier)
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
 See the live pricing on the [Apify listing](https://apify.com/data-slayer/facebook-comments-scraper).
@@ -25,4 +25,4 @@ See the live pricing on the [Apify listing](https://apify.com/data-slayer/facebo
 
 ## Categories
 
-`SOCIAL_MEDIA`, `LEAD_GENERATION`, `AUTOMATION`
+Social Media, Lead Generation, Automation

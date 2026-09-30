@@ -1,11 +1,11 @@
 ---
 layout: actor
-title: "LinkedIn Company Intelligence Scraper "
+title: "LinkedIn Company Intelligence Scraper"
 description: "LinkedIn company intelligence scraper. Research any company — employee count, industry, funding history, investors, headquarters, and 900+ data points — from their LinkedIn company page. Perfect for sales research, account-based marketing, investor due diligence, and competitive analysis. No login r"
 actor_slug: "linkedin-company-intelligence"
 actor_account: "patient_discovery"
 actor_url: "https://apify.com/patient_discovery/linkedin-company-intelligence?utm_source=github&utm_medium=content&utm_campaign=linkedin-company-intelligence"
-actor_pricing: "$20 per 1,000 results (Free tier)"
+actor_pricing: "$20.00 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA", "LEAD_GENERATION"]
 permalink: /actors/linkedin-company-intelligence/
 ---
@@ -28,7 +28,7 @@ Research any company on LinkedIn in seconds. Returns industry, employee count, f
 
 ## Pricing
 
-**$20 per 1,000 results** (Free tier)  
+**$20.00 per 1,000 results** (Free tier)  
 Actor start: $0.0001 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
@@ -46,9 +46,8 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Get started
 
-**[Run LinkedIn Company Intelligence Scraper
- on Apify →](https://apify.com/patient_discovery/linkedin-company-intelligence?utm_source=github&utm_medium=content&utm_campaign=linkedin-company-intelligence)**
+**[Run LinkedIn Company Intelligence Scraper on Apify →](https://apify.com/patient_discovery/linkedin-company-intelligence?utm_source=github&utm_medium=content&utm_campaign=linkedin-company-intelligence)**
 
 ## Categories
 
-`SOCIAL_MEDIA`, `LEAD_GENERATION`
+Social Media, Lead Generation

@@ -5,7 +5,7 @@ description: "Scrape Instagram post likers & enrich with emails, phones, website
 actor_slug: "instagram-likes"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/instagram-likes?utm_source=github&utm_medium=content&utm_campaign=instagram-likes"
-actor_pricing: "$2.5 per 1,000 results (Free tier)"
+actor_pricing: "$2.50 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA", "LEAD_GENERATION"]
 permalink: /actors/instagram-likes/
 ---
@@ -71,7 +71,7 @@ Scrape Instagram post likers with profile enrichment and verified email finding.
 
 ## Pricing
 
-**$2.5 per 1,000 results** (Free tier)  
+**$2.50 per 1,000 results** (Free tier)  
 Actor start: $0.0005 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
@@ -103,4 +103,4 @@ Also available on:
 
 ## Categories
 
-`SOCIAL_MEDIA`, `LEAD_GENERATION`
+Social Media, Lead Generation

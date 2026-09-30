@@ -5,7 +5,7 @@ description: "Download public Instagram post, Reel, cover, and carousel media in
 actor_slug: "instagram-media-archive-downloader"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/instagram-media-archive-downloader?utm_source=github&utm_medium=content&utm_campaign=instagram-media-archive-downloader"
-actor_pricing: "$4 per 1,000 results (Free tier)"
+actor_pricing: "$4.00 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA", "MARKETING"]
 permalink: /actors/instagram-media-archive-downloader/
 ---
@@ -14,7 +14,7 @@ Download public Instagram post, Reel, cover, and carousel media into customer-ow
 
 ## Pricing
 
-**$4 per 1,000 results** (Free tier)
+**$4.00 per 1,000 results** (Free tier)
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
 See the live pricing on the [Apify listing](https://apify.com/data-slayer/instagram-media-archive-downloader).
@@ -25,4 +25,4 @@ See the live pricing on the [Apify listing](https://apify.com/data-slayer/instag
 
 ## Categories
 
-`SOCIAL_MEDIA`, `MARKETING`
+Social Media, Marketing

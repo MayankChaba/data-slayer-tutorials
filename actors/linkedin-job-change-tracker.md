@@ -5,7 +5,7 @@ description: "Track LinkedIn job changes: new roles, departures and promotions, 
 actor_slug: "linkedin-job-change-tracker"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/linkedin-job-change-tracker?utm_source=github&utm_medium=content&utm_campaign=linkedin-job-change-tracker"
-actor_pricing: "$4 per 1,000 results (Free tier)"
+actor_pricing: "$4.00 per 1,000 results (Free tier)"
 categories: ["LEAD_GENERATION", "SOCIAL_MEDIA", "BUSINESS"]
 permalink: /actors/linkedin-job-change-tracker/
 ---
@@ -78,7 +78,7 @@ Give an agent structured job-change context before drafting outreach.
 
 ## Pricing
 
-**$4 per 1,000 results** (Free tier)
+**$4.00 per 1,000 results** (Free tier)
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
 See the live pricing on the [Apify listing](https://apify.com/data-slayer/linkedin-job-change-tracker).
@@ -107,4 +107,4 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Categories
 
-`LEAD_GENERATION`, `SOCIAL_MEDIA`, `BUSINESS`
+Lead Generation, Social Media, Business

@@ -5,7 +5,7 @@ description: "Find public Instagram posts and Reels by keyword. Batch 10 phrases
 actor_slug: "instagram-keyword-posts-scraper"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/instagram-keyword-posts-scraper?utm_source=github&utm_medium=content&utm_campaign=instagram-keyword-posts-scraper"
-actor_pricing: "$2.5 per 1,000 results (Free tier)"
+actor_pricing: "$2.50 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA", "MARKETING"]
 permalink: /actors/instagram-keyword-posts-scraper/
 ---
@@ -35,7 +35,7 @@ IDs are stored as strings to avoid precision loss. Missing optional source field
 
 ## Pricing
 
-**$2.5 per 1,000 results** (Free tier)  
+**$2.50 per 1,000 results** (Free tier)  
 Actor start: $0.002 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
@@ -61,4 +61,4 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Categories
 
-`SOCIAL_MEDIA`, `MARKETING`
+Social Media, Marketing

@@ -5,7 +5,7 @@ description: "Discover public TikTok videos by exact hashtag/challenge or sound/
 actor_slug: "tiktok-content-discovery"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/tiktok-content-discovery?utm_source=github&utm_medium=content&utm_campaign=tiktok-content-discovery"
-actor_pricing: "$3 per 1,000 results (Free tier)"
+actor_pricing: "$3.00 per 1,000 results (Free tier)"
 categories: ["VIDEOS", "SOCIAL_MEDIA", "AUTOMATION"]
 permalink: /actors/tiktok-content-discovery/
 ---
@@ -14,7 +14,7 @@ Discover public TikTok videos by exact hashtag/challenge or sound/music. Get one
 
 ## Pricing
 
-**$3 per 1,000 results** (Free tier)
+**$3.00 per 1,000 results** (Free tier)
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
 See the live pricing on the [Apify listing](https://apify.com/data-slayer/tiktok-content-discovery).
@@ -25,4 +25,4 @@ See the live pricing on the [Apify listing](https://apify.com/data-slayer/tiktok
 
 ## Categories
 
-`VIDEOS`, `SOCIAL_MEDIA`, `AUTOMATION`
+Videos, Social Media, Automation

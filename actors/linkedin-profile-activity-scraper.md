@@ -1,6 +1,6 @@
 ---
 layout: actor
-title: "LinkedIn Profile Activity Scraper "
+title: "LinkedIn Profile Activity Scraper"
 description: "LinkedIn profile activity scraper. Extract posts, reposts, and activity from any LinkedIn profile URL — post text, likes, comments, shares, reaction breakdown, and media. Supports pagination for full post history. No cookies or LinkedIn account required. Built for content analysis and audience intel"
 actor_slug: "linkedin-profile-activity-scraper"
 actor_account: "iron-crawler"
@@ -60,9 +60,8 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Get started
 
-**[Run LinkedIn Profile Activity Scraper
- on Apify →](https://apify.com/iron-crawler/linkedin-profile-activity-scraper?utm_source=github&utm_medium=content&utm_campaign=linkedin-profile-activity-scraper)**
+**[Run LinkedIn Profile Activity Scraper on Apify →](https://apify.com/iron-crawler/linkedin-profile-activity-scraper?utm_source=github&utm_medium=content&utm_campaign=linkedin-profile-activity-scraper)**
 
 ## Categories
 
-`SOCIAL_MEDIA`, `LEAD_GENERATION`
+Social Media, Lead Generation

@@ -5,7 +5,7 @@ description: "Get TikTok user popular posts."
 actor_slug: "tiktok-api-user-popular-posts"
 actor_account: "patient_discovery"
 actor_url: "https://apify.com/patient_discovery/tiktok-api-user-popular-posts?utm_source=github&utm_medium=content&utm_campaign=tiktok-api-user-popular-posts"
-actor_pricing: "$2.5 per 1,000 results (Free tier)"
+actor_pricing: "$2.50 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA"]
 permalink: /actors/tiktok-api-user-popular-posts/
 ---
@@ -78,7 +78,7 @@ Whether you need an Instagram scraper, export Instagram posts, Instagram post ex
 
 ## Pricing
 
-**$2.5 per 1,000 results** (Free tier)  
+**$2.50 per 1,000 results** (Free tier)  
 Actor start: $0.002 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
@@ -110,4 +110,4 @@ Also available on:
 
 ## Categories
 
-`SOCIAL_MEDIA`
+Social Media

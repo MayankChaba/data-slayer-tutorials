@@ -5,7 +5,7 @@ description: "Scrape LinkedIn company pages for size, industry, employees, headq
 actor_slug: "linkedin-company-scraper"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/linkedin-company-scraper?utm_source=github&utm_medium=content&utm_campaign=linkedin-company-scraper"
-actor_pricing: "$4 per 1,000 results (Free tier)"
+actor_pricing: "$4.00 per 1,000 results (Free tier)"
 categories: ["BUSINESS", "LEAD_GENERATION", "SOCIAL_MEDIA"]
 permalink: /actors/linkedin-company-scraper/
 ---
@@ -22,7 +22,7 @@ LinkedIn Company Scraper - extract public data cookieless.
 
 ## Pricing
 
-**$4 per 1,000 results** (Free tier)  
+**$4.00 per 1,000 results** (Free tier)  
 Actor start: $0.0001 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
@@ -46,4 +46,4 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Categories
 
-`BUSINESS`, `LEAD_GENERATION`, `SOCIAL_MEDIA`
+Business, Lead Generation, Social Media

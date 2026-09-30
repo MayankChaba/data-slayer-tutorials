@@ -5,7 +5,7 @@ description: "Find Instagram accounts related to seed profiles. Export direct su
 actor_slug: "instagram-related-profiles-scraper"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/instagram-related-profiles-scraper?utm_source=github&utm_medium=content&utm_campaign=instagram-related-profiles-scraper"
-actor_pricing: "$2.5 per 1,000 results (Free tier)"
+actor_pricing: "$2.50 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA", "LEAD_GENERATION"]
 permalink: /actors/instagram-related-profiles-scraper/
 ---
@@ -14,7 +14,7 @@ Find Instagram accounts related to seed profiles. Export direct suggestions with
 
 ## Pricing
 
-**$2.5 per 1,000 results** (Free tier)  
+**$2.50 per 1,000 results** (Free tier)  
 Actor start: $0.0005 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
@@ -26,4 +26,4 @@ See the live pricing on the [Apify listing](https://apify.com/data-slayer/instag
 
 ## Categories
 
-`SOCIAL_MEDIA`, `LEAD_GENERATION`
+Social Media, Lead Generation

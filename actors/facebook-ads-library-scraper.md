@@ -25,4 +25,4 @@ See the live pricing on the [Apify listing](https://apify.com/data-slayer/facebo
 
 ## Categories
 
-`MARKETING`, `SOCIAL_MEDIA`
+Marketing, Social Media

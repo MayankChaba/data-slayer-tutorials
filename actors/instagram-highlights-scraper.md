@@ -5,7 +5,7 @@ description: "Scrape Instagram Highlights — titles, cover images, media counts
 actor_slug: "instagram-highlights-scraper"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/instagram-highlights-scraper?utm_source=github&utm_medium=content&utm_campaign=instagram-highlights-scraper"
-actor_pricing: "$2.5 per 1,000 results (Free tier)"
+actor_pricing: "$2.50 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA", "LEAD_GENERATION"]
 permalink: /actors/instagram-highlights-scraper/
 ---
@@ -41,7 +41,7 @@ Extract saved Instagram Highlights from any public profile — no login. Get hig
 
 ## Pricing
 
-**$2.5 per 1,000 results** (Free tier)  
+**$2.50 per 1,000 results** (Free tier)  
 Actor start: $0.0005 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
@@ -64,4 +64,4 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Categories
 
-`SOCIAL_MEDIA`, `LEAD_GENERATION`
+Social Media, Lead Generation

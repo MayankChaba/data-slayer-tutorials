@@ -5,7 +5,7 @@ description: "Find Instagram hashtags by keyword — post counts, IDs, followabl
 actor_slug: "instagram-hashtags-scraper-no-login-required"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/instagram-hashtags-scraper-no-login-required?utm_source=github&utm_medium=content&utm_campaign=instagram-hashtags-scraper-no-login-required"
-actor_pricing: "$2.5 per 1,000 results (Free tier)"
+actor_pricing: "$2.50 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA", "MARKETING"]
 permalink: /actors/instagram-hashtags-scraper-no-login-required/
 ---
@@ -34,7 +34,7 @@ Type any keyword, get every related Instagram hashtag Instagram suggests — wit
 
 ## Pricing
 
-**$2.5 per 1,000 results** (Free tier)  
+**$2.50 per 1,000 results** (Free tier)  
 Actor start: $0.002 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
@@ -64,4 +64,4 @@ Also available on:
 
 ## Categories
 
-`SOCIAL_MEDIA`, `MARKETING`
+Social Media, Marketing

@@ -5,7 +5,7 @@ description: "Monitor target executives and prospects for new LinkedIn posts. Re
 actor_slug: "linkedin-executive-post-monitor"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/linkedin-executive-post-monitor?utm_source=github&utm_medium=content&utm_campaign=linkedin-executive-post-monitor"
-actor_pricing: "$30 per 1,000 results (Free tier)"
+actor_pricing: "$30.00 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA", "LEAD_GENERATION", "MARKETING"]
 permalink: /actors/linkedin-executive-post-monitor/
 ---
@@ -46,7 +46,7 @@ The `OUTPUT` key-value-store record reports profiles monitored, new posts, and w
 
 ## Pricing
 
-**$30 per 1,000 results** (Free tier)  
+**$30.00 per 1,000 results** (Free tier)  
 Actor start: $0.02 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
@@ -72,4 +72,4 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Categories
 
-`SOCIAL_MEDIA`, `LEAD_GENERATION`, `MARKETING`
+Social Media, Lead Generation, Marketing

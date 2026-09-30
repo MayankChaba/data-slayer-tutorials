@@ -5,7 +5,7 @@ description: "Instagram post analytics by URL — public views, likes, comments,
 actor_slug: "instagram-reel-analytics-by-url"
 actor_account: "patient_discovery"
 actor_url: "https://apify.com/patient_discovery/instagram-reel-analytics-by-url?utm_source=github&utm_medium=content&utm_campaign=instagram-reel-analytics-by-url"
-actor_pricing: "$2.5 per 1,000 results (Free tier)"
+actor_pricing: "$2.50 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA"]
 permalink: /actors/instagram-reel-analytics-by-url/
 ---
@@ -72,7 +72,7 @@ _(continued on the Apify listing)_
 
 ## Pricing
 
-**$2.5 per 1,000 results** (Free tier)  
+**$2.50 per 1,000 results** (Free tier)  
 Actor start: $0.002 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
@@ -95,4 +95,4 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Categories
 
-`SOCIAL_MEDIA`
+Social Media

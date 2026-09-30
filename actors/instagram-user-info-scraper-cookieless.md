@@ -5,7 +5,7 @@ description: "Extract Instagram business emails, phones, websites, 200+ fields â
 actor_slug: "instagram-user-info-scraper-cookieless"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/instagram-user-info-scraper-cookieless?utm_source=github&utm_medium=content&utm_campaign=instagram-user-info-scraper-cookieless"
-actor_pricing: "$2.5 per 1,000 results (Free tier)"
+actor_pricing: "$2.50 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA", "LEAD_GENERATION"]
 permalink: /actors/instagram-user-info-scraper-cookieless/
 ---
@@ -80,7 +80,7 @@ _(continued on the Apify listing)_
 
 ## Pricing
 
-**$2.5 per 1,000 results** (Free tier)  
+**$2.50 per 1,000 results** (Free tier)  
 Actor start: $0.0005 per GB
 
 The actor is billed **pay-per-result** on Apify â€” you only pay for rows returned.
@@ -115,4 +115,4 @@ Also available on:
 
 ## Categories
 
-`SOCIAL_MEDIA`, `LEAD_GENERATION`
+Social Media, Lead Generation

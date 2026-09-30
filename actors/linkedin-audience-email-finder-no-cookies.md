@@ -5,7 +5,7 @@ description: "Turn a LinkedIn profile into a ranked list of everyone who engaged
 actor_slug: "linkedin-audience-email-finder-no-cookies"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/linkedin-audience-email-finder-no-cookies?utm_source=github&utm_medium=content&utm_campaign=linkedin-audience-email-finder-no-cookies"
-actor_pricing: "$6 per 1,000 results (Free tier)"
+actor_pricing: "$6.00 per 1,000 results (Free tier)"
 categories: ["LEAD_GENERATION", "SOCIAL_MEDIA", "MARKETING"]
 permalink: /actors/linkedin-audience-email-finder-no-cookies/
 ---
@@ -25,7 +25,7 @@ Enter a LinkedIn profile URL and get everyone who engaged across their recent po
 
 ## Pricing
 
-**$6 per 1,000 results** (Free tier)
+**$6.00 per 1,000 results** (Free tier)
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
 See the live pricing on the [Apify listing](https://apify.com/data-slayer/linkedin-audience-email-finder-no-cookies).
@@ -51,4 +51,4 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Categories
 
-`LEAD_GENERATION`, `SOCIAL_MEDIA`, `MARKETING`
+Lead Generation, Social Media, Marketing

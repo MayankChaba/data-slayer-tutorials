@@ -5,7 +5,7 @@ description: "Extract everyone who engaged with a LinkedIn post — commenters, 
 actor_slug: "linkedin-post-engagers-email-finder-no-cookies"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/linkedin-post-engagers-email-finder-no-cookies?utm_source=github&utm_medium=content&utm_campaign=linkedin-post-engagers-email-finder-no-cookies"
-actor_pricing: "$6 per 1,000 results (Free tier)"
+actor_pricing: "$6.00 per 1,000 results (Free tier)"
 categories: ["LEAD_GENERATION", "SOCIAL_MEDIA", "MARKETING"]
 permalink: /actors/linkedin-post-engagers-email-finder-no-cookies/
 ---
@@ -23,7 +23,7 @@ Paste a LinkedIn post URL → get everyone who engaged with it — commenters, r
 
 ## Pricing
 
-**$6 per 1,000 results** (Free tier)
+**$6.00 per 1,000 results** (Free tier)
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
 See the live pricing on the [Apify listing](https://apify.com/data-slayer/linkedin-post-engagers-email-finder-no-cookies).
@@ -47,4 +47,4 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Categories
 
-`LEAD_GENERATION`, `SOCIAL_MEDIA`, `MARKETING`
+Lead Generation, Social Media, Marketing

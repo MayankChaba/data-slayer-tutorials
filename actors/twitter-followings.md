@@ -5,7 +5,7 @@ description: "Get Twitter user followings."
 actor_slug: "twitter-followings"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/twitter-followings?utm_source=github&utm_medium=content&utm_campaign=twitter-followings"
-actor_pricing: "$2.5 per 1,000 results (Free tier)"
+actor_pricing: "$2.50 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA"]
 permalink: /actors/twitter-followings/
 ---
@@ -63,7 +63,7 @@ Whether you need an Instagram followings scraper, want to get Instagram followin
 
 ## Pricing
 
-**$2.5 per 1,000 results** (Free tier)  
+**$2.50 per 1,000 results** (Free tier)  
 Actor start: $0.002 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
@@ -95,4 +95,4 @@ Also available on:
 
 ## Categories
 
-`SOCIAL_MEDIA`
+Social Media

@@ -5,7 +5,7 @@ description: "Map a company's talent flow from LinkedIn job-change events: who j
 actor_slug: "linkedin-talent-flow-mapper"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/linkedin-talent-flow-mapper?utm_source=github&utm_medium=content&utm_campaign=linkedin-talent-flow-mapper"
-actor_pricing: "$40 per 1,000 results (Free tier)"
+actor_pricing: "$40.00 per 1,000 results (Free tier)"
 categories: ["LEAD_GENERATION", "SOCIAL_MEDIA", "MARKETING"]
 permalink: /actors/linkedin-talent-flow-mapper/
 ---
@@ -54,7 +54,7 @@ The `OUTPUT` key-value-store record reports events, joined/left/title-change cou
 
 ## Pricing
 
-**$40 per 1,000 results** (Free tier)  
+**$40.00 per 1,000 results** (Free tier)  
 Actor start: $0.05 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
@@ -79,4 +79,4 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Categories
 
-`LEAD_GENERATION`, `SOCIAL_MEDIA`, `MARKETING`
+Lead Generation, Social Media, Marketing

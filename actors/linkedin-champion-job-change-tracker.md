@@ -5,7 +5,7 @@ description: "Monitor champions and closed-lost contacts for job changes. Get mo
 actor_slug: "linkedin-champion-job-change-tracker"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/linkedin-champion-job-change-tracker?utm_source=github&utm_medium=content&utm_campaign=linkedin-champion-job-change-tracker"
-actor_pricing: "$50 per 1,000 results (Free tier)"
+actor_pricing: "$50.00 per 1,000 results (Free tier)"
 categories: ["LEAD_GENERATION", "SOCIAL_MEDIA", "MARKETING"]
 permalink: /actors/linkedin-champion-job-change-tracker/
 ---
@@ -51,7 +51,7 @@ The `OUTPUT` key-value-store record reports profiles checked, profiles resolved,
 
 ## Pricing
 
-**$50 per 1,000 results** (Free tier)  
+**$50.00 per 1,000 results** (Free tier)  
 Actor start: $0.02 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
@@ -77,4 +77,4 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Categories
 
-`LEAD_GENERATION`, `SOCIAL_MEDIA`, `MARKETING`
+Lead Generation, Social Media, Marketing

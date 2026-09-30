@@ -5,7 +5,7 @@ description: "Turn known public Facebook person-profile URLs, usernames, or nume
 actor_slug: "facebook-profile-scraper"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/facebook-profile-scraper?utm_source=github&utm_medium=content&utm_campaign=facebook-profile-scraper"
-actor_pricing: "$10.5 per 1,000 results (Free tier)"
+actor_pricing: "$10.50 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA", "LEAD_GENERATION", "OTHER"]
 permalink: /actors/facebook-profile-scraper/
 ---
@@ -14,7 +14,7 @@ Turn known public Facebook person-profile URLs, usernames, or numeric IDs into s
 
 ## Pricing
 
-**$10.5 per 1,000 results** (Free tier)
+**$10.50 per 1,000 results** (Free tier)
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
 See the live pricing on the [Apify listing](https://apify.com/data-slayer/facebook-profile-scraper).
@@ -25,4 +25,4 @@ See the live pricing on the [Apify listing](https://apify.com/data-slayer/facebo
 
 ## Categories
 
-`SOCIAL_MEDIA`, `LEAD_GENERATION`, `OTHER`
+Social Media, Lead Generation, Other

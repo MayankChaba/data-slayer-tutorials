@@ -5,7 +5,7 @@ description: "Get Facebook page details."
 actor_slug: "facebook-page-details-scraper-by-url---cookieless"
 actor_account: "patient_discovery"
 actor_url: "https://apify.com/patient_discovery/facebook-page-details-scraper-by-url---cookieless?utm_source=github&utm_medium=content&utm_campaign=facebook-page-details-scraper-by-url---cookieless"
-actor_pricing: "$2.5 per 1,000 results (Free tier)"
+actor_pricing: "$2.50 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA"]
 permalink: /actors/facebook-page-details-scraper-by-url---cookieless/
 ---
@@ -70,7 +70,7 @@ _(continued on the Apify listing)_
 
 ## Pricing
 
-**$2.5 per 1,000 results** (Free tier)  
+**$2.50 per 1,000 results** (Free tier)  
 Actor start: $0.002 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
@@ -92,4 +92,4 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Categories
 
-`SOCIAL_MEDIA`
+Social Media

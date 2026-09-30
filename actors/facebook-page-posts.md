@@ -5,7 +5,7 @@ description: "Get Facebook page posts."
 actor_slug: "facebook-page-posts"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/facebook-page-posts?utm_source=github&utm_medium=content&utm_campaign=facebook-page-posts"
-actor_pricing: "$7 per 1,000 results (Free tier)"
+actor_pricing: "$7.00 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA"]
 permalink: /actors/facebook-page-posts/
 ---
@@ -67,7 +67,7 @@ This Facebook Posts Scraper is a powerful web scraping tool designed to extract 
 
 ## Pricing
 
-**$7 per 1,000 results** (Free tier)  
+**$7.00 per 1,000 results** (Free tier)  
 Actor start: $0.002 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
@@ -99,4 +99,4 @@ Also available on:
 
 ## Categories
 
-`SOCIAL_MEDIA`
+Social Media

@@ -5,7 +5,7 @@ description: "Get Facebook page reviews."
 actor_slug: "facebook-page-reviews"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/facebook-page-reviews?utm_source=github&utm_medium=content&utm_campaign=facebook-page-reviews"
-actor_pricing: "$7 per 1,000 results (Free tier)"
+actor_pricing: "$7.00 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA"]
 permalink: /actors/facebook-page-reviews/
 ---
@@ -62,7 +62,7 @@ This powerful page reviews scraper enables seamless reviews data extraction from
 
 ## Pricing
 
-**$7 per 1,000 results** (Free tier)  
+**$7.00 per 1,000 results** (Free tier)  
 Actor start: $0.002 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
@@ -94,4 +94,4 @@ Also available on:
 
 ## Categories
 
-`SOCIAL_MEDIA`
+Social Media

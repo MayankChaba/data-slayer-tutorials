@@ -1,11 +1,11 @@
 ---
 layout: actor
-title: "LinkedIn Brand Posts Extractor "
+title: "LinkedIn Brand Posts Extractor"
 description: "LinkedIn brand posts extractor. Scrape all posts from any LinkedIn company page — post text, likes, comments, shares, and reaction breakdowns. Ideal for content marketers, brand strategists, and social media analysts auditing company LinkedIn presence. No cookies. No login required. "
 actor_slug: "linkedin-brand-posts-extractor"
 actor_account: "patient_discovery"
 actor_url: "https://apify.com/patient_discovery/linkedin-brand-posts-extractor?utm_source=github&utm_medium=content&utm_campaign=linkedin-brand-posts-extractor"
-actor_pricing: "$20 per 1,000 results (Free tier)"
+actor_pricing: "$20.00 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA", "LEAD_GENERATION"]
 permalink: /actors/linkedin-brand-posts-extractor/
 ---
@@ -28,7 +28,7 @@ Extract all posts from any LinkedIn company page. Returns post content, engageme
 
 ## Pricing
 
-**$20 per 1,000 results** (Free tier)  
+**$20.00 per 1,000 results** (Free tier)  
 Actor start: $0.0001 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
@@ -47,9 +47,8 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Get started
 
-**[Run LinkedIn Brand Posts Extractor
- on Apify →](https://apify.com/patient_discovery/linkedin-brand-posts-extractor?utm_source=github&utm_medium=content&utm_campaign=linkedin-brand-posts-extractor)**
+**[Run LinkedIn Brand Posts Extractor on Apify →](https://apify.com/patient_discovery/linkedin-brand-posts-extractor?utm_source=github&utm_medium=content&utm_campaign=linkedin-brand-posts-extractor)**
 
 ## Categories
 
-`SOCIAL_MEDIA`, `LEAD_GENERATION`
+Social Media, Lead Generation

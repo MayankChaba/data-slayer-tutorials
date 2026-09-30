@@ -5,7 +5,7 @@ description: "Scrape Instagram tagged posts & mentions — captions, likes, comm
 actor_slug: "instagram-tagged-posts"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/instagram-tagged-posts?utm_source=github&utm_medium=content&utm_campaign=instagram-tagged-posts"
-actor_pricing: "$2.5 per 1,000 results (Free tier)"
+actor_pricing: "$2.50 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA"]
 permalink: /actors/instagram-tagged-posts/
 ---
@@ -31,7 +31,7 @@ Extract every Instagram post where any account is tagged — no login. Get capti
 
 ## Pricing
 
-**$2.5 per 1,000 results** (Free tier)  
+**$2.50 per 1,000 results** (Free tier)  
 Actor start: $0.0005 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
@@ -54,4 +54,4 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Categories
 
-`SOCIAL_MEDIA`
+Social Media

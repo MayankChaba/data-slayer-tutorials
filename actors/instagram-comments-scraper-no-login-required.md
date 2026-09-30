@@ -5,7 +5,7 @@ description: "Scrape Instagram comments + enrich commenters with emails, phones,
 actor_slug: "instagram-comments-scraper-no-login-required"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/instagram-comments-scraper-no-login-required?utm_source=github&utm_medium=content&utm_campaign=instagram-comments-scraper-no-login-required"
-actor_pricing: "$2.5 per 1,000 results (Free tier)"
+actor_pricing: "$2.50 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA", "LEAD_GENERATION"]
 permalink: /actors/instagram-comments-scraper-no-login-required/
 ---
@@ -71,7 +71,7 @@ _(continued on the Apify listing)_
 
 ## Pricing
 
-**$2.5 per 1,000 results** (Free tier)  
+**$2.50 per 1,000 results** (Free tier)  
 Actor start: $0.0005 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
@@ -106,4 +106,4 @@ Also available on:
 
 ## Categories
 
-`SOCIAL_MEDIA`, `LEAD_GENERATION`
+Social Media, Lead Generation

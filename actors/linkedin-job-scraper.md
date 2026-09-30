@@ -5,7 +5,7 @@ description: "Extract LinkedIn job postings by ID or URL: title, description, sa
 actor_slug: "linkedin-job-scraper"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/linkedin-job-scraper?utm_source=github&utm_medium=content&utm_campaign=linkedin-job-scraper"
-actor_pricing: "$4 per 1,000 results (Free tier)"
+actor_pricing: "$4.00 per 1,000 results (Free tier)"
 categories: ["JOBS", "LEAD_GENERATION", "SOCIAL_MEDIA"]
 permalink: /actors/linkedin-job-scraper/
 ---
@@ -76,7 +76,7 @@ Give an agent structured job context before screening, matching, or summarizatio
 
 ## Pricing
 
-**$4 per 1,000 results** (Free tier)
+**$4.00 per 1,000 results** (Free tier)
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
 See the live pricing on the [Apify listing](https://apify.com/data-slayer/linkedin-job-scraper).
@@ -100,4 +100,4 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Categories
 
-`JOBS`, `LEAD_GENERATION`, `SOCIAL_MEDIA`
+Jobs, Lead Generation, Social Media

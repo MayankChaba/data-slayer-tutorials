@@ -5,7 +5,7 @@ description: "Score LinkedIn accounts by headcount growth, hiring trends, open r
 actor_slug: "linkedin-hiring-pulse"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/linkedin-hiring-pulse?utm_source=github&utm_medium=content&utm_campaign=linkedin-hiring-pulse"
-actor_pricing: "$50 per 1,000 results (Free tier)"
+actor_pricing: "$50.00 per 1,000 results (Free tier)"
 categories: ["LEAD_GENERATION", "MARKETING"]
 permalink: /actors/linkedin-hiring-pulse/
 ---
@@ -53,7 +53,7 @@ The `OUTPUT` key-value-store record reports companies requested and scored.
 
 ## Pricing
 
-**$50 per 1,000 results** (Free tier)  
+**$50.00 per 1,000 results** (Free tier)  
 Actor start: $0.05 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
@@ -77,4 +77,4 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 ## Categories
 
-`LEAD_GENERATION`, `MARKETING`
+Lead Generation, Marketing

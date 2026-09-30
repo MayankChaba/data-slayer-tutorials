@@ -59,40 +59,24 @@ Every actor we publish on the [Apify Store](https://apify.com/data-slayer?utm_so
 | [Instagram Profile Scraper · Verified Emails & Contact Data · No Login](/actors/instagram-user-info-scraper-cookieless/) | Instagram Profile Scraper · Verified Emails & Contact Data · No Login | [data-slayer](https://apify.com/data-slayer/instagram-user-info-scraper-cookieless) |
 | [LinkedIn Account Intent Feed](/actors/linkedin-account-intent-feed/) | LinkedIn Account Intent Feed | [data-slayer](https://apify.com/data-slayer/linkedin-account-intent-feed) |
 | [LinkedIn Profile Engagers Scraper](/actors/linkedin-audience-email-finder-no-cookies/) | LinkedIn Profile Engagers Scraper | [data-slayer](https://apify.com/data-slayer/linkedin-audience-email-finder-no-cookies) |
-| [LinkedIn Brand Posts Extractor
-](/actors/linkedin-brand-posts-extractor/) | LinkedIn Brand Posts Extractor
- | [patient_discovery](https://apify.com/patient_discovery/linkedin-brand-posts-extractor) |
+| [LinkedIn Brand Posts Extractor](/actors/linkedin-brand-posts-extractor/) | LinkedIn Brand Posts Extractor | [patient_discovery](https://apify.com/patient_discovery/linkedin-brand-posts-extractor) |
 | [LinkedIn Buying-Committee Mapper](/actors/linkedin-buying-committee-mapper/) | LinkedIn Buying-Committee Mapper | [data-slayer](https://apify.com/data-slayer/linkedin-buying-committee-mapper) |
 | [LinkedIn Champion Tracker](/actors/linkedin-champion-job-change-tracker/) | LinkedIn Champion Tracker | [data-slayer](https://apify.com/data-slayer/linkedin-champion-job-change-tracker) |
-| [LinkedIn Company Content Scraper
-](/actors/linkedin-company-content-scraper/) | LinkedIn Company Content Scraper
- | [iron-crawler](https://apify.com/iron-crawler/linkedin-company-content-scraper) |
-| [LinkedIn Company Data Extractor
-](/actors/linkedin-company-data-extractor/) | LinkedIn Company Data Extractor
- | [iron-crawler](https://apify.com/iron-crawler/linkedin-company-data-extractor) |
+| [LinkedIn Company Content Scraper](/actors/linkedin-company-content-scraper/) | LinkedIn Company Content Scraper | [iron-crawler](https://apify.com/iron-crawler/linkedin-company-content-scraper) |
+| [LinkedIn Company Data Extractor](/actors/linkedin-company-data-extractor/) | LinkedIn Company Data Extractor | [iron-crawler](https://apify.com/iron-crawler/linkedin-company-data-extractor) |
 | [LinkedIn Company Employees](/actors/linkedin-company-employees/) | LinkedIn Company Employees | [data-slayer](https://apify.com/data-slayer/linkedin-company-employees) |
-| [LinkedIn Company Feed & Competitor Content Tracker
-](/actors/linkedin-company-feed-scraper/) | LinkedIn Company Feed & Competitor Content Tracker
- | [monumental_world](https://apify.com/monumental_world/linkedin-company-feed-scraper) |
-| [LinkedIn Company Intelligence Scraper
-](/actors/linkedin-company-intelligence/) | LinkedIn Company Intelligence Scraper
- | [patient_discovery](https://apify.com/patient_discovery/linkedin-company-intelligence) |
+| [LinkedIn Company Feed & Competitor Content Tracker](/actors/linkedin-company-feed-scraper/) | LinkedIn Company Feed & Competitor Content Tracker | [monumental_world](https://apify.com/monumental_world/linkedin-company-feed-scraper) |
+| [LinkedIn Company Intelligence Scraper](/actors/linkedin-company-intelligence/) | LinkedIn Company Intelligence Scraper | [patient_discovery](https://apify.com/patient_discovery/linkedin-company-intelligence) |
 | [LinkedIn Company Posts Scraper](/actors/linkedin-company-posts-scraper/) | LinkedIn Company Posts Scraper | [data-slayer](https://apify.com/data-slayer/linkedin-company-posts-scraper) |
 | [LinkedIn Company Scraper](/actors/linkedin-company-scraper/) | LinkedIn Company Scraper | [data-slayer](https://apify.com/data-slayer/linkedin-company-scraper) |
 | [LinkedIn Company Search (ICP)](/actors/linkedin-company-search/) | LinkedIn Company Search (ICP) | [data-slayer](https://apify.com/data-slayer/linkedin-company-search) |
 | [LinkedIn Competitor Content Intelligence](/actors/linkedin-competitor-content-intelligence/) | LinkedIn Competitor Content Intelligence | [data-slayer](https://apify.com/data-slayer/linkedin-competitor-content-intelligence) |
 | [LinkedIn Competitor Hijack Leads](/actors/linkedin-competitor-hijack-leads/) | LinkedIn Competitor Hijack Leads | [data-slayer](https://apify.com/data-slayer/linkedin-competitor-hijack-leads) |
-| [LinkedIn Contact Data Enrichment Tool
-](/actors/linkedin-contact-enrichment/) | LinkedIn Contact Data Enrichment Tool
- | [monumental_world](https://apify.com/monumental_world/linkedin-contact-enrichment) |
-| [LinkedIn Email Finder from Profile
-](/actors/linkedin-email-finder-profile/) | LinkedIn Email Finder from Profile
- | [iron-crawler](https://apify.com/iron-crawler/linkedin-email-finder-profile) |
+| [LinkedIn Contact Data Enrichment Tool](/actors/linkedin-contact-enrichment/) | LinkedIn Contact Data Enrichment Tool | [monumental_world](https://apify.com/monumental_world/linkedin-contact-enrichment) |
+| [LinkedIn Email Finder from Profile](/actors/linkedin-email-finder-profile/) | LinkedIn Email Finder from Profile | [iron-crawler](https://apify.com/iron-crawler/linkedin-email-finder-profile) |
 | [LinkedIn Engagement Audience Builder](/actors/linkedin-engagement-audience-builder/) | LinkedIn Engagement Audience Builder | [data-slayer](https://apify.com/data-slayer/linkedin-engagement-audience-builder) |
 | [LinkedIn Executive Post Monitor](/actors/linkedin-executive-post-monitor/) | LinkedIn Executive Post Monitor | [data-slayer](https://apify.com/data-slayer/linkedin-executive-post-monitor) |
-| [LinkedIn Firmographic Data Scraper
-](/actors/linkedin-firmographic-scraper/) | LinkedIn Firmographic Data Scraper
- | [monumental_world](https://apify.com/monumental_world/linkedin-firmographic-scraper) |
+| [LinkedIn Firmographic Data Scraper](/actors/linkedin-firmographic-scraper/) | LinkedIn Firmographic Data Scraper | [monumental_world](https://apify.com/monumental_world/linkedin-firmographic-scraper) |
 | [LinkedIn Hiring Pulse](/actors/linkedin-hiring-pulse/) | LinkedIn Hiring Pulse | [data-slayer](https://apify.com/data-slayer/linkedin-hiring-pulse) |
 | [LinkedIn Job Change Tracker](/actors/linkedin-job-change-tracker/) | LinkedIn Job Change Tracker | [data-slayer](https://apify.com/data-slayer/linkedin-job-change-tracker) |
 | [LinkedIn Job Scraper](/actors/linkedin-job-scraper/) | LinkedIn Job Scraper | [data-slayer](https://apify.com/data-slayer/linkedin-job-scraper) |
@@ -100,37 +84,23 @@ Every actor we publish on the [Apify Store](https://apify.com/data-slayer?utm_so
 | [LinkedIn People Search (ICP)](/actors/linkedin-people-search/) | LinkedIn People Search (ICP) | [data-slayer](https://apify.com/data-slayer/linkedin-people-search) |
 | [LinkedIn Post Analytics Scraper](/actors/linkedin-post-analytics-scraper/) | LinkedIn Post Analytics Scraper | [data-slayer](https://apify.com/data-slayer/linkedin-post-analytics-scraper) |
 | [LinkedIn Post Comments](/actors/linkedin-post-comments/) | LinkedIn Post Comments | [data-slayer](https://apify.com/data-slayer/linkedin-post-comments) |
-| [LinkedIn Post Engagement Data Scraper
-](/actors/linkedin-post-engagement-data/) | LinkedIn Post Engagement Data Scraper
- | [monumental_world](https://apify.com/monumental_world/linkedin-post-engagement-data) |
+| [LinkedIn Post Engagement Data Scraper](/actors/linkedin-post-engagement-data/) | LinkedIn Post Engagement Data Scraper | [monumental_world](https://apify.com/monumental_world/linkedin-post-engagement-data) |
 | [LinkedIn Post Engagers Scraper](/actors/linkedin-post-engagers-email-finder-no-cookies/) | LinkedIn Post Engagers Scraper | [data-slayer](https://apify.com/data-slayer/linkedin-post-engagers-email-finder-no-cookies) |
-| [LinkedIn Post Insights Extractor
-](/actors/linkedin-post-insights-extractor/) | LinkedIn Post Insights Extractor
- | [patient_discovery](https://apify.com/patient_discovery/linkedin-post-insights-extractor) |
-| [LinkedIn Post Metrics Scraper
-](/actors/linkedin-post-metrics-scraper/) | LinkedIn Post Metrics Scraper
- | [iron-crawler](https://apify.com/iron-crawler/linkedin-post-metrics-scraper) |
+| [LinkedIn Post Insights Extractor](/actors/linkedin-post-insights-extractor/) | LinkedIn Post Insights Extractor | [patient_discovery](https://apify.com/patient_discovery/linkedin-post-insights-extractor) |
+| [LinkedIn Post Metrics Scraper](/actors/linkedin-post-metrics-scraper/) | LinkedIn Post Metrics Scraper | [iron-crawler](https://apify.com/iron-crawler/linkedin-post-metrics-scraper) |
 | [LinkedIn Post Reactions](/actors/linkedin-post-reactions/) | LinkedIn Post Reactions | [data-slayer](https://apify.com/data-slayer/linkedin-post-reactions) |
 | [LinkedIn Post Reposts](/actors/linkedin-post-reposts/) | LinkedIn Post Reposts | [data-slayer](https://apify.com/data-slayer/linkedin-post-reposts) |
-| [LinkedIn Profile Activity Scraper
-](/actors/linkedin-profile-activity-scraper/) | LinkedIn Profile Activity Scraper
- | [iron-crawler](https://apify.com/iron-crawler/linkedin-profile-activity-scraper) |
+| [LinkedIn Profile Activity Scraper](/actors/linkedin-profile-activity-scraper/) | LinkedIn Profile Activity Scraper | [iron-crawler](https://apify.com/iron-crawler/linkedin-profile-activity-scraper) |
 | [LinkedIn Profile Comments](/actors/linkedin-profile-comments/) | LinkedIn Profile Comments | [data-slayer](https://apify.com/data-slayer/linkedin-profile-comments) |
-| [LinkedIn Profile Extractor + Verified Email
-](/actors/linkedin-profile-extractor/) | LinkedIn Profile Extractor + Verified Email
- | [patient_discovery](https://apify.com/patient_discovery/linkedin-profile-extractor) |
+| [LinkedIn Profile Extractor + Verified Email](/actors/linkedin-profile-extractor/) | LinkedIn Profile Extractor + Verified Email | [patient_discovery](https://apify.com/patient_discovery/linkedin-profile-extractor) |
 | [LinkedIn Profile Posts Scraper](/actors/linkedin-profile-posts-scraper/) | LinkedIn Profile Posts Scraper | [data-slayer](https://apify.com/data-slayer/linkedin-profile-posts-scraper) |
 | [LinkedIn Profile Reactions](/actors/linkedin-profile-reactions/) | LinkedIn Profile Reactions | [data-slayer](https://apify.com/data-slayer/linkedin-profile-reactions) |
 | [LinkedIn Profile Scraper · Fresh · No Cookies](/actors/linkedin-profile-scraper/) | LinkedIn Profile Scraper · Fresh · No Cookies | [data-slayer](https://apify.com/data-slayer/linkedin-profile-scraper) |
 | [LinkedIn Skill Mapper](/actors/linkedin-skill-mapper/) | LinkedIn Skill Mapper | [data-slayer](https://apify.com/data-slayer/linkedin-skill-mapper) |
 | [LinkedIn Talent Flow Mapper](/actors/linkedin-talent-flow-mapper/) | LinkedIn Talent Flow Mapper | [data-slayer](https://apify.com/data-slayer/linkedin-talent-flow-mapper) |
 | [LinkedIn Talent Mapper](/actors/linkedin-talent-mapper/) | LinkedIn Talent Mapper | [data-slayer](https://apify.com/data-slayer/linkedin-talent-mapper) |
-| [LinkedIn Thought Leader Posts Scraper
-](/actors/linkedin-thought-leader-posts/) | LinkedIn Thought Leader Posts Scraper
- | [patient_discovery](https://apify.com/patient_discovery/linkedin-thought-leader-posts) |
-| [LinkedIn User Post History Scraper
-](/actors/linkedin-user-post-history/) | LinkedIn User Post History Scraper
- | [monumental_world](https://apify.com/monumental_world/linkedin-user-post-history) |
+| [LinkedIn Thought Leader Posts Scraper](/actors/linkedin-thought-leader-posts/) | LinkedIn Thought Leader Posts Scraper | [patient_discovery](https://apify.com/patient_discovery/linkedin-thought-leader-posts) |
+| [LinkedIn User Post History Scraper](/actors/linkedin-user-post-history/) | LinkedIn User Post History Scraper | [monumental_world](https://apify.com/monumental_world/linkedin-user-post-history) |
 | [LinkedIn Warm Path Finder](/actors/linkedin-warm-path-finder/) | LinkedIn Warm Path Finder | [data-slayer](https://apify.com/data-slayer/linkedin-warm-path-finder) |
 | [LinkedIn Why-Now Account Brief](/actors/linkedin-why-now-account-brief/) | LinkedIn Why-Now Account Brief | [data-slayer](https://apify.com/data-slayer/linkedin-why-now-account-brief) |
 | [Tiktok Post Comments](/actors/tiktok-api-post-comments/) | Tiktok Post Comments | [iron-crawler](https://apify.com/iron-crawler/tiktok-api-post-comments) |
