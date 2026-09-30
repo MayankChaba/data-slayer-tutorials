@@ -95,15 +95,6 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 **[Run Instagram Post Comments Extractor · No Login on Apify →](https://apify.com/data-slayer/instagram-comments-scraper-no-login-required?utm_source=github&utm_medium=content&utm_campaign=instagram-comments-scraper-no-login-required)**
 
-Also available on:
-
-| Apify account | Total runs |
-|---|---|
-| [data-slayer](https://apify.com/data-slayer/instagram-comments-scraper-no-login-required?utm_source=github&utm_medium=content&utm_campaign=instagram-comments-scraper-no-login-required) | 2,185 |
-| [patient_discovery](https://apify.com/patient_discovery/instagram-comments-scraper-no-login-required?utm_source=github&utm_medium=content&utm_campaign=instagram-comments-scraper-no-login-required) | 336 |
-| [iron-crawler](https://apify.com/iron-crawler/instagram-comments-scraper-no-login-required?utm_source=github&utm_medium=content&utm_campaign=instagram-comments-scraper-no-login-required) | 328 |
-| [monumental_world](https://apify.com/monumental_world/instagram-comments-scraper-no-login-required?utm_source=github&utm_medium=content&utm_campaign=instagram-comments-scraper-no-login-required) | 307 |
-
 ## Categories
 
 Social Media, Lead Generation

@@ -5,7 +5,7 @@ description: "Search Facebook people."
 actor_slug: "facebook-search-people"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/facebook-search-people?utm_source=github&utm_medium=content&utm_campaign=facebook-search-people"
-actor_pricing: "$2.50 per 1,000 results (Free tier)"
+actor_pricing: "$7.00 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA"]
 permalink: /actors/facebook-search-people/
 ---
@@ -51,11 +51,11 @@ Transform your lead generation workflow with this powerful people search scraper
 
 ## Pricing
 
-**$2.50 per 1,000 results** (Free tier)  
+**$7.00 per 1,000 results** (Free tier)  
 Actor start: $0.002 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
-See the live pricing on the [Apify listing](https://apify.com/patient_discovery/facebook-search-people).
+See the live pricing on the [Apify listing](https://apify.com/data-slayer/facebook-search-people).
 
 ## Runnable example
 
@@ -71,15 +71,6 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 ## Get started
 
 **[Run Facebook Search People on Apify →](https://apify.com/data-slayer/facebook-search-people?utm_source=github&utm_medium=content&utm_campaign=facebook-search-people)**
-
-Also available on:
-
-| Apify account | Total runs |
-|---|---|
-| [patient_discovery](https://apify.com/patient_discovery/facebook-search-people?utm_source=github&utm_medium=content&utm_campaign=facebook-search-people) | 44,307 |
-| [data-slayer](https://apify.com/data-slayer/facebook-search-people?utm_source=github&utm_medium=content&utm_campaign=facebook-search-people) | 828 |
-| [iron-crawler](https://apify.com/iron-crawler/facebook-search-people?utm_source=github&utm_medium=content&utm_campaign=facebook-search-people) | 302 |
-| [monumental_world](https://apify.com/monumental_world/facebook-search-people?utm_source=github&utm_medium=content&utm_campaign=facebook-search-people) | 215 |
 
 ## Categories
 

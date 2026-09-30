@@ -75,7 +75,7 @@ This Instagram scraper provides a powerful Instagram data extractor for content 
 Actor start: $0.002 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
-See the live pricing on the [Apify listing](https://apify.com/patient_discovery/instagram-search-reels).
+See the live pricing on the [Apify listing](https://apify.com/data-slayer/instagram-search-reels).
 
 ## Runnable example
 
@@ -91,15 +91,6 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 ## Get started
 
 **[Run Instagram Search Reels on Apify →](https://apify.com/data-slayer/instagram-search-reels?utm_source=github&utm_medium=content&utm_campaign=instagram-search-reels)**
-
-Also available on:
-
-| Apify account | Total runs |
-|---|---|
-| [patient_discovery](https://apify.com/patient_discovery/instagram-search-reels?utm_source=github&utm_medium=content&utm_campaign=instagram-search-reels) | 162,638 |
-| [data-slayer](https://apify.com/data-slayer/instagram-search-reels?utm_source=github&utm_medium=content&utm_campaign=instagram-search-reels) | 106,490 |
-| [iron-crawler](https://apify.com/iron-crawler/instagram-search-reels?utm_source=github&utm_medium=content&utm_campaign=instagram-search-reels) | 310 |
-| [monumental_world](https://apify.com/monumental_world/instagram-search-reels?utm_source=github&utm_medium=content&utm_campaign=instagram-search-reels) | 243 |
 
 ## Categories
 

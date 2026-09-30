@@ -5,7 +5,7 @@ description: "Search Facebook events."
 actor_slug: "facebook-search-events"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/facebook-search-events?utm_source=github&utm_medium=content&utm_campaign=facebook-search-events"
-actor_pricing: "$2.50 per 1,000 results (Free tier)"
+actor_pricing: "$7.00 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA"]
 permalink: /actors/facebook-search-events/
 ---
@@ -58,11 +58,11 @@ Transform your event marketing strategy with this powerful event data scraper an
 
 ## Pricing
 
-**$2.50 per 1,000 results** (Free tier)  
+**$7.00 per 1,000 results** (Free tier)  
 Actor start: $0.002 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
-See the live pricing on the [Apify listing](https://apify.com/patient_discovery/facebook-search-events).
+See the live pricing on the [Apify listing](https://apify.com/data-slayer/facebook-search-events).
 
 ## Runnable example
 
@@ -78,15 +78,6 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 ## Get started
 
 **[Run Facebook Search Events on Apify →](https://apify.com/data-slayer/facebook-search-events?utm_source=github&utm_medium=content&utm_campaign=facebook-search-events)**
-
-Also available on:
-
-| Apify account | Total runs |
-|---|---|
-| [patient_discovery](https://apify.com/patient_discovery/facebook-search-events?utm_source=github&utm_medium=content&utm_campaign=facebook-search-events) | 2,474 |
-| [data-slayer](https://apify.com/data-slayer/facebook-search-events?utm_source=github&utm_medium=content&utm_campaign=facebook-search-events) | 1,167 |
-| [iron-crawler](https://apify.com/iron-crawler/facebook-search-events?utm_source=github&utm_medium=content&utm_campaign=facebook-search-events) | 843 |
-| [monumental_world](https://apify.com/monumental_world/facebook-search-events?utm_source=github&utm_medium=content&utm_campaign=facebook-search-events) | 140 |
 
 ## Categories
 

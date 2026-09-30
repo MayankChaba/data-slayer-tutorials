@@ -93,14 +93,6 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 **[Run Instagram Likes Scraper · No Cookies on Apify →](https://apify.com/data-slayer/instagram-likes?utm_source=github&utm_medium=content&utm_campaign=instagram-likes)**
 
-Also available on:
-
-| Apify account | Total runs |
-|---|---|
-| [data-slayer](https://apify.com/data-slayer/instagram-likes?utm_source=github&utm_medium=content&utm_campaign=instagram-likes) | 6,453 |
-| [patient_discovery](https://apify.com/patient_discovery/instagram-likes?utm_source=github&utm_medium=content&utm_campaign=instagram-likes) | 3,064 |
-| [iron-crawler](https://apify.com/iron-crawler/instagram-likes?utm_source=github&utm_medium=content&utm_campaign=instagram-likes) | 562 |
-
 ## Categories
 
 Social Media, Lead Generation

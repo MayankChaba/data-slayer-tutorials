@@ -91,15 +91,6 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 **[Run Instagram User Posts on Apify →](https://apify.com/data-slayer/instagram-posts?utm_source=github&utm_medium=content&utm_campaign=instagram-posts)**
 
-Also available on:
-
-| Apify account | Total runs |
-|---|---|
-| [data-slayer](https://apify.com/data-slayer/instagram-posts?utm_source=github&utm_medium=content&utm_campaign=instagram-posts) | 375,748 |
-| [patient_discovery](https://apify.com/patient_discovery/instagram-posts?utm_source=github&utm_medium=content&utm_campaign=instagram-posts) | 23,352 |
-| [iron-crawler](https://apify.com/iron-crawler/instagram-posts?utm_source=github&utm_medium=content&utm_campaign=instagram-posts) | 291 |
-| [monumental_world](https://apify.com/monumental_world/instagram-posts?utm_source=github&utm_medium=content&utm_campaign=instagram-posts) | 176 |
-
 ## Categories
 
 Social Media

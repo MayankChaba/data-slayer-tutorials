@@ -101,15 +101,6 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 **[Run Twitter/X Search Scraper · Small Jobs & Advanced Queries on Apify →](https://apify.com/data-slayer/twitter-search?utm_source=github&utm_medium=content&utm_campaign=twitter-search)**
 
-Also available on:
-
-| Apify account | Total runs |
-|---|---|
-| [data-slayer](https://apify.com/data-slayer/twitter-search?utm_source=github&utm_medium=content&utm_campaign=twitter-search) | 19,864 |
-| [patient_discovery](https://apify.com/patient_discovery/twitter-search?utm_source=github&utm_medium=content&utm_campaign=twitter-search) | 5,563 |
-| [iron-crawler](https://apify.com/iron-crawler/twitter-search?utm_source=github&utm_medium=content&utm_campaign=twitter-search) | 1,734 |
-| [monumental_world](https://apify.com/monumental_world/twitter-search?utm_source=github&utm_medium=content&utm_campaign=twitter-search) | 375 |
-
 ## Categories
 
 Social Media, Automation, Lead Generation

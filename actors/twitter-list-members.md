@@ -5,7 +5,7 @@ description: "Get Twitter list members."
 actor_slug: "twitter-list-members"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/twitter-list-members?utm_source=github&utm_medium=content&utm_campaign=twitter-list-members"
-actor_pricing: "See the Apify listing for current pricing."
+actor_pricing: "$2.50 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA"]
 permalink: /actors/twitter-list-members/
 ---
@@ -78,10 +78,11 @@ This web scraping tool serves as a powerful data extractor for social media inte
 
 ## Pricing
 
-See the Apify listing for current pricing.
+**$2.50 per 1,000 results** (Free tier)  
+Actor start: $0.002 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
-See the live pricing on the [Apify listing](https://apify.com/iron-crawler/twitter-list-members).
+See the live pricing on the [Apify listing](https://apify.com/data-slayer/twitter-list-members).
 
 ## Runnable example
 
@@ -97,15 +98,6 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 ## Get started
 
 **[Run Twitter List Members on Apify →](https://apify.com/data-slayer/twitter-list-members?utm_source=github&utm_medium=content&utm_campaign=twitter-list-members)**
-
-Also available on:
-
-| Apify account | Total runs |
-|---|---|
-| [iron-crawler](https://apify.com/iron-crawler/twitter-list-members?utm_source=github&utm_medium=content&utm_campaign=twitter-list-members) | 312 |
-| [patient_discovery](https://apify.com/patient_discovery/twitter-list-members?utm_source=github&utm_medium=content&utm_campaign=twitter-list-members) | 307 |
-| [data-slayer](https://apify.com/data-slayer/twitter-list-members?utm_source=github&utm_medium=content&utm_campaign=twitter-list-members) | 279 |
-| [monumental_world](https://apify.com/monumental_world/twitter-list-members?utm_source=github&utm_medium=content&utm_campaign=twitter-list-members) | 155 |
 
 ## Categories
 

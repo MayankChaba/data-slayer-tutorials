@@ -23,7 +23,7 @@ Facebook, TikTok and X, and to automate those flows with n8n, Make, or Zapier.
 
 ## Actor pages
 
-One page per actor (120), each with inputs, outputs, pricing, a runnable example and a one-click run link:
+One page per data-slayer actor (95), each with inputs, outputs, pricing, a runnable example and a one-click run link:
 
 - Actor pages index: https://mayankchaba.github.io/data-slayer-tutorials/actors/
 - Example: https://mayankchaba.github.io/data-slayer-tutorials/actors/instagram-post-details/

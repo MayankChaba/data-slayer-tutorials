@@ -76,14 +76,6 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 **[Run Facebook Page Details on Apify →](https://apify.com/data-slayer/facebook-page-details?utm_source=github&utm_medium=content&utm_campaign=facebook-page-details)**
 
-Also available on:
-
-| Apify account | Total runs |
-|---|---|
-| [data-slayer](https://apify.com/data-slayer/facebook-page-details?utm_source=github&utm_medium=content&utm_campaign=facebook-page-details) | 644 |
-| [iron-crawler](https://apify.com/iron-crawler/facebook-page-details?utm_source=github&utm_medium=content&utm_campaign=facebook-page-details) | 382 |
-| [monumental_world](https://apify.com/monumental_world/facebook-page-details?utm_source=github&utm_medium=content&utm_campaign=facebook-page-details) | 214 |
-
 ## Categories
 
 Social Media

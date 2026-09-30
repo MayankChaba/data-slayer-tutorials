@@ -83,15 +83,6 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 **[Run Twitter Community Members on Apify →](https://apify.com/data-slayer/twitter-community-members?utm_source=github&utm_medium=content&utm_campaign=twitter-community-members)**
 
-Also available on:
-
-| Apify account | Total runs |
-|---|---|
-| [data-slayer](https://apify.com/data-slayer/twitter-community-members?utm_source=github&utm_medium=content&utm_campaign=twitter-community-members) | 266 |
-| [iron-crawler](https://apify.com/iron-crawler/twitter-community-members?utm_source=github&utm_medium=content&utm_campaign=twitter-community-members) | 262 |
-| [patient_discovery](https://apify.com/patient_discovery/twitter-community-members?utm_source=github&utm_medium=content&utm_campaign=twitter-community-members) | 197 |
-| [monumental_world](https://apify.com/monumental_world/twitter-community-members?utm_source=github&utm_medium=content&utm_campaign=twitter-community-members) | 123 |
-
 ## Categories
 
 Social Media

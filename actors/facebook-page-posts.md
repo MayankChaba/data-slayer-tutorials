@@ -88,15 +88,6 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 **[Run Facebook Page Posts on Apify →](https://apify.com/data-slayer/facebook-page-posts?utm_source=github&utm_medium=content&utm_campaign=facebook-page-posts)**
 
-Also available on:
-
-| Apify account | Total runs |
-|---|---|
-| [data-slayer](https://apify.com/data-slayer/facebook-page-posts?utm_source=github&utm_medium=content&utm_campaign=facebook-page-posts) | 1,634 |
-| [patient_discovery](https://apify.com/patient_discovery/facebook-page-posts?utm_source=github&utm_medium=content&utm_campaign=facebook-page-posts) | 657 |
-| [iron-crawler](https://apify.com/iron-crawler/facebook-page-posts?utm_source=github&utm_medium=content&utm_campaign=facebook-page-posts) | 437 |
-| [monumental_world](https://apify.com/monumental_world/facebook-page-posts?utm_source=github&utm_medium=content&utm_campaign=facebook-page-posts) | 212 |
-
 ## Categories
 
 Social Media

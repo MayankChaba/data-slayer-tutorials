@@ -82,15 +82,6 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 **[Run Twitter/X Profile Scraper · Bulk Handles, URLs & IDs on Apify →](https://apify.com/data-slayer/twitter-user?utm_source=github&utm_medium=content&utm_campaign=twitter-user)**
 
-Also available on:
-
-| Apify account | Total runs |
-|---|---|
-| [data-slayer](https://apify.com/data-slayer/twitter-user?utm_source=github&utm_medium=content&utm_campaign=twitter-user) | 122,883 |
-| [monumental_world](https://apify.com/monumental_world/twitter-user?utm_source=github&utm_medium=content&utm_campaign=twitter-user) | 2,324 |
-| [iron-crawler](https://apify.com/iron-crawler/twitter-user?utm_source=github&utm_medium=content&utm_campaign=twitter-user) | 462 |
-| [patient_discovery](https://apify.com/patient_discovery/twitter-user?utm_source=github&utm_medium=content&utm_campaign=twitter-user) | 309 |
-
 ## Categories
 
 Social Media, Lead Generation, Other

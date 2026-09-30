@@ -78,15 +78,6 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 **[Run Twitter Post Comments on Apify →](https://apify.com/data-slayer/twitter-comments?utm_source=github&utm_medium=content&utm_campaign=twitter-comments)**
 
-Also available on:
-
-| Apify account | Total runs |
-|---|---|
-| [data-slayer](https://apify.com/data-slayer/twitter-comments?utm_source=github&utm_medium=content&utm_campaign=twitter-comments) | 26,824 |
-| [iron-crawler](https://apify.com/iron-crawler/twitter-comments?utm_source=github&utm_medium=content&utm_campaign=twitter-comments) | 10,523 |
-| [patient_discovery](https://apify.com/patient_discovery/twitter-comments?utm_source=github&utm_medium=content&utm_campaign=twitter-comments) | 2,010 |
-| [monumental_world](https://apify.com/monumental_world/twitter-comments?utm_source=github&utm_medium=content&utm_campaign=twitter-comments) | 296 |
-
 ## Categories
 
 Social Media

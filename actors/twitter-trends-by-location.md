@@ -83,15 +83,6 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 **[Run Twitter Trends By Location on Apify →](https://apify.com/data-slayer/twitter-trends-by-location?utm_source=github&utm_medium=content&utm_campaign=twitter-trends-by-location)**
 
-Also available on:
-
-| Apify account | Total runs |
-|---|---|
-| [data-slayer](https://apify.com/data-slayer/twitter-trends-by-location?utm_source=github&utm_medium=content&utm_campaign=twitter-trends-by-location) | 3,547 |
-| [iron-crawler](https://apify.com/iron-crawler/twitter-trends-by-location?utm_source=github&utm_medium=content&utm_campaign=twitter-trends-by-location) | 273 |
-| [patient_discovery](https://apify.com/patient_discovery/twitter-trends-by-location?utm_source=github&utm_medium=content&utm_campaign=twitter-trends-by-location) | 225 |
-| [monumental_world](https://apify.com/monumental_world/twitter-trends-by-location?utm_source=github&utm_medium=content&utm_campaign=twitter-trends-by-location) | 137 |
-
 ## Categories
 
 Social Media

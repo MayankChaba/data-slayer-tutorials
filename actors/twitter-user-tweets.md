@@ -73,10 +73,10 @@ This Twitter scraper enables seamless twitter data extraction for professionals 
 ## Pricing
 
 **$2.50 per 1,000 results** (Free tier)  
-Actor start: $0.002 per GB
+Actor start: $0.0002 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
-See the live pricing on the [Apify listing](https://apify.com/patient_discovery/twitter-user-tweets).
+See the live pricing on the [Apify listing](https://apify.com/data-slayer/twitter-user-tweets).
 
 ## Runnable example
 
@@ -92,15 +92,6 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 ## Get started
 
 **[Run Twitter User Tweets on Apify →](https://apify.com/data-slayer/twitter-user-tweets?utm_source=github&utm_medium=content&utm_campaign=twitter-user-tweets)**
-
-Also available on:
-
-| Apify account | Total runs |
-|---|---|
-| [patient_discovery](https://apify.com/patient_discovery/twitter-user-tweets?utm_source=github&utm_medium=content&utm_campaign=twitter-user-tweets) | 63,811 |
-| [data-slayer](https://apify.com/data-slayer/twitter-user-tweets?utm_source=github&utm_medium=content&utm_campaign=twitter-user-tweets) | 5,083 |
-| [iron-crawler](https://apify.com/iron-crawler/twitter-user-tweets?utm_source=github&utm_medium=content&utm_campaign=twitter-user-tweets) | 852 |
-| [monumental_world](https://apify.com/monumental_world/twitter-user-tweets?utm_source=github&utm_medium=content&utm_campaign=twitter-user-tweets) | 126 |
 
 ## Categories
 

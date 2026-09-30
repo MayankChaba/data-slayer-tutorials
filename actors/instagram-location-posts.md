@@ -77,7 +77,7 @@ This Instagram scraper provides comprehensive location-based Instagram data extr
 Actor start: $0.002 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
-See the live pricing on the [Apify listing](https://apify.com/patient_discovery/instagram-location-posts).
+See the live pricing on the [Apify listing](https://apify.com/data-slayer/instagram-location-posts).
 
 ## Runnable example
 
@@ -93,15 +93,6 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 ## Get started
 
 **[Run Instagram Location Posts on Apify →](https://apify.com/data-slayer/instagram-location-posts?utm_source=github&utm_medium=content&utm_campaign=instagram-location-posts)**
-
-Also available on:
-
-| Apify account | Total runs |
-|---|---|
-| [patient_discovery](https://apify.com/patient_discovery/instagram-location-posts?utm_source=github&utm_medium=content&utm_campaign=instagram-location-posts) | 2,353 |
-| [data-slayer](https://apify.com/data-slayer/instagram-location-posts?utm_source=github&utm_medium=content&utm_campaign=instagram-location-posts) | 1,237 |
-| [iron-crawler](https://apify.com/iron-crawler/instagram-location-posts?utm_source=github&utm_medium=content&utm_campaign=instagram-location-posts) | 303 |
-| [monumental_world](https://apify.com/monumental_world/instagram-location-posts?utm_source=github&utm_medium=content&utm_campaign=instagram-location-posts) | 220 |
 
 ## Categories
 

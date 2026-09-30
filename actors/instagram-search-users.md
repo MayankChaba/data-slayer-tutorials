@@ -73,15 +73,6 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 **[Run Instagram User Search · Find Leads by Keyword · No Login on Apify →](https://apify.com/data-slayer/instagram-search-users?utm_source=github&utm_medium=content&utm_campaign=instagram-search-users)**
 
-Also available on:
-
-| Apify account | Total runs |
-|---|---|
-| [data-slayer](https://apify.com/data-slayer/instagram-search-users?utm_source=github&utm_medium=content&utm_campaign=instagram-search-users) | 20,010 |
-| [patient_discovery](https://apify.com/patient_discovery/instagram-search-users?utm_source=github&utm_medium=content&utm_campaign=instagram-search-users) | 10,202 |
-| [iron-crawler](https://apify.com/iron-crawler/instagram-search-users?utm_source=github&utm_medium=content&utm_campaign=instagram-search-users) | 767 |
-| [monumental_world](https://apify.com/monumental_world/instagram-search-users?utm_source=github&utm_medium=content&utm_campaign=instagram-search-users) | 473 |
-
 ## Categories
 
 Lead Generation, Social Media

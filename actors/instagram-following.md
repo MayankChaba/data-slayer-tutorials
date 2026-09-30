@@ -40,10 +40,10 @@ Same field set as the Followers Scraper — see that actor's field table. Key en
 ## Pricing
 
 **$2.50 per 1,000 results** (Free tier)  
-Actor start: $0.002 per GB
+Actor start: $0.0005 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
-See the live pricing on the [Apify listing](https://apify.com/patient_discovery/instagram-following).
+See the live pricing on the [Apify listing](https://apify.com/data-slayer/instagram-following).
 
 ## Runnable example
 
@@ -61,15 +61,6 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 ## Get started
 
 **[Run Instagram Following Scraper & Enricher · No Login on Apify →](https://apify.com/data-slayer/instagram-following?utm_source=github&utm_medium=content&utm_campaign=instagram-following)**
-
-Also available on:
-
-| Apify account | Total runs |
-|---|---|
-| [patient_discovery](https://apify.com/patient_discovery/instagram-following?utm_source=github&utm_medium=content&utm_campaign=instagram-following) | 13,059 |
-| [data-slayer](https://apify.com/data-slayer/instagram-following?utm_source=github&utm_medium=content&utm_campaign=instagram-following) | 3,783 |
-| [iron-crawler](https://apify.com/iron-crawler/instagram-following?utm_source=github&utm_medium=content&utm_campaign=instagram-following) | 381 |
-| [monumental_world](https://apify.com/monumental_world/instagram-following?utm_source=github&utm_medium=content&utm_campaign=instagram-following) | 199 |
 
 ## Categories
 

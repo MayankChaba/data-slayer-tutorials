@@ -90,14 +90,6 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 **[Run Instagram Followers Scraper & Enricher · No Login on Apify →](https://apify.com/data-slayer/instagram-followers-scraper---no-login?utm_source=github&utm_medium=content&utm_campaign=instagram-followers-scraper---no-login)**
 
-Also available on:
-
-| Apify account | Total runs |
-|---|---|
-| [data-slayer](https://apify.com/data-slayer/instagram-followers-scraper---no-login?utm_source=github&utm_medium=content&utm_campaign=instagram-followers-scraper---no-login) | 4,175 |
-| [monumental_world](https://apify.com/monumental_world/instagram-followers-scraper---no-login?utm_source=github&utm_medium=content&utm_campaign=instagram-followers-scraper---no-login) | 2,408 |
-| [patient_discovery](https://apify.com/patient_discovery/instagram-followers-scraper---no-login?utm_source=github&utm_medium=content&utm_campaign=instagram-followers-scraper---no-login) | 1,946 |
-
 ## Categories
 
 Social Media, Lead Generation

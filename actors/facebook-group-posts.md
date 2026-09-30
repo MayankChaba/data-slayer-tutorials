@@ -5,7 +5,7 @@ description: "Get Facebook group posts."
 actor_slug: "facebook-group-posts"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/facebook-group-posts?utm_source=github&utm_medium=content&utm_campaign=facebook-group-posts"
-actor_pricing: "See the Apify listing for current pricing."
+actor_pricing: "$7.00 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA"]
 permalink: /actors/facebook-group-posts/
 ---
@@ -67,10 +67,11 @@ This Facebook group posts scraper enables efficient social media group posts ext
 
 ## Pricing
 
-See the Apify listing for current pricing.
+**$7.00 per 1,000 results** (Free tier)  
+Actor start: $0.002 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
-See the live pricing on the [Apify listing](https://apify.com/iron-crawler/facebook-group-posts).
+See the live pricing on the [Apify listing](https://apify.com/data-slayer/facebook-group-posts).
 
 ## Runnable example
 
@@ -86,15 +87,6 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 ## Get started
 
 **[Run Facebook Group Posts on Apify →](https://apify.com/data-slayer/facebook-group-posts?utm_source=github&utm_medium=content&utm_campaign=facebook-group-posts)**
-
-Also available on:
-
-| Apify account | Total runs |
-|---|---|
-| [iron-crawler](https://apify.com/iron-crawler/facebook-group-posts?utm_source=github&utm_medium=content&utm_campaign=facebook-group-posts) | 3,552 |
-| [data-slayer](https://apify.com/data-slayer/facebook-group-posts?utm_source=github&utm_medium=content&utm_campaign=facebook-group-posts) | 2,750 |
-| [patient_discovery](https://apify.com/patient_discovery/facebook-group-posts?utm_source=github&utm_medium=content&utm_campaign=facebook-group-posts) | 744 |
-| [monumental_world](https://apify.com/monumental_world/facebook-group-posts?utm_source=github&utm_medium=content&utm_campaign=facebook-group-posts) | 480 |
 
 ## Categories
 

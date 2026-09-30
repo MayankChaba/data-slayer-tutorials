@@ -5,7 +5,7 @@ description: "Get Facebook marketplace listing details."
 actor_slug: "facebook-marketplace-details"
 actor_account: "data-slayer"
 actor_url: "https://apify.com/data-slayer/facebook-marketplace-details?utm_source=github&utm_medium=content&utm_campaign=facebook-marketplace-details"
-actor_pricing: "See the Apify listing for current pricing."
+actor_pricing: "$7.00 per 1,000 results (Free tier)"
 categories: ["SOCIAL_MEDIA"]
 permalink: /actors/facebook-marketplace-details/
 ---
@@ -81,10 +81,11 @@ _(continued on the Apify listing)_
 
 ## Pricing
 
-See the Apify listing for current pricing.
+**$7.00 per 1,000 results** (Free tier)  
+Actor start: $0.002 per GB
 
 The actor is billed **pay-per-result** on Apify — you only pay for rows returned.
-See the live pricing on the [Apify listing](https://apify.com/iron-crawler/facebook-marketplace-details).
+See the live pricing on the [Apify listing](https://apify.com/data-slayer/facebook-marketplace-details).
 
 ## Runnable example
 
@@ -99,15 +100,6 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 ## Get started
 
 **[Run Facebook Listing Details on Apify →](https://apify.com/data-slayer/facebook-marketplace-details?utm_source=github&utm_medium=content&utm_campaign=facebook-marketplace-details)**
-
-Also available on:
-
-| Apify account | Total runs |
-|---|---|
-| [iron-crawler](https://apify.com/iron-crawler/facebook-marketplace-details?utm_source=github&utm_medium=content&utm_campaign=facebook-marketplace-details) | 9,148 |
-| [data-slayer](https://apify.com/data-slayer/facebook-marketplace-details?utm_source=github&utm_medium=content&utm_campaign=facebook-marketplace-details) | 7,483 |
-| [patient_discovery](https://apify.com/patient_discovery/facebook-marketplace-details?utm_source=github&utm_medium=content&utm_campaign=facebook-marketplace-details) | 6,649 |
-| [monumental_world](https://apify.com/monumental_world/facebook-marketplace-details?utm_source=github&utm_medium=content&utm_campaign=facebook-marketplace-details) | 226 |
 
 ## Categories
 

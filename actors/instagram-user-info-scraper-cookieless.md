@@ -104,15 +104,6 @@ Paste this into the actor's input (JSON) on Apify and press **Start**:
 
 **[Run Instagram Profile Scraper · Verified Emails & Contact Data · No Login on Apify →](https://apify.com/data-slayer/instagram-user-info-scraper-cookieless?utm_source=github&utm_medium=content&utm_campaign=instagram-user-info-scraper-cookieless)**
 
-Also available on:
-
-| Apify account | Total runs |
-|---|---|
-| [data-slayer](https://apify.com/data-slayer/instagram-user-info-scraper-cookieless?utm_source=github&utm_medium=content&utm_campaign=instagram-user-info-scraper-cookieless) | 254,679 |
-| [patient_discovery](https://apify.com/patient_discovery/instagram-user-info-scraper-cookieless?utm_source=github&utm_medium=content&utm_campaign=instagram-user-info-scraper-cookieless) | 719 |
-| [iron-crawler](https://apify.com/iron-crawler/instagram-user-info-scraper-cookieless?utm_source=github&utm_medium=content&utm_campaign=instagram-user-info-scraper-cookieless) | 269 |
-| [monumental_world](https://apify.com/monumental_world/instagram-user-info-scraper-cookieless?utm_source=github&utm_medium=content&utm_campaign=instagram-user-info-scraper-cookieless) | 225 |
-
 ## Categories
 
 Social Media, Lead Generation
