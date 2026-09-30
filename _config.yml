@@ -14,3 +14,11 @@ markdown: kramdown
 permalink: /tutorials/:title/
 header_pages:
   - actors/index.md
+  - use-cases/index.md
+
+defaults:
+  - scope:
+      path: "use-cases"
+    values:
+      layout: "use-case"
+      permalink: "/use-cases/:basename/"
