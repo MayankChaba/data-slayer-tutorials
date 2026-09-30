@@ -33,7 +33,6 @@ One page per data-slayer actor (95), each with inputs, outputs, pricing, a runna
 
 - LinkedIn Company Posts Scraper: https://apify.com/data-slayer/linkedin-company-posts-scraper
 - Instagram Post & Reel Details Scraper: https://apify.com/data-slayer/instagram-post-details
-- Instagram Reel & Post Analytics by URL: https://apify.com/patient_discovery/instagram-reel-analytics-by-url
 - LinkedIn Profile Scraper: https://apify.com/data-slayer/linkedin-profile-scraper
 - LinkedIn Warm Path Finder: https://apify.com/data-slayer/linkedin-warm-path-finder
 - Instagram Creator Lead Finder: https://apify.com/data-slayer/instagram-creator-lead-finder

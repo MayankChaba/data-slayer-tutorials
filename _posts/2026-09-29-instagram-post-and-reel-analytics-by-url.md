@@ -13,13 +13,11 @@ shares, saves. Opening each post and copying numbers into a spreadsheet doesn't 
 This tutorial shows how to turn a list of Instagram post/Reel URLs into structured
 engagement data in one run — no Instagram login, no browser automation.
 
-**The tools:**
+**The tool:**
 
-- [Instagram Post & Reel Details Scraper](https://apify.com/data-slayer/instagram-post-details?utm_source=github&utm_medium=content&utm_campaign=instagram-post-details) — full detail per post (up to 128 fields), bulk URLs, no login.
-- [Instagram Reel & Post Analytics by URL](https://apify.com/patient_discovery/instagram-reel-analytics-by-url?utm_source=github&utm_medium=content&utm_campaign=instagram-reel-analytics-by-url) — a lighter analytics-first view that reports exactly which metrics are available for each URL.
+- [Instagram Post & Reel Details Scraper](https://apify.com/data-slayer/instagram-post-details?utm_source=github&utm_medium=content&utm_campaign=instagram-post-details) — full detail per post (up to 128 fields), bulk URLs, no login. It also returns an explicit per-URL metric-availability report, so you always know which metrics are real and which Instagram didn't expose.
 
-Both run on Apify. Pick the first for maximum depth, the second for cheap
-at-scale analytics checks.
+It runs on Apify — you pay per post checked, not per minute of compute.
 
 ## Step 1 — Collect your URLs
 
@@ -76,8 +74,8 @@ Notes on the numbers:
 - **`repost_count` is included** — a field Apify's own Instagram scraper doesn't return.
 - **Views** appear for Reels and videos. **Shares and saves** appear when Instagram
   exposes them for that post.
-- If you only need these metrics (not the full 128-field record), the
-  [analytics-by-url actor](https://apify.com/patient_discovery/instagram-reel-analytics-by-url?utm_source=github&utm_medium=content&utm_campaign=instagram-reel-analytics-by-url)
+- Need just the metrics for a batch of URLs? The same
+  [Instagram Post & Reel Details Scraper](https://apify.com/data-slayer/instagram-post-details?utm_source=github&utm_medium=content&utm_campaign=instagram-post-details)
   returns them with an explicit per-URL availability report — useful for
   benchmarking hundreds of posts cheaply.
 
@@ -105,17 +103,16 @@ Typical analyses:
 
 ## Pricing
 
-Both actors are pay-per-event — you pay per post checked, not per minute of
-compute. The details scraper has run 1M+ times; the analytics actor is the
-cheaper option when you only need metrics. New Apify accounts include free
+The actor is pay-per-event — you pay per post checked, not per minute of
+compute. It has run 1M+ times. New Apify accounts include free
 platform credit for the first runs.
 
 ## FAQ
 
-**Do I need an Instagram login?** No. Both actors work from public data without any login.
+**Do I need an Instagram login?** No. The actor works from public data without any login.
 
 **Do shares and saves always come back?** Only when Instagram exposes them for that
-post. The analytics-by-url actor reports metric availability explicitly per URL, so
+post. The actor reports metric availability explicitly per URL, so
 you always know what's real and what's missing.
 
 **Can I track the same URLs over time?** Yes — schedule the run (Apify supports
