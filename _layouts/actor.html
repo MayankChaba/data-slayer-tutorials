@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<article class="post h-entry" itemscope itemtype="https://schema.org/SoftwareApplication">
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      Apify actor{% if page.actor_account %} · <span itemprop="author">{{ page.actor_account }}</span>{% endif %}{% if page.actor_pricing %} · {{ page.actor_pricing }}{% endif %}
+    </p>
+  </header>
+
+  {%- if page.actor_url %}
+  <p style="margin:1.25rem 0;">
+    <a href="{{ page.actor_url }}" rel="noopener"><strong>▶ Run this actor on Apify →</strong></a>
+  </p>
+  {%- endif %}
+
+  <div class="post-content e-content" itemprop="text">
+    {{ content }}
+  </div>
+
+  <hr>
+
+  <p>
+    <a href="{{ page.actor_url }}"><strong>▶ Run {{ page.title | escape }} on Apify →</strong></a><br>
+    <a href="/actors/">← All Apify actors</a> ·
+    <a href="/">Tutorials home</a>
+  </p>
+</article>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": {{ page.title | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Cloud",
+  "url": {{ page.url | absolute_url | jsonify }},
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+}
+</script>

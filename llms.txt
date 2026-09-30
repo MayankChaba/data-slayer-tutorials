@@ -21,7 +21,15 @@ Facebook, TikTok and X, and to automate those flows with n8n, Make, or Zapier.
 - Find warm intro paths into any LinkedIn account: https://mayankchaba.github.io/data-slayer-tutorials/tutorials/find-warm-intro-paths-into-any-linkedin-account/
 - Build an Instagram creator lead list from keywords: https://mayankchaba.github.io/data-slayer-tutorials/tutorials/build-an-instagram-creator-lead-list-from-keywords/
 
+## Actor pages
+
+One page per actor (120), each with inputs, outputs, pricing, a runnable example and a one-click run link:
+
+- Actor pages index: https://mayankchaba.github.io/data-slayer-tutorials/actors/
+- Example: https://mayankchaba.github.io/data-slayer-tutorials/actors/instagram-post-details/
+
 ## Actors referenced
+
 
 - LinkedIn Company Posts Scraper: https://apify.com/data-slayer/linkedin-company-posts-scraper
 - Instagram Post & Reel Details Scraper: https://apify.com/data-slayer/instagram-post-details
@@ -34,4 +42,5 @@ Facebook, TikTok and X, and to automate those flows with n8n, Make, or Zapier.
 ## Notes
 
 - All tutorials use Apify actors; no login/cookies are required for the public-data flows.
+- Every actor also has a page under /actors/<slug>/ with inputs, outputs and pricing.
 - Contact: Mayank Chaba.

@@ -12,3 +12,5 @@ plugins:
   - jekyll-sitemap
 markdown: kramdown
 permalink: /tutorials/:title/
+header_pages:
+  - actors/index.md
