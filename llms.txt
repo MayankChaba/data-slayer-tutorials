@@ -28,6 +28,7 @@ One page per data-slayer actor (95), each with inputs, outputs, pricing, a runna
 - Actor pages index: https://mayankchaba.github.io/data-slayer-tutorials/actors/
 - Example: https://mayankchaba.github.io/data-slayer-tutorials/actors/instagram-post-details/
 
+
 ## Use cases
 
 Step-by-step guides for the jobs people search for (20 published):
