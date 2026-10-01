@@ -7,7 +7,7 @@
     Search Console HTML-tag verification. Set `google_site_verification` in _config.yml
     (or drop the googleXXXX.html file from GSC at the repo root — either works).
   {%- endcomment -%}
-  {%- if site.google_site_verification and site.google_site_verification != "" -%}
+  {%- if site.google_site_verification.size > 0 -%}
   <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
   {%- endif -%}
 
@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {%- feed_meta -%}
 
-  {%- if site.google_analytics and site.google_analytics != "" -%}
+  {%- if site.google_analytics.size > 0 -%}
   <!-- Google Analytics 4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
   <script>
@@ -26,7 +26,7 @@
   </script>
   {%- endif -%}
 
-  {%- if site.clarity_project_id and site.clarity_project_id != "" -%}
+  {%- if site.clarity_project_id.size > 0 -%}
   <!-- Microsoft Clarity -->
   <script type="text/javascript">
     (function(c,l,a,r,i,t,y){
