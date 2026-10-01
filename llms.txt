@@ -29,9 +29,10 @@ One page per data-slayer actor (95), each with inputs, outputs, pricing, a runna
 - Example: https://mayankchaba.github.io/data-slayer-tutorials/actors/instagram-post-details/
 
 
+
 ## Use cases
 
-Step-by-step guides for the jobs people search for (20 published):
+Step-by-step guides for the jobs people search for (22 published):
 
 - facebook pages scraper: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/facebook-pages-scraper/
 - how to scrape facebook pages without getting blocked: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/how-to-scrape-facebook-pages-without-getting-blocked/
@@ -52,6 +53,8 @@ Step-by-step guides for the jobs people search for (20 published):
 - instagram reels scraper: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/instagram-reels-scraper/
 - instagram stories scraper: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/instagram-stories-scraper/
 - instagram user info scraper: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/instagram-user-info-scraper/
+- scrape instagram post without login: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/scrape-instagram-post-without-login/
+- scrape instagram posts without login: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/scrape-instagram-posts-without-login/
 - twitter user tweets scraper: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/twitter-user-tweets-scraper/
 
 ## Actors referenced
