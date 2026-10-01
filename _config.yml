@@ -10,6 +10,11 @@ theme: minima
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+
+# Analytics & search-console verification — leave blank to disable; set an ID to enable.
+google_analytics: ""          # Google Analytics 4 measurement ID, e.g. "G-XXXXXXXXXX"
+clarity_project_id: ""        # Microsoft Clarity project ID
+google_site_verification: ""  # Search Console HTML-tag token (URL-prefix property)
 markdown: kramdown
 permalink: /tutorials/:title/
 header_pages:
