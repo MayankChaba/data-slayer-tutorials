@@ -30,10 +30,12 @@ One page per data-slayer actor (95), each with inputs, outputs, pricing, a runna
 
 
 
+
 ## Use cases
 
-Step-by-step guides for the jobs people search for (22 published):
+Step-by-step guides for the jobs people search for (25 published):
 
+- export instagram user info to csv: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/export-instagram-user-info-to-csv/
 - facebook pages scraper: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/facebook-pages-scraper/
 - how to scrape facebook pages without getting blocked: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/how-to-scrape-facebook-pages-without-getting-blocked/
 - how to scrape instagram highlights without getting blocked: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/how-to-scrape-instagram-highlights-without-getting-blocked/
@@ -46,7 +48,9 @@ Step-by-step guides for the jobs people search for (22 published):
 - how to scrape instagram user info without getting blocked: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/how-to-scrape-instagram-user-info-without-getting-blocked/
 - how to scrape twitter user tweets without getting blocked: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/how-to-scrape-twitter-user-tweets-without-getting-blocked/
 - instagram highlights scraper: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/instagram-highlights-scraper/
+- instagram post api alternative: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/instagram-post-api-alternative/
 - instagram post scraper: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/instagram-post-scraper/
+- instagram posts api alternative: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/instagram-posts-api-alternative/
 - instagram posts scraper: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/instagram-posts-scraper/
 - instagram profile reels scraper: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/instagram-profile-reels-scraper/
 - instagram reel analytics scraper: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/instagram-reel-analytics-scraper/
