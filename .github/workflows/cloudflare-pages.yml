@@ -25,7 +25,7 @@ jobs:
           ruby-version: "3.3"
 
       - name: Install Jekyll
-        run: gem install jekyll -v 4.3.4 minima jekyll-seo-tag jekyll-sitemap
+        run: gem install "jekyll:4.3.4" minima jekyll-seo-tag jekyll-sitemap
 
       - name: Build site (domain root)
         run: jekyll build --config _config.yml,_config_cloudflare.yml
