@@ -1,0 +1,9 @@
+# Cloudflare Pages build override — merged over _config.yml by the CI workflow:
+#   jekyll build --config _config.yml,_config_cloudflare.yml
+#
+# The hub moves from https://mayankchaba.github.io/data-slayer-tutorials/
+# (GitHub Pages project page) to the domain root at https://dataslayer.dev/
+# Keeping this override separate means the GitHub Pages build (which reads
+# only _config.yml) keeps serving the old URLs until redirects are in place.
+url: "https://dataslayer.dev"
+baseurl: ""
