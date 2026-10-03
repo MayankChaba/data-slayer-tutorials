@@ -5,8 +5,12 @@ name: Publish cadence (use-case drip)
 # articles from queue/ (capped by the queue), so a missed run — or several — is
 # caught up on the next run. See scripts/drip.py.
 #
+# The build + Cloudflare deploy are part of THIS workflow: a push made with the
+# default GITHUB_TOKEN does not trigger other workflows, so the drip cannot rely
+# on cloudflare-pages.yml firing on its commit. Human pushes still deploy there.
+#
 # Runs daily at 09:30 America/Los_Angeles (16:30 UTC during PDT). To move it back
-# to weekdays only, change the cron to "30 16 * * 1-5" and DRIP_PER_DAY stays 3.
+# to weekdays only, change the cron to "30 16 * * 1-5"; DRIP_PER_DAY stays 3.
 on:
   schedule:
     - cron: "30 16 * * *"
@@ -34,14 +38,41 @@ jobs:
       - name: Drip the queue (with catch-up)
         run: python scripts/drip.py
 
-      - name: Commit + push (triggers the Cloudflare Pages deploy)
+      - name: Commit + push
+        id: commit
         run: |
           git config user.name "dataslayer-drip"
           git config user.email "drip@dataslayer.dev"
           git add -A
           if git diff --cached --quiet; then
-            echo "nothing to publish — exiting cleanly"
+            echo "nothing to publish"
+            echo "published=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git commit -m "Publish use-case articles (cadence drip)"
           git push
+          echo "published=true" >> "$GITHUB_OUTPUT"
+
+      - name: Setup Ruby
+        if: steps.commit.outputs.published == 'true'
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+
+      - name: Install Jekyll
+        if: steps.commit.outputs.published == 'true'
+        run: gem install "jekyll:4.3.4" minima jekyll-seo-tag jekyll-sitemap
+
+      - name: Build site (domain root)
+        if: steps.commit.outputs.published == 'true'
+        run: jekyll build --config _config.yml,_config_cloudflare.yml
+        env:
+          JEKYLL_ENV: production
+
+      - name: Deploy to Cloudflare Pages
+        if: steps.commit.outputs.published == 'true'
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy _site --project-name=dataslayer-hub --branch=main
