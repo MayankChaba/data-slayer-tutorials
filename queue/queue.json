@@ -1,0 +1,920 @@
+[
+ {
+  "slug": "export-instagram-post-to-csv",
+  "priority": "P1",
+  "runs_30d": 323913,
+  "target_query": "export instagram post to csv",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-post-details",
+  "actor_title": "Instagram Post & Reel Details Scraper \u00b7 No Login"
+ },
+ {
+  "slug": "find-competitor-and-creator-content-on-instagram-for-social-media-managers",
+  "priority": "P1",
+  "runs_30d": 323913,
+  "target_query": "find competitor and creator content on Instagram for social media managers",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-post-details",
+  "actor_title": "Instagram Post & Reel Details Scraper \u00b7 No Login"
+ },
+ {
+  "slug": "how-to-get-instagram-post-data",
+  "priority": "P1",
+  "runs_30d": 323913,
+  "target_query": "how to get instagram post data",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-post-details",
+  "actor_title": "Instagram Post & Reel Details Scraper \u00b7 No Login"
+ },
+ {
+  "slug": "export-instagram-posts-to-csv",
+  "priority": "P1",
+  "runs_30d": 174444,
+  "target_query": "export instagram posts to csv",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-posts",
+  "actor_title": "Instagram Profile Posts & Reels Scraper \u00b7 No Login"
+ },
+ {
+  "slug": "how-to-get-instagram-posts-data",
+  "priority": "P1",
+  "runs_30d": 174444,
+  "target_query": "how to get instagram posts data",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-posts",
+  "actor_title": "Instagram Profile Posts & Reels Scraper \u00b7 No Login"
+ },
+ {
+  "slug": "how-to-get-instagram-user-info-data",
+  "priority": "P1",
+  "runs_30d": 41682,
+  "target_query": "how to get instagram user info data",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-user-info-scraper-cookieless",
+  "actor_title": "Instagram Profile Scraper \u00b7 Account Age & Verified Emails"
+ },
+ {
+  "slug": "instagram-user-info-data-extraction-tool",
+  "priority": "P1",
+  "runs_30d": 41682,
+  "target_query": "instagram user info data extraction tool",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-user-info-scraper-cookieless",
+  "actor_title": "Instagram Profile Scraper \u00b7 Account Age & Verified Emails"
+ },
+ {
+  "slug": "scrape-instagram-reels-without-login",
+  "priority": "P1",
+  "runs_30d": 29725,
+  "target_query": "scrape instagram reels without login",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-search-reels",
+  "actor_title": "Instagram Reels Search & Trend Discovery \u00b7 No Login"
+ },
+ {
+  "slug": "instagram-reels-api-alternative",
+  "priority": "P1",
+  "runs_30d": 29725,
+  "target_query": "instagram reels api alternative",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-search-reels",
+  "actor_title": "Instagram Reels Search & Trend Discovery \u00b7 No Login"
+ },
+ {
+  "slug": "export-instagram-reels-to-csv",
+  "priority": "P1",
+  "runs_30d": 29725,
+  "target_query": "export instagram reels to csv",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-search-reels",
+  "actor_title": "Instagram Reels Search & Trend Discovery \u00b7 No Login"
+ },
+ {
+  "slug": "how-to-get-instagram-reels-data",
+  "priority": "P1",
+  "runs_30d": 29725,
+  "target_query": "how to get instagram reels data",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-search-reels",
+  "actor_title": "Instagram Reels Search & Trend Discovery \u00b7 No Login"
+ },
+ {
+  "slug": "instagram-reels-data-extraction-tool",
+  "priority": "P1",
+  "runs_30d": 29725,
+  "target_query": "instagram reels data extraction tool",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-search-reels",
+  "actor_title": "Instagram Reels Search & Trend Discovery \u00b7 No Login"
+ },
+ {
+  "slug": "scrape-instagram-profile-reels-without-login",
+  "priority": "P1",
+  "runs_30d": 25579,
+  "target_query": "scrape instagram profile reels without login",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-profile-reels",
+  "actor_title": "Instagram Profile Reels Scraper \u00b7 No Login"
+ },
+ {
+  "slug": "instagram-profile-reels-api-alternative",
+  "priority": "P1",
+  "runs_30d": 25579,
+  "target_query": "instagram profile reels api alternative",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-profile-reels",
+  "actor_title": "Instagram Profile Reels Scraper \u00b7 No Login"
+ },
+ {
+  "slug": "export-instagram-profile-reels-to-csv",
+  "priority": "P1",
+  "runs_30d": 25579,
+  "target_query": "export instagram profile reels to csv",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-profile-reels",
+  "actor_title": "Instagram Profile Reels Scraper \u00b7 No Login"
+ },
+ {
+  "slug": "how-to-get-instagram-profile-reels-data",
+  "priority": "P1",
+  "runs_30d": 25579,
+  "target_query": "how to get instagram profile reels data",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-profile-reels",
+  "actor_title": "Instagram Profile Reels Scraper \u00b7 No Login"
+ },
+ {
+  "slug": "instagram-profile-reels-data-extraction-tool",
+  "priority": "P1",
+  "runs_30d": 25579,
+  "target_query": "instagram profile reels data extraction tool",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-profile-reels",
+  "actor_title": "Instagram Profile Reels Scraper \u00b7 No Login"
+ },
+ {
+  "slug": "scrape-instagram-stories-without-login",
+  "priority": "P1",
+  "runs_30d": 16774,
+  "target_query": "scrape instagram stories without login",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-stories-scraper",
+  "actor_title": "Instagram Stories Scraper \u00b7 No Login"
+ },
+ {
+  "slug": "export-instagram-stories-to-csv",
+  "priority": "P1",
+  "runs_30d": 16774,
+  "target_query": "export instagram stories to csv",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-stories-scraper",
+  "actor_title": "Instagram Stories Scraper \u00b7 No Login"
+ },
+ {
+  "slug": "how-to-get-instagram-stories-data",
+  "priority": "P1",
+  "runs_30d": 16774,
+  "target_query": "how to get instagram stories data",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-stories-scraper",
+  "actor_title": "Instagram Stories Scraper \u00b7 No Login"
+ },
+ {
+  "slug": "instagram-stories-data-extraction-tool",
+  "priority": "P1",
+  "runs_30d": 16774,
+  "target_query": "instagram stories data extraction tool",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-stories-scraper",
+  "actor_title": "Instagram Stories Scraper \u00b7 No Login"
+ },
+ {
+  "slug": "scrape-instagram-highlights-without-login",
+  "priority": "P1",
+  "runs_30d": 16734,
+  "target_query": "scrape instagram highlights without login",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-highlights-scraper",
+  "actor_title": "Instagram Highlights Scraper \u00b7 No Login"
+ },
+ {
+  "slug": "instagram-highlights-api-alternative",
+  "priority": "P1",
+  "runs_30d": 16734,
+  "target_query": "instagram highlights api alternative",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-highlights-scraper",
+  "actor_title": "Instagram Highlights Scraper \u00b7 No Login"
+ },
+ {
+  "slug": "export-instagram-highlights-to-csv",
+  "priority": "P1",
+  "runs_30d": 16734,
+  "target_query": "export instagram highlights to csv",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-highlights-scraper",
+  "actor_title": "Instagram Highlights Scraper \u00b7 No Login"
+ },
+ {
+  "slug": "how-to-get-instagram-highlights-data",
+  "priority": "P1",
+  "runs_30d": 16734,
+  "target_query": "how to get instagram highlights data",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-highlights-scraper",
+  "actor_title": "Instagram Highlights Scraper \u00b7 No Login"
+ },
+ {
+  "slug": "instagram-highlights-data-extraction-tool",
+  "priority": "P1",
+  "runs_30d": 16734,
+  "target_query": "instagram highlights data extraction tool",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-highlights-scraper",
+  "actor_title": "Instagram Highlights Scraper \u00b7 No Login"
+ },
+ {
+  "slug": "scrape-facebook-pages-without-login",
+  "priority": "P1",
+  "runs_30d": 13860,
+  "target_query": "scrape facebook pages without login",
+  "actor_account": "data-slayer",
+  "actor_slug": "facebook-search-pages",
+  "actor_title": "Facebook Page Search Scraper \u00b7 No Cookies"
+ },
+ {
+  "slug": "facebook-pages-api-alternative",
+  "priority": "P1",
+  "runs_30d": 13860,
+  "target_query": "facebook pages api alternative",
+  "actor_account": "data-slayer",
+  "actor_slug": "facebook-search-pages",
+  "actor_title": "Facebook Page Search Scraper \u00b7 No Cookies"
+ },
+ {
+  "slug": "export-facebook-pages-to-csv",
+  "priority": "P1",
+  "runs_30d": 13860,
+  "target_query": "export facebook pages to csv",
+  "actor_account": "data-slayer",
+  "actor_slug": "facebook-search-pages",
+  "actor_title": "Facebook Page Search Scraper \u00b7 No Cookies"
+ },
+ {
+  "slug": "how-to-get-facebook-pages-data",
+  "priority": "P1",
+  "runs_30d": 13860,
+  "target_query": "how to get facebook pages data",
+  "actor_account": "data-slayer",
+  "actor_slug": "facebook-search-pages",
+  "actor_title": "Facebook Page Search Scraper \u00b7 No Cookies"
+ },
+ {
+  "slug": "how-to-scrape-linkedin-profile-without-getting-blocked",
+  "priority": "P1",
+  "runs_30d": 10680,
+  "target_query": "how to scrape linkedin profile without getting blocked",
+  "actor_account": "data-slayer",
+  "actor_slug": "linkedin-profile-scraper",
+  "actor_title": "LinkedIn Profile Scraper \u00b7 Fresh \u00b7 No Cookies"
+ },
+ {
+  "slug": "linkedin-profile-scraper",
+  "priority": "P1",
+  "runs_30d": 10680,
+  "target_query": "linkedin profile scraper",
+  "actor_account": "data-slayer",
+  "actor_slug": "linkedin-profile-scraper",
+  "actor_title": "LinkedIn Profile Scraper \u00b7 Fresh \u00b7 No Cookies"
+ },
+ {
+  "slug": "scrape-linkedin-profile-without-login",
+  "priority": "P1",
+  "runs_30d": 10680,
+  "target_query": "scrape linkedin profile without login",
+  "actor_account": "data-slayer",
+  "actor_slug": "linkedin-profile-scraper",
+  "actor_title": "LinkedIn Profile Scraper \u00b7 Fresh \u00b7 No Cookies"
+ },
+ {
+  "slug": "export-linkedin-profile-to-csv",
+  "priority": "P1",
+  "runs_30d": 10680,
+  "target_query": "export linkedin profile to csv",
+  "actor_account": "data-slayer",
+  "actor_slug": "linkedin-profile-scraper",
+  "actor_title": "LinkedIn Profile Scraper \u00b7 Fresh \u00b7 No Cookies"
+ },
+ {
+  "slug": "how-to-get-linkedin-profile-data",
+  "priority": "P1",
+  "runs_30d": 10680,
+  "target_query": "how to get linkedin profile data",
+  "actor_account": "data-slayer",
+  "actor_slug": "linkedin-profile-scraper",
+  "actor_title": "LinkedIn Profile Scraper \u00b7 Fresh \u00b7 No Cookies"
+ },
+ {
+  "slug": "linkedin-profile-data-extraction-tool",
+  "priority": "P1",
+  "runs_30d": 10680,
+  "target_query": "linkedin profile data extraction tool",
+  "actor_account": "data-slayer",
+  "actor_slug": "linkedin-profile-scraper",
+  "actor_title": "LinkedIn Profile Scraper \u00b7 Fresh \u00b7 No Cookies"
+ },
+ {
+  "slug": "how-to-scrape-instagram-users-without-getting-blocked",
+  "priority": "P1",
+  "runs_30d": 8427,
+  "target_query": "how to scrape instagram users without getting blocked",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-search-users",
+  "actor_title": "Instagram User Search \u00b7 Find Leads by Keyword \u00b7 No Login"
+ },
+ {
+  "slug": "instagram-users-scraper",
+  "priority": "P1",
+  "runs_30d": 8427,
+  "target_query": "instagram users scraper",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-search-users",
+  "actor_title": "Instagram User Search \u00b7 Find Leads by Keyword \u00b7 No Login"
+ },
+ {
+  "slug": "scrape-instagram-users-without-login",
+  "priority": "P1",
+  "runs_30d": 8427,
+  "target_query": "scrape instagram users without login",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-search-users",
+  "actor_title": "Instagram User Search \u00b7 Find Leads by Keyword \u00b7 No Login"
+ },
+ {
+  "slug": "export-instagram-users-to-csv",
+  "priority": "P1",
+  "runs_30d": 8427,
+  "target_query": "export instagram users to csv",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-search-users",
+  "actor_title": "Instagram User Search \u00b7 Find Leads by Keyword \u00b7 No Login"
+ },
+ {
+  "slug": "how-to-get-instagram-users-data",
+  "priority": "P1",
+  "runs_30d": 8427,
+  "target_query": "how to get instagram users data",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-search-users",
+  "actor_title": "Instagram User Search \u00b7 Find Leads by Keyword \u00b7 No Login"
+ },
+ {
+  "slug": "instagram-users-data-extraction-tool",
+  "priority": "P1",
+  "runs_30d": 8427,
+  "target_query": "instagram users data extraction tool",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-search-users",
+  "actor_title": "Instagram User Search \u00b7 Find Leads by Keyword \u00b7 No Login"
+ },
+ {
+  "slug": "how-to-scrape-linkedin-post-analytics-without-getting-blocked",
+  "priority": "P1",
+  "runs_30d": 7204,
+  "target_query": "how to scrape linkedin post analytics without getting blocked",
+  "actor_account": "data-slayer",
+  "actor_slug": "linkedin-post-analytics-scraper",
+  "actor_title": "LinkedIn Post Performance Scraper"
+ },
+ {
+  "slug": "linkedin-post-analytics-scraper",
+  "priority": "P1",
+  "runs_30d": 7204,
+  "target_query": "linkedin post analytics scraper",
+  "actor_account": "data-slayer",
+  "actor_slug": "linkedin-post-analytics-scraper",
+  "actor_title": "LinkedIn Post Performance Scraper"
+ },
+ {
+  "slug": "scrape-linkedin-post-analytics-without-login",
+  "priority": "P1",
+  "runs_30d": 7204,
+  "target_query": "scrape linkedin post analytics without login",
+  "actor_account": "data-slayer",
+  "actor_slug": "linkedin-post-analytics-scraper",
+  "actor_title": "LinkedIn Post Performance Scraper"
+ },
+ {
+  "slug": "linkedin-post-analytics-api-alternative",
+  "priority": "P1",
+  "runs_30d": 7204,
+  "target_query": "linkedin post analytics api alternative",
+  "actor_account": "data-slayer",
+  "actor_slug": "linkedin-post-analytics-scraper",
+  "actor_title": "LinkedIn Post Performance Scraper"
+ },
+ {
+  "slug": "export-linkedin-post-analytics-to-csv",
+  "priority": "P1",
+  "runs_30d": 7204,
+  "target_query": "export linkedin post analytics to csv",
+  "actor_account": "data-slayer",
+  "actor_slug": "linkedin-post-analytics-scraper",
+  "actor_title": "LinkedIn Post Performance Scraper"
+ },
+ {
+  "slug": "how-to-get-linkedin-post-analytics-data",
+  "priority": "P1",
+  "runs_30d": 7204,
+  "target_query": "how to get linkedin post analytics data",
+  "actor_account": "data-slayer",
+  "actor_slug": "linkedin-post-analytics-scraper",
+  "actor_title": "LinkedIn Post Performance Scraper"
+ },
+ {
+  "slug": "linkedin-post-analytics-data-extraction-tool",
+  "priority": "P1",
+  "runs_30d": 7204,
+  "target_query": "linkedin post analytics data extraction tool",
+  "actor_account": "data-slayer",
+  "actor_slug": "linkedin-post-analytics-scraper",
+  "actor_title": "LinkedIn Post Performance Scraper"
+ },
+ {
+  "slug": "how-to-scrape-twitter-comments-without-getting-blocked",
+  "priority": "P1",
+  "runs_30d": 5580,
+  "target_query": "how to scrape twitter comments without getting blocked",
+  "actor_account": "data-slayer",
+  "actor_slug": "twitter-comments",
+  "actor_title": "Twitter/X Comments Scraper \u00b7 No Cookies"
+ },
+ {
+  "slug": "twitter-comments-scraper",
+  "priority": "P1",
+  "runs_30d": 5580,
+  "target_query": "twitter comments scraper",
+  "actor_account": "data-slayer",
+  "actor_slug": "twitter-comments",
+  "actor_title": "Twitter/X Comments Scraper \u00b7 No Cookies"
+ },
+ {
+  "slug": "twitter-comments-api-alternative",
+  "priority": "P1",
+  "runs_30d": 5580,
+  "target_query": "twitter comments api alternative",
+  "actor_account": "data-slayer",
+  "actor_slug": "twitter-comments",
+  "actor_title": "Twitter/X Comments Scraper \u00b7 No Cookies"
+ },
+ {
+  "slug": "export-twitter-comments-to-csv",
+  "priority": "P1",
+  "runs_30d": 5580,
+  "target_query": "export twitter comments to csv",
+  "actor_account": "data-slayer",
+  "actor_slug": "twitter-comments",
+  "actor_title": "Twitter/X Comments Scraper \u00b7 No Cookies"
+ },
+ {
+  "slug": "find-competitor-and-creator-content-on-twitter-for-social-media-managers",
+  "priority": "P1",
+  "runs_30d": 5580,
+  "target_query": "find competitor and creator content on Twitter for social media managers",
+  "actor_account": "data-slayer",
+  "actor_slug": "twitter-comments",
+  "actor_title": "Twitter/X Comments Scraper \u00b7 No Cookies"
+ },
+ {
+  "slug": "how-to-scrape-linkedin-company-posts-without-getting-blocked",
+  "priority": "P1",
+  "runs_30d": 4885,
+  "target_query": "how to scrape linkedin company posts without getting blocked",
+  "actor_account": "data-slayer",
+  "actor_slug": "linkedin-company-posts-scraper",
+  "actor_title": "LinkedIn Company Posts Scraper"
+ },
+ {
+  "slug": "linkedin-company-posts-scraper",
+  "priority": "P1",
+  "runs_30d": 4885,
+  "target_query": "linkedin company posts scraper",
+  "actor_account": "data-slayer",
+  "actor_slug": "linkedin-company-posts-scraper",
+  "actor_title": "LinkedIn Company Posts Scraper"
+ },
+ {
+  "slug": "scrape-linkedin-company-posts-without-login",
+  "priority": "P1",
+  "runs_30d": 4885,
+  "target_query": "scrape linkedin company posts without login",
+  "actor_account": "data-slayer",
+  "actor_slug": "linkedin-company-posts-scraper",
+  "actor_title": "LinkedIn Company Posts Scraper"
+ },
+ {
+  "slug": "export-linkedin-company-posts-to-csv",
+  "priority": "P1",
+  "runs_30d": 4885,
+  "target_query": "export linkedin company posts to csv",
+  "actor_account": "data-slayer",
+  "actor_slug": "linkedin-company-posts-scraper",
+  "actor_title": "LinkedIn Company Posts Scraper"
+ },
+ {
+  "slug": "how-to-get-linkedin-company-posts-data",
+  "priority": "P1",
+  "runs_30d": 4885,
+  "target_query": "how to get linkedin company posts data",
+  "actor_account": "data-slayer",
+  "actor_slug": "linkedin-company-posts-scraper",
+  "actor_title": "LinkedIn Company Posts Scraper"
+ },
+ {
+  "slug": "linkedin-company-posts-data-extraction-tool",
+  "priority": "P1",
+  "runs_30d": 4885,
+  "target_query": "linkedin company posts data extraction tool",
+  "actor_account": "data-slayer",
+  "actor_slug": "linkedin-company-posts-scraper",
+  "actor_title": "LinkedIn Company Posts Scraper"
+ },
+ {
+  "slug": "how-to-scrape-instagram-reposts-without-getting-blocked",
+  "priority": "P1",
+  "runs_30d": 3793,
+  "target_query": "how to scrape instagram reposts without getting blocked",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-reposts",
+  "actor_title": "Instagram Reposts Scraper \u00b7 Profile Repost History \u00b7 No Login"
+ },
+ {
+  "slug": "scrape-instagram-reposts-without-login",
+  "priority": "P1",
+  "runs_30d": 3793,
+  "target_query": "scrape instagram reposts without login",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-reposts",
+  "actor_title": "Instagram Reposts Scraper \u00b7 Profile Repost History \u00b7 No Login"
+ },
+ {
+  "slug": "instagram-reposts-api-alternative",
+  "priority": "P1",
+  "runs_30d": 3793,
+  "target_query": "instagram reposts api alternative",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-reposts",
+  "actor_title": "Instagram Reposts Scraper \u00b7 Profile Repost History \u00b7 No Login"
+ },
+ {
+  "slug": "export-instagram-reposts-to-csv",
+  "priority": "P1",
+  "runs_30d": 3793,
+  "target_query": "export instagram reposts to csv",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-reposts",
+  "actor_title": "Instagram Reposts Scraper \u00b7 Profile Repost History \u00b7 No Login"
+ },
+ {
+  "slug": "how-to-get-instagram-reposts-data",
+  "priority": "P1",
+  "runs_30d": 3793,
+  "target_query": "how to get instagram reposts data",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-reposts",
+  "actor_title": "Instagram Reposts Scraper \u00b7 Profile Repost History \u00b7 No Login"
+ },
+ {
+  "slug": "instagram-reposts-data-extraction-tool",
+  "priority": "P1",
+  "runs_30d": 3793,
+  "target_query": "instagram reposts data extraction tool",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-reposts",
+  "actor_title": "Instagram Reposts Scraper \u00b7 Profile Repost History \u00b7 No Login"
+ },
+ {
+  "slug": "how-to-scrape-twitter-user-without-getting-blocked",
+  "priority": "P1",
+  "runs_30d": 2790,
+  "target_query": "how to scrape twitter user without getting blocked",
+  "actor_account": "data-slayer",
+  "actor_slug": "twitter-user",
+  "actor_title": "Twitter/X Profile Scraper \u00b7 Bulk Handles, URLs & IDs"
+ },
+ {
+  "slug": "twitter-user-scraper",
+  "priority": "P1",
+  "runs_30d": 2790,
+  "target_query": "twitter user scraper",
+  "actor_account": "data-slayer",
+  "actor_slug": "twitter-user",
+  "actor_title": "Twitter/X Profile Scraper \u00b7 Bulk Handles, URLs & IDs"
+ },
+ {
+  "slug": "twitter-user-api-alternative",
+  "priority": "P1",
+  "runs_30d": 2790,
+  "target_query": "twitter user api alternative",
+  "actor_account": "data-slayer",
+  "actor_slug": "twitter-user",
+  "actor_title": "Twitter/X Profile Scraper \u00b7 Bulk Handles, URLs & IDs"
+ },
+ {
+  "slug": "export-twitter-user-to-csv",
+  "priority": "P1",
+  "runs_30d": 2790,
+  "target_query": "export twitter user to csv",
+  "actor_account": "data-slayer",
+  "actor_slug": "twitter-user",
+  "actor_title": "Twitter/X Profile Scraper \u00b7 Bulk Handles, URLs & IDs"
+ },
+ {
+  "slug": "how-to-get-twitter-user-data",
+  "priority": "P1",
+  "runs_30d": 2790,
+  "target_query": "how to get twitter user data",
+  "actor_account": "data-slayer",
+  "actor_slug": "twitter-user",
+  "actor_title": "Twitter/X Profile Scraper \u00b7 Bulk Handles, URLs & IDs"
+ },
+ {
+  "slug": "how-to-scrape-twitter-data-without-getting-blocked",
+  "priority": "P1",
+  "runs_30d": 2421,
+  "target_query": "how to scrape twitter data without getting blocked",
+  "actor_account": "data-slayer",
+  "actor_slug": "twitter-search",
+  "actor_title": "Twitter/X Search Scraper \u00b7 Small Jobs & Advanced Queries"
+ },
+ {
+  "slug": "twitter-data-scraper",
+  "priority": "P1",
+  "runs_30d": 2421,
+  "target_query": "twitter data scraper",
+  "actor_account": "data-slayer",
+  "actor_slug": "twitter-search",
+  "actor_title": "Twitter/X Search Scraper \u00b7 Small Jobs & Advanced Queries"
+ },
+ {
+  "slug": "scrape-twitter-data-without-login",
+  "priority": "P1",
+  "runs_30d": 2421,
+  "target_query": "scrape twitter data without login",
+  "actor_account": "data-slayer",
+  "actor_slug": "twitter-search",
+  "actor_title": "Twitter/X Search Scraper \u00b7 Small Jobs & Advanced Queries"
+ },
+ {
+  "slug": "export-twitter-data-to-csv",
+  "priority": "P1",
+  "runs_30d": 2421,
+  "target_query": "export twitter data to csv",
+  "actor_account": "data-slayer",
+  "actor_slug": "twitter-search",
+  "actor_title": "Twitter/X Search Scraper \u00b7 Small Jobs & Advanced Queries"
+ },
+ {
+  "slug": "how-to-get-twitter-data-data",
+  "priority": "P1",
+  "runs_30d": 2421,
+  "target_query": "how to get twitter data data",
+  "actor_account": "data-slayer",
+  "actor_slug": "twitter-search",
+  "actor_title": "Twitter/X Search Scraper \u00b7 Small Jobs & Advanced Queries"
+ },
+ {
+  "slug": "how-to-scrape-linkedin-profile-posts-without-getting-blocked",
+  "priority": "P1",
+  "runs_30d": 1208,
+  "target_query": "how to scrape linkedin profile posts without getting blocked",
+  "actor_account": "data-slayer",
+  "actor_slug": "linkedin-profile-posts-scraper",
+  "actor_title": "LinkedIn Profile Posts Scraper"
+ },
+ {
+  "slug": "linkedin-profile-posts-scraper",
+  "priority": "P1",
+  "runs_30d": 1208,
+  "target_query": "linkedin profile posts scraper",
+  "actor_account": "data-slayer",
+  "actor_slug": "linkedin-profile-posts-scraper",
+  "actor_title": "LinkedIn Profile Posts Scraper"
+ },
+ {
+  "slug": "scrape-linkedin-profile-posts-without-login",
+  "priority": "P1",
+  "runs_30d": 1208,
+  "target_query": "scrape linkedin profile posts without login",
+  "actor_account": "data-slayer",
+  "actor_slug": "linkedin-profile-posts-scraper",
+  "actor_title": "LinkedIn Profile Posts Scraper"
+ },
+ {
+  "slug": "linkedin-profile-posts-api-alternative",
+  "priority": "P1",
+  "runs_30d": 1208,
+  "target_query": "linkedin profile posts api alternative",
+  "actor_account": "data-slayer",
+  "actor_slug": "linkedin-profile-posts-scraper",
+  "actor_title": "LinkedIn Profile Posts Scraper"
+ },
+ {
+  "slug": "export-linkedin-profile-posts-to-csv",
+  "priority": "P1",
+  "runs_30d": 1208,
+  "target_query": "export linkedin profile posts to csv",
+  "actor_account": "data-slayer",
+  "actor_slug": "linkedin-profile-posts-scraper",
+  "actor_title": "LinkedIn Profile Posts Scraper"
+ },
+ {
+  "slug": "how-to-get-linkedin-profile-posts-data",
+  "priority": "P1",
+  "runs_30d": 1208,
+  "target_query": "how to get linkedin profile posts data",
+  "actor_account": "data-slayer",
+  "actor_slug": "linkedin-profile-posts-scraper",
+  "actor_title": "LinkedIn Profile Posts Scraper"
+ },
+ {
+  "slug": "linkedin-profile-posts-data-extraction-tool",
+  "priority": "P1",
+  "runs_30d": 1208,
+  "target_query": "linkedin profile posts data extraction tool",
+  "actor_account": "data-slayer",
+  "actor_slug": "linkedin-profile-posts-scraper",
+  "actor_title": "LinkedIn Profile Posts Scraper"
+ },
+ {
+  "slug": "scrape-twitter-user-tweets-without-login",
+  "priority": "P1",
+  "runs_30d": 1064,
+  "target_query": "scrape twitter user tweets without login",
+  "actor_account": "data-slayer",
+  "actor_slug": "twitter-user-tweets",
+  "actor_title": "Twitter/X Tweets Scraper \u00b7 No Cookies"
+ },
+ {
+  "slug": "export-twitter-user-tweets-to-csv",
+  "priority": "P1",
+  "runs_30d": 1064,
+  "target_query": "export twitter user tweets to csv",
+  "actor_account": "data-slayer",
+  "actor_slug": "twitter-user-tweets",
+  "actor_title": "Twitter/X Tweets Scraper \u00b7 No Cookies"
+ },
+ {
+  "slug": "how-to-get-twitter-user-tweets-data",
+  "priority": "P1",
+  "runs_30d": 1064,
+  "target_query": "how to get twitter user tweets data",
+  "actor_account": "data-slayer",
+  "actor_slug": "twitter-user-tweets",
+  "actor_title": "Twitter/X Tweets Scraper \u00b7 No Cookies"
+ },
+ {
+  "slug": "twitter-user-tweets-data-extraction-tool",
+  "priority": "P1",
+  "runs_30d": 1064,
+  "target_query": "twitter user tweets data extraction tool",
+  "actor_account": "data-slayer",
+  "actor_slug": "twitter-user-tweets",
+  "actor_title": "Twitter/X Tweets Scraper \u00b7 No Cookies"
+ },
+ {
+  "slug": "how-to-scrape-instagram-comments-required-without-getting-blocked",
+  "priority": "P1",
+  "runs_30d": 995,
+  "target_query": "how to scrape instagram comments required without getting blocked",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-comments-scraper-no-login-required",
+  "actor_title": "Instagram Comments Scraper with Replies \u00b7 No Login"
+ },
+ {
+  "slug": "instagram-comments-required-scraper",
+  "priority": "P1",
+  "runs_30d": 995,
+  "target_query": "instagram comments required scraper",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-comments-scraper-no-login-required",
+  "actor_title": "Instagram Comments Scraper with Replies \u00b7 No Login"
+ },
+ {
+  "slug": "scrape-instagram-comments-required-without-login",
+  "priority": "P1",
+  "runs_30d": 995,
+  "target_query": "scrape instagram comments required without login",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-comments-scraper-no-login-required",
+  "actor_title": "Instagram Comments Scraper with Replies \u00b7 No Login"
+ },
+ {
+  "slug": "instagram-comments-required-api-alternative",
+  "priority": "P1",
+  "runs_30d": 995,
+  "target_query": "instagram comments required api alternative",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-comments-scraper-no-login-required",
+  "actor_title": "Instagram Comments Scraper with Replies \u00b7 No Login"
+ },
+ {
+  "slug": "export-instagram-comments-required-to-csv",
+  "priority": "P1",
+  "runs_30d": 995,
+  "target_query": "export instagram comments required to csv",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-comments-scraper-no-login-required",
+  "actor_title": "Instagram Comments Scraper with Replies \u00b7 No Login"
+ },
+ {
+  "slug": "how-to-get-instagram-comments-required-data",
+  "priority": "P1",
+  "runs_30d": 995,
+  "target_query": "how to get instagram comments required data",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-comments-scraper-no-login-required",
+  "actor_title": "Instagram Comments Scraper with Replies \u00b7 No Login"
+ },
+ {
+  "slug": "instagram-comments-required-data-extraction-tool",
+  "priority": "P1",
+  "runs_30d": 995,
+  "target_query": "instagram comments required data extraction tool",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-comments-scraper-no-login-required",
+  "actor_title": "Instagram Comments Scraper with Replies \u00b7 No Login"
+ },
+ {
+  "slug": "how-to-scrape-instagram-hashtag-posts-reels-without-getting-blocked",
+  "priority": "P2",
+  "runs_30d": 922,
+  "target_query": "how to scrape instagram hashtag posts reels without getting blocked",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-hashtag-posts-reels-scraper-no-login",
+  "actor_title": "Instagram Hashtag Posts & Reels Scraper \u00b7 No Login"
+ },
+ {
+  "slug": "instagram-hashtag-posts-reels-scraper",
+  "priority": "P2",
+  "runs_30d": 922,
+  "target_query": "instagram hashtag posts reels scraper",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-hashtag-posts-reels-scraper-no-login",
+  "actor_title": "Instagram Hashtag Posts & Reels Scraper \u00b7 No Login"
+ },
+ {
+  "slug": "scrape-instagram-hashtag-posts-reels-without-login",
+  "priority": "P2",
+  "runs_30d": 922,
+  "target_query": "scrape instagram hashtag posts reels without login",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-hashtag-posts-reels-scraper-no-login",
+  "actor_title": "Instagram Hashtag Posts & Reels Scraper \u00b7 No Login"
+ },
+ {
+  "slug": "instagram-hashtag-posts-reels-api-alternative",
+  "priority": "P2",
+  "runs_30d": 922,
+  "target_query": "instagram hashtag posts reels api alternative",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-hashtag-posts-reels-scraper-no-login",
+  "actor_title": "Instagram Hashtag Posts & Reels Scraper \u00b7 No Login"
+ },
+ {
+  "slug": "export-instagram-hashtag-posts-reels-to-csv",
+  "priority": "P2",
+  "runs_30d": 922,
+  "target_query": "export instagram hashtag posts reels to csv",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-hashtag-posts-reels-scraper-no-login",
+  "actor_title": "Instagram Hashtag Posts & Reels Scraper \u00b7 No Login"
+ },
+ {
+  "slug": "how-to-get-instagram-hashtag-posts-reels-data",
+  "priority": "P2",
+  "runs_30d": 922,
+  "target_query": "how to get instagram hashtag posts reels data",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-hashtag-posts-reels-scraper-no-login",
+  "actor_title": "Instagram Hashtag Posts & Reels Scraper \u00b7 No Login"
+ },
+ {
+  "slug": "instagram-hashtag-posts-reels-data-extraction-tool",
+  "priority": "P2",
+  "runs_30d": 922,
+  "target_query": "instagram hashtag posts reels data extraction tool",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-hashtag-posts-reels-scraper-no-login",
+  "actor_title": "Instagram Hashtag Posts & Reels Scraper \u00b7 No Login"
+ },
+ {
+  "slug": "how-to-scrape-facebook-marketplace-without-getting-blocked",
+  "priority": "P2",
+  "runs_30d": 700,
+  "target_query": "how to scrape facebook marketplace without getting blocked",
+  "actor_account": "data-slayer",
+  "actor_slug": "facebook-marketplace-details",
+  "actor_title": "Facebook Marketplace Listing Scraper \u00b7 No Cookies"
+ }
+]

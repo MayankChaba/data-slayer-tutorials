@@ -1,0 +1,47 @@
+name: Publish cadence (use-case drip)
+
+# Server-side article drip. Runs on GitHub's infrastructure, so it is
+# independent of the laptop. Each run publishes `per_day * days_since_last_run`
+# articles from queue/ (capped by the queue), so a missed run — or several — is
+# caught up on the next run. See scripts/drip.py.
+#
+# Runs daily at 09:30 America/Los_Angeles (16:30 UTC during PDT). To move it back
+# to weekdays only, change the cron to "30 16 * * 1-5" and DRIP_PER_DAY stays 3.
+on:
+  schedule:
+    - cron: "30 16 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-cadence
+  cancel-in-progress: false
+
+jobs:
+  drip:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Drip the queue (with catch-up)
+        run: python scripts/drip.py
+
+      - name: Commit + push (triggers the Cloudflare Pages deploy)
+        run: |
+          git config user.name "dataslayer-drip"
+          git config user.email "drip@dataslayer.dev"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "nothing to publish — exiting cleanly"
+            exit 0
+          fi
+          git commit -m "Publish use-case articles (cadence drip)"
+          git push

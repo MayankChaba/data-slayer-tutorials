@@ -3,7 +3,12 @@
 #
 # The hub moves from https://mayankchaba.github.io/data-slayer-tutorials/
 # (GitHub Pages project page) to the domain root at https://dataslayer.dev/
-# Keeping this override separate means the GitHub Pages build (which reads
-# only _config.yml) keeps serving the old URLs until redirects are in place.
+# The old GitHub Pages project site (mayankchaba.github.io/data-slayer-tutorials) is
+# retired; this is the only build that serves the hub now.
 url: "https://dataslayer.dev"
 baseurl: ""
+
+# Keep Pages Functions source out of the built site — it is compiled and
+# deployed by wrangler, never served as a static asset.
+exclude:
+  - functions
