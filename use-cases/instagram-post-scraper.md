@@ -3,7 +3,7 @@ layout: "use-case"
 title: "instagram post scraper"
 description: "Get full details from any Instagram post or Reel by URL — no login. 128 fields: likes, comments, views, shares, saves, reposts, captions, audio metadata…"
 slug: "instagram-post-scraper"
-canonical_url: "https://mayankchaba.github.io/data-slayer-tutorials/use-cases/instagram-post-scraper/"
+canonical_url: "https://dataslayer.dev/use-cases/instagram-post-scraper/"
 date: "2026-10-01"
 tags: ["instagram", "landing", "social media manager"]
 target_keyword: "instagram post scraper"
@@ -305,9 +305,9 @@ If you are a **social media manager**, this replaces the manual Instagram post p
 
 ## Related use cases
 
-- [how to scrape instagram post without getting blocked](https://mayankchaba.github.io/data-slayer-tutorials/use-cases/how-to-scrape-instagram-post-without-getting-blocked/)
-- [how to scrape instagram posts without getting blocked](https://mayankchaba.github.io/data-slayer-tutorials/use-cases/how-to-scrape-instagram-posts-without-getting-blocked/)
-- [instagram posts scraper](https://mayankchaba.github.io/data-slayer-tutorials/use-cases/instagram-posts-scraper/)
+- [how to scrape instagram post without getting blocked](https://dataslayer.dev/use-cases/how-to-scrape-instagram-post-without-getting-blocked/)
+- [how to scrape instagram posts without getting blocked](https://dataslayer.dev/use-cases/how-to-scrape-instagram-posts-without-getting-blocked/)
+- [instagram posts scraper](https://dataslayer.dev/use-cases/instagram-posts-scraper/)
 
 ## Try it now
 

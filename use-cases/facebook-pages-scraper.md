@@ -3,7 +3,7 @@ layout: "use-case"
 title: "facebook pages scraper"
 description: "Search and discover Facebook pages by keyword without login. Get page names, URLs, Facebook IDs, verification status, and profile images. Build prospect…"
 slug: "facebook-pages-scraper"
-canonical_url: "https://mayankchaba.github.io/data-slayer-tutorials/use-cases/facebook-pages-scraper/"
+canonical_url: "https://dataslayer.dev/use-cases/facebook-pages-scraper/"
 date: "2026-10-01"
 tags: ["facebook", "landing", "lead-gen marketer"]
 target_keyword: "facebook pages scraper"
@@ -308,7 +308,7 @@ If you are a **lead-gen marketer**, this replaces the manual Facebook search pag
 
 ## Related use cases
 
-- [how to scrape facebook pages without getting blocked](https://mayankchaba.github.io/data-slayer-tutorials/use-cases/how-to-scrape-facebook-pages-without-getting-blocked/)
+- [how to scrape facebook pages without getting blocked](https://dataslayer.dev/use-cases/how-to-scrape-facebook-pages-without-getting-blocked/)
 
 ## Try it now
 

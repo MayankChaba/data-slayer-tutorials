@@ -3,7 +3,7 @@ layout: "use-case"
 title: "how to scrape instagram stories without getting blocked"
 description: "Capture Instagram Stories from any public profile before they disappear — no login. Get story media URLs, timestamps, stickers, mentions, music info…"
 slug: "how-to-scrape-instagram-stories-without-getting-blocked"
-canonical_url: "https://mayankchaba.github.io/data-slayer-tutorials/use-cases/how-to-scrape-instagram-stories-without-getting-blocked/"
+canonical_url: "https://dataslayer.dev/use-cases/how-to-scrape-instagram-stories-without-getting-blocked/"
 date: "2026-10-01"
 tags: ["instagram", "how-to", "social media manager"]
 target_keyword: "how to scrape instagram stories without getting blocked"
@@ -266,9 +266,9 @@ If you are a **social media manager**, this replaces the manual Instagram storie
 
 ## Related use cases
 
-- [how to scrape instagram post without getting blocked](https://mayankchaba.github.io/data-slayer-tutorials/use-cases/how-to-scrape-instagram-post-without-getting-blocked/)
-- [instagram post scraper](https://mayankchaba.github.io/data-slayer-tutorials/use-cases/instagram-post-scraper/)
-- [how to scrape instagram posts without getting blocked](https://mayankchaba.github.io/data-slayer-tutorials/use-cases/how-to-scrape-instagram-posts-without-getting-blocked/)
+- [how to scrape instagram post without getting blocked](https://dataslayer.dev/use-cases/how-to-scrape-instagram-post-without-getting-blocked/)
+- [instagram post scraper](https://dataslayer.dev/use-cases/instagram-post-scraper/)
+- [how to scrape instagram posts without getting blocked](https://dataslayer.dev/use-cases/how-to-scrape-instagram-posts-without-getting-blocked/)
 
 ## Try it now
 

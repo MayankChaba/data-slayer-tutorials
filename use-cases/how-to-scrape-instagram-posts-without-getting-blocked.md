@@ -3,7 +3,7 @@ layout: "use-case"
 title: "how to scrape instagram posts without getting blocked"
 description: "Scrape all posts from any Instagram profile — no login. Get likes, comments, shares, captions with parsed hashtags & mentions, tagged users…"
 slug: "how-to-scrape-instagram-posts-without-getting-blocked"
-canonical_url: "https://mayankchaba.github.io/data-slayer-tutorials/use-cases/how-to-scrape-instagram-posts-without-getting-blocked/"
+canonical_url: "https://dataslayer.dev/use-cases/how-to-scrape-instagram-posts-without-getting-blocked/"
 date: "2026-10-01"
 tags: ["instagram", "how-to", "social media manager"]
 target_keyword: "how to scrape instagram posts without getting blocked"
@@ -298,9 +298,9 @@ If you are a **social media manager**, this replaces the manual Instagram posts 
 
 ## Related use cases
 
-- [how to scrape instagram post without getting blocked](https://mayankchaba.github.io/data-slayer-tutorials/use-cases/how-to-scrape-instagram-post-without-getting-blocked/)
-- [instagram post scraper](https://mayankchaba.github.io/data-slayer-tutorials/use-cases/instagram-post-scraper/)
-- [instagram posts scraper](https://mayankchaba.github.io/data-slayer-tutorials/use-cases/instagram-posts-scraper/)
+- [how to scrape instagram post without getting blocked](https://dataslayer.dev/use-cases/how-to-scrape-instagram-post-without-getting-blocked/)
+- [instagram post scraper](https://dataslayer.dev/use-cases/instagram-post-scraper/)
+- [instagram posts scraper](https://dataslayer.dev/use-cases/instagram-posts-scraper/)
 
 ## Try it now
 

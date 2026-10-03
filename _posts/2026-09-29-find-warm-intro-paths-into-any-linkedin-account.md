@@ -95,9 +95,9 @@ afternoon of clicking.
 
 ## Going further
 
-- Combine with the [CRM refresh tutorial](/data-slayer-tutorials/tutorials/refresh-your-crm-with-fresh-linkedin-profile-data/)
+- Combine with the [CRM refresh tutorial](https://dataslayer.dev/tutorials/refresh-your-crm-with-fresh-linkedin-profile-data/)
   to keep your connector list current.
-- See [what a target account is posting](/data-slayer-tutorials/tutorials/scrape-linkedin-company-posts-without-cookies/)
+- See [what a target account is posting](https://dataslayer.dev/tutorials/scrape-linkedin-company-posts-without-cookies/)
   so your intro message references something timely.
 
 ## Pricing

@@ -96,9 +96,9 @@ or quarterly and your CRM stops decaying.
 ## Going further
 
 - Feed the refreshed records straight into a sheet or CRM with n8n — see the
-  [automation templates](/data-slayer-tutorials/).
+  [automation templates](https://dataslayer.dev/).
 - Build an account stakeholder map from the same data — see the
-  [company posts tutorial](/data-slayer-tutorials/tutorials/scrape-linkedin-company-posts-without-cookies/)
+  [company posts tutorial](https://dataslayer.dev/tutorials/scrape-linkedin-company-posts-without-cookies/)
   for the account-level view.
 
 ## Pricing

@@ -3,7 +3,7 @@ layout: "use-case"
 title: "instagram post api alternative"
 description: ""
 slug: "instagram-post-api-alternative"
-canonical_url: "https://mayankchaba.github.io/data-slayer-tutorials/use-cases/instagram-post-api-alternative/"
+canonical_url: "https://dataslayer.dev/use-cases/instagram-post-api-alternative/"
 date: "2026-10-02"
 tags: ["instagram", "comparison", "social media manager"]
 target_keyword: "instagram post api alternative"
@@ -296,9 +296,9 @@ If you are a **social media manager**, this replaces the manual Instagram post p
 
 ## Related use cases
 
-- [instagram posts api alternative](https://mayankchaba.github.io/data-slayer-tutorials/use-cases/instagram-posts-api-alternative/)
-- [export instagram user info to csv](https://mayankchaba.github.io/data-slayer-tutorials/use-cases/export-instagram-user-info-to-csv/)
-- [scrape instagram reels without login](https://mayankchaba.github.io/data-slayer-tutorials/use-cases/scrape-instagram-reels-without-login/)
+- [instagram posts api alternative](https://dataslayer.dev/use-cases/instagram-posts-api-alternative/)
+- [export instagram user info to csv](https://dataslayer.dev/use-cases/export-instagram-user-info-to-csv/)
+- [scrape instagram reels without login](https://dataslayer.dev/use-cases/scrape-instagram-reels-without-login/)
 
 ## Try it now
 

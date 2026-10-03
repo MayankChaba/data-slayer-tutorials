@@ -3,7 +3,7 @@ layout: "use-case"
 title: "how to scrape instagram reel analytics without getting blocked"
 description: "Get full details from any Instagram post or Reel by URL — no login. 128 fields: likes, comments, views, shares, saves, reposts, captions, audio metadata…"
 slug: "how-to-scrape-instagram-reel-analytics-without-getting-blocked"
-canonical_url: "https://mayankchaba.github.io/data-slayer-tutorials/use-cases/how-to-scrape-instagram-reel-analytics-without-getting-blocked/"
+canonical_url: "https://dataslayer.dev/use-cases/how-to-scrape-instagram-reel-analytics-without-getting-blocked/"
 date: "2026-10-01"
 tags: ["instagram", "how-to", "social media manager"]
 target_keyword: "how to scrape instagram reel analytics without getting blocked"
@@ -300,9 +300,9 @@ If you are a **social media manager**, this replaces the manual Instagram post p
 
 ## Related use cases
 
-- [how to scrape instagram highlights without getting blocked](https://mayankchaba.github.io/data-slayer-tutorials/use-cases/how-to-scrape-instagram-highlights-without-getting-blocked/)
-- [how to scrape instagram post without getting blocked](https://mayankchaba.github.io/data-slayer-tutorials/use-cases/how-to-scrape-instagram-post-without-getting-blocked/)
-- [how to scrape instagram posts without getting blocked](https://mayankchaba.github.io/data-slayer-tutorials/use-cases/how-to-scrape-instagram-posts-without-getting-blocked/)
+- [how to scrape instagram highlights without getting blocked](https://dataslayer.dev/use-cases/how-to-scrape-instagram-highlights-without-getting-blocked/)
+- [how to scrape instagram post without getting blocked](https://dataslayer.dev/use-cases/how-to-scrape-instagram-post-without-getting-blocked/)
+- [how to scrape instagram posts without getting blocked](https://dataslayer.dev/use-cases/how-to-scrape-instagram-posts-without-getting-blocked/)
 
 ## Try it now
 

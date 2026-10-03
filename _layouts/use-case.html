@@ -27,9 +27,9 @@ layout: default
     {%- if page.actor_url %}
     <a href="{{ page.actor_url }}?utm_source=github&utm_medium=use-case&utm_campaign={{ page.slug }}"><strong>▶ Run {{ page.title | escape }} on Apify →</strong></a><br>
     {%- endif %}
-    <a href="/data-slayer-tutorials/use-cases/">← All use cases</a> ·
-    <a href="/data-slayer-tutorials/actors/">Apify actors</a> ·
-    <a href="/data-slayer-tutorials/">Tutorials home</a>
+    <a href="https://dataslayer.dev/use-cases/">← All use cases</a> ·
+    <a href="https://dataslayer.dev/actors/">Apify actors</a> ·
+    <a href="https://dataslayer.dev/">Tutorials home</a>
   </p>
 </article>
 
@@ -53,8 +53,8 @@ layout: default
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Tutorials", "item": {{ "/data-slayer-tutorials/" | absolute_url | jsonify }} },
-    { "@type": "ListItem", "position": 2, "name": "Use cases", "item": {{ "/data-slayer-tutorials/use-cases/" | absolute_url | jsonify }} },
+    { "@type": "ListItem", "position": 1, "name": "Tutorials", "item": {{ "/" | absolute_url | jsonify }} },
+    { "@type": "ListItem", "position": 2, "name": "Use cases", "item": {{ "/use-cases/" | absolute_url | jsonify }} },
     { "@type": "ListItem", "position": 3, "name": {{ page.title | jsonify }}, "item": {{ page.url | absolute_url | jsonify }} }
   ]
 }

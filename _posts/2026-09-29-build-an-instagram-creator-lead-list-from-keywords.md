@@ -114,9 +114,9 @@ invents contacts or audience estimates.
 ## Going further
 
 - Vet the shortlist's actual engagement with the
-  [post/reel analytics tutorial](/data-slayer-tutorials/tutorials/instagram-post-and-reel-analytics-by-url/).
+  [post/reel analytics tutorial](https://dataslayer.dev/tutorials/instagram-post-and-reel-analytics-by-url/).
 - Push qualified leads straight into a sheet or CRM with n8n — see the
-  [automation templates](/data-slayer-tutorials/).
+  [automation templates](https://dataslayer.dev/).
 
 ## Pricing
 

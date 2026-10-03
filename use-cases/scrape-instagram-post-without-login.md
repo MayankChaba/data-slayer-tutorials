@@ -3,7 +3,7 @@ layout: "use-case"
 title: "scrape instagram post without login"
 description: ""
 slug: "scrape-instagram-post-without-login"
-canonical_url: "https://mayankchaba.github.io/data-slayer-tutorials/use-cases/scrape-instagram-post-without-login/"
+canonical_url: "https://dataslayer.dev/use-cases/scrape-instagram-post-without-login/"
 date: "2026-10-02"
 tags: ["instagram", "how-to", "social media manager"]
 target_keyword: "scrape instagram post without login"
@@ -300,9 +300,9 @@ If you are a **social media manager**, this replaces the manual Instagram post p
 
 ## Related use cases
 
-- [scrape instagram posts without login](https://mayankchaba.github.io/data-slayer-tutorials/use-cases/scrape-instagram-posts-without-login/)
-- [export instagram user info to csv](https://mayankchaba.github.io/data-slayer-tutorials/use-cases/export-instagram-user-info-to-csv/)
-- [scrape instagram reels without login](https://mayankchaba.github.io/data-slayer-tutorials/use-cases/scrape-instagram-reels-without-login/)
+- [scrape instagram posts without login](https://dataslayer.dev/use-cases/scrape-instagram-posts-without-login/)
+- [export instagram user info to csv](https://dataslayer.dev/use-cases/export-instagram-user-info-to-csv/)
+- [scrape instagram reels without login](https://dataslayer.dev/use-cases/scrape-instagram-reels-without-login/)
 
 ## Try it now
 

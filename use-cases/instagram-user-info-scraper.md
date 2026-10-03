@@ -3,7 +3,7 @@ layout: "use-case"
 title: "instagram user info scraper"
 description: "Scrape public Instagram profiles in bulk. Get the published account-creation month, registration country, username-change count, followers, bio, links…"
 slug: "instagram-user-info-scraper"
-canonical_url: "https://mayankchaba.github.io/data-slayer-tutorials/use-cases/instagram-user-info-scraper/"
+canonical_url: "https://dataslayer.dev/use-cases/instagram-user-info-scraper/"
 date: "2026-10-01"
 tags: ["instagram", "landing", "social media manager"]
 target_keyword: "instagram user info scraper"
@@ -300,9 +300,9 @@ If you are a **social media manager**, this replaces the manual Instagram user i
 
 ## Related use cases
 
-- [how to scrape instagram post without getting blocked](https://mayankchaba.github.io/data-slayer-tutorials/use-cases/how-to-scrape-instagram-post-without-getting-blocked/)
-- [instagram post scraper](https://mayankchaba.github.io/data-slayer-tutorials/use-cases/instagram-post-scraper/)
-- [how to scrape instagram posts without getting blocked](https://mayankchaba.github.io/data-slayer-tutorials/use-cases/how-to-scrape-instagram-posts-without-getting-blocked/)
+- [how to scrape instagram post without getting blocked](https://dataslayer.dev/use-cases/how-to-scrape-instagram-post-without-getting-blocked/)
+- [instagram post scraper](https://dataslayer.dev/use-cases/instagram-post-scraper/)
+- [how to scrape instagram posts without getting blocked](https://dataslayer.dev/use-cases/how-to-scrape-instagram-posts-without-getting-blocked/)
 
 ## Try it now
 

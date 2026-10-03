@@ -9,9 +9,9 @@ title: Data Slayer Tutorials
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://mayankchaba.github.io/data-slayer-tutorials/#org",
+      "@id": "https://dataslayer.dev/#org",
       "name": "Data Slayer",
-      "url": "https://mayankchaba.github.io/data-slayer-tutorials/",
+      "url": "https://dataslayer.dev/",
       "sameAs": [
         "https://apify.com/data-slayer",
         "https://github.com/MayankChaba",
@@ -27,14 +27,14 @@ title: Data Slayer Tutorials
       "url": "https://apify.com/data-slayer",
       "description": "Web-scraping and automation actors for LinkedIn, Instagram, Facebook, TikTok and X — no login required.",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-      "publisher": { "@id": "https://mayankchaba.github.io/data-slayer-tutorials/#org" }
+      "publisher": { "@id": "https://dataslayer.dev/#org" }
     },
     {
       "@type": "WebSite",
-      "@id": "https://mayankchaba.github.io/data-slayer-tutorials/#website",
+      "@id": "https://dataslayer.dev/#website",
       "name": "Data Slayer Tutorials",
-      "url": "https://mayankchaba.github.io/data-slayer-tutorials/",
-      "publisher": { "@id": "https://mayankchaba.github.io/data-slayer-tutorials/#org" }
+      "url": "https://dataslayer.dev/",
+      "publisher": { "@id": "https://dataslayer.dev/#org" }
     }
   ]
 }
@@ -55,11 +55,11 @@ and the actor that does the work.
 
 ## Tutorials
 
-- [Scrape LinkedIn company posts without cookies](/data-slayer-tutorials/tutorials/scrape-linkedin-company-posts-without-cookies/) — competitor content audits and engagement benchmarks, no LinkedIn login.
-- [Pull Instagram post & reel analytics by URL](/data-slayer-tutorials/tutorials/instagram-post-and-reel-analytics-by-url/) — views, likes, comments, shares, and saves in bulk.
-- [Refresh your CRM with fresh LinkedIn profile data](/data-slayer-tutorials/tutorials/refresh-your-crm-with-fresh-linkedin-profile-data/) — turn a column of profile URLs into current, clean CRM records.
-- [Find warm intro paths into any LinkedIn account](/data-slayer-tutorials/tutorials/find-warm-intro-paths-into-any-linkedin-account/) — ranked warm paths and the best connector to ask.
-- [Build an Instagram creator lead list from keywords](/data-slayer-tutorials/tutorials/build-an-instagram-creator-lead-list-from-keywords/) — evidence-backed creator outreach lists from keywords and hashtags.
+- [Scrape LinkedIn company posts without cookies](https://dataslayer.dev/tutorials/scrape-linkedin-company-posts-without-cookies/) — competitor content audits and engagement benchmarks, no LinkedIn login.
+- [Pull Instagram post & reel analytics by URL](https://dataslayer.dev/tutorials/instagram-post-and-reel-analytics-by-url/) — views, likes, comments, shares, and saves in bulk.
+- [Refresh your CRM with fresh LinkedIn profile data](https://dataslayer.dev/tutorials/refresh-your-crm-with-fresh-linkedin-profile-data/) — turn a column of profile URLs into current, clean CRM records.
+- [Find warm intro paths into any LinkedIn account](https://dataslayer.dev/tutorials/find-warm-intro-paths-into-any-linkedin-account/) — ranked warm paths and the best connector to ask.
+- [Build an Instagram creator lead list from keywords](https://dataslayer.dev/tutorials/build-an-instagram-creator-lead-list-from-keywords/) — evidence-backed creator outreach lists from keywords and hashtags.
 
 More tutorials are published regularly — each one targets a specific job to be done.
 

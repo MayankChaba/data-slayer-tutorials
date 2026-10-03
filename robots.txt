@@ -21,4 +21,4 @@ Allow: /
 User-agent: Bytespider
 Allow: /
 
-Sitemap: https://mayankchaba.github.io/data-slayer-tutorials/sitemap.xml
+Sitemap: https://dataslayer.dev/sitemap.xml

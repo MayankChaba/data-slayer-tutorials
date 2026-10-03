@@ -97,9 +97,9 @@ Typical analyses:
 ## Going further
 
 - Find *which* creators to analyze in the first place — see
-  [how to build an Instagram creator lead list from keywords](/data-slayer-tutorials/tutorials/build-an-instagram-creator-lead-list-from-keywords/).
+  [how to build an Instagram creator lead list from keywords](https://dataslayer.dev/tutorials/build-an-instagram-creator-lead-list-from-keywords/).
 - Automate the pull weekly into Google Sheets with n8n or Make — see
-  [the automation templates](/data-slayer-tutorials/).
+  [the automation templates](https://dataslayer.dev/).
 
 ## Pricing
 

@@ -9,24 +9,24 @@ Facebook, TikTok and X, and to automate those flows with n8n, Make, or Zapier.
 
 ## Key pages
 
-- Home: https://mayankchaba.github.io/data-slayer-tutorials/
-- Tutorials index: https://mayankchaba.github.io/data-slayer-tutorials/
-- Sitemap: https://mayankchaba.github.io/data-slayer-tutorials/sitemap.xml
+- Home: https://dataslayer.dev/
+- Tutorials index: https://dataslayer.dev/
+- Sitemap: https://dataslayer.dev/sitemap.xml
 
 ## Tutorials
 
-- Scrape LinkedIn company posts without cookies: https://mayankchaba.github.io/data-slayer-tutorials/tutorials/scrape-linkedin-company-posts-without-cookies/
-- Pull Instagram post and reel analytics by URL: https://mayankchaba.github.io/data-slayer-tutorials/tutorials/instagram-post-and-reel-analytics-by-url/
-- Refresh your CRM with fresh LinkedIn profile data: https://mayankchaba.github.io/data-slayer-tutorials/tutorials/refresh-your-crm-with-fresh-linkedin-profile-data/
-- Find warm intro paths into any LinkedIn account: https://mayankchaba.github.io/data-slayer-tutorials/tutorials/find-warm-intro-paths-into-any-linkedin-account/
-- Build an Instagram creator lead list from keywords: https://mayankchaba.github.io/data-slayer-tutorials/tutorials/build-an-instagram-creator-lead-list-from-keywords/
+- Scrape LinkedIn company posts without cookies: https://dataslayer.dev/tutorials/scrape-linkedin-company-posts-without-cookies/
+- Pull Instagram post and reel analytics by URL: https://dataslayer.dev/tutorials/instagram-post-and-reel-analytics-by-url/
+- Refresh your CRM with fresh LinkedIn profile data: https://dataslayer.dev/tutorials/refresh-your-crm-with-fresh-linkedin-profile-data/
+- Find warm intro paths into any LinkedIn account: https://dataslayer.dev/tutorials/find-warm-intro-paths-into-any-linkedin-account/
+- Build an Instagram creator lead list from keywords: https://dataslayer.dev/tutorials/build-an-instagram-creator-lead-list-from-keywords/
 
 ## Actor pages
 
 One page per data-slayer actor (95), each with inputs, outputs, pricing, a runnable example and a one-click run link:
 
-- Actor pages index: https://mayankchaba.github.io/data-slayer-tutorials/actors/
-- Example: https://mayankchaba.github.io/data-slayer-tutorials/actors/instagram-post-details/
+- Actor pages index: https://dataslayer.dev/actors/
+- Example: https://dataslayer.dev/actors/instagram-post-details/
 
 
 
@@ -35,31 +35,31 @@ One page per data-slayer actor (95), each with inputs, outputs, pricing, a runna
 
 Step-by-step guides for the jobs people search for (25 published):
 
-- export instagram user info to csv: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/export-instagram-user-info-to-csv/
-- facebook pages scraper: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/facebook-pages-scraper/
-- how to scrape facebook pages without getting blocked: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/how-to-scrape-facebook-pages-without-getting-blocked/
-- how to scrape instagram highlights without getting blocked: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/how-to-scrape-instagram-highlights-without-getting-blocked/
-- how to scrape instagram post without getting blocked: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/how-to-scrape-instagram-post-without-getting-blocked/
-- how to scrape instagram posts without getting blocked: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/how-to-scrape-instagram-posts-without-getting-blocked/
-- how to scrape instagram profile reels without getting blocked: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/how-to-scrape-instagram-profile-reels-without-getting-blocked/
-- how to scrape instagram reel analytics without getting blocked: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/how-to-scrape-instagram-reel-analytics-without-getting-blocked/
-- how to scrape instagram reels without getting blocked: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/how-to-scrape-instagram-reels-without-getting-blocked/
-- how to scrape instagram stories without getting blocked: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/how-to-scrape-instagram-stories-without-getting-blocked/
-- how to scrape instagram user info without getting blocked: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/how-to-scrape-instagram-user-info-without-getting-blocked/
-- how to scrape twitter user tweets without getting blocked: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/how-to-scrape-twitter-user-tweets-without-getting-blocked/
-- instagram highlights scraper: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/instagram-highlights-scraper/
-- instagram post api alternative: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/instagram-post-api-alternative/
-- instagram post scraper: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/instagram-post-scraper/
-- instagram posts api alternative: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/instagram-posts-api-alternative/
-- instagram posts scraper: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/instagram-posts-scraper/
-- instagram profile reels scraper: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/instagram-profile-reels-scraper/
-- instagram reel analytics scraper: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/instagram-reel-analytics-scraper/
-- instagram reels scraper: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/instagram-reels-scraper/
-- instagram stories scraper: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/instagram-stories-scraper/
-- instagram user info scraper: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/instagram-user-info-scraper/
-- scrape instagram post without login: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/scrape-instagram-post-without-login/
-- scrape instagram posts without login: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/scrape-instagram-posts-without-login/
-- twitter user tweets scraper: https://mayankchaba.github.io/data-slayer-tutorials/use-cases/twitter-user-tweets-scraper/
+- export instagram user info to csv: https://dataslayer.dev/use-cases/export-instagram-user-info-to-csv/
+- facebook pages scraper: https://dataslayer.dev/use-cases/facebook-pages-scraper/
+- how to scrape facebook pages without getting blocked: https://dataslayer.dev/use-cases/how-to-scrape-facebook-pages-without-getting-blocked/
+- how to scrape instagram highlights without getting blocked: https://dataslayer.dev/use-cases/how-to-scrape-instagram-highlights-without-getting-blocked/
+- how to scrape instagram post without getting blocked: https://dataslayer.dev/use-cases/how-to-scrape-instagram-post-without-getting-blocked/
+- how to scrape instagram posts without getting blocked: https://dataslayer.dev/use-cases/how-to-scrape-instagram-posts-without-getting-blocked/
+- how to scrape instagram profile reels without getting blocked: https://dataslayer.dev/use-cases/how-to-scrape-instagram-profile-reels-without-getting-blocked/
+- how to scrape instagram reel analytics without getting blocked: https://dataslayer.dev/use-cases/how-to-scrape-instagram-reel-analytics-without-getting-blocked/
+- how to scrape instagram reels without getting blocked: https://dataslayer.dev/use-cases/how-to-scrape-instagram-reels-without-getting-blocked/
+- how to scrape instagram stories without getting blocked: https://dataslayer.dev/use-cases/how-to-scrape-instagram-stories-without-getting-blocked/
+- how to scrape instagram user info without getting blocked: https://dataslayer.dev/use-cases/how-to-scrape-instagram-user-info-without-getting-blocked/
+- how to scrape twitter user tweets without getting blocked: https://dataslayer.dev/use-cases/how-to-scrape-twitter-user-tweets-without-getting-blocked/
+- instagram highlights scraper: https://dataslayer.dev/use-cases/instagram-highlights-scraper/
+- instagram post api alternative: https://dataslayer.dev/use-cases/instagram-post-api-alternative/
+- instagram post scraper: https://dataslayer.dev/use-cases/instagram-post-scraper/
+- instagram posts api alternative: https://dataslayer.dev/use-cases/instagram-posts-api-alternative/
+- instagram posts scraper: https://dataslayer.dev/use-cases/instagram-posts-scraper/
+- instagram profile reels scraper: https://dataslayer.dev/use-cases/instagram-profile-reels-scraper/
+- instagram reel analytics scraper: https://dataslayer.dev/use-cases/instagram-reel-analytics-scraper/
+- instagram reels scraper: https://dataslayer.dev/use-cases/instagram-reels-scraper/
+- instagram stories scraper: https://dataslayer.dev/use-cases/instagram-stories-scraper/
+- instagram user info scraper: https://dataslayer.dev/use-cases/instagram-user-info-scraper/
+- scrape instagram post without login: https://dataslayer.dev/use-cases/scrape-instagram-post-without-login/
+- scrape instagram posts without login: https://dataslayer.dev/use-cases/scrape-instagram-posts-without-login/
+- twitter user tweets scraper: https://dataslayer.dev/use-cases/twitter-user-tweets-scraper/
 
 ## Actors referenced
 

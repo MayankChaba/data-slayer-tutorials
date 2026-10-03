@@ -2,7 +2,7 @@
 
 Practical tutorials for scraping and automating social platforms with [Apify](https://apify.com) actors.
 
-**Live site:** https://mayankchaba.github.io/data-slayer-tutorials/
+**Live site:** https://dataslayer.dev/
 
 ## Structure
 
@@ -40,7 +40,7 @@ hook). Each tag is inert until its value is set in `_config.yml`:
 
 ### Search Console setup (project-site property)
 
-1. Create a **URL-prefix** property for `https://mayankchaba.github.io/data-slayer-tutorials/`
+1. Create a **URL-prefix** property for `https://dataslayer.dev/`
    (a Domain property needs DNS, which `github.io` does not allow).
 2. Verify with the **HTML tag** method → paste the token into `google_site_verification`,
    or use the **HTML file** method → drop the `googleXXXX.html` file at the repo root.

@@ -3,7 +3,7 @@ layout: "use-case"
 title: "twitter user tweets scraper"
 description: "Extract tweets from any public Twitter/X account without login. Get full tweet text, likes, retweets, replies, bookmarks, views, media attachments…"
 slug: "twitter-user-tweets-scraper"
-canonical_url: "https://mayankchaba.github.io/data-slayer-tutorials/use-cases/twitter-user-tweets-scraper/"
+canonical_url: "https://dataslayer.dev/use-cases/twitter-user-tweets-scraper/"
 date: "2026-10-01"
 tags: ["twitter", "landing", "social media manager"]
 target_keyword: "twitter user tweets scraper"
@@ -303,7 +303,7 @@ If you are a **social media manager**, this replaces the manual Twitter user twe
 
 ## Related use cases
 
-- [how to scrape twitter user tweets without getting blocked](https://mayankchaba.github.io/data-slayer-tutorials/use-cases/how-to-scrape-twitter-user-tweets-without-getting-blocked/)
+- [how to scrape twitter user tweets without getting blocked](https://dataslayer.dev/use-cases/how-to-scrape-twitter-user-tweets-without-getting-blocked/)
 
 ## Try it now
 

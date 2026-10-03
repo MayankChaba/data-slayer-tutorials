@@ -3,7 +3,7 @@ layout: "use-case"
 title: "export instagram user info to csv"
 description: ""
 slug: "export-instagram-user-info-to-csv"
-canonical_url: "https://mayankchaba.github.io/data-slayer-tutorials/use-cases/export-instagram-user-info-to-csv/"
+canonical_url: "https://dataslayer.dev/use-cases/export-instagram-user-info-to-csv/"
 date: "2026-10-02"
 tags: ["instagram", "how-to", "social media manager"]
 target_keyword: "export instagram user info to csv"
@@ -298,9 +298,9 @@ If you are a **social media manager**, this replaces the manual Instagram user i
 
 ## Related use cases
 
-- [instagram post api alternative](https://mayankchaba.github.io/data-slayer-tutorials/use-cases/instagram-post-api-alternative/)
-- [instagram posts api alternative](https://mayankchaba.github.io/data-slayer-tutorials/use-cases/instagram-posts-api-alternative/)
-- [scrape instagram reels without login](https://mayankchaba.github.io/data-slayer-tutorials/use-cases/scrape-instagram-reels-without-login/)
+- [instagram post api alternative](https://dataslayer.dev/use-cases/instagram-post-api-alternative/)
+- [instagram posts api alternative](https://dataslayer.dev/use-cases/instagram-posts-api-alternative/)
+- [scrape instagram reels without login](https://dataslayer.dev/use-cases/scrape-instagram-reels-without-login/)
 
 ## Try it now
 

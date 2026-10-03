@@ -101,9 +101,9 @@ curl "https://api.apify.com/v2/datasets/<DATASET_ID>/items?format=json"
 ## Going further
 
 - Track the *people* engaging with these posts — see the
-  [LinkedIn profile scraper CRM-refresh tutorial](/data-slayer-tutorials/tutorials/refresh-your-crm-with-fresh-linkedin-profile-data/).
+  [LinkedIn profile scraper CRM-refresh tutorial](https://dataslayer.dev/tutorials/refresh-your-crm-with-fresh-linkedin-profile-data/).
 - Want warm-intro paths into a target company? See
-  [how to find warm paths into any LinkedIn account](/data-slayer-tutorials/tutorials/find-warm-intro-paths-into-any-linkedin-account/).
+  [how to find warm paths into any LinkedIn account](https://dataslayer.dev/tutorials/find-warm-intro-paths-into-any-linkedin-account/).
 
 ## Pricing
 
@@ -121,4 +121,4 @@ for the current per-event price.
 
 **Can I scrape multiple companies?** Run the actor once per company, or use Apify's
 API to chain runs. For a scheduled, multi-company monitor, wire it into n8n or Make
-with our [automation templates](/data-slayer-tutorials/).
+with our [automation templates](https://dataslayer.dev/).
