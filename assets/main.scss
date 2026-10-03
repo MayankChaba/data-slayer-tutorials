@@ -1,0 +1,138 @@
+---
+# Dark theme override for the Data Slayer tutorials hub.
+# Replaces minima's default stylesheet so the hub matches the root landing
+# (https://mayankchaba.github.io/) — coherent dark palette across the site.
+---
+:root{
+  --bg:#0b1020; --panel:#141a2e; --panel-2:#1b2340; --text:#e8ecf8;
+  --muted:#9aa4c4; --accent:#7c9cff; --accent-2:#4ade80; --line:#26304f;
+  --max:1040px; --radius:16px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background:radial-gradient(1200px 600px at 50% -200px,#1a2445 0%,var(--bg) 55%) no-repeat,var(--bg);
+  color:var(--text);
+  font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrapper{max-width:var(--max);margin:0 auto;padding:0 22px}
+
+/* ── header / nav ─────────────────────────────────────────────── */
+.site-header{
+  border-bottom:1px solid var(--line);
+  padding:16px 0;
+  background:rgba(11,16,32,.7);
+  -webkit-backdrop-filter:blur(8px);
+  backdrop-filter:blur(8px);
+}
+.site-header .wrapper{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.site-title{
+  font-weight:700;letter-spacing:.2px;color:var(--text);font-size:18px;
+  display:inline-flex;align-items:center;gap:10px;
+}
+.site-title::before{
+  content:"";width:12px;height:12px;border-radius:4px;
+  background:linear-gradient(135deg,var(--accent),var(--accent-2));display:inline-block;
+}
+.site-title:hover{text-decoration:none}
+.site-nav{display:flex;align-items:center;gap:6px;position:relative}
+.site-nav .nav-trigger{position:absolute;opacity:0;pointer-events:none}
+.site-nav .menu-icon{display:none;cursor:pointer;color:var(--text)}
+.site-nav .menu-icon svg{fill:currentColor;display:block}
+.site-nav .trigger{display:flex;align-items:center;gap:4px}
+.site-nav .page-link{color:var(--muted);padding:8px 12px;border-radius:10px;font-size:14.5px}
+.site-nav .page-link:hover{color:var(--text);background:rgba(255,255,255,.05);text-decoration:none}
+@media (max-width:640px){
+  .site-nav .menu-icon{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border:1px solid var(--line);border-radius:10px}
+  .site-nav .trigger{
+    display:none;flex-direction:column;align-items:stretch;gap:2px;
+    position:absolute;right:0;top:48px;min-width:220px;
+    background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:8px;z-index:30;
+    box-shadow:0 18px 40px rgba(0,0,0,.45);
+  }
+  .site-nav .nav-trigger:checked ~ .trigger{display:flex}
+}
+
+/* ── page shell ───────────────────────────────────────────────── */
+.page-content{padding:40px 0 60px}
+
+/* ── article ──────────────────────────────────────────────────── */
+.post-title{
+  font-size:clamp(28px,4.5vw,42px);line-height:1.1;margin:0 0 10px;
+  letter-spacing:-.02em;color:var(--text);
+}
+.post-meta{color:var(--muted);font-size:14.5px;margin:0 0 26px}
+.post-content{font-size:16.5px}
+.post-content h1,.post-content h2,.post-content h3,.post-content h4{color:var(--text);letter-spacing:-.01em;line-height:1.25}
+.post-content h2{font-size:clamp(21px,3vw,27px);margin:2em 0 .5em}
+.post-content h3{font-size:19px;margin:1.6em 0 .4em}
+.post-content h4{font-size:16.5px;margin:1.4em 0 .3em;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+.post-content p{margin:0 0 1.05em}
+.post-content ul,.post-content ol{padding-left:1.35em;margin:0 0 1.1em}
+.post-content li{margin:.35em 0}
+.post-content strong{color:#fff}
+.post-content img{max-width:100%;height:auto;border-radius:var(--radius);border:1px solid var(--line)}
+.post-content hr{border:0;border-top:1px solid var(--line);margin:2.2em 0}
+
+/* ── code ─────────────────────────────────────────────────────── */
+code,pre,kbd{
+  font-family:ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,"Liberation Mono",monospace;
+  font-size:.92em;
+}
+:not(pre) > code{
+  background:var(--panel-2);border:1px solid var(--line);border-radius:6px;
+  padding:.12em .42em;color:#dbe3ff;
+}
+pre{
+  background:var(--panel);border:1px solid var(--line);border-radius:12px;
+  padding:16px 18px;overflow:auto;margin:1.2em 0;line-height:1.55;
+}
+pre code{background:none;border:0;padding:0;color:var(--text)}
+
+/* rouge / syntax highlighting (dark) */
+.highlight{background:var(--panel);border:1px solid var(--line);border-radius:12px;margin:1.2em 0}
+.highlight pre{background:none;border:0;border-radius:0;margin:0}
+.highlight .c,.highlight .c1,.highlight .cm,.highlight .cs{color:#6b7aa1;font-style:italic}
+.highlight .k,.highlight .kc,.highlight .kd,.highlight .kn,.highlight .kp,.highlight .kr,.highlight .kt{color:#c792ea}
+.highlight .s,.highlight .s1,.highlight .s2,.highlight .sb,.highlight .sc,.highlight .sd,.highlight .se,.highlight .sh,.highlight .si,.highlight .sr,.highlight .ss,.highlight .sx{color:#4ade80}
+.highlight .na,.highlight .nb,.highlight .bp,.highlight .nc,.highlight .nd,.highlight .ne,.highlight .nf,.highlight .fm,.highlight .nl,.highlight .nn,.highlight .nx,.highlight .py,.highlight .vc,.highlight .vg,.highlight .vi{color:#7c9cff}
+.highlight .m,.highlight .mb,.highlight .mf,.highlight .mh,.highlight .mi,.highlight .il,.highlight .mo{color:#f78c6c}
+.highlight .o,.highlight .ow{color:#89ddff}
+.highlight .p,.highlight .w,.highlight .pi{color:#9aa4c4}
+.highlight .gd{color:#ff7b72}
+.highlight .gi{color:#4ade80}
+.highlight .gh,.highlight .gu{color:#7c9cff}
+.highlight .gs{font-weight:700}
+.highlight .err{color:#ff7b72;background:rgba(255,123,114,.1)}
+
+/* ── tables / quotes ──────────────────────────────────────────── */
+.post-content table{width:100%;border-collapse:collapse;margin:1.3em 0;font-size:14.5px;display:block;overflow-x:auto}
+.post-content th,.post-content td{border:1px solid var(--line);padding:10px 13px;text-align:left;vertical-align:top}
+.post-content th{background:var(--panel-2);color:#fff;font-weight:650}
+.post-content tr:nth-child(even) td{background:rgba(255,255,255,.02)}
+.post-content blockquote{
+  margin:1.3em 0;padding:.35em 1.1em;color:var(--muted);
+  border-left:3px solid var(--accent);background:rgba(124,156,255,.06);
+  border-radius:0 12px 12px 0;
+}
+.post-content blockquote p:last-child{margin-bottom:0}
+
+/* CTA buttons in article body (minima renders <a><strong>) */
+.post-content > p a[href*="apify.com"] strong{color:var(--accent-2)}
+
+/* ── footer ───────────────────────────────────────────────────── */
+.site-footer{border-top:1px solid var(--line);margin-top:24px;padding:32px 0 52px;color:var(--muted);font-size:14px}
+.site-footer .wrapper{}
+.footer-heading{color:var(--text);font-size:15px;margin:0 0 12px}
+.footer-col-wrapper{display:flex;gap:32px;flex-wrap:wrap}
+.footer-col{flex:1 1 220px}
+.contact-list,.social-media-list{list-style:none;padding:0;margin:0}
+.contact-list li,.social-media-list li{margin:.3em 0}
+.contact-list a,.social-media-list a{color:var(--muted)}
+.contact-list a:hover,.social-media-list a:hover{color:var(--text)}
+.social-media-list .svg-icon{width:18px;height:18px;margin-right:8px;fill:currentColor;vertical-align:-3px}
+.footer-col p{margin:0}

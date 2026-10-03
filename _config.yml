@@ -12,7 +12,7 @@ plugins:
   - jekyll-sitemap
 
 # Analytics & search-console verification — uncomment a key and set its ID to enable.
-# google_analytics: "G-XXXXXXXXXX"       # Google Analytics 4 measurement ID
+google_analytics: "G-EGML6K3LJ0"       # Google Analytics 4 measurement ID
 # clarity_project_id: "XXXXXXXX"         # Microsoft Clarity project ID
 # google_site_verification: "TOKEN"      # Search Console HTML-tag token (URL-prefix property)
 markdown: kramdown
