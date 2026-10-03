@@ -1,14 +1,5 @@
 [
  {
-  "slug": "export-instagram-post-to-csv",
-  "priority": "P1",
-  "runs_30d": 323913,
-  "target_query": "export instagram post to csv",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-post-details",
-  "actor_title": "Instagram Post & Reel Details Scraper \u00b7 No Login"
- },
- {
   "slug": "find-competitor-and-creator-content-on-instagram-for-social-media-managers",
   "priority": "P1",
   "runs_30d": 323913,
@@ -27,15 +18,6 @@
   "actor_title": "Instagram Post & Reel Details Scraper \u00b7 No Login"
  },
  {
-  "slug": "export-instagram-posts-to-csv",
-  "priority": "P1",
-  "runs_30d": 174444,
-  "target_query": "export instagram posts to csv",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-posts",
-  "actor_title": "Instagram Profile Posts & Reels Scraper \u00b7 No Login"
- },
- {
   "slug": "how-to-get-instagram-posts-data",
   "priority": "P1",
   "runs_30d": 174444,
@@ -43,15 +25,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "instagram-posts",
   "actor_title": "Instagram Profile Posts & Reels Scraper \u00b7 No Login"
- },
- {
-  "slug": "how-to-get-instagram-user-info-data",
-  "priority": "P1",
-  "runs_30d": 41682,
-  "target_query": "how to get instagram user info data",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-user-info-scraper-cookieless",
-  "actor_title": "Instagram Profile Scraper \u00b7 Account Age & Verified Emails"
  },
  {
   "slug": "instagram-user-info-data-extraction-tool",
