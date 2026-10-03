@@ -1,14 +1,5 @@
 [
  {
-  "slug": "find-competitor-and-creator-content-on-instagram-for-social-media-managers",
-  "priority": "P1",
-  "runs_30d": 323913,
-  "target_query": "find competitor and creator content on Instagram for social media managers",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-post-details",
-  "actor_title": "Instagram Post & Reel Details Scraper \u00b7 No Login"
- },
- {
   "slug": "how-to-get-instagram-post-data",
   "priority": "P1",
   "runs_30d": 323913,
@@ -16,24 +7,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "instagram-post-details",
   "actor_title": "Instagram Post & Reel Details Scraper \u00b7 No Login"
- },
- {
-  "slug": "how-to-get-instagram-posts-data",
-  "priority": "P1",
-  "runs_30d": 174444,
-  "target_query": "how to get instagram posts data",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-posts",
-  "actor_title": "Instagram Profile Posts & Reels Scraper \u00b7 No Login"
- },
- {
-  "slug": "instagram-user-info-data-extraction-tool",
-  "priority": "P1",
-  "runs_30d": 41682,
-  "target_query": "instagram user info data extraction tool",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-user-info-scraper-cookieless",
-  "actor_title": "Instagram Profile Scraper \u00b7 Account Age & Verified Emails"
  },
  {
   "slug": "scrape-instagram-reels-without-login",
