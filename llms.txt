@@ -33,15 +33,17 @@ One page per data-slayer actor (95), each with inputs, outputs, pricing, a runna
 
 
 
+
 ## Use cases
 
-Step-by-step guides for the jobs people search for (31 published):
+Step-by-step guides for the jobs people search for (34 published):
 
 - export instagram post to csv: https://dataslayer.dev/use-cases/export-instagram-post-to-csv/
 - export instagram posts to csv: https://dataslayer.dev/use-cases/export-instagram-posts-to-csv/
 - export instagram user info to csv: https://dataslayer.dev/use-cases/export-instagram-user-info-to-csv/
 - facebook pages scraper: https://dataslayer.dev/use-cases/facebook-pages-scraper/
 - find competitor and creator content on Instagram for social media managers: https://dataslayer.dev/use-cases/find-competitor-and-creator-content-on-instagram-for-social-media-managers/
+- how to get instagram post data: https://dataslayer.dev/use-cases/how-to-get-instagram-post-data/
 - how to get instagram posts data: https://dataslayer.dev/use-cases/how-to-get-instagram-posts-data/
 - how to get instagram user info data: https://dataslayer.dev/use-cases/how-to-get-instagram-user-info-data/
 - how to scrape facebook pages without getting blocked: https://dataslayer.dev/use-cases/how-to-scrape-facebook-pages-without-getting-blocked/
@@ -67,6 +69,8 @@ Step-by-step guides for the jobs people search for (31 published):
 - instagram user info scraper: https://dataslayer.dev/use-cases/instagram-user-info-scraper/
 - scrape instagram post without login: https://dataslayer.dev/use-cases/scrape-instagram-post-without-login/
 - scrape instagram posts without login: https://dataslayer.dev/use-cases/scrape-instagram-posts-without-login/
+- scrape instagram profile reels without login: https://dataslayer.dev/use-cases/scrape-instagram-profile-reels-without-login/
+- scrape instagram reels without login: https://dataslayer.dev/use-cases/scrape-instagram-reels-without-login/
 - twitter user tweets scraper: https://dataslayer.dev/use-cases/twitter-user-tweets-scraper/
 
 ## Actors referenced

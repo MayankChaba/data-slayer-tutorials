@@ -1,23 +1,5 @@
 [
  {
-  "slug": "how-to-get-instagram-post-data",
-  "priority": "P1",
-  "runs_30d": 323913,
-  "target_query": "how to get instagram post data",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-post-details",
-  "actor_title": "Instagram Post & Reel Details Scraper \u00b7 No Login"
- },
- {
-  "slug": "scrape-instagram-reels-without-login",
-  "priority": "P1",
-  "runs_30d": 29725,
-  "target_query": "scrape instagram reels without login",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-search-reels",
-  "actor_title": "Instagram Reels Search & Trend Discovery \u00b7 No Login"
- },
- {
   "slug": "instagram-reels-api-alternative",
   "priority": "P1",
   "runs_30d": 29725,
@@ -52,15 +34,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "instagram-search-reels",
   "actor_title": "Instagram Reels Search & Trend Discovery \u00b7 No Login"
- },
- {
-  "slug": "scrape-instagram-profile-reels-without-login",
-  "priority": "P1",
-  "runs_30d": 25579,
-  "target_query": "scrape instagram profile reels without login",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-profile-reels",
-  "actor_title": "Instagram Profile Reels Scraper \u00b7 No Login"
  },
  {
   "slug": "instagram-profile-reels-api-alternative",
