@@ -34,9 +34,10 @@ One page per data-slayer actor (95), each with inputs, outputs, pricing, a runna
 
 
 
+
 ## Use cases
 
-Step-by-step guides for the jobs people search for (34 published):
+Step-by-step guides for the jobs people search for (37 published):
 
 - export instagram post to csv: https://dataslayer.dev/use-cases/export-instagram-post-to-csv/
 - export instagram posts to csv: https://dataslayer.dev/use-cases/export-instagram-posts-to-csv/
@@ -61,8 +62,10 @@ Step-by-step guides for the jobs people search for (34 published):
 - instagram post scraper: https://dataslayer.dev/use-cases/instagram-post-scraper/
 - instagram posts api alternative: https://dataslayer.dev/use-cases/instagram-posts-api-alternative/
 - instagram posts scraper: https://dataslayer.dev/use-cases/instagram-posts-scraper/
+- instagram profile reels api alternative: https://dataslayer.dev/use-cases/instagram-profile-reels-api-alternative/
 - instagram profile reels scraper: https://dataslayer.dev/use-cases/instagram-profile-reels-scraper/
 - instagram reel analytics scraper: https://dataslayer.dev/use-cases/instagram-reel-analytics-scraper/
+- instagram reels api alternative: https://dataslayer.dev/use-cases/instagram-reels-api-alternative/
 - instagram reels scraper: https://dataslayer.dev/use-cases/instagram-reels-scraper/
 - instagram stories scraper: https://dataslayer.dev/use-cases/instagram-stories-scraper/
 - instagram user info data extraction tool: https://dataslayer.dev/use-cases/instagram-user-info-data-extraction-tool/
@@ -71,6 +74,7 @@ Step-by-step guides for the jobs people search for (34 published):
 - scrape instagram posts without login: https://dataslayer.dev/use-cases/scrape-instagram-posts-without-login/
 - scrape instagram profile reels without login: https://dataslayer.dev/use-cases/scrape-instagram-profile-reels-without-login/
 - scrape instagram reels without login: https://dataslayer.dev/use-cases/scrape-instagram-reels-without-login/
+- scrape instagram stories without login: https://dataslayer.dev/use-cases/scrape-instagram-stories-without-login/
 - twitter user tweets scraper: https://dataslayer.dev/use-cases/twitter-user-tweets-scraper/
 
 ## Actors referenced

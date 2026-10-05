@@ -1,14 +1,5 @@
 [
  {
-  "slug": "instagram-reels-api-alternative",
-  "priority": "P1",
-  "runs_30d": 29725,
-  "target_query": "instagram reels api alternative",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-search-reels",
-  "actor_title": "Instagram Reels Search & Trend Discovery \u00b7 No Login"
- },
- {
   "slug": "export-instagram-reels-to-csv",
   "priority": "P1",
   "runs_30d": 29725,
@@ -36,15 +27,6 @@
   "actor_title": "Instagram Reels Search & Trend Discovery \u00b7 No Login"
  },
  {
-  "slug": "instagram-profile-reels-api-alternative",
-  "priority": "P1",
-  "runs_30d": 25579,
-  "target_query": "instagram profile reels api alternative",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-profile-reels",
-  "actor_title": "Instagram Profile Reels Scraper \u00b7 No Login"
- },
- {
   "slug": "export-instagram-profile-reels-to-csv",
   "priority": "P1",
   "runs_30d": 25579,
@@ -70,15 +52,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "instagram-profile-reels",
   "actor_title": "Instagram Profile Reels Scraper \u00b7 No Login"
- },
- {
-  "slug": "scrape-instagram-stories-without-login",
-  "priority": "P1",
-  "runs_30d": 16774,
-  "target_query": "scrape instagram stories without login",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-stories-scraper",
-  "actor_title": "Instagram Stories Scraper \u00b7 No Login"
  },
  {
   "slug": "export-instagram-stories-to-csv",
