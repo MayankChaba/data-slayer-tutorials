@@ -35,12 +35,16 @@ One page per data-slayer actor (95), each with inputs, outputs, pricing, a runna
 
 
 
+
 ## Use cases
 
-Step-by-step guides for the jobs people search for (37 published):
+Step-by-step guides for the jobs people search for (40 published):
 
 - export instagram post to csv: https://dataslayer.dev/use-cases/export-instagram-post-to-csv/
 - export instagram posts to csv: https://dataslayer.dev/use-cases/export-instagram-posts-to-csv/
+- export instagram profile reels to csv: https://dataslayer.dev/use-cases/export-instagram-profile-reels-to-csv/
+- export instagram reels to csv: https://dataslayer.dev/use-cases/export-instagram-reels-to-csv/
+- export instagram stories to csv: https://dataslayer.dev/use-cases/export-instagram-stories-to-csv/
 - export instagram user info to csv: https://dataslayer.dev/use-cases/export-instagram-user-info-to-csv/
 - facebook pages scraper: https://dataslayer.dev/use-cases/facebook-pages-scraper/
 - find competitor and creator content on Instagram for social media managers: https://dataslayer.dev/use-cases/find-competitor-and-creator-content-on-instagram-for-social-media-managers/
