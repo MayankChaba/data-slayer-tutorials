@@ -8,7 +8,12 @@
 url: "https://dataslayer.dev"
 baseurl: ""
 
-# Keep Pages Functions source out of the built site — it is compiled and
-# deployed by wrangler, never served as a static asset.
+# Keep non-content source out of the built site:
+#   functions  — Pages Functions source, compiled and deployed by wrangler.
+#   queue      — internal publish queue (queue.json, state.json, staged drafts).
+#                Must never be served or indexed: the staged draft at
+#                /queue/articles/<slug>/ duplicates the published
+#                /use-cases/<slug>/ page and would compete with it in search.
 exclude:
   - functions
+  - queue
