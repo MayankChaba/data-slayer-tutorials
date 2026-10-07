@@ -1,14 +1,5 @@
 [
  {
-  "slug": "how-to-get-instagram-reels-data",
-  "priority": "P1",
-  "runs_30d": 29725,
-  "target_query": "how to get instagram reels data",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-search-reels",
-  "actor_title": "Instagram Reels Search & Trend Discovery \u00b7 No Login"
- },
- {
   "slug": "instagram-reels-data-extraction-tool",
   "priority": "P1",
   "runs_30d": 29725,
@@ -18,15 +9,6 @@
   "actor_title": "Instagram Reels Search & Trend Discovery \u00b7 No Login"
  },
  {
-  "slug": "how-to-get-instagram-profile-reels-data",
-  "priority": "P1",
-  "runs_30d": 25579,
-  "target_query": "how to get instagram profile reels data",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-profile-reels",
-  "actor_title": "Instagram Profile Reels Scraper \u00b7 No Login"
- },
- {
   "slug": "instagram-profile-reels-data-extraction-tool",
   "priority": "P1",
   "runs_30d": 25579,
@@ -34,15 +16,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "instagram-profile-reels",
   "actor_title": "Instagram Profile Reels Scraper \u00b7 No Login"
- },
- {
-  "slug": "how-to-get-instagram-stories-data",
-  "priority": "P1",
-  "runs_30d": 16774,
-  "target_query": "how to get instagram stories data",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-stories-scraper",
-  "actor_title": "Instagram Stories Scraper \u00b7 No Login"
  },
  {
   "slug": "instagram-stories-data-extraction-tool",

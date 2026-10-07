@@ -36,9 +36,10 @@ One page per data-slayer actor (95), each with inputs, outputs, pricing, a runna
 
 
 
+
 ## Use cases
 
-Step-by-step guides for the jobs people search for (40 published):
+Step-by-step guides for the jobs people search for (43 published):
 
 - export instagram post to csv: https://dataslayer.dev/use-cases/export-instagram-post-to-csv/
 - export instagram posts to csv: https://dataslayer.dev/use-cases/export-instagram-posts-to-csv/
@@ -50,6 +51,9 @@ Step-by-step guides for the jobs people search for (40 published):
 - find competitor and creator content on Instagram for social media managers: https://dataslayer.dev/use-cases/find-competitor-and-creator-content-on-instagram-for-social-media-managers/
 - how to get instagram post data: https://dataslayer.dev/use-cases/how-to-get-instagram-post-data/
 - how to get instagram posts data: https://dataslayer.dev/use-cases/how-to-get-instagram-posts-data/
+- how to get instagram profile reels data: https://dataslayer.dev/use-cases/how-to-get-instagram-profile-reels-data/
+- how to get instagram reels data: https://dataslayer.dev/use-cases/how-to-get-instagram-reels-data/
+- how to get instagram stories data: https://dataslayer.dev/use-cases/how-to-get-instagram-stories-data/
 - how to get instagram user info data: https://dataslayer.dev/use-cases/how-to-get-instagram-user-info-data/
 - how to scrape facebook pages without getting blocked: https://dataslayer.dev/use-cases/how-to-scrape-facebook-pages-without-getting-blocked/
 - how to scrape instagram highlights without getting blocked: https://dataslayer.dev/use-cases/how-to-scrape-instagram-highlights-without-getting-blocked/
