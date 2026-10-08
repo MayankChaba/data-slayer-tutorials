@@ -37,9 +37,10 @@ One page per data-slayer actor (95), each with inputs, outputs, pricing, a runna
 
 
 
+
 ## Use cases
 
-Step-by-step guides for the jobs people search for (43 published):
+Step-by-step guides for the jobs people search for (46 published):
 
 - export instagram post to csv: https://dataslayer.dev/use-cases/export-instagram-post-to-csv/
 - export instagram posts to csv: https://dataslayer.dev/use-cases/export-instagram-posts-to-csv/
@@ -71,10 +72,13 @@ Step-by-step guides for the jobs people search for (43 published):
 - instagram posts api alternative: https://dataslayer.dev/use-cases/instagram-posts-api-alternative/
 - instagram posts scraper: https://dataslayer.dev/use-cases/instagram-posts-scraper/
 - instagram profile reels api alternative: https://dataslayer.dev/use-cases/instagram-profile-reels-api-alternative/
+- instagram profile reels data extraction tool: https://dataslayer.dev/use-cases/instagram-profile-reels-data-extraction-tool/
 - instagram profile reels scraper: https://dataslayer.dev/use-cases/instagram-profile-reels-scraper/
 - instagram reel analytics scraper: https://dataslayer.dev/use-cases/instagram-reel-analytics-scraper/
 - instagram reels api alternative: https://dataslayer.dev/use-cases/instagram-reels-api-alternative/
+- instagram reels data extraction tool: https://dataslayer.dev/use-cases/instagram-reels-data-extraction-tool/
 - instagram reels scraper: https://dataslayer.dev/use-cases/instagram-reels-scraper/
+- instagram stories data extraction tool: https://dataslayer.dev/use-cases/instagram-stories-data-extraction-tool/
 - instagram stories scraper: https://dataslayer.dev/use-cases/instagram-stories-scraper/
 - instagram user info data extraction tool: https://dataslayer.dev/use-cases/instagram-user-info-data-extraction-tool/
 - instagram user info scraper: https://dataslayer.dev/use-cases/instagram-user-info-scraper/

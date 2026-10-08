@@ -1,32 +1,5 @@
 [
  {
-  "slug": "instagram-reels-data-extraction-tool",
-  "priority": "P1",
-  "runs_30d": 29725,
-  "target_query": "instagram reels data extraction tool",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-search-reels",
-  "actor_title": "Instagram Reels Search & Trend Discovery \u00b7 No Login"
- },
- {
-  "slug": "instagram-profile-reels-data-extraction-tool",
-  "priority": "P1",
-  "runs_30d": 25579,
-  "target_query": "instagram profile reels data extraction tool",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-profile-reels",
-  "actor_title": "Instagram Profile Reels Scraper \u00b7 No Login"
- },
- {
-  "slug": "instagram-stories-data-extraction-tool",
-  "priority": "P1",
-  "runs_30d": 16774,
-  "target_query": "instagram stories data extraction tool",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-stories-scraper",
-  "actor_title": "Instagram Stories Scraper \u00b7 No Login"
- },
- {
   "slug": "scrape-instagram-highlights-without-login",
   "priority": "P1",
   "runs_30d": 16734,
