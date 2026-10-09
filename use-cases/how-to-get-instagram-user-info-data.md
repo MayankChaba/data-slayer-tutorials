@@ -1,10 +1,10 @@
 ---
 layout: "use-case"
 title: "how to get instagram user info data"
-description: "Scrape public Instagram profiles in bulk. Get the published account-creation month, registration country, username-change count, followers, bio, links…"
+description: ""
 slug: "how-to-get-instagram-user-info-data"
 canonical_url: "https://dataslayer.dev/use-cases/how-to-get-instagram-user-info-data/"
-date: "2026-10-02"
+date: "2026-10-09"
 tags: ["instagram", "how-to", "social media manager"]
 target_keyword: "how to get instagram user info data"
 actor_username: "data-slayer"
@@ -13,7 +13,7 @@ actor_url: "https://apify.com/data-slayer/instagram-user-info-scraper-cookieless
 persona: "social media manager"
 content_type: "how-to"
 neuronwriter_brief_id: "52950ff1adf511ce"
-neuronwriter_score: 81
+neuronwriter_score: 83
 status: "published"
 ---
 
@@ -25,10 +25,7 @@ Pulling Instagram user info data by hand does not scale. You either copy-paste i
 
 ## What you get
 
-- registration country
-- username-change count
-- public email
-- with optional email verification. No login or cookies
+- Structured data, ready to export
 
 Instead of building a scraper, you point **Instagram Profile Scraper · Account Age & Verified Emails** ([`data-slayer/instagram-user-info-scraper-cookieless`](https://apify.com/data-slayer/instagram-user-info-scraper-cookieless)) at your input and run it. It handles the requests, retries, and parsing, and returns one clean row per item in the format you already use.
 
@@ -204,12 +201,14 @@ line item is almost never the one that costs you a week of engineering every qua
 
 A quick reference for the terms this guide uses:
 
+- **bio** — part of the Instagram user info data you get back. A run returns bio for every row.
 - **profile data** — the public profile or page you point the actor at. A run returns profile data for every row.
 - **follower counts** — a public follower count you can rank by. A run returns follower counts for every row.
+- **verification** — part of the Instagram user info data you get back. A run returns verification for every row.
 - **publicly available** — part of the Instagram user info data you get back. A run returns publicly available for every row.
 - **email addresses** — part of the Instagram user info data you get back. A run returns email addresses for every row.
 
-Readers also search for instagram search, profile details, instagram username, scrape instagram profile, instagram's, account's, account history, business account, selected profile, contact details, metadata, meta, free plan, username or profile url, instagram profile data, free instagram, number of followers, basic profile info, require your instagram login, account id, workflow, extract data, export the data, data from instagram profiles, accesses publicly available, post counts, recent posts, instagram using, accesses publicly available data, like follower count, related profiles, latest posts, paid plans, api gives, want to download, third-party tool, new accounts, api response, new feature, recent content, market research, enrich, login required, engagement rate — the same actor answers all of it.
+Readers also search for instagram search, profile details, instagram username, scrape instagram profile, instagram's, account's, public instagram profiles, account history, business account, selected profile, contact details, metadata, meta, free plan, username or profile url, instagram profile data, free instagram, number of followers, basic profile info, require your instagram login, account id, workflow, extract data, export the data, data from instagram profiles, accesses publicly available, post counts, recent posts, instagram using, accesses publicly available data, like follower count, related profiles, latest posts, paid plans, api gives, want to download, third-party tool, new accounts, api response, new feature, recent content, market research, enrich, login required, engagement rate — the same actor answers all of it.
 
 ## FAQ
 
@@ -300,9 +299,9 @@ If you are a **social media manager**, this replaces the manual Instagram user i
 
 ## Related use cases
 
-- [scrape instagram post without login](https://dataslayer.dev/use-cases/scrape-instagram-post-without-login/)
-- [scrape instagram posts without login](https://dataslayer.dev/use-cases/scrape-instagram-posts-without-login/)
-- [export instagram user info to csv](https://dataslayer.dev/use-cases/export-instagram-user-info-to-csv/)
+- [export instagram post to csv](https://dataslayer.dev/use-cases/export-instagram-post-to-csv/)
+- [export instagram posts to csv](https://dataslayer.dev/use-cases/export-instagram-posts-to-csv/)
+- [scrape instagram reels without login](https://dataslayer.dev/use-cases/scrape-instagram-reels-without-login/)
 
 ## Try it now
 

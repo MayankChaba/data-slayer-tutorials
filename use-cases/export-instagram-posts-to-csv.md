@@ -1,10 +1,10 @@
 ---
 layout: "use-case"
 title: "export instagram posts to csv"
-description: "Scrape all posts from any Instagram profile — no login. Get likes, comments, shares, captions with parsed hashtags & mentions, tagged users…"
+description: ""
 slug: "export-instagram-posts-to-csv"
 canonical_url: "https://dataslayer.dev/use-cases/export-instagram-posts-to-csv/"
-date: "2026-10-02"
+date: "2026-10-09"
 tags: ["instagram", "how-to", "social media manager"]
 target_keyword: "export instagram posts to csv"
 actor_username: "data-slayer"
@@ -25,10 +25,7 @@ Pulling Instagram posts data by hand does not scale. You either copy-paste it on
 
 ## What you get
 
-- captions with parsed hashtags & mentions
-- tagged users
-- collaborators
-- carousel media
+- Structured data, ready to export
 
 Instead of building a scraper, you point **Instagram Profile Posts & Reels Scraper · No Login** ([`data-slayer/instagram-posts`](https://apify.com/data-slayer/instagram-posts)) at your input and run it. It handles the requests, retries, and parsing, and returns one clean row per item in the format you already use.
 
@@ -291,9 +288,9 @@ If you are a **social media manager**, this replaces the manual Instagram posts 
 
 ## Related use cases
 
-- [scrape instagram post without login](https://dataslayer.dev/use-cases/scrape-instagram-post-without-login/)
-- [scrape instagram posts without login](https://dataslayer.dev/use-cases/scrape-instagram-posts-without-login/)
-- [scrape instagram user info without login](https://dataslayer.dev/use-cases/scrape-instagram-user-info-without-login/)
+- [export instagram post to csv](https://dataslayer.dev/use-cases/export-instagram-post-to-csv/)
+- [how to get instagram user info data](https://dataslayer.dev/use-cases/how-to-get-instagram-user-info-data/)
+- [scrape instagram reels without login](https://dataslayer.dev/use-cases/scrape-instagram-reels-without-login/)
 
 ## Try it now
 

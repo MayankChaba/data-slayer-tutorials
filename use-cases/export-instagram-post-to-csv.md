@@ -1,10 +1,10 @@
 ---
 layout: "use-case"
 title: "export instagram post to csv"
-description: "Get full details from any Instagram post or Reel by URL — no login. 128 fields: likes, comments, views, shares, saves, reposts, captions, audio metadata…"
+description: ""
 slug: "export-instagram-post-to-csv"
 canonical_url: "https://dataslayer.dev/use-cases/export-instagram-post-to-csv/"
-date: "2026-10-02"
+date: "2026-10-09"
 tags: ["instagram", "how-to", "social media manager"]
 target_keyword: "export instagram post to csv"
 actor_username: "data-slayer"
@@ -25,10 +25,7 @@ Pulling Instagram post data by hand does not scale. You either copy-paste it one
 
 ## What you get
 
-- 128 fields
-- likes, comments, views, shares, saves, reposts, captions, audio metadata, video URLs, and creator profiles
-- Bulk URL input
-- Includes repost_count missing from Apify's own scraper
+- Structured data, ready to export
 
 Instead of building a scraper, you point **Instagram Post & Reel Details Scraper · No Login** ([`data-slayer/instagram-post-details`](https://apify.com/data-slayer/instagram-post-details)) at your input and run it. It handles the requests, retries, and parsing, and returns one clean row per item in the format you already use.
 
@@ -56,11 +53,10 @@ Download as **JSON, CSV, or Excel**, or push straight to Google Sheets / Airtabl
 
 | Field | Example | Use it for |
 |---|---|---|
-| `likes` | `12,480` | engagement benchmarking |
-| `comments` | `12,480` | engagement benchmarking |
-| `views` | `12,480` | engagement benchmarking |
-| `shares` | `12,480` | engagement benchmarking |
-| `saves` | `12,480` | engagement benchmarking |
+| `url` | `https://…/item/ABC123` | link back to the source |
+| `caption` | `"…"` | content analysis |
+| `engagement` | `…` | filter / sort / export |
+| `collectedAt` | `2026-09-30T12:00:00Z` | time-series / scheduling |
 
 ## Why scraping Instagram post without getting blocked is hard in 2026
 
@@ -208,7 +204,7 @@ A quick reference for the terms this guide uses:
 - **instagram comments** — the public comment thread on an item. A run returns instagram comments for every row.
 - **privacy policy** — part of the Instagram post data you get back. A run returns privacy policy for every row.
 
-Readers also search for instagram comments to csv, scrape instagram comments, one click, posts from instagram, export comments, chrome, instagram username, post url, export data, chrome web store, csv with one click, csv or json, public instagram post, export posts from instagram, instagram post url, video view, comments to excel, instagram account, download instagram post, instagram follower, comment text, instagram into excel, delete, workflow, chrome extension, giveaway, spreadsheet, frequently asked questions, one-click, post list, one click to export, installing this extension, local computer, overview, csv reports, analytics, easy to use, 403, 400 error message, image urls — the same actor answers all of it.
+Readers also search for instagram comments to csv, scrape instagram comments, one click, posts from instagram, export comments, chrome, instagram username, post url, export data, chrome web store, csv with one click, csv or json, public instagram post, export posts from instagram, instagram post url, video view, comments to excel, instagram account, download instagram post, instagram follower, comment text, instagram into excel, meta, delete, workflow, chrome extension, giveaway, spreadsheet, frequently asked questions, one-click, post list, one click to export, installing this extension, local computer, overview, csv reports, metadata, analytics, easy to use, 403, 400 error message, image urls — the same actor answers all of it.
 
 ## FAQ
 
@@ -299,9 +295,9 @@ If you are a **social media manager**, this replaces the manual Instagram post p
 
 ## Related use cases
 
-- [scrape instagram post without login](https://dataslayer.dev/use-cases/scrape-instagram-post-without-login/)
-- [scrape instagram posts without login](https://dataslayer.dev/use-cases/scrape-instagram-posts-without-login/)
-- [scrape instagram user info without login](https://dataslayer.dev/use-cases/scrape-instagram-user-info-without-login/)
+- [export instagram posts to csv](https://dataslayer.dev/use-cases/export-instagram-posts-to-csv/)
+- [how to get instagram user info data](https://dataslayer.dev/use-cases/how-to-get-instagram-user-info-data/)
+- [scrape instagram reels without login](https://dataslayer.dev/use-cases/scrape-instagram-reels-without-login/)
 
 ## Try it now
 
