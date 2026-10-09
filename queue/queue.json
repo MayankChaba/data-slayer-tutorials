@@ -1,14 +1,5 @@
 [
  {
-  "slug": "scrape-instagram-highlights-without-login",
-  "priority": "P1",
-  "runs_30d": 16734,
-  "target_query": "scrape instagram highlights without login",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-highlights-scraper",
-  "actor_title": "Instagram Highlights Scraper \u00b7 No Login"
- },
- {
   "slug": "instagram-highlights-api-alternative",
   "priority": "P1",
   "runs_30d": 16734,
@@ -45,15 +36,6 @@
   "actor_title": "Instagram Highlights Scraper \u00b7 No Login"
  },
  {
-  "slug": "scrape-facebook-pages-without-login",
-  "priority": "P1",
-  "runs_30d": 13860,
-  "target_query": "scrape facebook pages without login",
-  "actor_account": "data-slayer",
-  "actor_slug": "facebook-search-pages",
-  "actor_title": "Facebook Page Search Scraper \u00b7 No Cookies"
- },
- {
   "slug": "facebook-pages-api-alternative",
   "priority": "P1",
   "runs_30d": 13860,
@@ -79,15 +61,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "facebook-search-pages",
   "actor_title": "Facebook Page Search Scraper \u00b7 No Cookies"
- },
- {
-  "slug": "how-to-scrape-linkedin-profile-without-getting-blocked",
-  "priority": "P1",
-  "runs_30d": 10680,
-  "target_query": "how to scrape linkedin profile without getting blocked",
-  "actor_account": "data-slayer",
-  "actor_slug": "linkedin-profile-scraper",
-  "actor_title": "LinkedIn Profile Scraper \u00b7 Fresh \u00b7 No Cookies"
  },
  {
   "slug": "linkedin-profile-scraper",

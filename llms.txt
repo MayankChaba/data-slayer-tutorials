@@ -39,9 +39,10 @@ One page per data-slayer actor (95), each with inputs, outputs, pricing, a runna
 
 
 
+
 ## Use cases
 
-Step-by-step guides for the jobs people search for (46 published):
+Step-by-step guides for the jobs people search for (49 published):
 
 - export instagram post to csv: https://dataslayer.dev/use-cases/export-instagram-post-to-csv/
 - export instagram posts to csv: https://dataslayer.dev/use-cases/export-instagram-posts-to-csv/
@@ -66,6 +67,7 @@ Step-by-step guides for the jobs people search for (46 published):
 - how to scrape instagram reels without getting blocked: https://dataslayer.dev/use-cases/how-to-scrape-instagram-reels-without-getting-blocked/
 - how to scrape instagram stories without getting blocked: https://dataslayer.dev/use-cases/how-to-scrape-instagram-stories-without-getting-blocked/
 - how to scrape instagram user info without getting blocked: https://dataslayer.dev/use-cases/how-to-scrape-instagram-user-info-without-getting-blocked/
+- how to scrape linkedin profile without getting blocked: https://dataslayer.dev/use-cases/how-to-scrape-linkedin-profile-without-getting-blocked/
 - how to scrape twitter user tweets without getting blocked: https://dataslayer.dev/use-cases/how-to-scrape-twitter-user-tweets-without-getting-blocked/
 - instagram highlights scraper: https://dataslayer.dev/use-cases/instagram-highlights-scraper/
 - instagram post api alternative: https://dataslayer.dev/use-cases/instagram-post-api-alternative/
@@ -83,6 +85,8 @@ Step-by-step guides for the jobs people search for (46 published):
 - instagram stories scraper: https://dataslayer.dev/use-cases/instagram-stories-scraper/
 - instagram user info data extraction tool: https://dataslayer.dev/use-cases/instagram-user-info-data-extraction-tool/
 - instagram user info scraper: https://dataslayer.dev/use-cases/instagram-user-info-scraper/
+- scrape facebook pages without login: https://dataslayer.dev/use-cases/scrape-facebook-pages-without-login/
+- scrape instagram highlights without login: https://dataslayer.dev/use-cases/scrape-instagram-highlights-without-login/
 - scrape instagram post without login: https://dataslayer.dev/use-cases/scrape-instagram-post-without-login/
 - scrape instagram posts without login: https://dataslayer.dev/use-cases/scrape-instagram-posts-without-login/
 - scrape instagram profile reels without login: https://dataslayer.dev/use-cases/scrape-instagram-profile-reels-without-login/
