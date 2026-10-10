@@ -1,14 +1,5 @@
 [
  {
-  "slug": "instagram-highlights-api-alternative",
-  "priority": "P1",
-  "runs_30d": 16734,
-  "target_query": "instagram highlights api alternative",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-highlights-scraper",
-  "actor_title": "Instagram Highlights Scraper \u00b7 No Login"
- },
- {
   "slug": "export-instagram-highlights-to-csv",
   "priority": "P1",
   "runs_30d": 16734,
@@ -36,15 +27,6 @@
   "actor_title": "Instagram Highlights Scraper \u00b7 No Login"
  },
  {
-  "slug": "facebook-pages-api-alternative",
-  "priority": "P1",
-  "runs_30d": 13860,
-  "target_query": "facebook pages api alternative",
-  "actor_account": "data-slayer",
-  "actor_slug": "facebook-search-pages",
-  "actor_title": "Facebook Page Search Scraper \u00b7 No Cookies"
- },
- {
   "slug": "export-facebook-pages-to-csv",
   "priority": "P1",
   "runs_30d": 13860,
@@ -61,15 +43,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "facebook-search-pages",
   "actor_title": "Facebook Page Search Scraper \u00b7 No Cookies"
- },
- {
-  "slug": "linkedin-profile-scraper",
-  "priority": "P1",
-  "runs_30d": 10680,
-  "target_query": "linkedin profile scraper",
-  "actor_account": "data-slayer",
-  "actor_slug": "linkedin-profile-scraper",
-  "actor_title": "LinkedIn Profile Scraper \u00b7 Fresh \u00b7 No Cookies"
  },
  {
   "slug": "scrape-linkedin-profile-without-login",
