@@ -41,10 +41,13 @@ One page per data-slayer actor (95), each with inputs, outputs, pricing, a runna
 
 
 
+
 ## Use cases
 
-Step-by-step guides for the jobs people search for (52 published):
+Step-by-step guides for the jobs people search for (55 published):
 
+- export facebook pages to csv: https://dataslayer.dev/use-cases/export-facebook-pages-to-csv/
+- export instagram highlights to csv: https://dataslayer.dev/use-cases/export-instagram-highlights-to-csv/
 - export instagram post to csv: https://dataslayer.dev/use-cases/export-instagram-post-to-csv/
 - export instagram posts to csv: https://dataslayer.dev/use-cases/export-instagram-posts-to-csv/
 - export instagram profile reels to csv: https://dataslayer.dev/use-cases/export-instagram-profile-reels-to-csv/
@@ -96,6 +99,7 @@ Step-by-step guides for the jobs people search for (52 published):
 - scrape instagram profile reels without login: https://dataslayer.dev/use-cases/scrape-instagram-profile-reels-without-login/
 - scrape instagram reels without login: https://dataslayer.dev/use-cases/scrape-instagram-reels-without-login/
 - scrape instagram stories without login: https://dataslayer.dev/use-cases/scrape-instagram-stories-without-login/
+- scrape linkedin profile without login: https://dataslayer.dev/use-cases/scrape-linkedin-profile-without-login/
 - twitter user tweets scraper: https://dataslayer.dev/use-cases/twitter-user-tweets-scraper/
 
 ## Actors referenced
