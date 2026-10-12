@@ -1,10 +1,10 @@
 ---
 layout: "use-case"
 title: "find competitor and creator content on Instagram for social media managers"
-description: "Get full details from any Instagram post or Reel by URL — no login. 128 fields: likes, comments, views, shares, saves, reposts, captions, audio metadata…"
+description: ""
 slug: "find-competitor-and-creator-content-on-instagram-for-social-media-managers"
 canonical_url: "https://dataslayer.dev/use-cases/find-competitor-and-creator-content-on-instagram-for-social-media-managers/"
-date: "2026-10-02"
+date: "2026-10-12"
 tags: ["instagram", "use-case", "social media manager"]
 target_keyword: "find competitor and creator content on Instagram for social media managers"
 actor_username: "data-slayer"
@@ -25,10 +25,7 @@ Pulling Instagram post data by hand does not scale. You either copy-paste it one
 
 ## What you get
 
-- 128 fields
-- likes, comments, views, shares, saves, reposts, captions, audio metadata, video URLs, and creator profiles
-- Bulk URL input
-- Includes repost_count missing from Apify's own scraper
+- Structured data, ready to export
 
 Instead of building a scraper, you point **Instagram Post & Reel Details Scraper · No Login** ([`data-slayer/instagram-post-details`](https://apify.com/data-slayer/instagram-post-details)) at your input and run it. It handles the requests, retries, and parsing, and returns one clean row per item in the format you already use.
 
@@ -56,11 +53,10 @@ Download as **JSON, CSV, or Excel**, or push straight to Google Sheets / Airtabl
 
 | Field | Example | Use it for |
 |---|---|---|
-| `likes` | `12,480` | engagement benchmarking |
-| `comments` | `12,480` | engagement benchmarking |
-| `views` | `12,480` | engagement benchmarking |
-| `shares` | `12,480` | engagement benchmarking |
-| `saves` | `12,480` | engagement benchmarking |
+| `url` | `https://…/item/ABC123` | link back to the source |
+| `caption` | `"…"` | content analysis |
+| `engagement` | `…` | filter / sort / export |
+| `collectedAt` | `2026-09-30T12:00:00Z` | time-series / scheduling |
 
 ## Why scraping Instagram post without getting blocked is hard in 2026
 
@@ -212,6 +208,7 @@ A quick reference for the terms this guide uses:
 - **ad library** — part of the Instagram post data you get back. A run returns ad library for every row.
 - **marketer** — part of the Instagram post data you get back. A run returns marketer for every row.
 - **tiktok** — part of the Instagram post data you get back. A run returns tiktok for every row.
+- **meta** — part of the Instagram post data you get back. A run returns meta for every row.
 
 Readers also search for social media marketing, social media management, analytics tool, social listening, social media platforms, free trial, competitor analysis on social media, sentiment analysis, sprout social, best social media, competitor research, best instagram competitor analysis tools, content strategy, engagement rate, meta ad library, social media analytics tools, 14-day free trial, competitor analytics, competitors on instagram, best tools, instagram marketing, instagram and facebook, social network, competitors’ instagram, competitor’s content, competitors’, you’ll be able to see, you’re looking, in-depth competitor, social strategy, competitors across, social platforms, marketing team, ads on instagram, instagram analytics, competitor activity, instagram strategy, tools like social, competitor posts, guide to find, facebook ads manager, spying on your competitors, free plan, analyze your social media competitors, sprout social is one, competitors across social media, social media marketing tool, different social media platforms, competitor analysis is the process, find a competitor, dedicated social media, also instagram, social media user, free trial is available, free 14-day trial, analyzing your competitors, tool to find, organic content, short-form video, one competitor — the same actor answers all of it.
 
@@ -308,9 +305,9 @@ If you are a **social media manager**, this replaces the manual Instagram post p
 
 ## Related use cases
 
-- [scrape instagram post without login](https://dataslayer.dev/use-cases/scrape-instagram-post-without-login/)
-- [scrape instagram posts without login](https://dataslayer.dev/use-cases/scrape-instagram-posts-without-login/)
-- [scrape instagram user info without login](https://dataslayer.dev/use-cases/scrape-instagram-user-info-without-login/)
+- [how to get instagram posts data](https://dataslayer.dev/use-cases/how-to-get-instagram-posts-data/)
+- [instagram user info data extraction tool](https://dataslayer.dev/use-cases/instagram-user-info-data-extraction-tool/)
+- [scrape instagram reels without login](https://dataslayer.dev/use-cases/scrape-instagram-reels-without-login/)
 
 ## Try it now
 

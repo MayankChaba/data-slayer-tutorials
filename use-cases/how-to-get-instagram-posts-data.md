@@ -1,10 +1,10 @@
 ---
 layout: "use-case"
 title: "how to get instagram posts data"
-description: "Scrape all posts from any Instagram profile — no login. Get likes, comments, shares, captions with parsed hashtags & mentions, tagged users…"
+description: ""
 slug: "how-to-get-instagram-posts-data"
 canonical_url: "https://dataslayer.dev/use-cases/how-to-get-instagram-posts-data/"
-date: "2026-10-02"
+date: "2026-10-12"
 tags: ["instagram", "how-to", "social media manager"]
 target_keyword: "how to get instagram posts data"
 actor_username: "data-slayer"
@@ -25,10 +25,7 @@ Pulling Instagram posts data by hand does not scale. You either copy-paste it on
 
 ## What you get
 
-- captions with parsed hashtags & mentions
-- tagged users
-- collaborators
-- carousel media
+- Structured data, ready to export
 
 Instead of building a scraper, you point **Instagram Profile Posts & Reels Scraper · No Login** ([`data-slayer/instagram-posts`](https://apify.com/data-slayer/instagram-posts)) at your input and run it. It handles the requests, retries, and parsing, and returns one clean row per item in the format you already use.
 
@@ -207,7 +204,7 @@ A quick reference for the terms this guide uses:
 - **meta** — part of the Instagram posts data you get back. A run returns meta for every row.
 - **bio** — part of the Instagram posts data you get back. A run returns bio for every row.
 
-Readers also search for post or reel, instagram and threads, instagram reels, profile scraper, extract instagram data, scraped instagram data, profile data, extract data, data extraction, follower and following, post count, dataset, export instagram comments, post urls, threads data, scrape from instagram, data from instagram profiles, one or more instagram urls, instagram graph api, post url, data instagram, want to scrape, instagram urls or search queries, specific instagram, comment scraper, data collection, data you can extract, post details, publicly available data, free plan, latest posts, extract posts, discover posts, post or reel urls, instagram and threads share, threads profile scraper, ad data, scrape and extract data, extract data from instagram profiles, instagram business, engagement data, scraper handles, regular instagram, scraping and data, instagram shows, scraper returns, legality of web scraping, scrape instagram comments, user data, detailed information, following data, access private, data may, instagram actively, data using — the same actor answers all of it.
+Readers also search for post or reel, instagram and threads, profile scraper, extract instagram data, scraped instagram data, profile data, extract data, follower and following, post count, dataset, export instagram comments, post urls, threads data, scrape from instagram, data from instagram profiles, one or more instagram urls, instagram graph api, post url, data instagram, want to scrape, instagram urls or search queries, specific instagram, comment scraper, data collection, data you can extract, post details, publicly available data, free plan, latest posts, extract posts, discover posts, post or reel urls, instagram and threads share, threads profile scraper, ad data, scrape and extract data, extract data from instagram profiles, instagram business, engagement data, scraper handles, regular instagram, scraping and data, instagram shows, scraper returns, legality of web scraping, scrape instagram comments, user data, detailed information, following data, access private, data may, instagram actively, data using — the same actor answers all of it.
 
 ## FAQ
 
@@ -298,9 +295,9 @@ If you are a **social media manager**, this replaces the manual Instagram posts 
 
 ## Related use cases
 
-- [scrape instagram post without login](https://dataslayer.dev/use-cases/scrape-instagram-post-without-login/)
-- [scrape instagram posts without login](https://dataslayer.dev/use-cases/scrape-instagram-posts-without-login/)
-- [scrape instagram user info without login](https://dataslayer.dev/use-cases/scrape-instagram-user-info-without-login/)
+- [find competitor and creator content on Instagram for social media managers](https://dataslayer.dev/use-cases/find-competitor-and-creator-content-on-instagram-for-social-media-managers/)
+- [instagram user info data extraction tool](https://dataslayer.dev/use-cases/instagram-user-info-data-extraction-tool/)
+- [scrape instagram reels without login](https://dataslayer.dev/use-cases/scrape-instagram-reels-without-login/)
 
 ## Try it now
 

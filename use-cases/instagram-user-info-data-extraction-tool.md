@@ -1,10 +1,10 @@
 ---
 layout: "use-case"
 title: "instagram user info data extraction tool"
-description: "Scrape public Instagram profiles in bulk. Get the published account-creation month, registration country, username-change count, followers, bio, links…"
+description: ""
 slug: "instagram-user-info-data-extraction-tool"
 canonical_url: "https://dataslayer.dev/use-cases/instagram-user-info-data-extraction-tool/"
-date: "2026-10-02"
+date: "2026-10-12"
 tags: ["instagram", "landing", "social media manager"]
 target_keyword: "instagram user info data extraction tool"
 actor_username: "data-slayer"
@@ -13,7 +13,7 @@ actor_url: "https://apify.com/data-slayer/instagram-user-info-scraper-cookieless
 persona: "social media manager"
 content_type: "landing"
 neuronwriter_brief_id: "7191a5873c1f17f0"
-neuronwriter_score: 79
+neuronwriter_score: 80
 status: "published"
 ---
 
@@ -25,10 +25,7 @@ Pulling Instagram user info data by hand does not scale. You either copy-paste i
 
 ## What you get
 
-- registration country
-- username-change count
-- public email
-- with optional email verification. No login or cookies
+- Structured data, ready to export
 
 Instead of building a scraper, you point **Instagram Profile Scraper · Account Age & Verified Emails** ([`data-slayer/instagram-user-info-scraper-cookieless`](https://apify.com/data-slayer/instagram-user-info-scraper-cookieless)) at your input and run it. It handles the requests, retries, and parsing, and returns one clean row per item in the format you already use.
 
@@ -204,11 +201,12 @@ line item is almost never the one that costs you a week of engineering every qua
 
 A quick reference for the terms this guide uses:
 
+- **follower** — a public follower count you can rank by. A run returns follower for every row.
 - **follower count** — a public follower count you can rank by. A run returns follower count for every row.
 - **terms of service** — part of the Instagram user info data you get back. A run returns terms of service for every row.
 - **influencer** — part of the Instagram user info data you get back. A run returns influencer for every row.
 
-Readers also search for profile information, recent post, profile urls, instagram comments, extract data, profile url, publicly available data, scrape instagram profile data, web data, dataset, post data, instagram username, free trial, instagram's, instagram's terms of service, instagram's api, verification status, number of followers, related profiles, post scraper, instagram posts and reels, privacy policy, scraper from apify, automation, instagram returns, scraping publicly available data, scraper works, public instagram reels, engagement data, free instagram, meta, specific use case, javascript, followers and following, automates the process, apify actors, reel url, tagged users, process of collecting, latest posts, csv or json — the same actor answers all of it.
+Readers also search for profile information, recent post, profile urls, instagram comments, extract data, profile url, publicly available data, scrape instagram profile data, web data, dataset, post data, instagram username, free trial, instagram's, instagram's terms of service, instagram's api, verification status, number of followers, related profiles, post scraper, scrape public instagram, instagram posts and reels, privacy policy, scraper from apify, automation, scrape public, instagram returns, scraping publicly available data, scraper works, public instagram reels, engagement data, free instagram, meta, specific use case, javascript, followers and following, automates the process, apify actors, reel url, tagged users, process of collecting, latest posts, csv or json — the same actor answers all of it.
 
 ## FAQ
 
@@ -299,9 +297,9 @@ If you are a **social media manager**, this replaces the manual Instagram user i
 
 ## Related use cases
 
-- [scrape instagram post without login](https://dataslayer.dev/use-cases/scrape-instagram-post-without-login/)
-- [scrape instagram posts without login](https://dataslayer.dev/use-cases/scrape-instagram-posts-without-login/)
-- [export instagram user info to csv](https://dataslayer.dev/use-cases/export-instagram-user-info-to-csv/)
+- [find competitor and creator content on Instagram for social media managers](https://dataslayer.dev/use-cases/find-competitor-and-creator-content-on-instagram-for-social-media-managers/)
+- [how to get instagram posts data](https://dataslayer.dev/use-cases/how-to-get-instagram-posts-data/)
+- [scrape instagram reels without login](https://dataslayer.dev/use-cases/scrape-instagram-reels-without-login/)
 
 ## Try it now
 
