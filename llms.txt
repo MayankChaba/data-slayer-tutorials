@@ -43,9 +43,10 @@ One page per data-slayer actor (95), each with inputs, outputs, pricing, a runna
 
 
 
+
 ## Use cases
 
-Step-by-step guides for the jobs people search for (55 published):
+Step-by-step guides for the jobs people search for (58 published):
 
 - export facebook pages to csv: https://dataslayer.dev/use-cases/export-facebook-pages-to-csv/
 - export instagram highlights to csv: https://dataslayer.dev/use-cases/export-instagram-highlights-to-csv/
@@ -55,9 +56,12 @@ Step-by-step guides for the jobs people search for (55 published):
 - export instagram reels to csv: https://dataslayer.dev/use-cases/export-instagram-reels-to-csv/
 - export instagram stories to csv: https://dataslayer.dev/use-cases/export-instagram-stories-to-csv/
 - export instagram user info to csv: https://dataslayer.dev/use-cases/export-instagram-user-info-to-csv/
+- export linkedin profile to csv: https://dataslayer.dev/use-cases/export-linkedin-profile-to-csv/
 - facebook pages api alternative: https://dataslayer.dev/use-cases/facebook-pages-api-alternative/
 - facebook pages scraper: https://dataslayer.dev/use-cases/facebook-pages-scraper/
 - find competitor and creator content on Instagram for social media managers: https://dataslayer.dev/use-cases/find-competitor-and-creator-content-on-instagram-for-social-media-managers/
+- how to get facebook pages data: https://dataslayer.dev/use-cases/how-to-get-facebook-pages-data/
+- how to get instagram highlights data: https://dataslayer.dev/use-cases/how-to-get-instagram-highlights-data/
 - how to get instagram post data: https://dataslayer.dev/use-cases/how-to-get-instagram-post-data/
 - how to get instagram posts data: https://dataslayer.dev/use-cases/how-to-get-instagram-posts-data/
 - how to get instagram profile reels data: https://dataslayer.dev/use-cases/how-to-get-instagram-profile-reels-data/
