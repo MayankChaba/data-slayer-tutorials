@@ -1,23 +1,5 @@
 [
  {
-  "slug": "instagram-highlights-data-extraction-tool",
-  "priority": "P1",
-  "runs_30d": 16734,
-  "target_query": "instagram highlights data extraction tool",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-highlights-scraper",
-  "actor_title": "Instagram Highlights Scraper \u00b7 No Login"
- },
- {
-  "slug": "how-to-get-linkedin-profile-data",
-  "priority": "P1",
-  "runs_30d": 10680,
-  "target_query": "how to get linkedin profile data",
-  "actor_account": "data-slayer",
-  "actor_slug": "linkedin-profile-scraper",
-  "actor_title": "LinkedIn Profile Scraper \u00b7 Fresh \u00b7 No Cookies"
- },
- {
   "slug": "linkedin-profile-data-extraction-tool",
   "priority": "P1",
   "runs_30d": 10680,
@@ -25,15 +7,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "linkedin-profile-scraper",
   "actor_title": "LinkedIn Profile Scraper \u00b7 Fresh \u00b7 No Cookies"
- },
- {
-  "slug": "how-to-scrape-instagram-users-without-getting-blocked",
-  "priority": "P1",
-  "runs_30d": 8427,
-  "target_query": "how to scrape instagram users without getting blocked",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-search-users",
-  "actor_title": "Instagram User Search \u00b7 Find Leads by Keyword \u00b7 No Login"
  },
  {
   "slug": "instagram-users-scraper",
