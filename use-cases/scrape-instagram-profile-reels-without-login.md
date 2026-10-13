@@ -1,10 +1,10 @@
 ---
 layout: "use-case"
 title: "scrape instagram profile reels without login"
-description: "Scrape all Reels from any Instagram profile by username — no login. Get play counts, likes, comments, shares, captions, hashtags, audio metadata, video…"
+description: ""
 slug: "scrape-instagram-profile-reels-without-login"
 canonical_url: "https://dataslayer.dev/use-cases/scrape-instagram-profile-reels-without-login/"
-date: "2026-10-02"
+date: "2026-10-13"
 tags: ["instagram", "how-to", "social media manager"]
 target_keyword: "scrape instagram profile reels without login"
 actor_username: "data-slayer"
@@ -25,10 +25,7 @@ Pulling Instagram profile reels data by hand does not scale. You either copy-pas
 
 ## What you get
 
-- Competitor content analysis and influencer research
-- audio metadata
-- video URLs
-- timestamps. 125+ fields per Reel. Competitor content analysis
+- Structured data, ready to export
 
 Instead of building a scraper, you point **Instagram Profile Reels Scraper · No Login** ([`data-slayer/instagram-profile-reels`](https://apify.com/data-slayer/instagram-profile-reels)) at your input and run it. It handles the requests, retries, and parsing, and returns one clean row per item in the format you already use.
 
@@ -54,7 +51,10 @@ Download as **JSON, CSV, or Excel**, or push straight to Google Sheets / Airtabl
 
 | Field | Example | Use it for |
 |---|---|---|
-| `per Reel` | `…` | filter / sort / export |
+| `url` | `https://…/item/ABC123` | link back to the source |
+| `caption` | `"…"` | content analysis |
+| `engagement` | `…` | filter / sort / export |
+| `collectedAt` | `2026-09-30T12:00:00Z` | time-series / scheduling |
 
 ## Why scraping Instagram profile reels without getting blocked is hard in 2026
 
@@ -199,7 +199,6 @@ line item is almost never the one that costs you a week of engineering every qua
 
 A quick reference for the terms this guide uses:
 
-- **instagram reels** — a single public item, returned as one row. A run returns instagram reels for every row.
 - **profile data** — the public profile or page you point the actor at. A run returns profile data for every row.
 - **profile urls** — the address of the item you want to pull. A run returns profile urls for every row.
 - **verification** — part of the Instagram profile reels data you get back. A run returns verification for every row.
@@ -210,7 +209,7 @@ A quick reference for the terms this guide uses:
 - **data collection** — part of the Instagram profile reels data you get back. A run returns data collection for every row.
 - **verification status** — part of the Instagram profile reels data you get back. A run returns verification status for every row.
 
-Readers also search for reel scraper, instagram comments, scrape instagram reels, way to scrape, profile url, instagram profile data, way to scrape instagram, instagram followers, public instagram profiles, profile information, per profile, learn how to scrape, scrape instagram profiles, web scraper, list of instagram, instagram pages, scraper handles, instagram graph api, publicly available data, instagram data scraping, scrape comments, comment scraper, instagram dataset, instagram website, data from instagram profiles, scrape public instagram, scrape private, free credits, web data, scraping and data, official instagram apis, possible to scrape, public data from instagram, without requiring, track instagram, data you can extract, maintain scraping, scraping success, scraping techniques, scrape from instagram, scrape instagram comments, data using, api to get, api for scraping, stable profile, keep the profile, one profile — the same actor answers all of it.
+Readers also search for reel scraper, instagram comments, way to scrape, profile url, instagram profile data, way to scrape instagram, instagram followers, public instagram profiles, profile information, posts without, per profile, learn how to scrape, scrape instagram profiles, scrape instagram posts, web scraper, list of instagram, instagram pages, scraper handles, instagram graph api, publicly available data, instagram data scraping, scrape comments, comment scraper, instagram dataset, instagram website, data from instagram profiles, scrape public instagram, scrape private, free credits, web data, scraping and data, official instagram apis, possible to scrape, public data from instagram, without requiring, track instagram, data you can extract, maintain scraping, scraping success, scraping techniques, scrape from instagram, scrape instagram comments, data using, api to get, api for scraping, stable profile, keep the profile, one profile — the same actor answers all of it.
 
 ## FAQ
 
@@ -301,9 +300,9 @@ If you are a **social media manager**, this replaces the manual Instagram profil
 
 ## Related use cases
 
-- [scrape instagram post without login](https://dataslayer.dev/use-cases/scrape-instagram-post-without-login/)
-- [scrape instagram posts without login](https://dataslayer.dev/use-cases/scrape-instagram-posts-without-login/)
-- [export instagram user info to csv](https://dataslayer.dev/use-cases/export-instagram-user-info-to-csv/)
+- [how to get instagram post data](https://dataslayer.dev/use-cases/how-to-get-instagram-post-data/)
+- [scrape instagram reels without login](https://dataslayer.dev/use-cases/scrape-instagram-reels-without-login/)
+- [scrape instagram stories without login](https://dataslayer.dev/use-cases/scrape-instagram-stories-without-login/)
 
 ## Try it now
 

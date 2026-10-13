@@ -1,10 +1,10 @@
 ---
 layout: "use-case"
 title: "how to get instagram post data"
-description: "Get full details from any Instagram post or Reel by URL — no login. 128 fields: likes, comments, views, shares, saves, reposts, captions, audio metadata…"
+description: ""
 slug: "how-to-get-instagram-post-data"
 canonical_url: "https://dataslayer.dev/use-cases/how-to-get-instagram-post-data/"
-date: "2026-10-02"
+date: "2026-10-13"
 tags: ["instagram", "how-to", "social media manager"]
 target_keyword: "how to get instagram post data"
 actor_username: "data-slayer"
@@ -25,10 +25,7 @@ Pulling Instagram post data by hand does not scale. You either copy-paste it one
 
 ## What you get
 
-- 128 fields
-- likes, comments, views, shares, saves, reposts, captions, audio metadata, video URLs, and creator profiles
-- Bulk URL input
-- Includes repost_count missing from Apify's own scraper
+- Structured data, ready to export
 
 Instead of building a scraper, you point **Instagram Post & Reel Details Scraper · No Login** ([`data-slayer/instagram-post-details`](https://apify.com/data-slayer/instagram-post-details)) at your input and run it. It handles the requests, retries, and parsing, and returns one clean row per item in the format you already use.
 
@@ -56,11 +53,10 @@ Download as **JSON, CSV, or Excel**, or push straight to Google Sheets / Airtabl
 
 | Field | Example | Use it for |
 |---|---|---|
-| `likes` | `12,480` | engagement benchmarking |
-| `comments` | `12,480` | engagement benchmarking |
-| `views` | `12,480` | engagement benchmarking |
-| `shares` | `12,480` | engagement benchmarking |
-| `saves` | `12,480` | engagement benchmarking |
+| `url` | `https://…/item/ABC123` | link back to the source |
+| `caption` | `"…"` | content analysis |
+| `engagement` | `…` | filter / sort / export |
+| `collectedAt` | `2026-09-30T12:00:00Z` | time-series / scheduling |
 
 ## Why scraping Instagram post without getting blocked is hard in 2026
 
@@ -208,8 +204,9 @@ A quick reference for the terms this guide uses:
 - **instagram comments** — the public comment thread on an item. A run returns instagram comments for every row.
 - **scrape data** — a tool that pulls Instagram post data without a login. A run returns scrape data for every row.
 - **bio** — part of the Instagram post data you get back. A run returns bio for every row.
+- **meta** — part of the Instagram post data you get back. A run returns meta for every row.
 
-Readers also search for extract data, post count, profile scraper, extract instagram data, profile data, specific instagram, data extraction, instagram reels, scraped instagram data, publicly available data, instagram's, dataset, export instagram comments, publicly available, data from instagram profiles, one or more instagram urls, want to scrape, scrape from instagram, instagram graph api, comment scraper, number of followers, engagement data, scraper handles, profiles and posts, post details, instagram urls or search queries, post or reel urls, instagram and threads share, profile-level data, scrape and extract data, extract data from instagram profiles, instagram business, data collection, data you can extract, api requires, user data, web data, scrape instagram profiles, list of instagram, detailed information, meta platforms, scraping and data, scraping publicly available data, terms of service, threads profile scraper, instagram shows, scraper returns, legality of web scraping, scrape instagram comments, instagram actively, data using, hard to scrape — the same actor answers all of it.
+Readers also search for post or reel, extract data, post count, profile scraper, extract instagram data, profile data, specific instagram, data extraction, scraped instagram data, publicly available data, instagram's, dataset, export instagram comments, publicly available, data from instagram profiles, one or more instagram urls, want to scrape, scrape from instagram, instagram graph api, comment scraper, number of followers, engagement data, scraper handles, profiles and posts, post details, scrape instagram posts, instagram urls or search queries, post or reel urls, instagram and threads share, profile-level data, scrape and extract data, extract data from instagram profiles, instagram business, data collection, data you can extract, api requires, user data, web data, scrape instagram profiles, list of instagram, detailed information, meta platforms, scraping and data, scraping publicly available data, terms of service, threads profile scraper, instagram shows, scraper returns, legality of web scraping, scrape instagram comments, instagram actively, data using, hard to scrape — the same actor answers all of it.
 
 ## FAQ
 
@@ -300,9 +297,9 @@ If you are a **social media manager**, this replaces the manual Instagram post p
 
 ## Related use cases
 
-- [scrape instagram post without login](https://dataslayer.dev/use-cases/scrape-instagram-post-without-login/)
-- [scrape instagram posts without login](https://dataslayer.dev/use-cases/scrape-instagram-posts-without-login/)
-- [scrape instagram user info without login](https://dataslayer.dev/use-cases/scrape-instagram-user-info-without-login/)
+- [scrape instagram reels without login](https://dataslayer.dev/use-cases/scrape-instagram-reels-without-login/)
+- [scrape instagram profile reels without login](https://dataslayer.dev/use-cases/scrape-instagram-profile-reels-without-login/)
+- [scrape instagram stories without login](https://dataslayer.dev/use-cases/scrape-instagram-stories-without-login/)
 
 ## Try it now
 
