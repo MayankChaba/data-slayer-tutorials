@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "export linkedin company posts to csv"
+title: "How to export LinkedIn company posts to CSV"
 description: "LinkedIn Company Posts Scraper - extract public data cookieless."
 slug: "export-linkedin-company-posts-to-csv"
 canonical_url: "/resources/export-linkedin-company-posts-to-csv/"

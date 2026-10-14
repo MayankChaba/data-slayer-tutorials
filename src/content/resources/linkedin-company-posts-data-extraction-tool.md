@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "linkedin company posts data extraction tool"
+title: "Extracting LinkedIn company posts data"
 description: "LinkedIn Company Posts Scraper - extract public data cookieless."
 slug: "linkedin-company-posts-data-extraction-tool"
 canonical_url: "/resources/linkedin-company-posts-data-extraction-tool/"

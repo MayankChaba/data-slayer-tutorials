@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "export linkedin profile to csv"
+title: "How to export LinkedIn profile to CSV"
 description: "Scrape fresh LinkedIn profile data in bulk from profile URLs. Export structured JSON, CSV, or Excel with experience, education, skills, job, company, and…"
 slug: "export-linkedin-profile-to-csv"
 canonical_url: "/resources/export-linkedin-profile-to-csv/"

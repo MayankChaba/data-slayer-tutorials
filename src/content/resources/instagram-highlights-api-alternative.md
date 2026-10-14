@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "instagram highlights api alternative"
+title: "The Instagram highlights API alternative"
 description: "Extract saved Instagram Highlights from any public profile — no login. Get highlight titles, cover images, media counts, creation dates, and profile data…"
 slug: "instagram-highlights-api-alternative"
 canonical_url: "/resources/instagram-highlights-api-alternative/"

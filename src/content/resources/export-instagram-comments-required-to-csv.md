@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "export instagram comments required to csv"
+title: "How to export Instagram comments required to CSV"
 description: "Extract comments and optional replies from publicly accessible Instagram posts. Add stable parent IDs and available public commenter profile fields…"
 slug: "export-instagram-comments-required-to-csv"
 canonical_url: "/resources/export-instagram-comments-required-to-csv/"

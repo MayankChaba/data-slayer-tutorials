@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "scrape instagram comments required without login"
+title: "Scrape Instagram comments required without login"
 description: "Extract comments and optional replies from publicly accessible Instagram posts. Add stable parent IDs and available public commenter profile fields…"
 slug: "scrape-instagram-comments-required-without-login"
 canonical_url: "/resources/scrape-instagram-comments-required-without-login/"

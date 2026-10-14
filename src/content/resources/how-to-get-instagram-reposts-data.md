@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to get instagram reposts data"
+title: "How to get Instagram reposts data"
 description: "Extract everything from any public Instagram profile's Reposts tab — reposted content, original creator data, captions, engagement metrics, and video…"
 slug: "how-to-get-instagram-reposts-data"
 canonical_url: "/resources/how-to-get-instagram-reposts-data/"

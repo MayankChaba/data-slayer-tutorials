@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to scrape facebook marketplace without getting blocked"
+title: "How to scrape Facebook marketplace without getting blocked"
 description: "Extract detailed Facebook Marketplace listing data without login. Get title, price, condition, location (with coordinates), seller details, delivery…"
 slug: "how-to-scrape-facebook-marketplace-without-getting-blocked"
 canonical_url: "/resources/how-to-scrape-facebook-marketplace-without-getting-blocked/"

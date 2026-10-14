@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "find competitor and creator content on Twitter for social media managers"
+title: "Finding competitor and creator content on X (Twitter)"
 description: "Extract replies and comments from any tweet without login. Get comment text, author profiles, likes, retweets, bookmarks, views, timestamps, and…"
 slug: "find-competitor-and-creator-content-on-twitter-for-social-media-managers"
 canonical_url: "/resources/find-competitor-and-creator-content-on-twitter-for-social-media-managers/"

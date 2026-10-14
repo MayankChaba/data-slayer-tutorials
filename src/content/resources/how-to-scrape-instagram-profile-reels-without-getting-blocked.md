@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to scrape instagram profile reels without getting blocked"
+title: "How to scrape Instagram profile reels without getting blocked"
 description: "Scrape all Reels from any Instagram profile by username — no login. Get play counts, likes, comments, shares, captions, hashtags, audio metadata, video…"
 slug: "how-to-scrape-instagram-profile-reels-without-getting-blocked"
 canonical_url: "/resources/how-to-scrape-instagram-profile-reels-without-getting-blocked/"

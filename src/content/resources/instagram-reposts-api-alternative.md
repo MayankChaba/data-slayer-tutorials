@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "instagram reposts api alternative"
+title: "The Instagram reposts API alternative"
 description: "Extract everything from any public Instagram profile's Reposts tab — reposted content, original creator data, captions, engagement metrics, and video…"
 slug: "instagram-reposts-api-alternative"
 canonical_url: "/resources/instagram-reposts-api-alternative/"

@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to scrape twitter comments without getting blocked"
+title: "How to scrape X (Twitter) comments without getting blocked"
 description: "Extract replies and comments from any tweet without login. Get comment text, author profiles, likes, retweets, bookmarks, views, timestamps, and…"
 slug: "how-to-scrape-twitter-comments-without-getting-blocked"
 canonical_url: "/resources/how-to-scrape-twitter-comments-without-getting-blocked/"

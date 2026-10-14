@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to scrape linkedin company posts without getting blocked"
+title: "How to scrape LinkedIn company posts without getting blocked"
 description: "LinkedIn Company Posts Scraper - extract public data cookieless."
 slug: "how-to-scrape-linkedin-company-posts-without-getting-blocked"
 canonical_url: "/resources/how-to-scrape-linkedin-company-posts-without-getting-blocked/"

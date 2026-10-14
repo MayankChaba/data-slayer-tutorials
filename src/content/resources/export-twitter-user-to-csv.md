@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "export twitter user to csv"
+title: "How to export X (Twitter) user to CSV"
 description: "Extract public Twitter/X profile data from handles, profile URLs, or numeric user IDs. Export bios, follower and following counts, verification, images…"
 slug: "export-twitter-user-to-csv"
 canonical_url: "/resources/export-twitter-user-to-csv/"

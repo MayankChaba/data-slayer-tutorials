@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "scrape linkedin post analytics without login"
+title: "Scrape LinkedIn post analytics without login"
 description: "Paste a LinkedIn post URL and get the numbers behind it: likes, comments, shares, the full reaction breakdown, author details, post text and media…"
 slug: "scrape-linkedin-post-analytics-without-login"
 canonical_url: "/resources/scrape-linkedin-post-analytics-without-login/"

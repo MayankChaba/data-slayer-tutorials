@@ -45,7 +45,8 @@ proxies are required. One Apify token works across the whole portfolio.
 - Scraper catalog: ${site.url}/scrapers/
 - Documentation: ${site.url}/docs
 - Pricing: ${site.url}/pricing
-- Resources: ${site.url}/resources
+- Playbooks: ${site.url}/playbooks
+- Blog: ${site.url}/blogs
 - About: ${site.url}/about
 - Contact: ${site.url}/contact
 - Apify Store profile: ${site.apifyProfileUrl}

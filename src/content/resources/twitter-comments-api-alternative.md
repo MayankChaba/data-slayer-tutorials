@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "twitter comments api alternative"
+title: "The X (Twitter) comments API alternative"
 description: "Extract replies and comments from any tweet without login. Get comment text, author profiles, likes, retweets, bookmarks, views, timestamps, and…"
 slug: "twitter-comments-api-alternative"
 canonical_url: "/resources/twitter-comments-api-alternative/"

@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "linkedin post analytics data extraction tool"
+title: "Extracting LinkedIn post analytics data"
 description: "Paste a LinkedIn post URL and get the numbers behind it: likes, comments, shares, the full reaction breakdown, author details, post text and media…"
 slug: "linkedin-post-analytics-data-extraction-tool"
 canonical_url: "/resources/linkedin-post-analytics-data-extraction-tool/"

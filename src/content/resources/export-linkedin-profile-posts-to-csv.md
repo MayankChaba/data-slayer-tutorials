@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "export linkedin profile posts to csv"
+title: "How to export LinkedIn profile posts to CSV"
 description: "LinkedIn Profile Posts Scraper - extract public data cookieless."
 slug: "export-linkedin-profile-posts-to-csv"
 canonical_url: "/resources/export-linkedin-profile-posts-to-csv/"

@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to scrape instagram posts without getting blocked"
+title: "How to scrape Instagram posts without getting blocked"
 description: "Scrape all posts from any Instagram profile — no login. Get likes, comments, shares, captions with parsed hashtags & mentions, tagged users…"
 slug: "how-to-scrape-instagram-posts-without-getting-blocked"
 canonical_url: "/resources/how-to-scrape-instagram-posts-without-getting-blocked/"

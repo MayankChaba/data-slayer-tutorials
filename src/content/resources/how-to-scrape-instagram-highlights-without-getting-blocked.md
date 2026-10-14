@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to scrape instagram highlights without getting blocked"
+title: "How to scrape Instagram highlights without getting blocked"
 description: "Extract saved Instagram Highlights from any public profile — no login. Get highlight titles, cover images, media counts, creation dates, and profile data…"
 slug: "how-to-scrape-instagram-highlights-without-getting-blocked"
 canonical_url: "/resources/how-to-scrape-instagram-highlights-without-getting-blocked/"

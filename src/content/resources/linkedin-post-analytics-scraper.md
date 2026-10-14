@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "linkedin post analytics scraper"
+title: "LinkedIn post analytics scraper"
 description: "Paste a LinkedIn post URL and get the numbers behind it: likes, comments, shares, the full reaction breakdown, author details, post text and media…"
 slug: "linkedin-post-analytics-scraper"
 canonical_url: "/resources/linkedin-post-analytics-scraper/"

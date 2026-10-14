@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "instagram post api alternative"
+title: "The Instagram post API alternative"
 description: ""
 slug: "instagram-post-api-alternative"
 canonical_url: "/resources/instagram-post-api-alternative/"

@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "scrape instagram profile reels without login"
+title: "Scrape Instagram profile reels without login"
 description: ""
 slug: "scrape-instagram-profile-reels-without-login"
 canonical_url: "/resources/scrape-instagram-profile-reels-without-login/"

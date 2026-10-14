@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "instagram profile reels api alternative"
+title: "The Instagram profile reels API alternative"
 description: "Scrape all Reels from any Instagram profile by username — no login. Get play counts, likes, comments, shares, captions, hashtags, audio metadata, video…"
 slug: "instagram-profile-reels-api-alternative"
 canonical_url: "/resources/instagram-profile-reels-api-alternative/"

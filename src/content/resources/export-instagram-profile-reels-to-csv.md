@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "export instagram profile reels to csv"
+title: "How to export Instagram profile reels to CSV"
 description: "Scrape all Reels from any Instagram profile by username — no login. Get play counts, likes, comments, shares, captions, hashtags, audio metadata, video…"
 slug: "export-instagram-profile-reels-to-csv"
 canonical_url: "/resources/export-instagram-profile-reels-to-csv/"

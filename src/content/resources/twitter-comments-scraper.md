@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "twitter comments scraper"
+title: "X (Twitter) comments scraper"
 description: "Extract replies and comments from any tweet without login. Get comment text, author profiles, likes, retweets, bookmarks, views, timestamps, and…"
 slug: "twitter-comments-scraper"
 canonical_url: "/resources/twitter-comments-scraper/"

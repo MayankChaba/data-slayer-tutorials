@@ -54,8 +54,8 @@ const hubHref = (id: string) =>
           <LogoMark size={30} />
           {site.wordmark}
         </a>
-        <nav aria-label="Main" class="flex items-center gap-5 text-sm font-medium lg:gap-6">
-          {nav.map((item) => <a href={item.href} class={`${navLink} max-sm:hidden`}>{item.label}</a>)}
+        <nav aria-label="Main" class="flex items-center gap-5 text-sm font-medium max-sm:hidden lg:gap-6">
+          {nav.map((item) => <a href={item.href} class={navLink}>{item.label}</a>)}
         </nav>
         <a
           href={site.apifyProfileUrl}
@@ -63,6 +63,32 @@ const hubHref = (id: string) =>
           rel="noopener"
           class="btn btn-sm btn-primary ml-auto max-sm:hidden">Open on Apify</a
         >
+        <details class="relative ml-auto sm:hidden">
+          <summary
+            class="btn btn-sm btn-secondary cursor-pointer list-none [&::-webkit-details-marker]:hidden"
+            aria-label="Open menu">Menu</summary
+          >
+          <nav
+            aria-label="Mobile"
+            class="absolute right-0 z-50 mt-2 w-52 rounded-lg border border-line bg-panel p-2 shadow-xl"
+          >
+            {nav.map((item) => (
+              <a
+                href={item.href}
+                class="block rounded-md px-3 py-2 text-sm font-medium text-muted transition-colors hover:bg-raised hover:text-text"
+              >
+                {item.label}
+              </a>
+            ))}
+            <a
+              href={site.apifyProfileUrl}
+              target="_blank"
+              rel="noopener"
+              class="mt-1 block rounded-md px-3 py-2 text-sm font-medium text-brand transition-colors hover:bg-raised"
+              >Open on Apify ↗</a
+            >
+          </nav>
+        </details>
       </div>
     </header>
 
@@ -99,7 +125,8 @@ const hubHref = (id: string) =>
             <li><a href="/scrapers/" class="transition-colors hover:text-text">All scrapers</a></li>
             <li><a href="/docs" class="transition-colors hover:text-text">Docs</a></li>
             <li><a href="/pricing" class="transition-colors hover:text-text">Pricing</a></li>
-            <li><a href="/resources" class="transition-colors hover:text-text">Resources</a></li>
+            <li><a href="/playbooks" class="transition-colors hover:text-text">Playbooks</a></li>
+            <li><a href="/blogs" class="transition-colors hover:text-text">Blog</a></li>
             <li><a href="/compare" class="transition-colors hover:text-text">Compare</a></li>
             <li><a href="/status" class="transition-colors hover:text-text">Status</a></li>
             <li><a href="/about" class="transition-colors hover:text-text">About</a></li>

@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "instagram user info scraper"
+title: "Instagram user info scraper"
 description: "Scrape public Instagram profiles in bulk. Get the published account-creation month, registration country, username-change count, followers, bio, links…"
 slug: "instagram-user-info-scraper"
 canonical_url: "/resources/instagram-user-info-scraper/"

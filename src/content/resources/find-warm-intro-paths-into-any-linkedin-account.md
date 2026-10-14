@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Find warm intro paths into any LinkedIn account"
+title: "Finding warm intro paths into any LinkedIn account"
 date: 2026-09-29 12:00:00 +0000
 description: "Stop cold-emailing targets you have connections to. Enter your team's LinkedIn profiles and your target accounts — get ranked warm-intro paths with the best connector to ask."
 categories: linkedin

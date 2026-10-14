@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Refresh your CRM with fresh LinkedIn profile data"
+title: "How to refresh your CRM with fresh LinkedIn profile data"
 date: 2026-09-29 11:00:00 +0000
 description: "Turn a column of LinkedIn profile URLs into current titles, companies, skills, and locations — then push the clean records back into your CRM. No LinkedIn login, no cookies."
 categories: linkedin

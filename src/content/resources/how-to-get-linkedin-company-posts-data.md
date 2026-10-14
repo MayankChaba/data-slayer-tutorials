@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to get linkedin company posts data"
+title: "How to get LinkedIn company posts data"
 description: "LinkedIn Company Posts Scraper - extract public data cookieless."
 slug: "how-to-get-linkedin-company-posts-data"
 canonical_url: "/resources/how-to-get-linkedin-company-posts-data/"

@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "twitter user tweets scraper"
+title: "X (Twitter) user tweets scraper"
 description: "Extract tweets from any public Twitter/X account without login. Get full tweet text, likes, retweets, replies, bookmarks, views, media attachments…"
 slug: "twitter-user-tweets-scraper"
 canonical_url: "/resources/twitter-user-tweets-scraper/"

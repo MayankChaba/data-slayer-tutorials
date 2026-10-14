@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "export twitter user tweets to csv"
+title: "How to export X (Twitter) user tweets to CSV"
 description: "Extract tweets from any public Twitter/X account without login. Get full tweet text, likes, retweets, replies, bookmarks, views, media attachments…"
 slug: "export-twitter-user-tweets-to-csv"
 canonical_url: "/resources/export-twitter-user-tweets-to-csv/"

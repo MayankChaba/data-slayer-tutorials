@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "export instagram user info to csv"
+title: "How to export Instagram user info to CSV"
 description: ""
 slug: "export-instagram-user-info-to-csv"
 canonical_url: "/resources/export-instagram-user-info-to-csv/"

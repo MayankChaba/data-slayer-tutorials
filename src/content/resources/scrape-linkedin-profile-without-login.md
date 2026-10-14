@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "scrape linkedin profile without login"
+title: "Scrape LinkedIn profile without login"
 description: "Scrape fresh LinkedIn profile data in bulk from profile URLs. Export structured JSON, CSV, or Excel with experience, education, skills, job, company, and…"
 slug: "scrape-linkedin-profile-without-login"
 canonical_url: "/resources/scrape-linkedin-profile-without-login/"

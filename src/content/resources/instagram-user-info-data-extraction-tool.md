@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "instagram user info data extraction tool"
+title: "Extracting Instagram user info data"
 description: ""
 slug: "instagram-user-info-data-extraction-tool"
 canonical_url: "/resources/instagram-user-info-data-extraction-tool/"

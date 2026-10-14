@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to scrape linkedin post analytics without getting blocked"
+title: "How to scrape LinkedIn post analytics without getting blocked"
 description: "Paste a LinkedIn post URL and get the numbers behind it: likes, comments, shares, the full reaction breakdown, author details, post text and media…"
 slug: "how-to-scrape-linkedin-post-analytics-without-getting-blocked"
 canonical_url: "/resources/how-to-scrape-linkedin-post-analytics-without-getting-blocked/"

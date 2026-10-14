@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "instagram users data extraction tool"
+title: "Extracting Instagram users data"
 description: "Type any keyword and get every Instagram profile Instagram surfaces for that topic — usernames, verification status, and profile data. Enriched tier adds…"
 slug: "instagram-users-data-extraction-tool"
 canonical_url: "/resources/instagram-users-data-extraction-tool/"

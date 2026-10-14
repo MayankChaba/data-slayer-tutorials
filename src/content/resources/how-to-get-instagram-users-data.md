@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to get instagram users data"
+title: "How to get Instagram users data"
 description: "Type any keyword and get every Instagram profile Instagram surfaces for that topic — usernames, verification status, and profile data. Enriched tier adds…"
 slug: "how-to-get-instagram-users-data"
 canonical_url: "/resources/how-to-get-instagram-users-data/"

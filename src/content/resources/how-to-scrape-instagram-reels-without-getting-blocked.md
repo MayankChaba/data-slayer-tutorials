@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to scrape instagram reels without getting blocked"
+title: "How to scrape Instagram reels without getting blocked"
 description: "Search Instagram Reels by keyword and discover trending content — no login, no cookies. Get play counts, likes, comments, shares, video URLs, captions…"
 slug: "how-to-scrape-instagram-reels-without-getting-blocked"
 canonical_url: "/resources/how-to-scrape-instagram-reels-without-getting-blocked/"

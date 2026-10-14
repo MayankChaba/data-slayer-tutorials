@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to scrape twitter user without getting blocked"
+title: "How to scrape X (Twitter) user without getting blocked"
 description: "Extract public Twitter/X profile data from handles, profile URLs, or numeric user IDs. Export bios, follower and following counts, verification, images…"
 slug: "how-to-scrape-twitter-user-without-getting-blocked"
 canonical_url: "/resources/how-to-scrape-twitter-user-without-getting-blocked/"

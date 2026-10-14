@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to get instagram posts data"
+title: "How to get Instagram posts data"
 description: ""
 slug: "how-to-get-instagram-posts-data"
 canonical_url: "/resources/how-to-get-instagram-posts-data/"

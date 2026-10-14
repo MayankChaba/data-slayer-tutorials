@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "linkedin profile posts api alternative"
+title: "The LinkedIn profile posts API alternative"
 description: "LinkedIn Profile Posts Scraper - extract public data cookieless."
 slug: "linkedin-profile-posts-api-alternative"
 canonical_url: "/resources/linkedin-profile-posts-api-alternative/"

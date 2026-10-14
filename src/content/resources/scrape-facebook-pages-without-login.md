@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "scrape facebook pages without login"
+title: "Scrape Facebook pages without login"
 description: "Search and discover Facebook pages by keyword without login. Get page names, URLs, Facebook IDs, verification status, and profile images. Build prospect…"
 slug: "scrape-facebook-pages-without-login"
 canonical_url: "/resources/scrape-facebook-pages-without-login/"

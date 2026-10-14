@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to get instagram highlights data"
+title: "How to get Instagram highlights data"
 description: "Extract saved Instagram Highlights from any public profile — no login. Get highlight titles, cover images, media counts, creation dates, and profile data…"
 slug: "how-to-get-instagram-highlights-data"
 canonical_url: "/resources/how-to-get-instagram-highlights-data/"

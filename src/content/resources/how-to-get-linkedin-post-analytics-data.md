@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to get linkedin post analytics data"
+title: "How to get LinkedIn post analytics data"
 description: "Paste a LinkedIn post URL and get the numbers behind it: likes, comments, shares, the full reaction breakdown, author details, post text and media…"
 slug: "how-to-get-linkedin-post-analytics-data"
 canonical_url: "/resources/how-to-get-linkedin-post-analytics-data/"

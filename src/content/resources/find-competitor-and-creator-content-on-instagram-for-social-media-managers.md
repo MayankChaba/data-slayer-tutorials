@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "find competitor and creator content on Instagram for social media managers"
+title: "Finding competitor and creator content on Instagram"
 description: ""
 slug: "find-competitor-and-creator-content-on-instagram-for-social-media-managers"
 canonical_url: "/resources/find-competitor-and-creator-content-on-instagram-for-social-media-managers/"

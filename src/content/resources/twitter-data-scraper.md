@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "twitter data scraper"
+title: "X (Twitter) data scraper"
 description: "Search public Twitter/X posts and profiles by keyword, hashtag, mention, or documented advanced operator. Export unique results with bounded pagination…"
 slug: "twitter-data-scraper"
 canonical_url: "/resources/twitter-data-scraper/"

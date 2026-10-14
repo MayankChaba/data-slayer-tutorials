@@ -1,22 +1,23 @@
 ---
-import Base from "../../layouts/Base.astro";
-import JsonLd from "../../components/JsonLd.astro";
-import GuideCover from "../../components/GuideCover.astro";
-import LogoMark from "../../components/LogoMark.astro";
-import { getCollection, render } from "astro:content";
-import { site, getPlatform } from "../../lib/site";
-import { getActorBySlug } from "../../lib/actors";
-import { guidePlatform, guideTag, guideDateLabel, readTime } from "../../lib/guides";
-import { platformTint } from "../../lib/platform";
-import { formatUsd } from "../../lib/format";
-import { graph, organizationSchema, websiteSchema, breadcrumbSchema } from "../../lib/seo";
+import Base from "../layouts/Base.astro";
+import JsonLd from "./JsonLd.astro";
+import GuideCover from "./GuideCover.astro";
+import LogoMark from "./LogoMark.astro";
+import { render } from "astro:content";
+import { site, getPlatform } from "../lib/site";
+import { getActorBySlug } from "../lib/actors";
+import { guidePlatform, guideTag, guideDateLabel, readTime } from "../lib/guides";
+import { platformTint } from "../lib/platform";
+import { formatUsd } from "../lib/format";
+import { graph, organizationSchema, websiteSchema, breadcrumbSchema } from "../lib/seo";
 
-export async function getStaticPaths() {
-  const items = await getCollection("resources");
-  return items.map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
+interface Props {
+  entry: any;
+  /** "blogs" or "playbooks" — drives breadcrumbs, canonical path and copy. */
+  section: "blogs" | "playbooks";
 }
 
-const { entry } = Astro.props;
+const { entry, section } = Astro.props;
 const { Content, headings } = await render(entry);
 const data = entry.data as Record<string, unknown>;
 const title = (data.title as string) ?? entry.id;
@@ -28,9 +29,15 @@ const meta = getPlatform(platform);
 const tint = platformTint(platform);
 const tag = guideTag(data);
 const minutes = readTime(entry.body);
-const path = `/resources/${entry.id}/`;
+const path = `/${section}/${entry.id}/`;
 const toc = headings.filter((h) => h.depth >= 2 && h.depth <= 3);
 const actor = data.actor_slug ? getActorBySlug(String(data.actor_slug)) : undefined;
+
+const sectionLabel = section === "playbooks" ? "Playbooks" : "Blog";
+const ctaLead =
+  section === "playbooks"
+    ? "Every scraper in this playbook is live on Apify — no login, pay per result."
+    : "Every scraper referenced here is live on Apify — no login, pay per result.";
 ---
 
 <Base title={title} description={description}>
@@ -40,7 +47,7 @@ const actor = data.actor_slug ? getActorBySlug(String(data.actor_slug)) : undefi
       websiteSchema(),
       breadcrumbSchema([
         { name: "Home", path: "/" },
-        { name: "Resources", path: "/resources/" },
+        { name: sectionLabel, path: `/${section}/` },
         { name: title, path },
       ]),
       {
@@ -59,7 +66,7 @@ const actor = data.actor_slug ? getActorBySlug(String(data.actor_slug)) : undefi
     <nav class="text-sm text-faint" aria-label="Breadcrumb">
       <a class="transition-colors hover:text-text" href="/">Home</a>
       <span class="px-2">/</span>
-      <a class="transition-colors hover:text-text" href="/resources/">Resources</a>
+      <a class="transition-colors hover:text-text" href={`/${section}/`}>{sectionLabel}</a>
     </nav>
 
     <header class="mx-auto mt-8 max-w-3xl text-center">
@@ -136,9 +143,7 @@ const actor = data.actor_slug ? getActorBySlug(String(data.actor_slug)) : undefi
       <div class="panel flex flex-col items-start justify-between gap-5 p-6 sm:flex-row sm:items-center">
         <div>
           <h2 class="h-sub">Ready to run this?</h2>
-          <p class="mt-1 text-[0.9375rem] text-muted">
-            Every scraper in this guide is live on Apify — no login, pay per result.
-          </p>
+          <p class="mt-1 text-[0.9375rem] text-muted">{ctaLead}</p>
         </div>
         <div class="flex shrink-0 gap-3">
           <a href="/scrapers/" class="btn btn-primary">Browse scrapers</a>

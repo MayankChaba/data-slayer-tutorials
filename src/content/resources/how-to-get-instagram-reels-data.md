@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to get instagram reels data"
+title: "How to get Instagram reels data"
 description: "Search Instagram Reels by keyword and discover trending content — no login, no cookies. Get play counts, likes, comments, shares, video URLs, captions…"
 slug: "how-to-get-instagram-reels-data"
 canonical_url: "/resources/how-to-get-instagram-reels-data/"

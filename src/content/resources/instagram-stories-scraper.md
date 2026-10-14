@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "instagram stories scraper"
+title: "Instagram stories scraper"
 description: "Capture Instagram Stories from any public profile before they disappear — no login. Get story media URLs, timestamps, stickers, mentions, music info…"
 slug: "instagram-stories-scraper"
 canonical_url: "/resources/instagram-stories-scraper/"

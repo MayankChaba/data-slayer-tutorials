@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "export instagram stories to csv"
+title: "How to export Instagram stories to CSV"
 description: "Capture Instagram Stories from any public profile before they disappear — no login. Get story media URLs, timestamps, stickers, mentions, music info…"
 slug: "export-instagram-stories-to-csv"
 canonical_url: "/resources/export-instagram-stories-to-csv/"

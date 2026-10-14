@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to scrape instagram post without getting blocked"
+title: "How to scrape Instagram post without getting blocked"
 description: "Get full details from any Instagram post or Reel by URL — no login. 128 fields: likes, comments, views, shares, saves, reposts, captions, audio metadata…"
 slug: "how-to-scrape-instagram-post-without-getting-blocked"
 canonical_url: "/resources/how-to-scrape-instagram-post-without-getting-blocked/"

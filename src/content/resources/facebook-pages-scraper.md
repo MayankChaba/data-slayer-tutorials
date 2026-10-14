@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "facebook pages scraper"
+title: "Facebook pages scraper"
 description: "Search and discover Facebook pages by keyword without login. Get page names, URLs, Facebook IDs, verification status, and profile images. Build prospect…"
 slug: "facebook-pages-scraper"
 canonical_url: "/resources/facebook-pages-scraper/"

@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "instagram reposts data extraction tool"
+title: "Extracting Instagram reposts data"
 description: "Extract everything from any public Instagram profile's Reposts tab — reposted content, original creator data, captions, engagement metrics, and video…"
 slug: "instagram-reposts-data-extraction-tool"
 canonical_url: "/resources/instagram-reposts-data-extraction-tool/"

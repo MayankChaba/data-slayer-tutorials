@@ -3,7 +3,7 @@ import type { PlatformId } from "./types";
 /** Site-wide constants. Change these in one place. */
 export const site = {
   name: "dataslayer.dev",
-  wordmark: "dataslayer",
+  wordmark: "Dataslayer",
   publisher: "Data Slayer",
   url: "https://dataslayer.dev",
   tagline: "Web data APIs for social platforms",
@@ -26,7 +26,8 @@ export const nav: NavItem[] = [
   { label: "Scrapers", href: "/scrapers" },
   { label: "Docs", href: "/docs" },
   { label: "Pricing", href: "/pricing" },
-  { label: "Resources", href: "/resources" },
+  { label: "Playbooks", href: "/playbooks" },
+  { label: "Blog", href: "/blogs" },
 ];
 
 export interface Platform {

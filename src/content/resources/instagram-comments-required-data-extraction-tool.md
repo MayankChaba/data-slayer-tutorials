@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "instagram comments required data extraction tool"
+title: "Extracting Instagram comments required data"
 description: "Extract comments and optional replies from publicly accessible Instagram posts. Add stable parent IDs and available public commenter profile fields…"
 slug: "instagram-comments-required-data-extraction-tool"
 canonical_url: "/resources/instagram-comments-required-data-extraction-tool/"

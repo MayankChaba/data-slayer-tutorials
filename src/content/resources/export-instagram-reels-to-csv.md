@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "export instagram reels to csv"
+title: "How to export Instagram reels to CSV"
 description: "Search Instagram Reels by keyword and discover trending content — no login, no cookies. Get play counts, likes, comments, shares, video URLs, captions…"
 slug: "export-instagram-reels-to-csv"
 canonical_url: "/resources/export-instagram-reels-to-csv/"

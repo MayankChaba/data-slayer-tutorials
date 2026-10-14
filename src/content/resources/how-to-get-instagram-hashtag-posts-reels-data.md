@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to get instagram hashtag posts reels data"
+title: "How to get Instagram hashtag posts reels data"
 description: "Scrape Instagram posts and Reels by hashtag with 145 fields per result — no login. Get likes, comments, shares, views, captions, video URLs, audio…"
 slug: "how-to-get-instagram-hashtag-posts-reels-data"
 canonical_url: "/resources/how-to-get-instagram-hashtag-posts-reels-data/"

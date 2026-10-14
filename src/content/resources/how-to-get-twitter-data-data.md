@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to get twitter data data"
+title: "How to get X (Twitter) data data"
 description: "Search public Twitter/X posts and profiles by keyword, hashtag, mention, or documented advanced operator. Export unique results with bounded pagination…"
 slug: "how-to-get-twitter-data-data"
 canonical_url: "/resources/how-to-get-twitter-data-data/"

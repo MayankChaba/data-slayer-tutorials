@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to scrape instagram stories without getting blocked"
+title: "How to scrape Instagram stories without getting blocked"
 description: "Capture Instagram Stories from any public profile before they disappear — no login. Get story media URLs, timestamps, stickers, mentions, music info…"
 slug: "how-to-scrape-instagram-stories-without-getting-blocked"
 canonical_url: "/resources/how-to-scrape-instagram-stories-without-getting-blocked/"

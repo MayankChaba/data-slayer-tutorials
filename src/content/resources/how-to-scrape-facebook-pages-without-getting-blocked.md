@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to scrape facebook pages without getting blocked"
+title: "How to scrape Facebook pages without getting blocked"
 description: "Search and discover Facebook pages by keyword without login. Get page names, URLs, Facebook IDs, verification status, and profile images. Build prospect…"
 slug: "how-to-scrape-facebook-pages-without-getting-blocked"
 canonical_url: "/resources/how-to-scrape-facebook-pages-without-getting-blocked/"

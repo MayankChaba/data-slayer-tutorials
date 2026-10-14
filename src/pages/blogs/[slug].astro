@@ -1,0 +1,16 @@
+---
+import { getCollection } from "astro:content";
+import GuideArticle from "../../components/GuideArticle.astro";
+import { sectionFor } from "../../lib/sections";
+
+export async function getStaticPaths() {
+  const items = await getCollection("resources");
+  return items
+    .filter((entry) => sectionFor((entry.data as Record<string, unknown>).content_type) === "blogs")
+    .map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+---
+
+<GuideArticle entry={entry} section="blogs" />

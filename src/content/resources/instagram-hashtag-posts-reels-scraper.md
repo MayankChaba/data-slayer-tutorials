@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "instagram hashtag posts reels scraper"
+title: "Instagram hashtag posts reels scraper"
 description: "Scrape Instagram posts and Reels by hashtag with 145 fields per result — no login. Get likes, comments, shares, views, captions, video URLs, audio…"
 slug: "instagram-hashtag-posts-reels-scraper"
 canonical_url: "/resources/instagram-hashtag-posts-reels-scraper/"

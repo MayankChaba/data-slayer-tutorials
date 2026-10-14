@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to scrape twitter user tweets without getting blocked"
+title: "How to scrape X (Twitter) user tweets without getting blocked"
 description: "Extract tweets from any public Twitter/X account without login. Get full tweet text, likes, retweets, replies, bookmarks, views, media attachments…"
 slug: "how-to-scrape-twitter-user-tweets-without-getting-blocked"
 canonical_url: "/resources/how-to-scrape-twitter-user-tweets-without-getting-blocked/"

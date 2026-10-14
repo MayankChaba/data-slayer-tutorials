@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Build an Instagram creator lead list from keywords"
+title: "How to build an Instagram creator lead list from keywords"
 date: 2026-09-29 13:00:00 +0000
 description: "Turn niche keywords and hashtags into a qualified Instagram creator outreach list — with source posts, follower counts, public contact signals, and transparent pass/reject reasons."
 categories: instagram

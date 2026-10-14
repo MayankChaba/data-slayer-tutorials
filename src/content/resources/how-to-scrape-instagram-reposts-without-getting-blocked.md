@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to scrape instagram reposts without getting blocked"
+title: "How to scrape Instagram reposts without getting blocked"
 description: "Extract everything from any public Instagram profile's Reposts tab — reposted content, original creator data, captions, engagement metrics, and video…"
 slug: "how-to-scrape-instagram-reposts-without-getting-blocked"
 canonical_url: "/resources/how-to-scrape-instagram-reposts-without-getting-blocked/"

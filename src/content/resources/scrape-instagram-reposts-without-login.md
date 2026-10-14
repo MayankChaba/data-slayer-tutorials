@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "scrape instagram reposts without login"
+title: "Scrape Instagram reposts without login"
 description: "Extract everything from any public Instagram profile's Reposts tab — reposted content, original creator data, captions, engagement metrics, and video…"
 slug: "scrape-instagram-reposts-without-login"
 canonical_url: "/resources/scrape-instagram-reposts-without-login/"

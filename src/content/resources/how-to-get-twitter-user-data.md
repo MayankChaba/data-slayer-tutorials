@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to get twitter user data"
+title: "How to get X (Twitter) user data"
 description: "Extract public Twitter/X profile data from handles, profile URLs, or numeric user IDs. Export bios, follower and following counts, verification, images…"
 slug: "how-to-get-twitter-user-data"
 canonical_url: "/resources/how-to-get-twitter-user-data/"

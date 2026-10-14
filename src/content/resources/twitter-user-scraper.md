@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "twitter user scraper"
+title: "X (Twitter) user scraper"
 description: "Extract public Twitter/X profile data from handles, profile URLs, or numeric user IDs. Export bios, follower and following counts, verification, images…"
 slug: "twitter-user-scraper"
 canonical_url: "/resources/twitter-user-scraper/"

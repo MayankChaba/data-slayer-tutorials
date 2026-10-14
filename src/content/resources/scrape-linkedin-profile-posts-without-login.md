@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "scrape linkedin profile posts without login"
+title: "Scrape LinkedIn profile posts without login"
 description: "LinkedIn Profile Posts Scraper - extract public data cookieless."
 slug: "scrape-linkedin-profile-posts-without-login"
 canonical_url: "/resources/scrape-linkedin-profile-posts-without-login/"

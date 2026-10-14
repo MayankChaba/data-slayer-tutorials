@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to scrape instagram users without getting blocked"
+title: "How to scrape Instagram users without getting blocked"
 description: "Type any keyword and get every Instagram profile Instagram surfaces for that topic — usernames, verification status, and profile data. Enriched tier adds…"
 slug: "how-to-scrape-instagram-users-without-getting-blocked"
 canonical_url: "/resources/how-to-scrape-instagram-users-without-getting-blocked/"

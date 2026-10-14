@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "instagram users scraper"
+title: "Instagram users scraper"
 description: "Type any keyword and get every Instagram profile Instagram surfaces for that topic — usernames, verification status, and profile data. Enriched tier adds…"
 slug: "instagram-users-scraper"
 canonical_url: "/resources/instagram-users-scraper/"

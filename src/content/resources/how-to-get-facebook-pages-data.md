@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to get facebook pages data"
+title: "How to get Facebook pages data"
 description: "Search and discover Facebook pages by keyword without login. Get page names, URLs, Facebook IDs, verification status, and profile images. Build prospect…"
 slug: "how-to-get-facebook-pages-data"
 canonical_url: "/resources/how-to-get-facebook-pages-data/"

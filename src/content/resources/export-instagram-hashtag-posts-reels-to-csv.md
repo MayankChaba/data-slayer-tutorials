@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "export instagram hashtag posts reels to csv"
+title: "How to export Instagram hashtag posts reels to CSV"
 description: "Scrape Instagram posts and Reels by hashtag with 145 fields per result — no login. Get likes, comments, shares, views, captions, video URLs, audio…"
 slug: "export-instagram-hashtag-posts-reels-to-csv"
 canonical_url: "/resources/export-instagram-hashtag-posts-reels-to-csv/"

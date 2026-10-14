@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "linkedin profile data extraction tool"
+title: "Extracting LinkedIn profile data"
 description: "Scrape fresh LinkedIn profile data in bulk from profile URLs. Export structured JSON, CSV, or Excel with experience, education, skills, job, company, and…"
 slug: "linkedin-profile-data-extraction-tool"
 canonical_url: "/resources/linkedin-profile-data-extraction-tool/"

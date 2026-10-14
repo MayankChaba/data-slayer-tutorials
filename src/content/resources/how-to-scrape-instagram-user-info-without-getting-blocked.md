@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to scrape instagram user info without getting blocked"
+title: "How to scrape Instagram user info without getting blocked"
 description: "Scrape public Instagram profiles in bulk. Get the published account-creation month, registration country, username-change count, followers, bio, links…"
 slug: "how-to-scrape-instagram-user-info-without-getting-blocked"
 canonical_url: "/resources/how-to-scrape-instagram-user-info-without-getting-blocked/"

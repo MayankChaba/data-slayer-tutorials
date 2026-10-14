@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "export instagram highlights to csv"
+title: "How to export Instagram highlights to CSV"
 description: "Extract saved Instagram Highlights from any public profile — no login. Get highlight titles, cover images, media counts, creation dates, and profile data…"
 slug: "export-instagram-highlights-to-csv"
 canonical_url: "/resources/export-instagram-highlights-to-csv/"

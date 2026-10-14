@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "instagram comments required api alternative"
+title: "The Instagram comments required API alternative"
 description: "Extract comments and optional replies from publicly accessible Instagram posts. Add stable parent IDs and available public commenter profile fields…"
 slug: "instagram-comments-required-api-alternative"
 canonical_url: "/resources/instagram-comments-required-api-alternative/"

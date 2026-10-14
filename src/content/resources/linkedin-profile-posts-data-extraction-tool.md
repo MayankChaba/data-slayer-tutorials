@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "linkedin profile posts data extraction tool"
+title: "Extracting LinkedIn profile posts data"
 description: "LinkedIn Profile Posts Scraper - extract public data cookieless."
 slug: "linkedin-profile-posts-data-extraction-tool"
 canonical_url: "/resources/linkedin-profile-posts-data-extraction-tool/"

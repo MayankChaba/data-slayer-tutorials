@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to scrape instagram comments required without getting blocked"
+title: "How to scrape Instagram comments required without getting blocked"
 description: "Extract comments and optional replies from publicly accessible Instagram posts. Add stable parent IDs and available public commenter profile fields…"
 slug: "how-to-scrape-instagram-comments-required-without-getting-blocked"
 canonical_url: "/resources/how-to-scrape-instagram-comments-required-without-getting-blocked/"

@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "export twitter comments to csv"
+title: "How to export X (Twitter) comments to CSV"
 description: "Extract replies and comments from any tweet without login. Get comment text, author profiles, likes, retweets, bookmarks, views, timestamps, and…"
 slug: "export-twitter-comments-to-csv"
 canonical_url: "/resources/export-twitter-comments-to-csv/"

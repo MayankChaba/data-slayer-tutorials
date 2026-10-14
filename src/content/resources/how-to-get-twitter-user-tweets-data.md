@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to get twitter user tweets data"
+title: "How to get X (Twitter) user tweets data"
 description: "Extract tweets from any public Twitter/X account without login. Get full tweet text, likes, retweets, replies, bookmarks, views, media attachments…"
 slug: "how-to-get-twitter-user-tweets-data"
 canonical_url: "/resources/how-to-get-twitter-user-tweets-data/"

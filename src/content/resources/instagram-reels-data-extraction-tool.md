@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "instagram reels data extraction tool"
+title: "Extracting Instagram reels data"
 description: "Search Instagram Reels by keyword and discover trending content — no login, no cookies. Get play counts, likes, comments, shares, video URLs, captions…"
 slug: "instagram-reels-data-extraction-tool"
 canonical_url: "/resources/instagram-reels-data-extraction-tool/"

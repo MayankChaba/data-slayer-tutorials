@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "instagram reel analytics scraper"
+title: "Instagram reel analytics scraper"
 description: "Get full details from any Instagram post or Reel by URL — no login. 128 fields: likes, comments, views, shares, saves, reposts, captions, audio metadata…"
 slug: "instagram-reel-analytics-scraper"
 canonical_url: "/resources/instagram-reel-analytics-scraper/"

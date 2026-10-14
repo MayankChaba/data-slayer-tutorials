@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to get instagram profile reels data"
+title: "How to get Instagram profile reels data"
 description: "Scrape all Reels from any Instagram profile by username — no login. Get play counts, likes, comments, shares, captions, hashtags, audio metadata, video…"
 slug: "how-to-get-instagram-profile-reels-data"
 canonical_url: "/resources/how-to-get-instagram-profile-reels-data/"

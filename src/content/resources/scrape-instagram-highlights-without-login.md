@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "scrape instagram highlights without login"
+title: "Scrape Instagram highlights without login"
 description: "Extract saved Instagram Highlights from any public profile — no login. Get highlight titles, cover images, media counts, creation dates, and profile data…"
 slug: "scrape-instagram-highlights-without-login"
 canonical_url: "/resources/scrape-instagram-highlights-without-login/"

@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "instagram stories data extraction tool"
+title: "Extracting Instagram stories data"
 description: "Capture Instagram Stories from any public profile before they disappear — no login. Get story media URLs, timestamps, stickers, mentions, music info…"
 slug: "instagram-stories-data-extraction-tool"
 canonical_url: "/resources/instagram-stories-data-extraction-tool/"

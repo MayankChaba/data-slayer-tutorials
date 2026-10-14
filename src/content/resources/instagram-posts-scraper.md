@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "instagram posts scraper"
+title: "Instagram posts scraper"
 description: "Scrape all posts from any Instagram profile — no login. Get likes, comments, shares, captions with parsed hashtags & mentions, tagged users…"
 slug: "instagram-posts-scraper"
 canonical_url: "/resources/instagram-posts-scraper/"

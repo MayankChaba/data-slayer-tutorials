@@ -1,14 +1,23 @@
 ---
 import Base from "../layouts/Base.astro";
-import GuideCover from "../components/GuideCover.astro";
+import GuideCover from "./GuideCover.astro";
 import { getCollection } from "astro:content";
 import { site } from "../lib/site";
 import { guidePlatform, guideTag, guideDateLabel } from "../lib/guides";
 import { platformTint } from "../lib/platform";
+import { sectionFor, type Section } from "../lib/sections";
 
+interface Props {
+  section: Section;
+  title: string;
+  blurb: string;
+}
+
+const { section, title, blurb } = Astro.props;
 const items = await getCollection("resources");
 
 const guides = items
+  .filter((entry) => sectionFor((entry.data as Record<string, unknown>).content_type) === section)
   .map((entry) => {
     const d = entry.data as Record<string, unknown>;
     const platform = guidePlatform(d);
@@ -23,37 +32,31 @@ const guides = items
       date: d.date ? new Date(String(d.date)).getTime() : 0,
     };
   })
-  .sort((a, b) => b.date - a.date);
+  .sort((a, b) => b.date - a.date || a.title.localeCompare(b.title));
 
 const tagCounts = guides.reduce<Record<string, number>>((acc, g) => {
   acc[g.tag] = (acc[g.tag] ?? 0) + 1;
   return acc;
 }, {});
 const tags = Object.keys(tagCounts).sort((a, b) => tagCounts[b] - tagCounts[a]);
+const noun = section === "playbooks" ? "playbook" : "article";
 ---
 
-<Base
-  title="Resources"
-  description={`Guides and how-tos for scraping public social-media data with ${site.wordmark} scraper APIs.`}
->
+<Base title={title} description={blurb}>
   <section class="wrap pt-14 pb-8">
-    <h1 class="h-page max-w-[22ch]">
-      Guides for turning public social data into something useful
-    </h1>
-    <p class="lead mt-5 max-w-2xl">
-      Step-by-step playbooks: what to scrape, which scraper to use, and how to export it as JSON, CSV
-      or Excel.
-    </p>
+    <h1 class="h-page max-w-[22ch]">{title}</h1>
+    <p class="lead mt-5 max-w-2xl">{blurb}</p>
+    <p class="label mt-5">{guides.length} {noun}s</p>
   </section>
 
   <section class="wrap pb-8">
     <div class="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
       <label class="relative block w-full md:max-w-xs">
-        <span class="sr-only">Search guides</span>
+        <span class="sr-only">Search</span>
         <input
           id="gq"
           type="search"
-          placeholder="Search guides…"
+          placeholder={`Search ${noun}s…`}
           class="w-full rounded-md border border-line-strong bg-panel px-3 py-2 text-sm outline-none placeholder:text-faint focus:border-brand"
         />
       </label>
@@ -67,7 +70,7 @@ const tags = Object.keys(tagCounts).sort((a, b) => tagCounts[b] - tagCounts[a]);
   </section>
 
   <section class="wrap pb-16">
-    <p id="gempty" class="hidden py-16 text-center text-sm text-muted">No guides match that search.</p>
+    <p id="gempty" class="hidden py-16 text-center text-sm text-muted">Nothing matches that search.</p>
     <ul id="ggrid" class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
       {guides.map((g) => (
         <li
@@ -85,7 +88,7 @@ const tags = Object.keys(tagCounts).sort((a, b) => tagCounts[b] - tagCounts[a]);
               {g.tag}
             </span>
             <h2 class="text-[1.0625rem] font-semibold leading-snug">
-              <a href={`/resources/${g.slug}/`} class="after:absolute after:inset-0">{g.title}</a>
+              <a href={`/${section}/${g.slug}/`} class="after:absolute after:inset-0">{g.title}</a>
             </h2>
             {g.description && (
               <p class="line-clamp-3 text-sm leading-relaxed text-muted">{g.description}</p>
@@ -106,6 +109,7 @@ const tags = Object.keys(tagCounts).sort((a, b) => tagCounts[b] - tagCounts[a]);
       var grid = document.getElementById("ggrid");
       var empty = document.getElementById("gempty");
       var q = document.getElementById("gq");
+      if (!grid || !q) return;
       var buttons = Array.prototype.slice.call(document.querySelectorAll(".gtag"));
       var items = Array.prototype.slice.call(grid.querySelectorAll("[data-gitem]"));
       var tag = "all";

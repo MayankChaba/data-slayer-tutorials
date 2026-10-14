@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "export facebook pages to csv"
+title: "How to export Facebook pages to CSV"
 description: "Search and discover Facebook pages by keyword without login. Get page names, URLs, Facebook IDs, verification status, and profile images. Build prospect…"
 slug: "export-facebook-pages-to-csv"
 canonical_url: "/resources/export-facebook-pages-to-csv/"

@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "instagram comments required scraper"
+title: "Instagram comments required scraper"
 description: "Extract comments and optional replies from publicly accessible Instagram posts. Add stable parent IDs and available public commenter profile fields…"
 slug: "instagram-comments-required-scraper"
 canonical_url: "/resources/instagram-comments-required-scraper/"

@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "facebook pages api alternative"
+title: "The Facebook pages API alternative"
 description: "Search and discover Facebook pages by keyword without login. Get page names, URLs, Facebook IDs, verification status, and profile images. Build prospect…"
 slug: "facebook-pages-api-alternative"
 canonical_url: "/resources/facebook-pages-api-alternative/"

@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "export twitter data to csv"
+title: "How to export X (Twitter) data to CSV"
 description: "Search public Twitter/X posts and profiles by keyword, hashtag, mention, or documented advanced operator. Export unique results with bounded pagination…"
 slug: "export-twitter-data-to-csv"
 canonical_url: "/resources/export-twitter-data-to-csv/"

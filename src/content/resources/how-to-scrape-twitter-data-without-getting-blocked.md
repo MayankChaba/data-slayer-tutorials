@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to scrape twitter data without getting blocked"
+title: "How to scrape X (Twitter) data without getting blocked"
 description: "Search public Twitter/X posts and profiles by keyword, hashtag, mention, or documented advanced operator. Export unique results with bounded pagination…"
 slug: "how-to-scrape-twitter-data-without-getting-blocked"
 canonical_url: "/resources/how-to-scrape-twitter-data-without-getting-blocked/"

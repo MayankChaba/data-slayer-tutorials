@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "linkedin profile posts scraper"
+title: "LinkedIn profile posts scraper"
 description: "LinkedIn Profile Posts Scraper - extract public data cookieless."
 slug: "linkedin-profile-posts-scraper"
 canonical_url: "/resources/linkedin-profile-posts-scraper/"

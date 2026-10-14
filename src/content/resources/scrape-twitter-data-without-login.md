@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "scrape twitter data without login"
+title: "Scrape X (Twitter) data without login"
 description: "Search public Twitter/X posts and profiles by keyword, hashtag, mention, or documented advanced operator. Export unique results with bounded pagination…"
 slug: "scrape-twitter-data-without-login"
 canonical_url: "/resources/scrape-twitter-data-without-login/"

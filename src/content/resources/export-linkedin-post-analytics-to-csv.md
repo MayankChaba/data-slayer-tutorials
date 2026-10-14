@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "export linkedin post analytics to csv"
+title: "How to export LinkedIn post analytics to CSV"
 description: "Paste a LinkedIn post URL and get the numbers behind it: likes, comments, shares, the full reaction breakdown, author details, post text and media…"
 slug: "export-linkedin-post-analytics-to-csv"
 canonical_url: "/resources/export-linkedin-post-analytics-to-csv/"

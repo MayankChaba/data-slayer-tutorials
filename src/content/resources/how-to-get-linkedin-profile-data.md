@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to get linkedin profile data"
+title: "How to get LinkedIn profile data"
 description: "Scrape fresh LinkedIn profile data in bulk from profile URLs. Export structured JSON, CSV, or Excel with experience, education, skills, job, company, and…"
 slug: "how-to-get-linkedin-profile-data"
 canonical_url: "/resources/how-to-get-linkedin-profile-data/"

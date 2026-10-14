@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "instagram profile reels data extraction tool"
+title: "Extracting Instagram profile reels data"
 description: "Scrape all Reels from any Instagram profile by username — no login. Get play counts, likes, comments, shares, captions, hashtags, audio metadata, video…"
 slug: "instagram-profile-reels-data-extraction-tool"
 canonical_url: "/resources/instagram-profile-reels-data-extraction-tool/"

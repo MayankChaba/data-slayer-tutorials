@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "twitter user tweets data extraction tool"
+title: "Extracting X (Twitter) user tweets data"
 description: "Extract tweets from any public Twitter/X account without login. Get full tweet text, likes, retweets, replies, bookmarks, views, media attachments…"
 slug: "twitter-user-tweets-data-extraction-tool"
 canonical_url: "/resources/twitter-user-tweets-data-extraction-tool/"

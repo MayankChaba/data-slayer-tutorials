@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "instagram profile reels scraper"
+title: "Instagram profile reels scraper"
 description: "Scrape all Reels from any Instagram profile by username — no login. Get play counts, likes, comments, shares, captions, hashtags, audio metadata, video…"
 slug: "instagram-profile-reels-scraper"
 canonical_url: "/resources/instagram-profile-reels-scraper/"

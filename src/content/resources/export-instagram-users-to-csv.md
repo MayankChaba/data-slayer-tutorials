@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "export instagram users to csv"
+title: "How to export Instagram users to CSV"
 description: "Type any keyword and get every Instagram profile Instagram surfaces for that topic — usernames, verification status, and profile data. Enriched tier adds…"
 slug: "export-instagram-users-to-csv"
 canonical_url: "/resources/export-instagram-users-to-csv/"

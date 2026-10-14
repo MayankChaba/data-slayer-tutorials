@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to scrape linkedin profile without getting blocked"
+title: "How to scrape LinkedIn profile without getting blocked"
 description: "Scrape fresh LinkedIn profile data in bulk from profile URLs. Export structured JSON, CSV, or Excel with experience, education, skills, job, company, and…"
 slug: "how-to-scrape-linkedin-profile-without-getting-blocked"
 canonical_url: "/resources/how-to-scrape-linkedin-profile-without-getting-blocked/"

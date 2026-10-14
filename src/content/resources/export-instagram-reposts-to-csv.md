@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "export instagram reposts to csv"
+title: "How to export Instagram reposts to CSV"
 description: "Extract everything from any public Instagram profile's Reposts tab — reposted content, original creator data, captions, engagement metrics, and video…"
 slug: "export-instagram-reposts-to-csv"
 canonical_url: "/resources/export-instagram-reposts-to-csv/"

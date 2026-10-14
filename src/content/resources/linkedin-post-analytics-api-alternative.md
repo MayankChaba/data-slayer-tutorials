@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "linkedin post analytics api alternative"
+title: "The LinkedIn post analytics API alternative"
 description: "Paste a LinkedIn post URL and get the numbers behind it: likes, comments, shares, the full reaction breakdown, author details, post text and media…"
 slug: "linkedin-post-analytics-api-alternative"
 canonical_url: "/resources/linkedin-post-analytics-api-alternative/"

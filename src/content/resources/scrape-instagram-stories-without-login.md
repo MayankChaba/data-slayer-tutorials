@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "scrape instagram stories without login"
+title: "Scrape Instagram stories without login"
 description: "Capture Instagram Stories from any public profile before they disappear — no login. Get story media URLs, timestamps, stickers, mentions, music info…"
 slug: "scrape-instagram-stories-without-login"
 canonical_url: "/resources/scrape-instagram-stories-without-login/"

@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "instagram hashtag posts reels data extraction tool"
+title: "Extracting Instagram hashtag posts reels data"
 description: "Scrape Instagram posts and Reels by hashtag with 145 fields per result — no login. Get likes, comments, shares, views, captions, video URLs, audio…"
 slug: "instagram-hashtag-posts-reels-data-extraction-tool"
 canonical_url: "/resources/instagram-hashtag-posts-reels-data-extraction-tool/"

@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "instagram reels api alternative"
+title: "The Instagram reels API alternative"
 description: "Search Instagram Reels by keyword and discover trending content — no login, no cookies. Get play counts, likes, comments, shares, video URLs, captions…"
 slug: "instagram-reels-api-alternative"
 canonical_url: "/resources/instagram-reels-api-alternative/"

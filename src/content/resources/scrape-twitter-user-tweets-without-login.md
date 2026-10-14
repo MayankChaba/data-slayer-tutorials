@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "scrape twitter user tweets without login"
+title: "Scrape X (Twitter) user tweets without login"
 description: "Extract tweets from any public Twitter/X account without login. Get full tweet text, likes, retweets, replies, bookmarks, views, media attachments…"
 slug: "scrape-twitter-user-tweets-without-login"
 canonical_url: "/resources/scrape-twitter-user-tweets-without-login/"

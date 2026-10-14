@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "twitter user api alternative"
+title: "The X (Twitter) user API alternative"
 description: "Extract public Twitter/X profile data from handles, profile URLs, or numeric user IDs. Export bios, follower and following counts, verification, images…"
 slug: "twitter-user-api-alternative"
 canonical_url: "/resources/twitter-user-api-alternative/"

@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "linkedin profile scraper"
+title: "LinkedIn profile scraper"
 description: "Scrape fresh LinkedIn profile data in bulk from profile URLs. Export structured JSON, CSV, or Excel with experience, education, skills, job, company, and…"
 slug: "linkedin-profile-scraper"
 canonical_url: "/resources/linkedin-profile-scraper/"

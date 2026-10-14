@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to get instagram stories data"
+title: "How to get Instagram stories data"
 description: "Capture Instagram Stories from any public profile before they disappear — no login. Get story media URLs, timestamps, stickers, mentions, music info…"
 slug: "how-to-get-instagram-stories-data"
 canonical_url: "/resources/how-to-get-instagram-stories-data/"

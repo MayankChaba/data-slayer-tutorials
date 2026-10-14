@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to scrape instagram hashtag posts reels without getting blocked"
+title: "How to scrape Instagram hashtag posts reels without getting blocked"
 description: "Scrape Instagram posts and Reels by hashtag with 145 fields per result — no login. Get likes, comments, shares, views, captions, video URLs, audio…"
 slug: "how-to-scrape-instagram-hashtag-posts-reels-without-getting-blocked"
 canonical_url: "/resources/how-to-scrape-instagram-hashtag-posts-reels-without-getting-blocked/"
