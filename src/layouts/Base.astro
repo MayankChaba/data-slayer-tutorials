@@ -49,46 +49,23 @@ const hubHref = (id: string) =>
   </head>
   <body class="min-h-screen bg-bg text-text">
     <header class="sticky top-0 z-40 border-b border-line bg-bg/70 backdrop-blur-xl">
-      <div class="wrap flex h-16 items-center gap-6 lg:gap-8">
+      <div class="wrap flex h-16 items-center gap-4 lg:gap-8">
         <a href="/" class="flex shrink-0 items-center gap-2.5 text-[1.0625rem] font-semibold tracking-tight">
           <LogoMark size={30} />
           {site.wordmark}
         </a>
-        <nav aria-label="Main" class="flex items-center gap-5 text-sm font-medium max-sm:hidden lg:gap-6">
-          {nav.map((item) => <a href={item.href} class={navLink}>{item.label}</a>)}
+        <nav
+          aria-label="Main"
+          class="flex min-w-0 items-center gap-5 overflow-x-auto text-sm font-medium [scrollbar-width:none] [&::-webkit-scrollbar]:hidden lg:gap-6"
+        >
+          {nav.map((item) => <a href={item.href} class={`${navLink} shrink-0`}>{item.label}</a>)}
         </nav>
         <a
           href={site.apifyProfileUrl}
           target="_blank"
           rel="noopener"
-          class="btn btn-sm btn-primary ml-auto max-sm:hidden">Open on Apify</a
+          class="btn btn-sm btn-primary ml-auto hidden shrink-0 sm:inline-flex">Open on Apify</a
         >
-        <details class="relative ml-auto sm:hidden">
-          <summary
-            class="btn btn-sm btn-secondary cursor-pointer list-none [&::-webkit-details-marker]:hidden"
-            aria-label="Open menu">Menu</summary
-          >
-          <nav
-            aria-label="Mobile"
-            class="absolute right-0 z-50 mt-2 w-52 rounded-lg border border-line bg-panel p-2 shadow-xl"
-          >
-            {nav.map((item) => (
-              <a
-                href={item.href}
-                class="block rounded-md px-3 py-2 text-sm font-medium text-muted transition-colors hover:bg-raised hover:text-text"
-              >
-                {item.label}
-              </a>
-            ))}
-            <a
-              href={site.apifyProfileUrl}
-              target="_blank"
-              rel="noopener"
-              class="mt-1 block rounded-md px-3 py-2 text-sm font-medium text-brand transition-colors hover:bg-raised"
-              >Open on Apify ↗</a
-            >
-          </nav>
-        </details>
       </div>
     </header>
 
