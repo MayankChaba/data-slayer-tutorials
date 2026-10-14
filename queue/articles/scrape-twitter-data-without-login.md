@@ -15,8 +15,8 @@ content_type: "how-to"
 neuronwriter_brief_id: "a132e325b85da7bc"
 neuronwriter_score: 80
 status: "draft"
+cover: "/assets/covers/scrape-twitter-data-without-login.jpg"
 ---
-
 # scrape twitter data without login
 
 Pulling Twitter search data by hand does not scale. You either copy-paste it one item at a time, or you fight the API — rate limits, auth, and pagination — and still end up with half the fields missing. For a social media manager, the data only matters if it is complete, fresh, and in a sheet you can act on. That is the gap Twitter/X Search Scraper · Small Jobs & Advanced Queries closes.
@@ -84,6 +84,10 @@ proxies, cookies, and retries — you want the rows.
 
 There are three honest ways to get Twitter search data in 2026. Each has a real cost.
 
+![Several platform nodes connected to one hub](/assets/art/multi-platform.jpg)
+
+<!-- art-auto -->
+
 | Approach | How it works | The catch |
 |---|---|---|
 | **Build your own scraper** | Write a Python scraper with `requests`, rotate residential proxies, manage a login session, parse the private JSON | Weeks of work, constant breakage, and you own the block/ban risk. Fine for a one-off, painful at scale. |
@@ -121,6 +125,10 @@ move to a hosted **Twitter scraper** instead of owning the plumbing.
 
 Once the rows land in a sheet, the data does the work. Four patterns we see most:
 
+![A magnifier over a cloud of hashtags](/assets/art/keyword-search.jpg)
+
+<!-- art-auto -->
+
 - **Competitor benchmarking.** Track the engagement metrics of a competitor's public posts
   over time and see what format wins in your niche.
 - **Creator and lead discovery.** Pull the public profiles behind a hashtag or keyword and
@@ -154,6 +162,10 @@ get a lawyer's read before you scale.
 
 Search for the **best Twitter scraper** and you get a wall of tools. The **best Twitter scraper**
 for your job comes down to four questions:
+
+![Two options weighed side by side](/assets/art/comparison.jpg)
+
+<!-- art-auto -->
 
 - **Does it run logged out?** If a tool needs your Twitter login, it is putting your account at
   risk. A good **Twitter scraper** reads public data without a session.
