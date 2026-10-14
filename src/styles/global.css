@@ -1,0 +1,592 @@
+@import "tailwindcss";
+
+/*
+ * dataslayer.dev design system — dark, vibrant.
+ *
+ * Near-black base with a violet cast, one electric accent, coloured glows and
+ * gradient text. Platform marks keep their own brand colours. Every value a
+ * component uses traces back to a token here.
+ */
+@theme {
+  /* Brand: electric violet. */
+  --color-brand: #7c5cff;
+  --color-brand-strong: #6a45ff;
+  --color-brand-soft: #171232;
+  --color-on-brand: #ffffff;
+  --color-accent: #22d3ee;
+  --color-accent-2: #e879f9;
+
+  /* Dark base — near-black with a violet cast. */
+  --color-bg: #07070c;
+  --color-panel: #0d0d16;
+  --color-raised: #15151f;
+  --color-line: #1e1e2b;
+  --color-line-strong: #2e2e40;
+  --color-text: #f5f6fb;
+  --color-muted: #a4a8bb;
+  --color-faint: #70748a;
+  --color-live: #34d399;
+
+  /* Code colours (bright, for dark blocks). */
+  --color-code-key: #8fb4ff;
+  --color-code-string: #7ee2a8;
+  --color-code-number: #ffbe7d;
+  --color-code-keyword: #c9a6ff;
+
+  /* Platform tints (card price strips, chips and dots) — brightened for dark. */
+  --color-instagram: #e9548f;
+  --color-linkedin: #4a9eff;
+  --color-twitter: #e7e9ea;
+  --color-facebook: #4d8bff;
+  --color-tiktok: #2dd4bf;
+  --color-reddit: #ff6a3d;
+  --color-other: #8b90a4;
+
+  /* Elevation */
+  --shadow-card: inset 0 1px 0 rgb(255 255 255 / 0.03), 0 1px 2px rgb(0 0 0 / 0.6);
+  --shadow-raised: 0 24px 48px -24px rgb(0 0 0 / 0.85), 0 0 0 1px rgb(124 92 255 / 0.18);
+  --shadow-glow: 0 0 70px -18px rgb(124 92 255 / 0.55);
+
+  /* Radius */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@theme inline {
+  --font-sans: "Geist Variable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "Geist Mono Variable", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --font-wordmark: "Geist Variable", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  :root {
+    --focus-ring: var(--color-brand);
+    --grid-line: rgb(255 255 255 / 0.035);
+    --grid-glow: rgb(124 92 255 / 0.22);
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    color-scheme: dark;
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background:
+      radial-gradient(120% 80% at 50% -10%, rgb(124 92 255 / 0.1), transparent 60%),
+      var(--color-bg);
+    background-attachment: fixed;
+    color: var(--color-text);
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: "cv11", "ss01";
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--focus-ring);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  mark {
+    background: rgb(124 92 255 / 0.35);
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 0 2px;
+  }
+
+  ::selection {
+    background: var(--color-brand);
+    color: var(--color-on-brand);
+  }
+
+  summary {
+    cursor: pointer;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+}
+
+@layer components {
+  .wrap {
+    width: 100%;
+    max-width: 76rem;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+  }
+
+  @media (min-width: 640px) {
+    .wrap {
+      padding-inline: 2rem;
+    }
+  }
+
+  /* Vivid surface — near-black with coloured glows. Used for the hero and the
+     closing CTA band. Swaps the colour tokens so text, borders and buttons
+     inside turn white. */
+  .surface-vivid {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    color: #ffffff;
+    --color-brand: #ffffff;
+    --color-text: #ffffff;
+    --color-muted: rgb(255 255 255 / 0.82);
+    --color-faint: rgb(255 255 255 / 0.6);
+    --color-line: rgb(255 255 255 / 0.14);
+    --color-line-strong: rgb(255 255 255 / 0.3);
+    --color-panel: rgb(255 255 255 / 0.06);
+    --color-raised: rgb(255 255 255 / 0.1);
+    --focus-ring: #ffffff;
+    --grid-line: rgb(255 255 255 / 0.06);
+    --grid-glow: rgb(255 255 255 / 0.16);
+    background:
+      radial-gradient(90% 130% at 10% 0%, rgb(124 92 255 / 0.5), transparent 55%),
+      radial-gradient(80% 110% at 95% 6%, rgb(232 121 249 / 0.3), transparent 55%),
+      radial-gradient(70% 90% at 55% 115%, rgb(34 211 238 / 0.2), transparent 60%),
+      linear-gradient(180deg, #0f0e1e 0%, #08080f 100%);
+    border: 1px solid rgb(124 92 255 / 0.32);
+    box-shadow: var(--shadow-glow), inset 0 1px 0 rgb(255 255 255 / 0.06);
+  }
+
+  .hero-surface {
+    border-radius: 1.75rem;
+  }
+
+  .surface-vivid .btn-primary {
+    background: #ffffff;
+    color: #241a52;
+    box-shadow: 0 10px 24px -12px rgb(0 0 0 / 0.6);
+  }
+
+  .surface-vivid .btn-primary:hover {
+    background: #eef0ff;
+  }
+
+  /* Dark tokens — for panels that sit on a vivid surface. */
+  .surface-dark {
+    --color-text: #f5f6fb;
+    --color-muted: #a4a8bb;
+    --color-faint: #70748a;
+    --color-line: #22222f;
+    --color-line-strong: #34344a;
+    --color-panel: #0c0c15;
+    --color-raised: #15151f;
+    --focus-ring: #8fb0ff;
+    color: var(--color-text);
+  }
+
+  /* Panel: near-black card with a hairline border. */
+  .panel {
+    position: relative;
+    background: var(--color-panel);
+    border: 1px solid var(--color-line);
+    border-radius: 0.75rem;
+    box-shadow: var(--shadow-card);
+  }
+
+  .panel-hover {
+    transition: transform 0.2s var(--ease-out), border-color 0.2s var(--ease-out),
+      box-shadow 0.2s var(--ease-out), background-color 0.2s var(--ease-out);
+  }
+
+  .panel-hover:hover {
+    transform: translateY(-3px);
+    border-color: color-mix(in srgb, var(--color-brand) 55%, var(--color-line));
+    box-shadow: var(--shadow-raised);
+  }
+
+  /* Faint grid behind headers, fading toward the bottom. */
+  .grid-backdrop {
+    position: relative;
+    isolation: isolate;
+  }
+
+  .grid-backdrop::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    border-radius: inherit;
+    background-image:
+      radial-gradient(55% 60% at 80% 0%, var(--grid-glow), transparent 70%),
+      linear-gradient(to right, var(--grid-line) 1px, transparent 1px),
+      linear-gradient(to bottom, var(--grid-line) 1px, transparent 1px);
+    background-size:
+      100% 100%,
+      56px 56px,
+      56px 56px;
+    mask-image: linear-gradient(to bottom, #000 55%, transparent);
+  }
+
+  /* Type scale */
+  .h-display {
+    font-weight: 700;
+    font-size: clamp(2.5rem, 5.4vw, 4.25rem);
+    line-height: 1.02;
+    letter-spacing: -0.04em;
+  }
+
+  .h-page {
+    font-weight: 700;
+    font-size: clamp(2rem, 4vw, 3.125rem);
+    line-height: 1.06;
+    letter-spacing: -0.035em;
+  }
+
+  .h-section {
+    font-weight: 700;
+    font-size: clamp(1.625rem, 2.6vw, 2.25rem);
+    line-height: 1.14;
+    letter-spacing: -0.03em;
+  }
+
+  .h-sub {
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.3;
+    letter-spacing: -0.015em;
+  }
+
+  .lead {
+    font-size: clamp(1.0625rem, 1.4vw, 1.25rem);
+    line-height: 1.55;
+    color: var(--color-muted);
+  }
+
+  /* Gradient text for one highlighted phrase per heading. */
+  .gradient-text {
+    background: linear-gradient(100deg, #a78bfa 0%, #e879f9 48%, #22d3ee 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* Small monospace captions for data: prices, counts, field names. */
+  .label {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    color: var(--color-faint);
+  }
+
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 1px solid var(--color-line-strong);
+    background: rgb(255 255 255 / 0.03);
+    border-radius: 999px;
+    padding: 0.3rem 0.8rem;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--color-muted);
+    backdrop-filter: blur(8px);
+  }
+
+  /* Buttons */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 2.75rem;
+    padding: 0.5rem 1.125rem;
+    border-radius: 0.5rem;
+    border: 1px solid transparent;
+    font-weight: 600;
+    font-size: 0.9375rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    transition: background-color 0.18s var(--ease-out), border-color 0.18s var(--ease-out),
+      color 0.18s var(--ease-out), transform 0.18s var(--ease-out), box-shadow 0.18s var(--ease-out),
+      filter 0.18s var(--ease-out);
+  }
+
+  .btn-sm {
+    min-height: 2.25rem;
+    padding: 0.375rem 0.875rem;
+    font-size: 0.875rem;
+  }
+
+  .btn-primary {
+    background: linear-gradient(135deg, #7c5cff 0%, #a855f7 55%, #d946ef 100%);
+    color: #ffffff;
+    box-shadow: 0 10px 26px -12px rgb(124 92 255 / 0.9), inset 0 1px 0 rgb(255 255 255 / 0.2);
+  }
+
+  .btn-primary:hover {
+    filter: brightness(1.08);
+    transform: translateY(-1px);
+  }
+
+  .btn-secondary {
+    border-color: var(--color-line-strong);
+    color: var(--color-text);
+    background: rgb(255 255 255 / 0.03);
+  }
+
+  .btn-secondary:hover {
+    border-color: var(--color-muted);
+    background: var(--color-raised);
+    transform: translateY(-1px);
+  }
+
+  .text-link {
+    color: var(--color-text);
+    text-decoration: underline;
+    text-decoration-color: color-mix(in srgb, var(--color-brand) 65%, transparent);
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 4px;
+  }
+
+  .text-link:hover {
+    text-decoration-color: var(--color-brand);
+  }
+
+  /* Code — an inset dark block with a quiet scrollbar. */
+  .code {
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
+    line-height: 1.75;
+    color: #d7dae6;
+    tab-size: 2;
+    background: #08080e;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(255 255 255 / 0.18) transparent;
+  }
+
+  .code::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+  }
+
+  .code::-webkit-scrollbar-thumb {
+    background: rgb(255 255 255 / 0.14);
+    border-radius: 999px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+  }
+
+  .code::-webkit-scrollbar-thumb:hover {
+    background: rgb(255 255 255 / 0.24);
+    background-clip: content-box;
+  }
+
+  .tok-key {
+    color: var(--color-code-key);
+  }
+  .tok-string {
+    color: var(--color-code-string);
+  }
+  .tok-number {
+    color: var(--color-code-number);
+  }
+  .tok-keyword {
+    color: var(--color-code-keyword);
+  }
+  .tok-comment {
+    color: #70748a;
+  }
+
+  /* Code tabs */
+  .tab {
+    border-bottom: 2px solid transparent;
+    color: var(--color-muted);
+    height: 100%;
+  }
+
+  .tab:hover {
+    color: var(--color-text);
+  }
+
+  .tab[aria-pressed="true"] {
+    border-bottom-color: var(--color-brand);
+    color: var(--color-text);
+  }
+
+  /* Data tables */
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 0.9375rem;
+  }
+
+  .data-table th,
+  .data-table td {
+    padding: 0.75rem 1.25rem;
+    vertical-align: top;
+    border-top: 1px solid var(--color-line);
+  }
+
+  .data-table thead th {
+    border-top: 0;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--color-faint);
+    background: var(--color-raised);
+  }
+
+  .data-table tbody th {
+    font-weight: 500;
+  }
+}
+
+/* Long-form guide content (migrated markdown) */
+.prose {
+  max-width: 72ch;
+  color: var(--color-muted);
+  font-size: 1.0625rem;
+  line-height: 1.75;
+}
+
+.prose > * + * {
+  margin-top: 1.1em;
+}
+
+.prose h2 {
+  color: var(--color-text);
+  font-weight: 700;
+  font-size: 1.625rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin-top: 2.4em;
+}
+
+.prose h2:first-child {
+  margin-top: 0;
+}
+
+.prose h3 {
+  color: var(--color-text);
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.3;
+  margin-top: 1.6em;
+}
+
+.prose strong {
+  color: var(--color-text);
+}
+
+.prose a {
+  color: #b7a6ff;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 4px;
+}
+
+.prose ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+}
+
+.prose ol {
+  list-style: decimal;
+  padding-left: 1.25rem;
+}
+
+.prose li + li {
+  margin-top: 0.35em;
+}
+
+.prose li::marker {
+  color: var(--color-brand);
+}
+
+.prose code {
+  font-family: var(--font-mono);
+  font-size: 0.875em;
+  background: var(--color-raised);
+  border: 1px solid var(--color-line);
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  color: var(--color-text);
+}
+
+.prose pre {
+  background: #08080e;
+  border: 1px solid var(--color-line);
+  padding: 1rem 1.25rem;
+  border-radius: 0.75rem;
+  overflow-x: auto;
+  font-size: 0.875rem;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(255 255 255 / 0.18) transparent;
+}
+
+.prose pre code {
+  background: none;
+  border: 0;
+  padding: 0;
+  color: #d7dae6;
+}
+
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+}
+
+.prose th {
+  text-align: left;
+  color: var(--color-text);
+  border-bottom: 1px solid var(--color-line-strong);
+  padding: 0.5rem 0.75rem;
+}
+
+.prose td {
+  padding: 0.5rem 0.75rem;
+  vertical-align: top;
+  border-bottom: 1px solid var(--color-line);
+}
+
+.prose blockquote {
+  background: var(--color-panel);
+  border: 1px solid var(--color-line);
+  border-radius: 0.6rem;
+  padding: 0.85rem 1.1rem;
+  color: var(--color-text);
+  font-style: italic;
+}
+
+.prose img {
+  border-radius: 0.75rem;
+  border: 1px solid var(--color-line);
+}
+
+.prose hr {
+  border-color: var(--color-line);
+}

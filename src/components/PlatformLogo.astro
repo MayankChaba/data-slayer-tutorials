@@ -1,0 +1,42 @@
+---
+import { Icon } from "astro-icon/components";
+import type { PlatformId } from "../lib/types";
+import { PLATFORM_VISUAL } from "../lib/platform";
+
+interface Props {
+  platform: PlatformId;
+  size?: number;
+  class?: string;
+}
+const { platform, size = 40, class: className = "" } = Astro.props;
+const logo = PLATFORM_VISUAL[platform] ?? PLATFORM_VISUAL.other;
+const glyph = Math.round(size * logo.scale);
+const shift = Math.max(1, size * 0.03);
+const frame = `relative inline-grid shrink-0 place-items-center text-white ring-1 ring-white/15 ${className}`;
+---
+
+<span
+  aria-hidden="true"
+  class={frame}
+  style={`width:${size}px;height:${size}px;border-radius:${size * 0.24}px;background:${logo.background};`}
+>
+  {logo.offsets && (
+    <>
+      <Icon
+        name={logo.icon}
+        width={glyph}
+        height={glyph}
+        class="absolute"
+        style={`color:${logo.offsets[0]};transform:translate(${-shift}px,${-shift}px);`}
+      />
+      <Icon
+        name={logo.icon}
+        width={glyph}
+        height={glyph}
+        class="absolute"
+        style={`color:${logo.offsets[1]};transform:translate(${shift}px,${shift}px);`}
+      />
+    </>
+  )}
+  <Icon name={logo.icon} width={glyph} height={glyph} class="relative" />
+</span>

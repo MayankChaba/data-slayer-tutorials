@@ -1,0 +1,124 @@
+---
+import Base from "../layouts/Base.astro";
+import { site } from "../lib/site";
+import { getPlatformGroups, getTotals } from "../lib/actors";
+import { formatUsd, formatCount } from "../lib/format";
+
+const totals = getTotals();
+const groups = getPlatformGroups();
+const fromPrice = totals.priceMin !== null ? formatUsd(totals.priceMin) : "—";
+
+const faqs = [
+  {
+    q: "How is usage billed?",
+    a: "Per result. You pay only for the records a run produces, at each scraper's published rate. There is no seat fee and no monthly minimum.",
+  },
+  {
+    q: "Do prices differ by platform?",
+    a: "Yes. Each scraper has its own rate because the underlying data and effort differ. The table above shows the entry price per 1,000 results for each platform.",
+  },
+  {
+    q: "Is there a free way to start?",
+    a: "Apify includes monthly free usage credit on the free plan. It is enough to run several scrapers end-to-end before you commit to a paid plan.",
+  },
+  {
+    q: "What happens if a run fails?",
+    a: "Failed runs are not billed as results. You can see success rates on every scraper page, measured over the last 30 days.",
+  },
+];
+---
+
+<Base
+  title="Pricing"
+  description="dataslayer scraper APIs are priced per result — no seats, no minimums. Entry price per 1,000 results by platform."
+>
+  <section class="wrap pt-12 pb-10">
+    <h1 class="h-page max-w-[20ch]">Pay per result. Nothing else.</h1>
+    <p class="lead mt-5 max-w-2xl">
+      One token across {totals.count} scrapers. You are billed for the records a run returns, at each
+      scraper's published rate — from {fromPrice} per 1,000 results.
+    </p>
+  </section>
+
+  <section class="wrap pb-14">
+    <div class="grid overflow-hidden rounded-xl border border-line bg-panel sm:grid-cols-3">
+      <div class="-mb-px border-b border-line p-6 sm:border-b-0 sm:border-r">
+        <p class="label">Scrapers</p>
+        <p class="mt-2 font-mono text-3xl font-medium tracking-tight">{totals.count}</p>
+        <p class="mt-1 text-sm text-muted">across six platforms</p>
+      </div>
+      <div class="-mb-px border-b border-line p-6 sm:border-b-0 sm:border-r">
+        <p class="label">Entry price</p>
+        <p class="mt-2 font-mono text-3xl font-medium tracking-tight">{fromPrice}</p>
+        <p class="mt-1 text-sm text-muted">per 1,000 results</p>
+      </div>
+      <div class="p-6">
+        <p class="label">Runs · 30d</p>
+        <p class="mt-2 font-mono text-3xl font-medium tracking-tight">{formatCount(totals.runs30)}</p>
+        <p class="mt-1 text-sm text-muted">across the portfolio</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap pb-16">
+    <h2 class="h-section">Price by platform</h2>
+    <p class="mt-3 max-w-2xl text-[0.9375rem] text-muted">
+      Entry price per 1,000 results, from the lowest-tier scraper on each platform. Exact rates are
+      published on every scraper page.
+    </p>
+    <div class="panel mt-6 overflow-x-auto">
+      <table class="data-table min-w-[32rem]">
+        <thead>
+          <tr>
+            <th>Platform</th>
+            <th class="text-right">Scrapers</th>
+            <th class="text-right">From / 1K</th>
+          </tr>
+        </thead>
+        <tbody>
+          {groups.map((group) => (
+            <tr>
+              <th scope="row">
+                <a href={`/scrapers/?platform=${group.id}`} class="flex items-center gap-3 hover:text-brand">
+                  <span class="size-2.5 rounded-full" style={`background-color:${group.tint}`} aria-hidden="true"></span>
+                  {group.label}
+                </a>
+              </th>
+              <td class="text-right text-muted">{group.actors.length}</td>
+              <td class="text-right font-mono text-xs">
+                {group.priceMin !== null ? formatUsd(group.priceMin) : "—"}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="wrap pb-16">
+    <h2 class="h-section">Questions</h2>
+    <div class="mt-6 grid gap-4 md:grid-cols-2">
+      {faqs.map((item) => (
+        <div class="panel p-6">
+          <h3 class="h-sub">{item.q}</h3>
+          <p class="mt-2 text-[0.9375rem] text-muted">{item.a}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="px-3 pb-3 sm:px-4 sm:pb-4">
+    <div class="surface-vivid grid-backdrop rounded-[1.75rem]">
+      <div class="wrap py-16">
+        <h2 class="h-page max-w-[20ch]">Start with a free run</h2>
+        <p class="lead mt-4 max-w-[52ch]">
+          Pick any scraper, send one request and read the JSON before you pay for volume.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="/scrapers/" class="btn btn-primary">Browse scrapers</a>
+          <a href={site.apifyProfileUrl} target="_blank" rel="noopener" class="btn btn-secondary">View on Apify</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>

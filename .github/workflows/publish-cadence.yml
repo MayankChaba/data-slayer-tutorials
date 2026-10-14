@@ -1,16 +1,11 @@
-name: Publish cadence (use-case drip)
+name: Publish cadence (article drip)
 
-# Server-side article drip. Runs on GitHub's infrastructure, so it is
-# independent of the laptop. Each run publishes `per_day * days_since_last_run`
-# articles from queue/ (capped by the queue), so a missed run — or several — is
-# caught up on the next run. See scripts/drip.py.
+# Server-side article drip. Publishes `per_day * days_since_last_run` articles
+# from queue/ into the Astro site's src/content/resources/ collection, then
+# builds and deploys. Runs on GitHub's infrastructure, so it is independent of
+# the laptop and catches up any missed days. See scripts/drip.py.
 #
-# The build + Cloudflare deploy are part of THIS workflow: a push made with the
-# default GITHUB_TOKEN does not trigger other workflows, so the drip cannot rely
-# on cloudflare-pages.yml firing on its commit. Human pushes still deploy there.
-#
-# Runs daily at 09:30 America/Los_Angeles (16:30 UTC during PDT). To move it back
-# to weekdays only, change the cron to "30 16 * * 1-5"; DRIP_PER_DAY stays 3.
+# Runs daily at 09:30 America/Los_Angeles (16:30 UTC during PDT).
 on:
   schedule:
     - cron: "30 16 * * *"
@@ -35,7 +30,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Drip the queue (with catch-up)
+      - name: Drip the queue into /resources (with catch-up)
         run: python scripts/drip.py
 
       - name: Commit + push
@@ -49,25 +44,23 @@ jobs:
             echo "published=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-          git commit -m "Publish use-case articles (cadence drip)"
+          git commit -m "Publish articles to /resources (cadence drip)"
           git push
           echo "published=true" >> "$GITHUB_OUTPUT"
 
-      - name: Setup Ruby
+      - name: Setup Node
         if: steps.commit.outputs.published == 'true'
-        uses: ruby/setup-ruby@v1
+        uses: actions/setup-node@v4
         with:
-          ruby-version: "3.3"
+          node-version: "22"
 
-      - name: Install Jekyll
+      - name: Install dependencies
         if: steps.commit.outputs.published == 'true'
-        run: gem install "jekyll:4.3.4" minima jekyll-seo-tag jekyll-sitemap
+        run: npm ci
 
-      - name: Build site (domain root)
+      - name: Build site
         if: steps.commit.outputs.published == 'true'
-        run: jekyll build --config _config.yml,_config_cloudflare.yml
-        env:
-          JEKYLL_ENV: production
+        run: npm run build
 
       - name: Deploy to Cloudflare Pages
         if: steps.commit.outputs.published == 'true'
@@ -75,4 +68,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy _site --project-name=dataslayer-hub --branch=main
+          command: pages deploy dist --project-name=dataslayer-hub --branch=main

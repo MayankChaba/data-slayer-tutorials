@@ -1,0 +1,150 @@
+---
+import Base from "../../layouts/Base.astro";
+import JsonLd from "../../components/JsonLd.astro";
+import GuideCover from "../../components/GuideCover.astro";
+import LogoMark from "../../components/LogoMark.astro";
+import { getCollection, render } from "astro:content";
+import { site, getPlatform } from "../../lib/site";
+import { getActorBySlug } from "../../lib/actors";
+import { guidePlatform, guideTag, guideDateLabel, readTime } from "../../lib/guides";
+import { platformTint } from "../../lib/platform";
+import { formatUsd } from "../../lib/format";
+import { graph, organizationSchema, websiteSchema, breadcrumbSchema } from "../../lib/seo";
+
+export async function getStaticPaths() {
+  const items = await getCollection("resources");
+  return items.map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const { Content, headings } = await render(entry);
+const data = entry.data as Record<string, unknown>;
+const title = (data.title as string) ?? entry.id;
+const description = (data.description as string) ?? site.description;
+const dateRaw = data.date ? String(data.date) : null;
+const dateLabel = guideDateLabel(data);
+const platform = guidePlatform(data);
+const meta = getPlatform(platform);
+const tint = platformTint(platform);
+const tag = guideTag(data);
+const minutes = readTime(entry.body);
+const path = `/resources/${entry.id}/`;
+const toc = headings.filter((h) => h.depth >= 2 && h.depth <= 3);
+const actor = data.actor_slug ? getActorBySlug(String(data.actor_slug)) : undefined;
+---
+
+<Base title={title} description={description}>
+  <JsonLd
+    data={graph([
+      organizationSchema(),
+      websiteSchema(),
+      breadcrumbSchema([
+        { name: "Home", path: "/" },
+        { name: "Resources", path: "/resources/" },
+        { name: title, path },
+      ]),
+      {
+        "@type": "Article",
+        headline: title,
+        description,
+        url: new URL(path, site.url).href,
+        datePublished: dateRaw ?? undefined,
+        author: { "@id": `${site.url}/#organization` },
+        publisher: { "@id": `${site.url}/#organization` },
+      },
+    ])}
+  />
+
+  <article class="wrap py-12">
+    <nav class="text-sm text-faint" aria-label="Breadcrumb">
+      <a class="transition-colors hover:text-text" href="/">Home</a>
+      <span class="px-2">/</span>
+      <a class="transition-colors hover:text-text" href="/resources/">Resources</a>
+    </nav>
+
+    <header class="mx-auto mt-8 max-w-3xl text-center">
+      <span
+        class="inline-flex items-center rounded-full px-3 py-1 text-xs font-medium"
+        style={`color:${tint};background:color-mix(in srgb, ${tint} 16%, transparent);`}
+      >
+        {tag}
+      </span>
+      <h1 class="h-page mt-5">{title}</h1>
+      {description && <p class="lead mt-5">{description}</p>}
+      <div class="mt-6 flex items-center justify-center gap-2 text-sm text-faint">
+        <LogoMark size={22} />
+        <span class="text-muted">{site.publisher}</span>
+        {dateLabel && <span aria-hidden="true">·</span>}
+        {dateLabel && <span>{dateLabel}</span>}
+        <span aria-hidden="true">·</span>
+        <span>{minutes} min read</span>
+      </div>
+    </header>
+
+    <div class="mx-auto mt-10 max-w-5xl">
+      <GuideCover
+        platform={platform}
+        slug={entry.id}
+        alt={title}
+        class="aspect-[16/9] w-full rounded-2xl border border-line"
+      />
+    </div>
+
+    <div class="mx-auto mt-12 grid max-w-5xl gap-12 lg:grid-cols-[minmax(0,1fr)_15rem]">
+      <div class="min-w-0">
+        {actor && (
+          <div class="panel mb-10 flex flex-col items-start justify-between gap-4 p-5 sm:flex-row sm:items-center">
+            <div class="flex items-center gap-3">
+              <span
+                class="grid size-10 shrink-0 place-items-center rounded-lg ring-1 ring-white/15"
+                style={`background:${tint};`}
+              >
+                <LogoMark size={22} />
+              </span>
+              <div>
+                <p class="text-sm font-medium">{actor.name}</p>
+                <p class="label mt-0.5">
+                  {meta.label} · {actor.pricing?.per1kFrom != null ? `${formatUsd(actor.pricing.per1kFrom)} / 1K results` : "see pricing"}
+                </p>
+              </div>
+            </div>
+            <a href={`/scrapers/${actor.slug}/`} class="btn btn-sm btn-primary shrink-0">Open scraper</a>
+          </div>
+        )}
+        <div class="prose">
+          <Content />
+        </div>
+      </div>
+
+      {toc.length > 0 && (
+        <aside class="hidden lg:block">
+          <div class="sticky top-24">
+            <p class="label">On this page</p>
+            <ul class="mt-4 space-y-2.5 text-sm">
+              {toc.map((h) => (
+                <li class={h.depth === 3 ? "pl-3" : ""}>
+                  <a href={`#${h.slug}`} class="text-muted transition-colors hover:text-text">{h.text}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </aside>
+      )}
+    </div>
+
+    <div class="mx-auto mt-16 max-w-5xl">
+      <div class="panel flex flex-col items-start justify-between gap-5 p-6 sm:flex-row sm:items-center">
+        <div>
+          <h2 class="h-sub">Ready to run this?</h2>
+          <p class="mt-1 text-[0.9375rem] text-muted">
+            Every scraper in this guide is live on Apify — no login, pay per result.
+          </p>
+        </div>
+        <div class="flex shrink-0 gap-3">
+          <a href="/scrapers/" class="btn btn-primary">Browse scrapers</a>
+          <a href="/docs" class="btn btn-secondary">Read the docs</a>
+        </div>
+      </div>
+    </div>
+  </article>
+</Base>

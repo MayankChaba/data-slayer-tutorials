@@ -1,0 +1,24 @@
+---
+import { getPlatform } from "../lib/site";
+import type { PlatformId } from "../lib/types";
+
+interface Props {
+  platform: PlatformId;
+  compact?: boolean;
+  class?: string;
+}
+const { platform, compact = false, class: className = "" } = Astro.props;
+const info = getPlatform(platform);
+const text = compact ? info.short : info.label;
+---
+
+<span class={`inline-flex items-center gap-1.5 ${className}`}>
+  <span
+    class="size-1.5 shrink-0 rounded-full"
+    style={`background-color:${info.tint}`}
+    aria-hidden="true"></span>
+  <span
+    class="font-mono text-[11px] uppercase tracking-[0.08em]"
+    style={`color:${info.tint}`}
+  >{text}</span>
+</span>

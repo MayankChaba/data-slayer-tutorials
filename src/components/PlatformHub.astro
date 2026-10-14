@@ -1,0 +1,169 @@
+---
+import Base from "../layouts/Base.astro";
+import ScraperCard from "./ScraperCard.astro";
+import RequestWindow from "./RequestWindow.astro";
+import StatStrip from "./StatStrip.astro";
+import PlatformLogo from "./PlatformLogo.astro";
+import JsonLd from "./JsonLd.astro";
+import { site, getPlatform } from "../lib/site";
+import { getActors, getExampleInput } from "../lib/actors";
+import { buildCodeSamples, buildRowShape } from "../lib/requests";
+import { formatCount, formatUsd, formatPercent } from "../lib/format";
+import { PLATFORM_CONTENT, type HubPlatformId } from "../lib/platformContent";
+import {
+  graph,
+  organizationSchema,
+  websiteSchema,
+  breadcrumbSchema,
+  faqSchema,
+  collectionSchema,
+} from "../lib/seo";
+
+interface Props {
+  platform: HubPlatformId;
+}
+const { platform } = Astro.props;
+const content = PLATFORM_CONTENT[platform];
+const meta = getPlatform(platform);
+
+const actors = getActors()
+  .filter((a) => a.platform === platform)
+  .sort((a, b) => b.stats.runs30 - a.stats.runs30);
+const runs30 = actors.reduce((s, a) => s + a.stats.runs30, 0);
+const succeeded30 = actors.reduce((s, a) => s + a.stats.succeeded30, 0);
+const rate = runs30 > 0 ? succeeded30 / runs30 : null;
+const prices = actors.map((a) => a.pricing?.per1kFrom ?? null).filter((p): p is number => p !== null);
+const fromPrice = prices.length > 0 ? Math.min(...prices) : null;
+
+const hero = actors[0];
+const example = hero ? getExampleInput(hero) : null;
+const samples = hero && example ? buildCodeSamples(hero, example.value) : [];
+const rowShape = hero ? buildRowShape(hero.output) : null;
+
+const path = `/${content.slug}/`;
+---
+
+<Base title={content.title} description={content.description}>
+  <JsonLd
+    data={graph([
+      organizationSchema(),
+      websiteSchema(),
+      breadcrumbSchema([{ name: "Home", path: "/" }, { name: content.h1, path }]),
+      collectionSchema({ name: content.h1, description: content.description, path, actors }),
+      faqSchema(content.faqs),
+    ])}
+  />
+
+  <section class="wrap pt-12 pb-8">
+    <nav class="text-sm text-faint" aria-label="Breadcrumb">
+      <a class="transition-colors hover:text-text" href="/">Home</a>
+      <span class="px-2">/</span>
+      <span class="text-muted">{content.h1}</span>
+    </nav>
+    <div class="mt-6 flex items-center gap-3">
+      <PlatformLogo platform={platform} size={44} />
+      <span class="label">{actors.length} scrapers</span>
+    </div>
+    <h1 class="h-page mt-4">{content.h1}</h1>
+    <p class="lead mt-4 max-w-2xl">{content.tagline}</p>
+    <p class="mt-5 max-w-2xl text-[0.9375rem] text-muted">{content.intro}</p>
+    <div class="mt-8 flex flex-wrap gap-3">
+      <a href={`/scrapers/?platform=${platform}`} class="btn btn-primary">Browse {meta.label} scrapers</a>
+      <a href={site.apifyProfileUrl} target="_blank" rel="noopener" class="btn btn-secondary">View on Apify</a>
+    </div>
+  </section>
+
+  <section class="wrap reveal pb-6">
+    <StatStrip
+      stats={[
+        { value: formatCount(runs30), label: "runs · last 30 days" },
+        { value: rate !== null ? formatPercent(rate) : "—", label: "of those runs succeeded" },
+        { value: String(actors.length), label: `${meta.label} scrapers` },
+        { value: fromPrice !== null ? `from ${formatUsd(fromPrice)}` : "—", label: "per 1,000 results" },
+      ]}
+    />
+    <p class="label mt-3">Live figures from Apify's public API.</p>
+  </section>
+
+  <section class="wrap reveal py-12">
+    <h2 class="h-section">What you can scrape from {meta.label}</h2>
+    <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {content.dataTypes.map((d) => (
+        <div class="panel p-5">
+          <h3 class="h-sub">{d.title}</h3>
+          <p class="mt-2 text-sm leading-relaxed text-muted">{d.body}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="wrap reveal py-12">
+    <div class="flex flex-wrap items-end justify-between gap-6">
+      <h2 class="h-section">{actors.length} {meta.label} scrapers</h2>
+      <a href="/scrapers/" class="btn btn-secondary">All scrapers</a>
+    </div>
+    <ul class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {actors.map((actor) => <ScraperCard actor={actor} />)}
+    </ul>
+  </section>
+
+  {hero && samples.length > 0 && (
+    <section class="wrap reveal py-12">
+      <h2 class="h-section">Example request</h2>
+      <p class="mt-3 max-w-2xl text-[0.9375rem] text-muted">
+        Every {meta.label} scraper follows the same shape: POST a JSON body to the actor's run endpoint
+        and read typed records back. Here it is in cURL, Node.js and Python.
+      </p>
+      <div class="mt-6">
+        <RequestWindow
+          title={`POST /v2/acts/${site.apifyUsername}~${hero.apifyName}/run-sync-get-dataset-items`}
+          samples={samples}
+          rowShape={rowShape}
+          fieldCount={hero.output.length}
+        />
+      </div>
+    </section>
+  )}
+
+  <section class="wrap reveal py-12">
+    <h2 class="h-section">Pricing</h2>
+    <p class="mt-3 max-w-2xl text-[0.9375rem] text-muted">
+      {meta.label} scrapers are priced per result, from {fromPrice !== null ? formatUsd(fromPrice) : "—"} per
+      1,000 results, billed through your Apify account. There is no subscription and no seat minimum, and
+      failed runs are not billed as results.
+    </p>
+    <div class="mt-6">
+      <a href="/pricing" class="btn btn-secondary">See full pricing →</a>
+    </div>
+  </section>
+
+  <section class="wrap reveal py-12">
+    <h2 class="h-section">Frequently asked questions</h2>
+    <div class="mt-6 border-y border-line">
+      {content.faqs.map((f) => (
+        <details class="group border-b border-line py-4 last:border-b-0">
+          <summary class="flex cursor-pointer items-center justify-between gap-4 text-[0.9375rem] font-medium">
+            {f.q}
+            <span class="text-faint transition-transform group-open:rotate-45">+</span>
+          </summary>
+          <p class="mt-3 max-w-2xl text-[0.9375rem] leading-relaxed text-muted">{f.a}</p>
+        </details>
+      ))}
+    </div>
+  </section>
+
+  <section class="px-3 pb-3 sm:px-4 sm:pb-4">
+    <div class="surface-vivid grid-backdrop reveal rounded-[1.75rem]">
+      <div class="wrap py-16">
+        <h2 class="h-page max-w-[22ch]">Start scraping {meta.label} data</h2>
+        <p class="lead mt-4 max-w-[52ch]">
+          One token, {actors.length} {meta.label} scrapers, pay per result through your Apify account.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href={`/scrapers/?platform=${platform}`} class="btn btn-primary">Browse {meta.label} scrapers</a>
+          <a href="/docs" class="btn btn-secondary">Read the docs</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>

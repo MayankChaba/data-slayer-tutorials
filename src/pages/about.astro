@@ -1,0 +1,88 @@
+---
+import Base from "../layouts/Base.astro";
+import JsonLd from "../components/JsonLd.astro";
+import { site } from "../lib/site";
+import { getActors, getTotals, getPlatformGroups } from "../lib/actors";
+import { formatCount } from "../lib/format";
+import { graph, organizationSchema, websiteSchema, breadcrumbSchema } from "../lib/seo";
+
+const totals = getTotals();
+const groups = getPlatformGroups();
+const actors = getActors();
+const platforms = groups.map((g) => g.label.replace(" (Twitter)", ""));
+---
+
+<Base
+  title="About"
+  description={`About ${site.wordmark}: who publishes these scraper APIs, how they work, and how they handle data.`}
+>
+  <JsonLd
+    data={graph([
+      organizationSchema(),
+      websiteSchema(),
+      breadcrumbSchema([{ name: "Home", path: "/" }, { name: "About", path: "/about/" }]),
+    ])}
+  />
+
+  <section class="wrap pt-12 pb-10">
+    <h1 class="h-page max-w-[24ch]">Scraper APIs for public social-media data</h1>
+    <p class="lead mt-5 max-w-2xl">
+      {site.wordmark} publishes {totals.count} production scraper APIs for {platforms.join(", ")}. They
+      are built and run on Apify, and return clean, structured rows from public data.
+    </p>
+  </section>
+
+  <section class="wrap grid gap-10 pb-14 lg:grid-cols-2 lg:items-start">
+    <div>
+      <h2 class="h-section">What we publish</h2>
+      <p class="mt-3 text-[0.9375rem] leading-relaxed text-muted">
+        Every scraper does one job — a profile, a post, a follower list, a search. Each one publishes
+        its inputs, its output fields and its price before you commit, so you always know what a run
+        will return. Results come back as typed JSON, or you can download the dataset as CSV or Excel.
+      </p>
+      <h2 class="h-section mt-10">How it works</h2>
+      <ol class="mt-4 space-y-4 text-[0.9375rem] text-muted">
+        <li><span class="font-mono text-xs text-brand">01</span> — Create an Apify account and copy your API token.</li>
+        <li><span class="font-mono text-xs text-brand">02</span> — POST a JSON body to the scraper's run endpoint.</li>
+        <li><span class="font-mono text-xs text-brand">03</span> — Read typed records back, or export the dataset.</li>
+      </ol>
+    </div>
+    <div>
+      <h2 class="h-section">Data &amp; compliance</h2>
+      <ul class="mt-4 space-y-4 text-[0.9375rem] text-muted">
+        <li>
+          <strong class="text-text">Public data only.</strong> The scrapers read publicly accessible
+          information. None of them ask for your login, cookies or a logged-in session.
+        </li>
+        <li>
+          <strong class="text-text">Priced on results.</strong> You pay for the records a run returns,
+          at each scraper's published rate. Failed runs are not billed as results.
+        </li>
+        <li>
+          <strong class="text-text">Trademarks.</strong> {site.wordmark} is not affiliated with Instagram,
+          LinkedIn, X, Facebook, TikTok or Reddit. Their names and logos belong to their respective owners.
+        </li>
+        <li>
+          <strong class="text-text">Where it runs.</strong> Scrapers are published on Apify Store as{" "}
+          {site.publisher}, so billing, runs and logs all live in your Apify account.
+        </li>
+      </ul>
+      <div class="mt-8 flex flex-wrap gap-3">
+        <a href={site.apifyProfileUrl} target="_blank" rel="noopener" class="btn btn-primary">Apify profile</a>
+        <a href="/contact" class="btn btn-secondary">Contact</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap reveal pb-16">
+    <div class="panel flex flex-wrap items-center justify-between gap-x-10 gap-y-4 px-6 py-5">
+      <p class="label">In numbers</p>
+      <ul class="flex flex-wrap items-center gap-x-10 gap-y-3 font-mono text-sm">
+        <li><span class="text-text">{totals.count}</span> <span class="text-faint">scrapers</span></li>
+        <li><span class="text-text">{formatCount(totals.runs30)}</span> <span class="text-faint">runs · 30d</span></li>
+        <li><span class="text-text">{formatCount(totals.totalRuns)}</span> <span class="text-faint">runs all time</span></li>
+        <li><span class="text-text">{actors.length}</span> <span class="text-faint">actors published</span></li>
+      </ul>
+    </div>
+  </section>
+</Base>

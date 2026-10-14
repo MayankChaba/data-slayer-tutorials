@@ -1,0 +1,322 @@
+---
+import Base from "../layouts/Base.astro";
+import HeroPalette from "../components/HeroPalette.astro";
+import StatStrip from "../components/StatStrip.astro";
+import ScraperCard from "../components/ScraperCard.astro";
+import RequestWindow from "../components/RequestWindow.astro";
+import PlatformLogo from "../components/PlatformLogo.astro";
+import JsonLd from "../components/JsonLd.astro";
+import { site } from "../lib/site";
+import { getActors, getTotals, getPlatformGroups, getFeaturedActors, getExampleInput } from "../lib/actors";
+import { buildCodeSamples, buildRowShape } from "../lib/requests";
+import { formatCount, formatUsd, formatPercent } from "../lib/format";
+import { PLATFORM_CONTENT, type HubPlatformId } from "../lib/platformContent";
+import { graph, organizationSchema, websiteSchema, faqSchema } from "../lib/seo";
+
+const actors = getActors();
+const totals = getTotals();
+const groups = getPlatformGroups();
+const featured = getFeaturedActors(9);
+const featuredSlugs = featured.map((a) => a.slug);
+
+const hero = [...actors].sort((a, b) => b.stats.runs30 - a.stats.runs30)[0];
+const heroInput = hero ? getExampleInput(hero) : null;
+const samples = hero && heroInput ? buildCodeSamples(hero, heroInput.value) : [];
+const rowShape = hero ? buildRowShape(hero.output) : null;
+const fromPrice = totals.priceMin !== null ? formatUsd(totals.priceMin) : "—";
+const platformLabels = groups.map((g) => g.label.replace(" (Twitter)", ""));
+const isHub = (id: string): id is HubPlatformId => id in PLATFORM_CONTENT;
+const hubHref = (id: string) =>
+  isHub(id) ? `/${PLATFORM_CONTENT[id].slug}/` : `/scrapers/?platform=${id}`;
+
+const promises = ["No login or cookies needed", "Pay per result", "JSON, CSV or Excel"];
+
+const steps = [
+  {
+    title: "Pick a scraper",
+    body: "Each scraper does one job, such as profile details, post comments or follower lists. Its page lists every input it takes and every field it returns.",
+  },
+  {
+    title: "Send one request",
+    body: "Post your input with an Apify API token. You can also start runs from the Apify Console or from n8n, Make and Zapier.",
+  },
+  {
+    title: "Read structured rows",
+    body: "Results come back as JSON, or download the dataset as CSV or Excel. You pay for the results the run returned.",
+  },
+];
+
+const comparison = [
+  ["Time to first data", "Days to weeks of scraper work", "Minutes: pick a scraper and send input"],
+  ["Proxies and blocking", "You rent, rotate and monitor them", "Handled inside the scraper"],
+  ["Logins and cookies", "You create accounts and keep sessions alive", "Not needed"],
+  ["Output", "You write and fix the parsers", "Structured rows with a published schema"],
+  ["When the site changes", "You patch it", "Maintained for you"],
+  ["Cost", "Servers, proxies and engineering time", `Pay per result, from ${fromPrice} per 1,000`],
+];
+
+const integrations = [
+  { name: "REST API", note: "One POST request per run" },
+  { name: "JavaScript client", note: "apify-client on npm" },
+  { name: "Python client", note: "apify-client on PyPI" },
+  { name: "n8n", note: "Apify node" },
+  { name: "Make", note: "Apify app" },
+  { name: "Zapier", note: "Apify app" },
+];
+
+const faqs = [
+  {
+    q: "What is dataslayer?",
+    a: `${site.wordmark} is a catalog of ${totals.count} scraper APIs that return structured JSON from public social-media data across ${platformLabels.join(", ")}. Each scraper is an Apify actor: send one JSON request and read typed records back, paying per result.`,
+  },
+  {
+    q: "Do I need a login or cookies to use the scrapers?",
+    a: "No. Every scraper reads public data only, so there is no login, no session to keep alive and no cookie of yours at risk.",
+  },
+  {
+    q: "How much do the scraper APIs cost?",
+    a: `You pay per result, at each scraper's published rate, billed through your Apify account. Entry price is from ${fromPrice} per 1,000 results, with no subscription and no seat minimum.`,
+  },
+  {
+    q: "What format does the data come back in?",
+    a: "Typed JSON records by default. You can also download a run's dataset as CSV or Excel, or stream it into your own stack.",
+  },
+  {
+    q: "Which platforms are supported?",
+    a: `Instagram, LinkedIn, X (Twitter), Facebook, TikTok and Reddit, across ${totals.count} scrapers in total.`,
+  },
+  {
+    q: "How do I get started?",
+    a: "Create an Apify account, copy your API token, then POST a JSON body to the scraper's run endpoint. The documentation walks through the whole loop in three steps.",
+  },
+];
+---
+
+<Base>
+  <JsonLd data={graph([organizationSchema(), websiteSchema(), faqSchema(faqs)])} />
+
+  <!-- Hero -->
+  <section class="px-3 pt-3 sm:px-4 sm:pt-4">
+    <div class="surface-vivid hero-surface grid-backdrop">
+      <div class="wrap grid items-center gap-12 py-14 lg:grid-cols-[minmax(0,1fr)_minmax(0,30rem)] lg:gap-16 lg:py-20">
+        <div>
+          <p class="pill">
+            <span aria-hidden="true" class="size-1.5 rounded-full bg-brand"></span>
+            {totals.count} scrapers live on Apify Store
+          </p>
+          <h1 class="h-display mt-6">
+            Scraper APIs for <span class="gradient-text">Instagram, LinkedIn, X, Facebook &amp; TikTok</span>
+          </h1>
+          <p class="lead mt-6 max-w-[52ch]">
+            Pick a prebuilt scraper, send one request and get clean, structured rows back. Pay per
+            result, from {fromPrice} per 1,000.
+          </p>
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a href="/scrapers/" class="btn btn-primary">Browse all {totals.count} scrapers</a>
+            <a href={site.apifyProfileUrl} target="_blank" rel="noopener" class="btn btn-secondary">View on Apify</a>
+          </div>
+          <ul class="mt-7 flex flex-wrap gap-x-6 gap-y-2 text-sm font-medium">
+            {promises.map((promise) => (
+              <li class="flex items-center gap-2">
+                <svg aria-hidden="true" viewBox="0 0 16 16" class="size-3 text-brand" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M2.5 8.5 6 12l7.5-8"></path>
+                </svg>
+                {promise}
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div class="surface-dark min-w-0">
+          <HeroPalette actors={actors} featured={featuredSlugs} />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Answer block + live figures -->
+  <section class="wrap reveal pt-12">
+    <p class="label">What is {site.wordmark}</p>
+    <p class="mt-4 max-w-3xl text-lg leading-relaxed text-muted">
+      {site.wordmark} is a catalog of {totals.count} scraper APIs that return structured JSON from
+      public social-media data. Send one request with a profile, post or search URL and read typed
+      rows back — posts, profiles, comments, followers and search results. No login or cookies are
+      required, and you pay per result through your Apify account.
+    </p>
+  </section>
+
+  <section class="wrap reveal py-10">
+    <StatStrip
+      stats={[
+        { value: formatCount(totals.runs30), label: "runs in the last 30 days" },
+        { value: totals.successRate !== null ? formatPercent(totals.successRate) : "—", label: "of those runs succeeded" },
+        { value: formatCount(totals.totalRuns), label: "runs all time" },
+        { value: `from ${fromPrice}`, label: "per 1,000 results" },
+      ]}
+    />
+    <p class="label mt-3">Live figures from Apify's public API, refreshed every hour.</p>
+  </section>
+
+  <!-- Platform hubs -->
+  <section class="wrap reveal pb-6">
+    <div class="flex flex-wrap items-end justify-between gap-6">
+      <div class="max-w-[44rem]">
+        <h2 class="h-section">Scraper APIs by platform</h2>
+        <p class="lead mt-4">Pick a platform to see every scraper, the data each one returns and an example request.</p>
+      </div>
+      <a href="/scrapers/" class="btn btn-secondary">All {totals.count} scrapers</a>
+    </div>
+    <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+      {groups.map((group) => (
+        <a href={hubHref(group.id)} class="panel panel-hover flex flex-col gap-3 p-5">
+          <PlatformLogo platform={group.id} size={40} />
+          <div>
+            <h3 class="font-semibold leading-tight">{group.label}</h3>
+            <p class="label mt-1">{group.actors.length} scrapers</p>
+          </div>
+          <p class="label mt-auto pt-2">
+            from {group.priceMin !== null ? formatUsd(group.priceMin) : "—"} / 1K
+          </p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Popular scrapers -->
+  <section class="wrap reveal py-16 sm:py-20">
+    <div class="flex flex-wrap items-end justify-between gap-6">
+      <div class="max-w-[44rem]">
+        <h2 class="h-section">Popular scrapers on every platform</h2>
+        <p class="lead mt-4">
+          Every card shows the price per 1,000 results and how much the scraper was used this month.
+        </p>
+      </div>
+    </div>
+    <ul class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {featured.map((actor) => <ScraperCard actor={actor} />)}
+    </ul>
+  </section>
+
+  <!-- How it works -->
+  <section class="border-y border-line bg-panel/40">
+    <div class="wrap reveal py-20 sm:py-24">
+      <div class="max-w-[44rem]">
+        <h2 class="h-section">From input to structured rows in one request</h2>
+        <p class="lead mt-4">No browser to run, no proxy to rent and no queue to build.</p>
+      </div>
+      <ol class="panel mt-10 grid overflow-hidden md:grid-cols-3">
+        {steps.map((step, i) => (
+          <li class="border-line p-6 max-md:border-t max-md:first:border-t-0 md:border-l md:first:border-l-0">
+            <span class="font-mono text-xs text-brand">0{i + 1}</span>
+            <h3 class="h-sub mt-3">{step.title}</h3>
+            <p class="mt-2 text-[0.9375rem] text-muted">{step.body}</p>
+          </li>
+        ))}
+      </ol>
+      {hero && samples.length > 0 && (
+        <div class="mt-6">
+          <RequestWindow
+            title={`POST /v2/acts/${site.apifyUsername}~${hero.apifyName}/run-sync-get-dataset-items`}
+            samples={samples}
+            rowShape={rowShape}
+            fieldCount={hero.output.length}
+          />
+        </div>
+      )}
+      {hero && (
+        <p class="mt-4 text-sm text-muted">
+          Example: <a href={`/scrapers/${hero.slug}/`} class="text-link">{hero.name}</a>, the most-run scraper this month.
+        </p>
+      )}
+    </div>
+  </section>
+
+  <!-- Comparison -->
+  <section class="wrap reveal py-20 sm:py-24">
+    <div class="max-w-[44rem]">
+      <h2 class="h-section">Build it yourself, or send one request</h2>
+      <p class="lead mt-4">The same data, two ways to get it.</p>
+    </div>
+    <div class="panel mt-10 overflow-x-auto">
+      <table class="data-table min-w-[48rem]">
+        <thead>
+          <tr>
+            <th class="w-[24%]"><span class="sr-only">Aspect</span></th>
+            <th class="w-[38%]">build it yourself</th>
+            <th class="w-[38%] text-brand">{site.wordmark} scraper</th>
+          </tr>
+        </thead>
+        <tbody>
+          {comparison.map(([aspect, diy, ours]) => (
+            <tr>
+              <th scope="row">{aspect}</th>
+              <td class="text-muted">{diy}</td>
+              <td class="bg-brand/5">{ours}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Integrations -->
+  <section class="border-y border-line bg-panel/40">
+    <div class="wrap reveal py-20 sm:py-24">
+      <div class="max-w-[44rem]">
+        <h2 class="h-section">Fits the stack you already have</h2>
+        <p class="lead mt-4">
+          Scrapers run on Apify, so anything that talks to Apify can start a run and read the results.
+        </p>
+      </div>
+      <ul class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {integrations.map((item) => (
+          <li class="panel flex items-center gap-4 p-5">
+            <span class="grid size-10 shrink-0 place-items-center rounded-lg border border-line bg-raised font-mono text-xs text-brand">
+              {item.name.slice(0, 2).toUpperCase()}
+            </span>
+            <div>
+              <p class="font-medium leading-tight">{item.name}</p>
+              <p class="label mt-1">{item.note}</p>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="wrap reveal py-20 sm:py-24">
+    <div class="grid gap-10 lg:grid-cols-[minmax(0,4fr)_minmax(0,8fr)] lg:gap-16">
+      <div>
+        <h2 class="h-section">Questions</h2>
+        <p class="lead mt-4">The short answers. More detail in the docs.</p>
+      </div>
+      <div class="border-t border-line">
+        {faqs.map((f) => (
+          <details class="group border-b border-line py-4">
+            <summary class="flex cursor-pointer items-center justify-between gap-4 text-[0.9375rem] font-medium">
+              {f.q}
+              <span class="text-faint transition-transform group-open:rotate-45">+</span>
+            </summary>
+            <p class="mt-3 max-w-2xl text-[0.9375rem] leading-relaxed text-muted">{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Closing CTA -->
+  <section class="px-3 pb-3 sm:px-4 sm:pb-4">
+    <div class="surface-vivid grid-backdrop reveal rounded-[1.75rem]">
+      <div class="wrap py-16 sm:py-24">
+        <h2 class="h-page max-w-[20ch]">Find the scraper for the data you need</h2>
+        <p class="lead mt-4 max-w-[52ch]">
+          Every scraper works without a login and bills per result through your Apify account.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="/scrapers/" class="btn btn-primary">Browse all {totals.count} scrapers</a>
+          <a href={site.apifyProfileUrl} target="_blank" rel="noopener" class="btn btn-secondary">Open {site.wordmark} on Apify</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>

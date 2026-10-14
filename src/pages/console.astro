@@ -1,0 +1,28 @@
+---
+import Base from "../layouts/Base.astro";
+import { site } from "../lib/site";
+---
+
+<Base
+  title="Console"
+  description="The dataslayer console — one key, credits and usage across every scraper — is in development."
+>
+  <section class="px-3 pt-3 sm:px-4 sm:pt-4">
+    <div class="surface-vivid grid-backdrop rounded-[1.75rem]">
+      <div class="wrap py-20 sm:py-28">
+        <div class="mx-auto max-w-2xl text-center">
+          <h1 class="h-page">One key, one balance — coming soon</h1>
+          <p class="lead mt-5">
+            The dataslayer console will give you a single API key, a shared credit balance and unified
+            usage across every scraper. Until it ships, everything runs directly on Apify with the
+            same token.
+          </p>
+          <div class="mt-8 flex flex-wrap justify-center gap-3">
+            <a href={site.apifyProfileUrl} target="_blank" rel="noopener" class="btn btn-primary">Use your Apify token</a>
+            <a href="/docs" class="btn btn-secondary">Read the docs</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>

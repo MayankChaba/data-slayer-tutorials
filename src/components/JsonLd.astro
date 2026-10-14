@@ -1,0 +1,15 @@
+---
+interface Props {
+  data: Record<string, unknown> | Record<string, unknown>[];
+}
+const { data } = Astro.props;
+const blocks = Array.isArray(data) ? data : [data];
+const safe = (value: Record<string, unknown>) =>
+  JSON.stringify(value).replace(/</g, "\\u003c");
+---
+
+{
+  blocks.map((block) => (
+    <script type="application/ld+json" is:inline set:html={safe(block)} />
+  ))
+}
