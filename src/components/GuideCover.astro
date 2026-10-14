@@ -1,0 +1,45 @@
+---
+import { Icon } from "astro-icon/components";
+import { existsSync } from "node:fs";
+import { PLATFORM_VISUAL } from "../lib/platform";
+import type { PlatformId } from "../lib/types";
+
+interface Props {
+  platform: PlatformId;
+  /** Guide slug — when a generated cover exists at /covers/<slug>.jpg it is used. */
+  slug?: string;
+  alt?: string;
+  class?: string;
+}
+const { platform, slug, alt = "", class: className = "" } = Astro.props;
+const v = PLATFORM_VISUAL[platform] ?? PLATFORM_VISUAL.other;
+const src = slug && existsSync(`public/covers/${slug}.jpg`) ? `/covers/${slug}.jpg` : null;
+---
+
+<div class={`relative overflow-hidden ${className}`}>
+  {src ? (
+    <img
+      src={src}
+      alt={alt}
+      width="1376"
+      height="768"
+      loading="lazy"
+      decoding="async"
+      class="h-full w-full object-cover"
+    />
+  ) : (
+    <div
+      class="grid h-full w-full place-items-center"
+      style={`background:
+        radial-gradient(120% 130% at 18% 0%, color-mix(in srgb, ${v.tint} 28%, transparent), transparent 62%),
+        linear-gradient(160deg, #141826 0%, #0c0e15 100%);`}
+    >
+      <span
+        class="grid place-items-center rounded-2xl ring-1 ring-white/15"
+        style={`width:64px;height:64px;background:${v.background};`}
+      >
+        <Icon name={v.icon} width={34} height={34} class="text-white" />
+      </span>
+    </div>
+  )}
+</div>

@@ -1,0 +1,105 @@
+---
+import Base from "../layouts/Base.astro";
+import StatStrip from "../components/StatStrip.astro";
+import { site } from "../lib/site";
+import { getActors, getPlatformGroups, getTotals } from "../lib/actors";
+import { formatCount, formatPercent } from "../lib/format";
+
+const totals = getTotals();
+const groups = getPlatformGroups();
+const actors = getActors();
+
+const rows = groups.map((g) => {
+  const runs = g.actors.reduce((s, a) => s + a.stats.runs30, 0);
+  const ok = g.actors.reduce((s, a) => s + a.stats.succeeded30, 0);
+  return {
+    label: g.label,
+    scrapers: g.actors.length,
+    runs,
+    rate: runs > 0 ? ok / runs : null,
+  };
+});
+
+const overall = totals.successRate;
+const operational = overall !== null && overall >= 0.95;
+const lastRun = actors
+  .map((a) => a.stats.lastRunStartedAt)
+  .filter((d): d is string => Boolean(d))
+  .sort()
+  .at(-1);
+---
+
+<Base
+  title="Status"
+  description={`Live reliability for ${site.wordmark} scrapers: 30-day run success rates per platform, from Apify's public API.`}
+>
+  <section class="wrap pt-12 pb-8">
+    <h1 class="h-page">Reliability</h1>
+    <div class="mt-5 inline-flex items-center gap-2.5 rounded-full border border-line bg-panel px-4 py-2">
+      <span
+        class:list={["size-2.5 rounded-full", operational ? "bg-live" : "bg-brand"]}
+        aria-hidden="true"
+      ></span>
+      <span class="text-sm font-medium">
+        {operational ? "All scrapers operational" : "Operational — see per-platform rates"}
+      </span>
+    </div>
+    <p class="lead mt-5 max-w-2xl">
+      Scrapers run on Apify's infrastructure. These figures are computed from Apify's public API over
+      the last 30 days and refreshed with every build.
+    </p>
+  </section>
+
+  <section class="wrap reveal pb-10">
+    <StatStrip
+      stats={[
+        { value: overall !== null ? formatPercent(overall) : "—", label: "run success · 30 days" },
+        { value: formatCount(totals.runs30), label: "runs · last 30 days" },
+        { value: formatCount(totals.totalRuns), label: "runs all time" },
+        { value: String(totals.count), label: "scrapers monitored" },
+      ]}
+    />
+  </section>
+
+  <section class="wrap reveal pb-16">
+    <h2 class="h-section">By platform</h2>
+    <div class="panel mt-6 overflow-x-auto">
+      <table class="data-table min-w-[40rem]">
+        <thead>
+          <tr>
+            <th>Platform</th>
+            <th class="text-right">Scrapers</th>
+            <th class="text-right">Runs · 30d</th>
+            <th class="text-right">Success · 30d</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((r) => (
+            <tr>
+              <th scope="row">{r.label}</th>
+              <td class="text-right text-muted">{r.scrapers}</td>
+              <td class="text-right font-mono text-xs">{formatCount(r.runs)}</td>
+              <td class="text-right font-mono text-xs">
+                <span class:list={[r.rate !== null && r.rate >= 0.95 ? "text-live" : "text-text"]}>
+                  {r.rate !== null ? formatPercent(r.rate) : "—"}
+                </span>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    {lastRun && <p class="label mt-3">Most recent run across the portfolio: {lastRun}.</p>}
+  </section>
+
+  <section class="wrap pb-16">
+    <div class="panel p-6 md:p-8">
+      <h2 class="h-sub">How we measure this</h2>
+      <p class="mt-2 max-w-2xl text-[0.9375rem] text-muted">
+        Each scraper reports its run counts and outcomes through Apify's public API. The success rate is
+        succeeded runs divided by total runs over the last 30 days, aggregated across every scraper. Failed
+        runs are not billed as results.
+      </p>
+    </div>
+  </section>
+</Base>

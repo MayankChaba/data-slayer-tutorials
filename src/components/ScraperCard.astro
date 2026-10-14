@@ -1,0 +1,55 @@
+---
+import type { Actor } from "../lib/types";
+import { formatCount, formatUsd } from "../lib/format";
+import PlatformLogo from "./PlatformLogo.astro";
+import { platformTint } from "../lib/platform";
+import { getPlatform } from "../lib/site";
+
+interface Props {
+  actor: Actor;
+  attrs?: Record<string, string | number | boolean>;
+}
+const { actor, attrs = {} } = Astro.props;
+const tint = platformTint(actor.platform);
+const platformLabel = getPlatform(actor.platform).label;
+const price = actor.pricing?.per1kFrom ?? null;
+const hasTiers = actor.pricing?.hasTiers ?? false;
+---
+
+<li
+  {...attrs}
+  class="panel panel-hover group relative flex h-full flex-col overflow-hidden"
+>
+  <div class="flex flex-1 flex-col p-5">
+    <div class="flex items-start gap-3.5">
+      <PlatformLogo platform={actor.platform} size={40} />
+      <div class="min-w-0">
+        <h3 class="font-semibold leading-snug">
+          <a href={`/scrapers/${actor.slug}/`} class="after:absolute after:inset-0">{actor.name}</a>
+        </h3>
+        {actor.tags.length > 0 && <p class="label mt-1">{actor.tags.join(", ")}</p>}
+      </div>
+    </div>
+    <p class="mt-4 line-clamp-3 text-sm leading-relaxed text-muted">{actor.description}</p>
+    <dl class="mt-auto flex gap-6 pt-5 font-mono text-xs text-faint">
+      <div class="flex gap-1.5">
+        <dt>runs/30d</dt>
+        <dd class="text-text">{formatCount(actor.stats.runs30)}</dd>
+      </div>
+      <div class="flex gap-1.5">
+        <dt>users/30d</dt>
+        <dd class="text-text">{formatCount(actor.stats.users30)}</dd>
+      </div>
+    </dl>
+  </div>
+  <div
+    class="flex items-center justify-between gap-3 border-t border-line px-5 py-3 font-mono text-xs"
+    style={`background-color:color-mix(in srgb, ${tint} 10%, transparent);`}
+  >
+    <span style={`color:${tint};`}>{platformLabel}</span>
+    <span class="whitespace-nowrap text-muted">
+      {hasTiers && "from "}
+      <span class="text-sm font-medium text-text">{price !== null ? formatUsd(price) : "—"}</span> / 1K results
+    </span>
+  </div>
+</li>

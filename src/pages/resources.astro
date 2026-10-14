@@ -1,0 +1,139 @@
+---
+import Base from "../layouts/Base.astro";
+import GuideCover from "../components/GuideCover.astro";
+import { getCollection } from "astro:content";
+import { site } from "../lib/site";
+import { guidePlatform, guideTag, guideDateLabel } from "../lib/guides";
+import { platformTint } from "../lib/platform";
+
+const items = await getCollection("resources");
+
+const guides = items
+  .map((entry) => {
+    const d = entry.data as Record<string, unknown>;
+    const platform = guidePlatform(d);
+    return {
+      slug: entry.id,
+      title: (d.title as string) ?? entry.id,
+      description: (d.description as string) ?? "",
+      tag: guideTag(d),
+      platform,
+      tint: platformTint(platform),
+      dateLabel: guideDateLabel(d),
+      date: d.date ? new Date(String(d.date)).getTime() : 0,
+    };
+  })
+  .sort((a, b) => b.date - a.date);
+
+const tagCounts = guides.reduce<Record<string, number>>((acc, g) => {
+  acc[g.tag] = (acc[g.tag] ?? 0) + 1;
+  return acc;
+}, {});
+const tags = Object.keys(tagCounts).sort((a, b) => tagCounts[b] - tagCounts[a]);
+---
+
+<Base
+  title="Resources"
+  description={`Guides and how-tos for scraping public social-media data with ${site.wordmark} scraper APIs.`}
+>
+  <section class="wrap pt-14 pb-8">
+    <h1 class="h-page max-w-[22ch]">
+      Guides for turning public social data into something useful
+    </h1>
+    <p class="lead mt-5 max-w-2xl">
+      Step-by-step playbooks: what to scrape, which scraper to use, and how to export it as JSON, CSV
+      or Excel.
+    </p>
+  </section>
+
+  <section class="wrap pb-8">
+    <div class="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+      <label class="relative block w-full md:max-w-xs">
+        <span class="sr-only">Search guides</span>
+        <input
+          id="gq"
+          type="search"
+          placeholder="Search guides…"
+          class="w-full rounded-md border border-line-strong bg-panel px-3 py-2 text-sm outline-none placeholder:text-faint focus:border-brand"
+        />
+      </label>
+      <div class="flex flex-wrap items-center gap-2">
+        <button type="button" data-gtag="all" class="gtag btn btn-sm btn-primary">All</button>
+        {tags.slice(0, 8).map((t) => (
+          <button type="button" data-gtag={t} class="gtag btn btn-sm btn-secondary">{t}</button>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap pb-16">
+    <p id="gempty" class="hidden py-16 text-center text-sm text-muted">No guides match that search.</p>
+    <ul id="ggrid" class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      {guides.map((g) => (
+        <li
+          data-gitem
+          data-name={g.title.toLowerCase()}
+          data-tag={g.tag}
+          class="panel panel-hover relative flex flex-col overflow-hidden"
+        >
+          <GuideCover platform={g.platform} slug={g.slug} alt={g.title} class="h-40" />
+          <div class="flex flex-1 flex-col gap-3 p-5">
+            <span
+              class="inline-flex w-fit items-center rounded-full px-2.5 py-1 text-xs font-medium"
+              style={`color:${g.tint};background:color-mix(in srgb, ${g.tint} 16%, transparent);`}
+            >
+              {g.tag}
+            </span>
+            <h2 class="text-[1.0625rem] font-semibold leading-snug">
+              <a href={`/resources/${g.slug}/`} class="after:absolute after:inset-0">{g.title}</a>
+            </h2>
+            {g.description && (
+              <p class="line-clamp-3 text-sm leading-relaxed text-muted">{g.description}</p>
+            )}
+            <div class="mt-auto flex items-center gap-2 pt-2 text-xs text-faint">
+              <span>{site.publisher}</span>
+              {g.dateLabel && <span aria-hidden="true">·</span>}
+              {g.dateLabel && <span>{g.dateLabel}</span>}
+            </div>
+          </div>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <script is:inline>
+    (function () {
+      var grid = document.getElementById("ggrid");
+      var empty = document.getElementById("gempty");
+      var q = document.getElementById("gq");
+      var buttons = Array.prototype.slice.call(document.querySelectorAll(".gtag"));
+      var items = Array.prototype.slice.call(grid.querySelectorAll("[data-gitem]"));
+      var tag = "all";
+      function apply() {
+        var term = (q.value || "").trim().toLowerCase();
+        var shown = 0;
+        items.forEach(function (el) {
+          var okTerm = !term || el.getAttribute("data-name").indexOf(term) !== -1;
+          var okTag = tag === "all" || el.getAttribute("data-tag") === tag;
+          var visible = okTerm && okTag;
+          el.style.display = visible ? "" : "none";
+          if (visible) shown += 1;
+        });
+        empty.style.display = shown === 0 ? "" : "none";
+        buttons.forEach(function (b) {
+          var on = b.getAttribute("data-gtag") === tag;
+          b.classList.toggle("btn-primary", on);
+          b.classList.toggle("btn-secondary", !on);
+        });
+      }
+      buttons.forEach(function (b) {
+        b.addEventListener("click", function () {
+          tag = b.getAttribute("data-gtag");
+          apply();
+        });
+      });
+      q.addEventListener("input", apply);
+      apply();
+    })();
+  </script>
+</Base>

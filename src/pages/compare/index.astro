@@ -1,0 +1,50 @@
+---
+import Base from "../../layouts/Base.astro";
+import { site } from "../../lib/site";
+import { getTotals } from "../../lib/actors";
+import { COMPETITORS } from "../../lib/competitors";
+
+const totals = getTotals();
+---
+
+<Base
+  title="Compare"
+  description={`How ${site.wordmark} compares to general-purpose scraping APIs and web-data platforms.`}
+>
+  <section class="wrap pt-12 pb-10">
+    <h1 class="h-page max-w-[24ch]">How {site.wordmark} compares</h1>
+    <p class="lead mt-5 max-w-2xl">
+      {site.wordmark} is not a general-purpose scraping API. It is a catalog of {totals.count} prebuilt
+      scrapers that return structured records from public social-media data — so there is no parser to
+      write and no proxy network to run.
+    </p>
+  </section>
+
+  <section class="wrap pb-16">
+    <div class="grid gap-4 md:grid-cols-3">
+      {COMPETITORS.map((c) => (
+        <a href={`/compare/${c.slug}/`} class="panel panel-hover flex flex-col gap-3 p-6">
+          <span class="label">Alternative</span>
+          <h2 class="h-sub">{c.name}</h2>
+          <p class="text-[0.9375rem] text-muted">{c.positioning}.</p>
+          <span class="mt-auto pt-3 text-sm font-medium text-brand">Compare →</span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="wrap pb-16">
+    <div class="panel flex flex-col items-start justify-between gap-5 p-6 sm:flex-row sm:items-center">
+      <div>
+        <h2 class="h-sub">Not sure which approach fits?</h2>
+        <p class="mt-1 text-[0.9375rem] text-muted">
+          If your data lives on Instagram, LinkedIn, X, Facebook, TikTok or Reddit, start with the catalog.
+        </p>
+      </div>
+      <div class="flex shrink-0 gap-3">
+        <a href="/scrapers/" class="btn btn-primary">Browse scrapers</a>
+        <a href="/docs" class="btn btn-secondary">Read the docs</a>
+      </div>
+    </div>
+  </section>
+</Base>

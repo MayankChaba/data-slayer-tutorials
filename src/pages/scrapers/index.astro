@@ -1,0 +1,127 @@
+---
+import Base from "../../layouts/Base.astro";
+import ScraperCard from "../../components/ScraperCard.astro";
+import { getActors, getTotals } from "../../lib/actors";
+import { platforms } from "../../lib/site";
+
+const actors = getActors();
+const totals = getTotals();
+const present = platforms.filter((p) => actors.some((a) => a.platform === p.id));
+const byRuns = [...actors].sort((a, b) => b.stats.runs30 - a.stats.runs30);
+---
+
+<Base
+  title="Scrapers"
+  description={`Browse ${totals.count} scraper APIs across Instagram, LinkedIn, X, Facebook and TikTok — live 30-day usage and price per 1,000 results.`}
+>
+  <section class="wrap pt-12 pb-8">
+    <h1 class="h-page">{totals.count} scrapers</h1>
+    <p class="lead mt-4 max-w-2xl">
+      Every scraper, with live 30-day usage and price per 1,000 results. Search or filter by platform.
+    </p>
+  </section>
+
+  <section class="wrap pb-8">
+    <div class="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+      <label class="relative block w-full md:max-w-xs">
+        <span class="sr-only">Search scrapers</span>
+        <input
+          id="q"
+          type="search"
+          placeholder="Search scrapers…"
+          class="w-full rounded-md border border-line-strong bg-panel px-3 py-2 text-sm outline-none placeholder:text-faint focus:border-brand"
+        />
+      </label>
+      <div class="flex flex-wrap items-center gap-2">
+        <button type="button" data-filter="all" class="filter btn btn-sm btn-primary">All</button>
+        {present.map((p) => (
+          <button type="button" data-filter={p.id} class="filter btn btn-sm btn-secondary">{p.label}</button>
+        ))}
+        <label class="ml-1 flex items-center gap-2 text-sm text-muted">
+          <span class="label">Sort</span>
+          <select
+            id="sort"
+            class="rounded-md border border-line-strong bg-panel px-2 py-1.5 text-sm outline-none focus:border-brand"
+          >
+            <option value="runs">Most runs</option>
+            <option value="price">Lowest price</option>
+            <option value="name">Name</option>
+          </select>
+        </label>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap pb-16">
+    <p id="empty" class="hidden py-16 text-center text-sm text-muted">No scrapers match that search.</p>
+    <ul id="grid" class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {byRuns.map((actor) => (
+        <ScraperCard
+          actor={actor}
+          attrs={{
+            "data-item": "true",
+            "data-name": actor.name.toLowerCase(),
+            "data-platform": actor.platform,
+            "data-runs": actor.stats.runs30,
+            "data-price": actor.pricing?.per1kFrom ?? "",
+          }}
+        />
+      ))}
+    </ul>
+  </section>
+
+  <script is:inline>
+    (function () {
+      const grid = document.getElementById("grid");
+      const empty = document.getElementById("empty");
+      const q = document.getElementById("q");
+      const sort = document.getElementById("sort");
+      const buttons = Array.from(document.querySelectorAll(".filter"));
+      const items = Array.from(grid.querySelectorAll("[data-item]"));
+      const params = new URLSearchParams(location.search);
+      let platform = params.get("platform") || "all";
+
+      function apply() {
+        const term = (q.value || "").trim().toLowerCase();
+        let shown = 0;
+        for (const el of items) {
+          const okTerm = !term || el.dataset.name.includes(term);
+          const okPlat = platform === "all" || el.dataset.platform === platform;
+          const visible = okTerm && okPlat;
+          el.style.display = visible ? "" : "none";
+          if (visible) shown += 1;
+        }
+        empty.style.display = shown === 0 ? "" : "none";
+        buttons.forEach((b) => {
+          const on = b.dataset.filter === platform;
+          b.classList.toggle("btn-primary", on);
+          b.classList.toggle("btn-secondary", !on);
+        });
+      }
+
+      function reorder() {
+        const key = sort.value;
+        const sorted = items.slice().sort((a, b) => {
+          if (key === "name") return a.dataset.name.localeCompare(b.dataset.name);
+          if (key === "price") {
+            const pa = a.dataset.price ? parseFloat(a.dataset.price) : Infinity;
+            const pb = b.dataset.price ? parseFloat(b.dataset.price) : Infinity;
+            return pa - pb || Number(b.dataset.runs) - Number(a.dataset.runs);
+          }
+          return Number(b.dataset.runs) - Number(a.dataset.runs);
+        });
+        for (const el of sorted) grid.appendChild(el);
+      }
+
+      buttons.forEach((b) =>
+        b.addEventListener("click", () => {
+          platform = b.dataset.filter;
+          apply();
+        })
+      );
+      q.addEventListener("input", apply);
+      sort.addEventListener("change", reorder);
+      apply();
+    })();
+  </script>
+</Base>

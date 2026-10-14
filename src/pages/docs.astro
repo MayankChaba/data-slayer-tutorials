@@ -1,0 +1,121 @@
+---
+import Base from "../layouts/Base.astro";
+import RequestWindow from "../components/RequestWindow.astro";
+import { site } from "../lib/site";
+import { getActors, getExampleInput } from "../lib/actors";
+import { buildCodeSamples, buildRowShape } from "../lib/requests";
+import { formatCount } from "../lib/format";
+
+const actors = getActors();
+const hero = [...actors].sort((a, b) => b.stats.runs30 - a.stats.runs30)[0];
+const example = hero ? getExampleInput(hero) : null;
+const samples = hero && example ? buildCodeSamples(hero, example.value) : [];
+const rowShape = hero ? buildRowShape(hero.output) : null;
+const endpoints = [...actors].sort((a, b) => b.stats.runs30 - a.stats.runs30).slice(0, 8);
+
+const steps = [
+  {
+    n: "01",
+    t: "Get a token",
+    d: "Create a free Apify account and copy your API token. One token works across every dataslayer scraper.",
+  },
+  {
+    n: "02",
+    t: "POST your input",
+    d: "Send a JSON body to the actor's run endpoint. Inputs are validated against a published schema before the run starts.",
+  },
+  {
+    n: "03",
+    t: "Read the dataset",
+    d: "The run writes typed records to a dataset you can fetch as JSON, CSV or Excel — or stream straight into your stack.",
+  },
+];
+---
+
+<Base
+  title="Docs"
+  description="How to call dataslayer scraper APIs: authentication, the run endpoint, request bodies and typed JSON responses."
+>
+  <section class="wrap pt-12 pb-10">
+    <h1 class="h-page">API documentation</h1>
+    <p class="lead mt-4 max-w-2xl">
+      Every dataslayer scraper is a production Apify actor. You call one endpoint, send a JSON body
+      and read typed records back. This page covers the whole loop.
+    </p>
+  </section>
+
+  <section class="wrap grid gap-10 pb-14 lg:grid-cols-[1fr_1.15fr] lg:items-start">
+    <div>
+      <h2 class="h-section">Quickstart</h2>
+      <div class="mt-6 space-y-6">
+        {steps.map((s) => (
+          <div class="flex gap-4">
+            <span class="font-mono text-sm text-brand">{s.n}</span>
+            <div>
+              <h3 class="h-sub">{s.t}</h3>
+              <p class="mt-1 text-[0.9375rem] text-muted">{s.d}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+      <h2 class="h-section mt-10">Authentication</h2>
+      <p class="mt-3 text-[0.9375rem] text-muted">
+        Pass your token as a <code class="font-mono text-brand">token</code> query parameter or an{" "}
+        <code class="font-mono text-brand">Authorization: Bearer</code> header. Requests without a valid token
+        return <code class="font-mono text-brand">401</code>.
+      </p>
+      <h2 class="h-section mt-10">Errors &amp; limits</h2>
+      <ul class="mt-3 space-y-2 text-[0.9375rem] text-muted">
+        <li><code class="font-mono text-brand">401</code> — missing or invalid token.</li>
+        <li><code class="font-mono text-brand">400</code> — input failed schema validation; the message names the field.</li>
+        <li><code class="font-mono text-brand">429</code> — rate limited; back off and retry.</li>
+        <li>Runs are asynchronous: poll the run status, then fetch the dataset when it succeeds.</li>
+      </ul>
+    </div>
+
+    {hero && samples.length > 0 && (
+      <RequestWindow
+        title={`POST /v2/acts/${site.apifyUsername}~${hero.apifyName}/run-sync-get-dataset-items`}
+        samples={samples}
+        rowShape={rowShape}
+        fieldCount={hero.output.length}
+      />
+    )}
+  </section>
+
+  <section class="wrap pb-16">
+    <h2 class="h-section">Endpoints</h2>
+    <p class="mt-3 max-w-2xl text-[0.9375rem] text-muted">
+      Run endpoints for the most-used scrapers. Every actor follows the same
+      <code class="font-mono text-brand">/acts/&#123;actor&#125;/runs</code> shape — swap the actor name for any of
+      the {actors.length} scrapers in the directory.
+    </p>
+    <div class="panel mt-6 overflow-x-auto">
+      <table class="data-table min-w-[48rem]">
+        <thead>
+          <tr>
+            <th>Scraper</th>
+            <th>Endpoint</th>
+            <th class="text-right">Runs · 30d</th>
+          </tr>
+        </thead>
+        <tbody>
+          {endpoints.map((actor) => (
+            <tr>
+              <th scope="row">
+                <a href={`/scrapers/${actor.slug}/`} class="hover:text-brand">{actor.name}</a>
+              </th>
+              <td class="font-mono text-xs break-all text-muted">
+                {site.apifyApiBase}/acts/{site.apifyUsername}~{actor.apifyName}/runs
+              </td>
+              <td class="text-right font-mono text-xs text-faint">{formatCount(actor.stats.runs30)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <div class="mt-8">
+      <a href="/scrapers/" class="btn btn-secondary">Browse all scrapers →</a>
+    </div>
+  </section>
+</Base>

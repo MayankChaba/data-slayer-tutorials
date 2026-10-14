@@ -1,0 +1,85 @@
+---
+import { highlight } from "../lib/highlight";
+import type { CodeSample } from "../lib/requests";
+
+interface Props {
+  title: string;
+  samples: CodeSample[];
+  rowShape?: string | null;
+  fieldCount?: number;
+}
+const { title, samples, rowShape = null, fieldCount = 0 } = Astro.props;
+const [method, ...rest] = title.split(" ");
+const path = rest.join(" ");
+---
+
+<div class="request-window panel overflow-hidden" data-window>
+  <div class="flex items-center gap-3 border-b border-line bg-raised/40 px-4 py-2.5">
+    <span class="rounded-[5px] border border-live/30 bg-live/10 px-1.5 py-0.5 font-mono text-[0.6875rem] font-semibold tracking-wide text-live">{method}</span>
+    <span class="label truncate text-faint">{path}</span>
+    <button
+      type="button"
+      data-copy
+      class="ml-auto rounded-md border border-line px-2.5 py-1 text-xs font-medium text-muted transition-colors hover:border-line-strong hover:text-text"
+    >
+      <span data-copy-label aria-live="polite">Copy</span>
+    </button>
+  </div>
+  <div class={rowShape ? "grid lg:grid-cols-[minmax(0,3fr)_minmax(0,2fr)]" : ""}>
+    <div class="min-w-0">
+      <div class="flex h-11 items-center gap-1 border-b border-line pl-4 pr-2">
+        <span class="label mr-2 max-sm:hidden">request</span>
+        {samples.map((sample, i) => (
+          <button type="button" data-tab={sample.id} aria-pressed={i === 0 ? "true" : "false"} class="tab px-2.5 text-sm font-medium">
+            {sample.label}
+          </button>
+        ))}
+      </div>
+      {samples.map((sample, i) => (
+        <pre
+          data-panel={sample.id}
+          tabindex="0"
+          class:list={["code overflow-x-auto p-5 outline-offset-[-2px]", i !== 0 && "hidden"]}><code>{highlight(sample.code).map((t) => (t.kind ? <span class={`tok-${t.kind}`}>{t.text}</span> : t.text))}</code></pre>
+      ))}
+    </div>
+    {rowShape && (
+      <div class="min-w-0 border-t border-line lg:border-l lg:border-t-0">
+        <div class="label flex h-11 items-center justify-between border-b border-line px-4">
+          <span>each result row</span>
+          <span>{fieldCount} fields</span>
+        </div>
+        <pre tabindex="0" class="code overflow-x-auto p-5 outline-offset-[-2px]"><code>{highlight(rowShape).map((t) => (t.kind ? <span class={`tok-${t.kind}`}>{t.text}</span> : t.text))}</code></pre>
+      </div>
+    )}
+  </div>
+</div>
+
+<script is:inline>
+  document.querySelectorAll("[data-window]").forEach((root) => {
+    const tabs = Array.from(root.querySelectorAll("[data-tab]"));
+    const panels = Array.from(root.querySelectorAll("[data-panel]"));
+    tabs.forEach((tab) => {
+      tab.addEventListener("click", () => {
+        const id = tab.getAttribute("data-tab");
+        tabs.forEach((t) => t.setAttribute("aria-pressed", t === tab ? "true" : "false"));
+        panels.forEach((p) => p.classList.toggle("hidden", p.getAttribute("data-panel") !== id));
+      });
+    });
+    const copy = root.querySelector("[data-copy]");
+    const label = root.querySelector("[data-copy-label]");
+    if (copy && label) {
+      copy.addEventListener("click", async () => {
+        const active = root.querySelector("[data-panel]:not(.hidden) code");
+        if (!active) return;
+        try {
+          await navigator.clipboard.writeText(active.textContent || "");
+          label.textContent = "Copied";
+          setTimeout(() => (label.textContent = "Copy"), 2000);
+        } catch {
+          label.textContent = "Copy failed";
+          setTimeout(() => (label.textContent = "Copy"), 2000);
+        }
+      });
+    }
+  });
+</script>

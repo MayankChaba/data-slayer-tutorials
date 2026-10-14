@@ -16,25 +16,21 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+      - uses: actions/setup-node@v4
         with:
-          ruby-version: "3.3"
+          node-version: "22"
 
-      - name: Install Jekyll
-        run: gem install "jekyll:4.3.4" minima jekyll-seo-tag jekyll-sitemap
+      - name: Install dependencies
+        run: npm ci
 
-      - name: Build site (domain root)
-        run: jekyll build --config _config.yml,_config_cloudflare.yml
-        env:
-          JEKYLL_ENV: production
+      - name: Build site
+        run: npm run build
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy _site --project-name=dataslayer-hub --branch=main
+          command: pages deploy dist --project-name=dataslayer-hub --branch=main

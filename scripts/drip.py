@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
-"""Server-side catch-up drip for the use-case queue (Cloudflare Pages hub).
+"""Drip the article queue onto the Astro site's /resources/ collection.
 
-Runs in GitHub Actions (see .github/workflows/publish-cadence.yml), so the drip
-no longer depends on the laptop being open. Each run publishes
-``per_day * days_since_last_run`` articles, capped by the queue, so any missed
-run is caught up on the next run — e.g. a 7-day gap publishes 21 in one go.
+Every run publishes ``per_day * days_since_last_run`` articles (capped by the
+queue), converting each queued draft into the Astro content format and making
+sure its cover is present in ``public/covers/``.
 
-  queue/queue.json      ordered list of ready targets (priority, then traffic)
-  queue/articles/*.md   the scored, ready-to-publish articles
-  queue/state.json      {"last_run": ISO date|null, "per_day": int, "published": int}
+  queue/queue.json        ordered list of ready targets (priority, then traffic)
+  queue/articles/*.md     the scored, ready-to-publish drafts
+  queue/covers/*.jpg      their generated covers (falls back to assets/covers/)
+  queue/state.json        {"last_run": ISO date|null, "per_day": int, "published": int}
 
-Output: use-cases/<slug>.md, rebuilt use-cases/index.md and llms.txt.
-The workflow commits + pushes; that push triggers the Cloudflare Pages deploy.
+Output: src/content/resources/<slug>.md  +  public/covers/<slug>.jpg
+Run by .github/workflows/publish-cadence.yml, which commits, builds and deploys.
 """
 from __future__ import annotations
 
@@ -20,14 +20,18 @@ import glob
 import json
 import os
 import re
+import shutil
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 QUEUE_DIR = os.path.join(ROOT, "queue")
 QART = os.path.join(QUEUE_DIR, "articles")
+QCOV = os.path.join(QUEUE_DIR, "covers")
 QJSON = os.path.join(QUEUE_DIR, "queue.json")
 STATE = os.path.join(QUEUE_DIR, "state.json")
-UC = os.path.join(ROOT, "use-cases")
-LLMS = os.path.join(ROOT, "llms.txt")
+
+CONTENT = os.path.join(ROOT, "src", "content", "resources")
+COVERS_OUT = os.path.join(ROOT, "public", "covers")
+COVERS_FALLBACK = os.path.join(ROOT, "assets", "covers")
 
 
 def fm_get(md: str, key: str) -> str:
@@ -35,85 +39,55 @@ def fm_get(md: str, key: str) -> str:
     return m.group(1).strip() if m else ""
 
 
-def fm_set(md: str, key: str, val: str) -> str:
-    if re.search(rf"^{key}:", md, re.M):
-        return re.sub(rf'^{key}:\s*.*$', f'{key}: "{val}"', md, count=1, flags=re.M)
-    m = re.match(r"^---\n(.*?)\n---\n", md, re.S)
-    if not m:
-        return md
-    return md[: m.end(1)] + f'\n{key}: "{val}"' + md[m.end(1):]
+def slug_of(path: str) -> str:
+    return os.path.basename(path)[:-3]
 
 
-def title_of(md: str) -> str:
-    m = re.search(r"^#\s+(.+)$", md, re.M)
-    return m.group(1).strip() if m else fm_get(md, "title")
+def to_astro(src_md: str, slug: str) -> str:
+    """Convert a queued draft into an Astro resources entry."""
+    m = re.match(r"^---\n([\s\S]*?)\n---\n", src_md)
+    fm = m.group(1) if m else ""
+    body = src_md[m.end():] if m else src_md
+    g = lambda k: fm_get(fm, k)  # noqa: E731
 
+    title = g("title")
+    out_fm = "\n".join(
+        [
+            "---",
+            'layout: "use-case"',
+            f'title: "{title}"',
+            f'description: "{g("description")}"',
+            f'slug: "{slug}"',
+            f'canonical_url: "/resources/{slug}/"',
+            f'date: "{g("date")}"',
+            f'tags: {g("tags") or "[]"}',
+            f'target_keyword: "{g("target_keyword")}"',
+            f'actor_username: "{g("actor_username")}"',
+            f'actor_slug: "{g("actor_slug")}"',
+            f'actor_url: "{g("actor_url")}"',
+            f'persona: "{g("persona")}"',
+            f'content_type: "{g("content_type")}"',
+            f'neuronwriter_brief_id: "{g("neuronwriter_brief_id")}"',
+            f'neuronwriter_score: {g("neuronwriter_score") or 0}',
+            'status: "published"',
+            "---",
+            "",
+        ]
+    )
 
-def hub_items() -> list[dict]:
-    out = []
-    for p in sorted(glob.glob(os.path.join(UC, "*.md"))):
-        if os.path.basename(p) == "index.md":
-            continue
-        md = open(p).read()
-        out.append({"slug": os.path.basename(p)[:-3], "title": title_of(md),
-                    "desc": fm_get(md, "description")})
-    return out
-
-
-def index_md(items: list[dict]) -> str:
-    lines = [
-        "---",
-        "layout: page",
-        'title: "Use cases"',
-        'permalink: "/use-cases/"',
-        "---",
-        "",
-        "Step-by-step guides for the jobs people actually search for — each one built on a",
-        "real [Data Slayer](https://apify.com/data-slayer) actor, with the input you send and",
-        "the output you get. No login, no proxies to manage.",
-        "",
-        "## All use cases",
-        "",
-    ]
-    for it in sorted(items, key=lambda x: x["title"].lower()):
-        lines.append(f"- [{it['title']}](https://dataslayer.dev/use-cases/{it['slug']}/) — {it['desc']}")
-    lines += [
-        "",
-        "## The actors",
-        "",
-        "Every guide links to a live actor on the Apify Store:",
-        "[apify.com/data-slayer](https://apify.com/data-slayer?utm_source=github&utm_medium=content&utm_campaign=hub)",
-        "",
-    ]
-    return "\n".join(lines)
-
-
-def patch_llms(items: list[dict]) -> None:
-    txt = open(LLMS).read()
-    if "## Use cases" in txt:
-        txt = re.sub(r"## Use cases\n.*?(?=\n## )", "", txt, flags=re.S)
-    lines = ["## Use cases", "",
-             f"Step-by-step guides for the jobs people search for ({len(items)} published):", ""]
-    for it in sorted(items, key=lambda x: x["title"].lower()):
-        lines.append(f"- {it['title']}: https://dataslayer.dev/use-cases/{it['slug']}/")
-    lines.append("")
-    section = "\n".join(lines)
-    if "## Actors referenced" in txt:
-        txt = txt.replace("## Actors referenced", section + "\n## Actors referenced", 1)
-    else:
-        txt = txt.rstrip() + "\n\n" + section + "\n"
-    open(LLMS, "w").write(txt)
+    # hub asset paths -> astro public paths
+    body = body.replace("(/assets/art/", "(/art/")
+    body = body.replace("/assets/covers/", "/covers/")
+    # the page template renders the H1 already — drop a duplicated leading one
+    body = re.sub(r"^#\s+.+\n+", "", body, count=1)
+    return out_fm + body
 
 
 def pick(queue: list[dict], due: int) -> list[dict]:
-    """One article per actor per batch (stagger), then fill any remainder.
-
-    After a long gap `due` can exceed the number of distinct actors still queued,
-    so a second pass allows repeats to actually clear the backlog.
-    """
+    """One article per actor per batch (stagger), then fill any remainder."""
     picks, seen = [], set()
     for item in queue:
-        actor = item["actor_account"] + "/" + item["actor_slug"]
+        actor = item.get("actor_account", "") + "/" + item.get("actor_slug", "")
         if actor in seen:
             continue
         picks.append(item)
@@ -133,49 +107,57 @@ def pick(queue: list[dict], due: int) -> list[dict]:
 
 
 def main() -> None:
-    state = json.load(open(STATE)) if os.path.exists(STATE) else {"last_run": None, "per_day": 3, "published": 0}
+    state = json.load(open(STATE)) if os.path.exists(STATE) else {"last_run": None, "per_day": 5, "published": 0}
     queue = json.load(open(QJSON)) if os.path.exists(QJSON) else []
-    per_day = int(os.environ.get("DRIP_PER_DAY", state.get("per_day", 3)))
+    per_day = int(os.environ.get("DRIP_PER_DAY", state.get("per_day", 5)))
     today = dt.date.today()
     last = dt.date.fromisoformat(state["last_run"]) if state.get("last_run") else None
     days = 1 if last is None else (today - last).days
     due = min(len(queue), per_day * days)
 
-    print(f"drip: per_day={per_day} last_run={state.get('last_run')} days={days} "
-          f"due={due} queue={len(queue)}")
+    print(f"drip: per_day={per_day} last_run={state.get('last_run')} days={days} due={due} queue={len(queue)}")
     if due <= 0:
-        print("nothing due — exiting")
+        print("nothing due - exiting")
         return
+
     batch = pick(queue, due)
     if not batch:
-        print("queue empty — exiting")
+        print("queue empty - exiting")
         return
 
-    os.makedirs(UC, exist_ok=True)
-    done = set()
-    for item in batch:
-        src = os.path.join(QART, item["slug"] + ".md")
-        if not os.path.exists(src):
-            print(f"  ! missing {item['slug']} — skipping")
-            continue
-        md = fm_set(open(src).read(), "status", "published")
-        md = fm_set(md, "layout", "use-case")
-        open(os.path.join(UC, item["slug"] + ".md"), "w").write(md)
-        done.add(item["slug"])
+    os.makedirs(CONTENT, exist_ok=True)
+    os.makedirs(COVERS_OUT, exist_ok=True)
+    done, covers = set(), 0
 
-    published = hub_items()
-    open(os.path.join(UC, "index.md"), "w").write(index_md(published))
-    if os.path.exists(LLMS):
-        patch_llms(published)
+    for item in batch:
+        slug = item["slug"]
+        src = os.path.join(QART, slug + ".md")
+        if not os.path.exists(src):
+            print(f"  ! missing {slug} - skipping")
+            continue
+        with open(src) as fh:
+            md = to_astro(fh.read(), slug)
+        with open(os.path.join(CONTENT, slug + ".md"), "w") as fh:
+            fh.write(md)
+        done.add(slug)
+
+        dest = os.path.join(COVERS_OUT, slug + ".jpg")
+        if not os.path.exists(dest):
+            for cand in (os.path.join(QCOV, slug + ".jpg"), os.path.join(COVERS_FALLBACK, slug + ".jpg")):
+                if os.path.exists(cand):
+                    shutil.copyfile(cand, dest)
+                    covers += 1
+                    break
 
     remaining = [q for q in queue if q["slug"] not in done]
     json.dump(remaining, open(QJSON, "w"), indent=1)
-    json.dump({"last_run": today.isoformat(), "per_day": per_day,
-               "published": state.get("published", 0) + len(done)},
-              open(STATE, "w"), indent=1)
-    print(f"published {len(done)}: {sorted(done)}")
-    print(f"queue remaining: {len(remaining)} · total published: "
-          f"{state.get('published', 0) + len(done)}")
+    json.dump(
+        {"last_run": today.isoformat(), "per_day": per_day, "published": state.get("published", 0) + len(done)},
+        open(STATE, "w"),
+        indent=1,
+    )
+    print(f"published {len(done)} to /resources/ (covers copied: {covers}): {sorted(done)}")
+    print(f"queue remaining: {len(remaining)} - total published: {state.get('published', 0) + len(done)}")
 
 
 if __name__ == "__main__":

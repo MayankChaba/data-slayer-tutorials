@@ -1,0 +1,22 @@
+---
+/** A ruled row of figures. `stats` is [{ value, label }]. */
+interface Stat {
+  value: string;
+  label: string;
+}
+interface Props {
+  stats: Stat[];
+}
+const { stats } = Astro.props;
+---
+
+<div class="panel overflow-hidden">
+  <dl class="-mb-px -mr-px grid grid-cols-2 lg:grid-cols-4">
+    {stats.map((stat) => (
+      <div class="flex flex-col-reverse border-b border-r border-line px-5 py-4">
+        <dt class="mt-1 text-sm text-muted">{stat.label}</dt>
+        <dd class="font-mono text-xl font-medium tracking-tight sm:text-2xl">{stat.value}</dd>
+      </div>
+    ))}
+  </dl>
+</div>
