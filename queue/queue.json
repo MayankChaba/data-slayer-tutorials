@@ -1,23 +1,5 @@
 [
  {
-  "slug": "linkedin-profile-data-extraction-tool",
-  "priority": "P1",
-  "runs_30d": 10680,
-  "target_query": "linkedin profile data extraction tool",
-  "actor_account": "data-slayer",
-  "actor_slug": "linkedin-profile-scraper",
-  "actor_title": "LinkedIn Profile Scraper \u00b7 Fresh \u00b7 No Cookies"
- },
- {
-  "slug": "instagram-users-scraper",
-  "priority": "P1",
-  "runs_30d": 8427,
-  "target_query": "instagram users scraper",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-search-users",
-  "actor_title": "Instagram User Search \u00b7 Find Leads by Keyword \u00b7 No Login"
- },
- {
   "slug": "scrape-instagram-users-without-login",
   "priority": "P1",
   "runs_30d": 8427,
@@ -52,15 +34,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "instagram-search-users",
   "actor_title": "Instagram User Search \u00b7 Find Leads by Keyword \u00b7 No Login"
- },
- {
-  "slug": "how-to-scrape-linkedin-post-analytics-without-getting-blocked",
-  "priority": "P1",
-  "runs_30d": 7204,
-  "target_query": "how to scrape linkedin post analytics without getting blocked",
-  "actor_account": "data-slayer",
-  "actor_slug": "linkedin-post-analytics-scraper",
-  "actor_title": "LinkedIn Post Performance Scraper"
  },
  {
   "slug": "linkedin-post-analytics-scraper",
@@ -117,15 +90,6 @@
   "actor_title": "LinkedIn Post Performance Scraper"
  },
  {
-  "slug": "how-to-scrape-twitter-comments-without-getting-blocked",
-  "priority": "P1",
-  "runs_30d": 5580,
-  "target_query": "how to scrape twitter comments without getting blocked",
-  "actor_account": "data-slayer",
-  "actor_slug": "twitter-comments",
-  "actor_title": "Twitter/X Comments Scraper \u00b7 No Cookies"
- },
- {
   "slug": "twitter-comments-scraper",
   "priority": "P1",
   "runs_30d": 5580,
@@ -160,15 +124,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "twitter-comments",
   "actor_title": "Twitter/X Comments Scraper \u00b7 No Cookies"
- },
- {
-  "slug": "how-to-scrape-linkedin-company-posts-without-getting-blocked",
-  "priority": "P1",
-  "runs_30d": 4885,
-  "target_query": "how to scrape linkedin company posts without getting blocked",
-  "actor_account": "data-slayer",
-  "actor_slug": "linkedin-company-posts-scraper",
-  "actor_title": "LinkedIn Company Posts Scraper"
  },
  {
   "slug": "linkedin-company-posts-scraper",

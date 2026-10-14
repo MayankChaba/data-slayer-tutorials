@@ -47,9 +47,10 @@ One page per data-slayer actor (95), each with inputs, outputs, pricing, a runna
 
 
 
+
 ## Use cases
 
-Step-by-step guides for the jobs people search for (61 published):
+Step-by-step guides for the jobs people search for (66 published):
 
 - export facebook pages to csv: https://dataslayer.dev/use-cases/export-facebook-pages-to-csv/
 - export instagram highlights to csv: https://dataslayer.dev/use-cases/export-instagram-highlights-to-csv/
@@ -82,7 +83,10 @@ Step-by-step guides for the jobs people search for (61 published):
 - how to scrape instagram stories without getting blocked: https://dataslayer.dev/use-cases/how-to-scrape-instagram-stories-without-getting-blocked/
 - how to scrape instagram user info without getting blocked: https://dataslayer.dev/use-cases/how-to-scrape-instagram-user-info-without-getting-blocked/
 - how to scrape instagram users without getting blocked: https://dataslayer.dev/use-cases/how-to-scrape-instagram-users-without-getting-blocked/
+- how to scrape linkedin company posts without getting blocked: https://dataslayer.dev/use-cases/how-to-scrape-linkedin-company-posts-without-getting-blocked/
+- how to scrape linkedin post analytics without getting blocked: https://dataslayer.dev/use-cases/how-to-scrape-linkedin-post-analytics-without-getting-blocked/
 - how to scrape linkedin profile without getting blocked: https://dataslayer.dev/use-cases/how-to-scrape-linkedin-profile-without-getting-blocked/
+- how to scrape twitter comments without getting blocked: https://dataslayer.dev/use-cases/how-to-scrape-twitter-comments-without-getting-blocked/
 - how to scrape twitter user tweets without getting blocked: https://dataslayer.dev/use-cases/how-to-scrape-twitter-user-tweets-without-getting-blocked/
 - instagram highlights api alternative: https://dataslayer.dev/use-cases/instagram-highlights-api-alternative/
 - instagram highlights data extraction tool: https://dataslayer.dev/use-cases/instagram-highlights-data-extraction-tool/
@@ -102,6 +106,8 @@ Step-by-step guides for the jobs people search for (61 published):
 - instagram stories scraper: https://dataslayer.dev/use-cases/instagram-stories-scraper/
 - instagram user info data extraction tool: https://dataslayer.dev/use-cases/instagram-user-info-data-extraction-tool/
 - instagram user info scraper: https://dataslayer.dev/use-cases/instagram-user-info-scraper/
+- instagram users scraper: https://dataslayer.dev/use-cases/instagram-users-scraper/
+- linkedin profile data extraction tool: https://dataslayer.dev/use-cases/linkedin-profile-data-extraction-tool/
 - linkedin profile scraper: https://dataslayer.dev/use-cases/linkedin-profile-scraper/
 - scrape facebook pages without login: https://dataslayer.dev/use-cases/scrape-facebook-pages-without-login/
 - scrape instagram highlights without login: https://dataslayer.dev/use-cases/scrape-instagram-highlights-without-login/
