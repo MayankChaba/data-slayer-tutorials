@@ -1,0 +1,146 @@
+# dataslayer
+
+> Scraper APIs for Instagram, LinkedIn, X (Twitter), Facebook and TikTok. One key, structured JSON, pay per result — no logins, cookies or proxies to manage.
+
+dataslayer publishes 102 production scraper APIs for public social-media data
+across Instagram, LinkedIn, X (Twitter), Facebook, TikTok and Reddit. Each scraper is an Apify
+actor: send one JSON request, read typed records back, and pay per result. No login, cookies or
+proxies are required. One Apify token works across the whole portfolio.
+
+## Key pages
+- Home: https://dataslayer.dev/
+- Scraper catalog: https://dataslayer.dev/scrapers/
+- Documentation: https://dataslayer.dev/docs
+- Pricing: https://dataslayer.dev/pricing
+- Resources: https://dataslayer.dev/resources
+- About: https://dataslayer.dev/about
+- Contact: https://dataslayer.dev/contact
+- Apify Store profile: https://apify.com/data-slayer
+
+## Platform hubs
+### Instagram scraper API (35 scrapers)
+Profiles, posts, reels, comments, followers and hashtags — no login.
+https://dataslayer.dev/instagram-scraper-api/
+  - Instagram Post & Reel Details Scraper — https://dataslayer.dev/scrapers/instagram-post-details/
+  - Instagram Profile Posts & Reels Scraper — https://dataslayer.dev/scrapers/instagram-posts/
+  - Instagram Profile Scraper — https://dataslayer.dev/scrapers/instagram-user-info-scraper-cookieless/
+  - Instagram Reels Search & Trend Discovery — https://dataslayer.dev/scrapers/instagram-search-reels/
+  - Instagram Stories Scraper — https://dataslayer.dev/scrapers/instagram-stories-scraper/
+  - Instagram Profile Reels Scraper — https://dataslayer.dev/scrapers/instagram-profile-reels/
+
+### LinkedIn scraper API (31 scrapers)
+Profiles, companies, jobs and posts — no login.
+https://dataslayer.dev/linkedin-scraper-api/
+  - LinkedIn Profile Scraper — https://dataslayer.dev/scrapers/linkedin-profile-scraper/
+  - LinkedIn Post Performance Scraper — https://dataslayer.dev/scrapers/linkedin-post-analytics-scraper/
+  - LinkedIn Company Posts Scraper — https://dataslayer.dev/scrapers/linkedin-company-posts-scraper/
+  - LinkedIn Profile Posts Scraper — https://dataslayer.dev/scrapers/linkedin-profile-posts-scraper/
+  - LinkedIn Post Engagers Scraper — https://dataslayer.dev/scrapers/linkedin-post-engagers-email-finder-no-cookies/
+  - LinkedIn Company Scraper — https://dataslayer.dev/scrapers/linkedin-company-scraper/
+
+### X (Twitter) scraper API (11 scrapers)
+Tweets, profiles, followers, search and comments — no login.
+https://dataslayer.dev/twitter-scraper-api/
+  - Twitter/X Profile Scraper — https://dataslayer.dev/scrapers/twitter-user/
+  - Twitter/X Comments Scraper — https://dataslayer.dev/scrapers/twitter-comments/
+  - Twitter/X Search Scraper — https://dataslayer.dev/scrapers/twitter-search/
+  - Twitter/X Tweets Scraper — https://dataslayer.dev/scrapers/twitter-user-tweets/
+  - Twitter/X Trends Scraper — https://dataslayer.dev/scrapers/twitter-trends-by-location/
+  - Twitter/X Following Scraper — https://dataslayer.dev/scrapers/twitter-followings/
+
+### Facebook scraper API (12 scrapers)
+Pages, posts, Marketplace, ads and public profiles — no login.
+https://dataslayer.dev/facebook-scraper-api/
+  - Facebook Page Search Scraper — https://dataslayer.dev/scrapers/facebook-search-pages/
+  - Facebook Marketplace Listing Scraper — https://dataslayer.dev/scrapers/facebook-marketplace-details/
+  - Facebook Page Posts Scraper — https://dataslayer.dev/scrapers/facebook-page-posts/
+  - Facebook Keyword Post Search — https://dataslayer.dev/scrapers/facebook-post-search/
+  - Facebook Page Details Scraper — https://dataslayer.dev/scrapers/facebook-page-details/
+  - Facebook Group Posts Scraper — https://dataslayer.dev/scrapers/facebook-group-posts/
+
+### TikTok scraper API (8 scrapers)
+Profiles, videos, comments, search and trending content — no login.
+https://dataslayer.dev/tiktok-scraper-api/
+  - TikTok Profile Scraper — https://dataslayer.dev/scrapers/tiktok-profile-scraper/
+  - TikTok Followers Scraper — https://dataslayer.dev/scrapers/tiktok-followers/
+  - TikTok Comments Scraper — https://dataslayer.dev/scrapers/tiktok-comments/
+  - TikTok Popular Posts Scraper — https://dataslayer.dev/scrapers/tiktok-popular-posts/
+  - TikTok Top Ads Research — https://dataslayer.dev/scrapers/tiktok-top-ads-scraper/
+  - TikTok Video Details Scraper — https://dataslayer.dev/scrapers/tiktok-video-details/
+
+### Reddit scraper API (3 scrapers)
+Subreddit posts, search and post details with comments — no login.
+https://dataslayer.dev/reddit-scraper-api/
+  - Reddit Post Details Extractor — https://dataslayer.dev/scrapers/reddit-post-details-extractor/
+  - Reddit Subreddit Posts Actor — https://dataslayer.dev/scrapers/reddit-subreddit-posts-actor/
+  - Reddit Search Posts — https://dataslayer.dev/scrapers/reddit-search-posts/
+
+## How it works
+1. Create an Apify account and copy your API token.
+2. POST a JSON body to https://api.apify.com/v2/acts/{actor}/run-sync-get-dataset-items.
+3. Read typed JSON records back, or download the dataset as CSV or Excel.
+
+## Pricing
+Billed per result at each scraper's published rate; entry price is $0.450 per 1,000 results.
+No seats, no monthly minimum. Failed runs are not billed as results.
+
+## Frequently asked questions
+- Q: Do I need an Instagram login to use the API?
+  A: No. Every dataslayer Instagram scraper reads public data only, so there is no login, no session to keep alive and no cookie of yours at risk.
+- Q: What data can I scrape from Instagram?
+  A: Public profiles, posts and carousels, reels, comments, followers, following, hashtags, mentions and user, hashtag or place search results.
+- Q: How much does an Instagram scraper API cost?
+  A: You pay per result returned, at each scraper's published rate through your Apify account. There is no subscription or seat fee.
+- Q: What format does the data come back in?
+  A: Typed JSON records by default. You can also download the run's dataset as CSV or Excel, or stream it into your own stack.
+- Q: Do I need a LinkedIn login to use the API?
+  A: No. dataslayer LinkedIn scrapers read public data only — no login, no session and no cookie of yours is used.
+- Q: What LinkedIn data can I scrape?
+  A: Public profiles, companies, job postings, posts, reactions and comments, plus people and company search with filters.
+- Q: Can I build a lead list with it?
+  A: Yes. Combine people and company search with profile enrichment to build and filter prospect lists, then export as JSON, CSV or Excel.
+- Q: How is it priced?
+  A: Per result, at each scraper's published rate through your Apify account. No subscription and no seat minimum.
+- Q: Do I need an X (Twitter) login to use the API?
+  A: No. Every dataslayer X scraper reads public data only — no login, no session and no cookie of yours is used.
+- Q: What X (Twitter) data can I scrape?
+  A: Public tweets, profiles, followers, following, replies and comments, and keyword, hashtag or operator-based search results.
+- Q: Does it support advanced search operators?
+  A: Yes. Search scrapers accept documented advanced operators so you can narrow results by phrase, mention, hashtag or account.
+- Q: How is it priced?
+  A: Per result, at each scraper's published rate through your Apify account. No subscription and no seat minimum.
+- Q: Do I need a Facebook login to use the API?
+  A: No. dataslayer Facebook scrapers read public data only — no login, no session and no cookie of yours is used.
+- Q: What Facebook data can I scrape?
+  A: Public pages, posts, Marketplace listings, Ads Library records, public profiles and keyword page search.
+- Q: Can I monitor competitor ads?
+  A: Yes. The Ads Library scraper returns public ad records for a page, including creative text and run dates.
+- Q: How is it priced?
+  A: Per result, at each scraper's published rate through your Apify account. No subscription and no seat minimum.
+- Q: Do I need a TikTok login to use the API?
+  A: No. dataslayer TikTok scrapers read public data only — no login, no session and no cookie of yours is used.
+- Q: What TikTok data can I scrape?
+  A: Public profiles, videos, comments, keyword and hashtag search, trending content and single-video details.
+- Q: Can I track trending sounds and content?
+  A: Yes. Trending and discovery scrapers surface popular content and sounds by topic.
+- Q: How is it priced?
+  A: Per result, at each scraper's published rate through your Apify account. No subscription and no seat minimum.
+- Q: Do I need a Reddit login to use the API?
+  A: No. dataslayer Reddit scrapers read public data only — no login, no session and no cookie of yours is used.
+- Q: What Reddit data can I scrape?
+  A: Public subreddit posts, keyword search results, and full post details including the comment tree.
+- Q: Can I monitor a subreddit over time?
+  A: Yes. Schedule the subreddit scraper on Apify to collect posts on a recurring basis and store the results.
+- Q: How is it priced?
+  A: Per result, at each scraper's published rate through your Apify account. No subscription and no seat minimum.
+
+## Facts
+- Publisher: Data Slayer
+- Scrapers: 102
+- Runs in the last 30 days: 663028
+- Runs all time: 2632429
+- Data source: public endpoints only; no login or cookies
+- Platform: Apify (https://apify.com/data-slayer)
+
+## Contact
+https://apify.com/data-slayer
