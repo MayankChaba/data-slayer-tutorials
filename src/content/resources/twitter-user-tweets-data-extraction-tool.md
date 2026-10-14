@@ -82,9 +82,12 @@ proxies, cookies, and retries — you want the rows.
 
 There are three honest ways to get Twitter user tweets data in 2026. Each has a real cost.
 
-![Several platform nodes connected to one hub](/art/multi-platform.jpg)
+![A growing follower network](/art/followers.jpg)
 
 <!-- art-auto -->
+
+
+
 
 
 
@@ -128,9 +131,11 @@ move to a hosted **Twitter scraper** instead of owning the plumbing.
 
 Once the rows land in a sheet, the data does the work. Four patterns we see most:
 
-![An API request flowing into an endpoint and returning records](/art/api-request.jpg)
+![A globe with a ring of proxy points](/art/geo-proxy.jpg)
 
 <!-- art-auto -->
+
+
 
 
 
@@ -171,9 +176,12 @@ get a lawyer's read before you scale.
 Search for the **best Twitter scraper** and you get a wall of tools. The **best Twitter scraper**
 for your job comes down to four questions:
 
-![Two options weighed side by side](/art/comparison.jpg)
+![A tidy JSON document block](/art/json-export.jpg)
 
 <!-- art-auto -->
+
+
+
 
 
 
@@ -211,6 +219,12 @@ If you have looked at **Bright Data** or another **scraping API**, the trade-off
 same everywhere: a **web scraping API** sells you the unblocking layer, and you still own
 the parsing. A hosted **Twitter scraper API** goes one step further — it returns the parsed
 user tweets rows, not just the HTML.
+
+![Structured JSON rows of stacked data records](/art/json-rows.jpg)
+
+<!-- art-auto -->
+
+
 
 | | Custom Python build | Bright Data / raw proxy | Hosted actor |
 |---|---|---|---|

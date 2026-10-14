@@ -38,9 +38,12 @@ Export as JSON, CSV, or Excel — or pull the dataset through the Apify API.
 
 Open the company's LinkedIn page and copy the URL from the address bar:
 
-![An API request flowing into an endpoint and returning records](/art/api-request.jpg)
+![A stack of pages with a cursor arrow advancing](/art/pagination.jpg)
 
 <!-- art-auto -->
+
+
+
 
 
 ```
@@ -74,9 +77,12 @@ Click **Run**. A run typically finishes in a couple of minutes.
 
 When the run finishes, open the **Data** tab. You get one row per post:
 
-![A spreadsheet grid of exported rows](/art/csv-export.jpg)
+![One file splitting cleanly into two files](/art/file-split.jpg)
 
 <!-- art-auto -->
+
+
+
 
 
 ```json

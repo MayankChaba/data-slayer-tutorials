@@ -74,8 +74,11 @@ the output you get. No login, no proxies to manage.
 Every guide links to a live actor on the Apify Store:
 [apify.com/data-slayer](https://apify.com/data-slayer)
 
-![An API request flowing into an endpoint and returning records](/art/api-request.jpg)
+![A retry loop with a refresh arrow](/art/retry.jpg)
 
 <!-- art-auto -->
+
+
+
 
 

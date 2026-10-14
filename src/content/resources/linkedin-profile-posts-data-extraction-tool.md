@@ -79,9 +79,12 @@ proxies, cookies, and retries — you want the rows.
 
 There are three honest ways to get Linkedin profile posts data in 2026. Each has a real cost.
 
-![Several platform nodes connected to one hub](/art/multi-platform.jpg)
+![A bell connected by a line to a pipeline block](/art/webhook.jpg)
 
 <!-- art-auto -->
+
+
+
 
 
 
@@ -125,9 +128,12 @@ move to a hosted **Linkedin scraper** instead of owning the plumbing.
 
 Once the rows land in a sheet, the data does the work. Four patterns we see most:
 
-![A single profile identity card](/art/profile.jpg)
+![A block of text lines with a few highlighted](/art/caption-highlights.jpg)
 
 <!-- art-auto -->
+
+
+
 
 
 
@@ -168,9 +174,12 @@ get a lawyer's read before you scale.
 Search for the **best Linkedin scraper** and you get a wall of tools. The **best Linkedin scraper**
 for your job comes down to four questions:
 
-![Two options weighed side by side](/art/comparison.jpg)
+![A shield deflecting automated bot traffic](/art/anti-bot-shield.jpg)
 
 <!-- art-auto -->
+
+
+
 
 
 
@@ -208,6 +217,12 @@ If you have looked at **Bright Data** or another **scraping API**, the trade-off
 same everywhere: a **web scraping API** sells you the unblocking layer, and you still own
 the parsing. A hosted **Linkedin scraper API** goes one step further — it returns the parsed
 profile posts rows, not just the HTML.
+
+![A key card beside a small shield](/art/api-key.jpg)
+
+<!-- art-auto -->
+
+
 
 | | Custom Python build | Bright Data / raw proxy | Hosted actor |
 |---|---|---|---|

@@ -35,9 +35,12 @@ Use plain text for Reel keyword discovery and a leading `#` for hashtag discover
 1–10 searches, one discovery page each — so use several precise searches rather
 than one broad one:
 
-![Two options weighed side by side](/art/comparison.jpg)
+![An API request flowing into an endpoint and returning records](/art/api-request.jpg)
 
 <!-- art-auto -->
+
+
+
 
 
 ```json
@@ -94,9 +97,11 @@ filters or not, you get the audit row.
 Optionally add recent-Reels analysis: sample 1–12 recent Reels per creator and
 apply a minimum sampled engagement rate — `(avg likes + avg comments) ÷ followers × 100`.
 
-![An API request flowing into an endpoint and returning records](/art/api-request.jpg)
+![A shield deflecting automated bot traffic](/art/anti-bot-shield.jpg)
 
 <!-- art-auto -->
+
+
 
 
 ## Step 4 — Run and export
@@ -133,6 +138,7 @@ invents contacts or audience estimates.
 Pay-per-event: about **$2 per 1,000 creator profile checks** (Reel-analysis events
 billed only when completed with a usable sample). New Apify accounts include free
 platform credit.
+
 
 
 ## FAQ

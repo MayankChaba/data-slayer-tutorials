@@ -87,6 +87,9 @@ There are three honest ways to get Instagram reposts data in 2026. Each has a re
 
 
 
+
+
+
 | Approach | How it works | The catch |
 |---|---|---|
 | **Build your own scraper** | Write a Python scraper with `requests`, rotate residential proxies, manage a login session, parse the private JSON | Weeks of work, constant breakage, and you own the block/ban risk. Fine for a one-off, painful at scale. |
@@ -124,9 +127,11 @@ move to a hosted **Instagram scraper** instead of owning the plumbing.
 
 Once the rows land in a sheet, the data does the work. Four patterns we see most:
 
-![An API request flowing into an endpoint and returning records](/art/api-request.jpg)
+![A neat stack of job cards queued](/art/bulk-jobs.jpg)
 
 <!-- art-auto -->
+
+
 
 
 
@@ -167,9 +172,12 @@ get a lawyer's read before you scale.
 Search for the **best Instagram scraper** and you get a wall of tools. The **best Instagram scraper**
 for your job comes down to four questions:
 
-![Two options weighed side by side](/art/comparison.jpg)
+![An API request flowing into an endpoint and returning records](/art/api-request.jpg)
 
 <!-- art-auto -->
+
+
+
 
 
 
@@ -207,6 +215,12 @@ If you have looked at **Bright Data** or another **scraping API**, the trade-off
 same everywhere: a **web scraping API** sells you the unblocking layer, and you still own
 the parsing. A hosted **Instagram scraper API** goes one step further — it returns the parsed
 reposts rows, not just the HTML.
+
+![Two options weighed side by side](/art/comparison.jpg)
+
+<!-- art-auto -->
+
+
 
 | | Custom Python build | Bright Data / raw proxy | Hosted actor |
 |---|---|---|---|

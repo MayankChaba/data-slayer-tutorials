@@ -81,9 +81,12 @@ proxies, cookies, and retries — you want the rows.
 
 There are three honest ways to get Linkedin post analytics data in 2026. Each has a real cost.
 
-![Several platform nodes connected to one hub](/art/multi-platform.jpg)
+![A spreadsheet grid of exported rows](/art/csv-export.jpg)
 
 <!-- art-auto -->
+
+
+
 
 
 
@@ -136,6 +139,9 @@ Once the rows land in a sheet, the data does the work. Four patterns we see most
 
 
 
+
+
+
 - **Competitor benchmarking.** Track the engagement metrics of a competitor's public posts
   over time and see what format wins in your niche.
 - **Creator and lead discovery.** Pull the public profiles behind a hashtag or keyword and
@@ -170,9 +176,12 @@ get a lawyer's read before you scale.
 Search for the **best Linkedin scraper** and you get a wall of tools. The **best Linkedin scraper**
 for your job comes down to four questions:
 
-![Two options weighed side by side](/art/comparison.jpg)
+![Two overlapping data rows merging into one clean row](/art/dedupe.jpg)
 
 <!-- art-auto -->
+
+
+
 
 
 
@@ -210,6 +219,12 @@ If you have looked at **Bright Data** or another **scraping API**, the trade-off
 same everywhere: a **web scraping API** sells you the unblocking layer, and you still own
 the parsing. A hosted **Linkedin scraper API** goes one step further — it returns the parsed
 post analytics rows, not just the HTML.
+
+![An envelope with a small check mark](/art/email-verify.jpg)
+
+<!-- art-auto -->
+
+
 
 | | Custom Python build | Bright Data / raw proxy | Hosted actor |
 |---|---|---|---|

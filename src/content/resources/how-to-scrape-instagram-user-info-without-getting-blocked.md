@@ -87,9 +87,12 @@ proxies, cookies, and retries — you want the rows.
 
 There are three honest ways to get Instagram user info data in 2026. Each has a real cost.
 
-![Several platform nodes connected to one hub](/art/multi-platform.jpg)
+![Records syncing into a spreadsheet app](/art/sheets-sync.jpg)
 
 <!-- art-auto -->
+
+
+
 
 
 | Approach | How it works | The catch |
@@ -129,9 +132,12 @@ move to a hosted **Instagram scraper** instead of owning the plumbing.
 
 Once the rows land in a sheet, the data does the work. Four patterns we see most:
 
-![A single profile identity card](/art/profile.jpg)
+![A block of text lines with a few highlighted](/art/caption-highlights.jpg)
 
 <!-- art-auto -->
+
+
+
 
 
 - **Competitor benchmarking.** Track the engagement metrics of a competitor's public posts
@@ -168,9 +174,12 @@ get a lawyer's read before you scale.
 Search for the **best Instagram scraper** and you get a wall of tools. The **best Instagram scraper**
 for your job comes down to four questions:
 
-![Two options weighed side by side](/art/comparison.jpg)
+![A line chart with a status dot](/art/uptime-monitor.jpg)
 
 <!-- art-auto -->
+
+
+
 
 
 - **Does it run logged out?** If a tool needs your Instagram login, it is putting your account at
@@ -204,6 +213,12 @@ If you have looked at **Bright Data** or another **scraping API**, the trade-off
 same everywhere: a **web scraping API** sells you the unblocking layer, and you still own
 the parsing. A hosted **Instagram scraper API** goes one step further — it returns the parsed
 user info rows, not just the HTML.
+
+![A bell connected by a line to a pipeline block](/art/webhook.jpg)
+
+<!-- art-auto -->
+
+
 
 | | Custom Python build | Bright Data / raw proxy | Hosted actor |
 |---|---|---|---|

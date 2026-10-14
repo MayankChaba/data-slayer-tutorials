@@ -36,9 +36,12 @@ Open
 [Instagram Post & Reel Details Scraper](https://apify.com/data-slayer/instagram-post-details)
 and paste your URLs into the bulk input, one per line:
 
-![An API request flowing into an endpoint and returning records](/art/api-request.jpg)
+![A funnel narrowing into a short row of contact cards](/art/lead-funnel.jpg)
 
 <!-- art-auto -->
+
+
+
 
 
 ```json
@@ -94,6 +97,9 @@ via the API:
 <!-- art-auto -->
 
 
+
+
+
 ```bash
 curl "https://api.apify.com/v2/datasets/<DATASET_ID>/items?format=json"
 ```
@@ -117,9 +123,12 @@ The actor is pay-per-event — you pay per post checked, not per minute of
 compute. It has run 1M+ times. New Apify accounts include free
 platform credit for the first runs.
 
-![A credit meter](/art/credits.jpg)
+![A tiered stair of pricing blocks](/art/pricing-tiers.jpg)
 
 <!-- art-auto -->
+
+
+
 
 
 ## FAQ

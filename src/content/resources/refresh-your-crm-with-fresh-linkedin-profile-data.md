@@ -45,6 +45,9 @@ Salesforce, Pipedrive, Airtable, even a Google Sheet) can export a CSV with a
 <!-- art-auto -->
 
 
+
+
+
 If you're missing URLs, start from the ones you have — this flow is designed
 for refreshing known contacts, not discovering new ones.
 
@@ -73,9 +76,12 @@ Click **Run**. A few hundred profiles finish in minutes.
 
 Export the dataset as CSV and map it onto your CRM's import format:
 
-![Structured JSON rows of stacked data records](/art/json-rows.jpg)
+![A tidy JSON document block](/art/json-export.jpg)
 
 <!-- art-auto -->
+
+
+
 
 
 | Actor output | CRM field |
@@ -116,9 +122,12 @@ or quarterly and your CRM stops decaying.
 Pay-per-event at roughly **$4 per 1,000 profiles** (enrichment flags extra, billed
 only on returned data). New Apify accounts include free platform credit.
 
-![A credit meter](/art/credits.jpg)
+![A tiered stair of pricing blocks](/art/pricing-tiers.jpg)
 
 <!-- art-auto -->
+
+
+
 
 
 ## FAQ

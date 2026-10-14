@@ -35,9 +35,12 @@ paths with the evidence behind each one.
 List the LinkedIn profile URLs of your team, your alumni network, your advisors —
 the people willing to make an introduction for you:
 
-![An API request flowing into an endpoint and returning records](/art/api-request.jpg)
+![A line chart with a status dot](/art/uptime-monitor.jpg)
 
 <!-- art-auto -->
+
+
+
 
 
 ```
@@ -84,9 +87,11 @@ is real — shared employer, overlapping tenure, shared school. The actor also
 names the **best connector to ask** for each target, so you start with the
 strongest ask instead of guessing.
 
-![Structured JSON rows of stacked data records](/art/json-rows.jpg)
+![A bell connected by a line to a pipeline block](/art/webhook.jpg)
 
 <!-- art-auto -->
+
+
 
 
 Typical use:

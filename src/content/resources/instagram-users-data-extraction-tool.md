@@ -82,9 +82,12 @@ proxies, cookies, and retries — you want the rows.
 
 There are three honest ways to get Instagram search users data in 2026. Each has a real cost.
 
-![Several platform nodes connected to one hub](/art/multi-platform.jpg)
+![A spreadsheet grid of exported rows](/art/csv-export.jpg)
 
 <!-- art-auto -->
+
+
+
 
 
 
@@ -128,9 +131,12 @@ move to a hosted **Instagram scraper** instead of owning the plumbing.
 
 Once the rows land in a sheet, the data does the work. Four patterns we see most:
 
-![A magnifier over a cloud of hashtags](/art/keyword-search.jpg)
+![A tidy cloud of hashtag chips on a grid](/art/hashtag-cloud.jpg)
 
 <!-- art-auto -->
+
+
+
 
 
 
@@ -171,9 +177,12 @@ get a lawyer's read before you scale.
 Search for the **best Instagram scraper** and you get a wall of tools. The **best Instagram scraper**
 for your job comes down to four questions:
 
-![Two options weighed side by side](/art/comparison.jpg)
+![An analytics dashboard panel](/art/dashboard.jpg)
 
 <!-- art-auto -->
+
+
+
 
 
 
@@ -211,6 +220,12 @@ If you have looked at **Bright Data** or another **scraping API**, the trade-off
 same everywhere: a **web scraping API** sells you the unblocking layer, and you still own
 the parsing. A hosted **Instagram scraper API** goes one step further — it returns the parsed
 search users rows, not just the HTML.
+
+![Two overlapping data rows merging into one clean row](/art/dedupe.jpg)
+
+<!-- art-auto -->
+
+
 
 | | Custom Python build | Bright Data / raw proxy | Hosted actor |
 |---|---|---|---|
