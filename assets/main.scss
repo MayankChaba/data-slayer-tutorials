@@ -136,3 +136,8 @@ pre code{background:none;border:0;padding:0;color:var(--text)}
 .contact-list a:hover,.social-media-list a:hover{color:var(--text)}
 .social-media-list .svg-icon{width:18px;height:18px;margin-right:8px;fill:currentColor;vertical-align:-3px}
 .footer-col p{margin:0}
+
+
+/* ── article images ───────────────────────────────────────────── */
+.post-cover{display:block;width:100%;height:auto;border-radius:var(--radius);border:1px solid var(--line);margin:1.5rem 0;background:var(--panel)}
+.post-content img{display:block;width:100%;height:auto;border-radius:var(--radius);border:1px solid var(--line);margin:1.75rem 0;background:var(--panel)}

@@ -1,10 +1,10 @@
 ---
 layout: "use-case"
 title: "scrape instagram stories without login"
-description: "Capture Instagram Stories from any public profile before they disappear — no login. Get story media URLs, timestamps, stickers, mentions, music info…"
+description: ""
 slug: "scrape-instagram-stories-without-login"
 canonical_url: "https://dataslayer.dev/use-cases/scrape-instagram-stories-without-login/"
-date: "2026-10-02"
+date: "2026-10-14"
 tags: ["instagram", "how-to", "social media manager"]
 target_keyword: "scrape instagram stories without login"
 actor_username: "data-slayer"
@@ -25,10 +25,7 @@ Pulling Instagram stories data by hand does not scale. You either copy-paste it 
 
 ## What you get
 
-- Capture Instagram Stories from any public profile before they disappear
-- Competitive intelligence and brand monitoring for ephemeral content
-- No cookies
-- JSON/CSV/Excel
+- Structured data, ready to export
 
 Instead of building a scraper, you point **Instagram Stories Scraper · No Login** ([`data-slayer/instagram-stories-scraper`](https://apify.com/data-slayer/instagram-stories-scraper)) at your input and run it. It handles the requests, retries, and parsing, and returns one clean row per item in the format you already use.
 
@@ -204,13 +201,12 @@ line item is almost never the one that costs you a week of engineering every qua
 
 A quick reference for the terms this guide uses:
 
-- **instagram profile** — the public profile or page you point the actor at. A run returns instagram profile for every row.
 - **scrape public** — a tool that pulls Instagram stories data without a login. A run returns scrape public for every row.
 - **scrape data** — a tool that pulls Instagram stories data without a login. A run returns scrape data for every row.
 - **public accounts** — the public profile or page you point the actor at. A run returns public accounts for every row.
 - **automation** — the scheduled pipeline the actor plugs into. A run returns automation for every row.
 
-Readers also search for anonymous instagram story viewer, without an account, public instagram stories, stories without an account, scrape instagram profiles, view instagram, stories anonymously, ig story, download instagram, data from instagram, scrape instagram followers, story highlights, api calls, profile data, profile scraper, web data, scrape public instagram, public instagram profiles, javascript, free credits, way to scrape, publicly available data, profile link, profiles and posts, api key, authentication, post data, scrape instagram comments, story mentions, via api, data collection, hard to scrape, profile url, content without, cloudflare, one api, structured data, node.js, data pipelines, across competitor accounts, photos and videos, api works, instagram.com, data including — the same actor answers all of it.
+Readers also search for anonymous instagram story viewer, without an account, public instagram stories, stories without an account, scrape instagram profiles, view instagram, stories anonymously, ig story, scrape instagram posts, download instagram, data from instagram, scrape instagram followers, story highlights, api calls, profile data, profile scraper, web data, scrape public instagram, public instagram profiles, javascript, free credits, way to scrape, publicly available data, profile link, profiles and posts, api key, authentication, post data, scrape instagram comments, story mentions, via api, data collection, hard to scrape, profile url, content without, cloudflare, one api, node.js, data pipelines, across competitor accounts, photos and videos, api works, instagram.com, data including — the same actor answers all of it.
 
 ## FAQ
 
@@ -301,9 +297,9 @@ If you are a **social media manager**, this replaces the manual Instagram storie
 
 ## Related use cases
 
-- [scrape instagram post without login](https://dataslayer.dev/use-cases/scrape-instagram-post-without-login/)
-- [scrape instagram posts without login](https://dataslayer.dev/use-cases/scrape-instagram-posts-without-login/)
-- [export instagram user info to csv](https://dataslayer.dev/use-cases/export-instagram-user-info-to-csv/)
+- [instagram reels api alternative](https://dataslayer.dev/use-cases/instagram-reels-api-alternative/)
+- [instagram profile reels api alternative](https://dataslayer.dev/use-cases/instagram-profile-reels-api-alternative/)
+- [scrape instagram highlights without login](https://dataslayer.dev/use-cases/scrape-instagram-highlights-without-login/)
 
 ## Try it now
 
