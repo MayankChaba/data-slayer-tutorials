@@ -1,14 +1,5 @@
 [
  {
-  "slug": "scrape-instagram-users-without-login",
-  "priority": "P1",
-  "runs_30d": 8427,
-  "target_query": "scrape instagram users without login",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-search-users",
-  "actor_title": "Instagram User Search \u00b7 Find Leads by Keyword \u00b7 No Login"
- },
- {
   "slug": "export-instagram-users-to-csv",
   "priority": "P1",
   "runs_30d": 8427,
@@ -34,15 +25,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "instagram-search-users",
   "actor_title": "Instagram User Search \u00b7 Find Leads by Keyword \u00b7 No Login"
- },
- {
-  "slug": "linkedin-post-analytics-scraper",
-  "priority": "P1",
-  "runs_30d": 7204,
-  "target_query": "linkedin post analytics scraper",
-  "actor_account": "data-slayer",
-  "actor_slug": "linkedin-post-analytics-scraper",
-  "actor_title": "LinkedIn Post Performance Scraper"
  },
  {
   "slug": "scrape-linkedin-post-analytics-without-login",
@@ -90,15 +72,6 @@
   "actor_title": "LinkedIn Post Performance Scraper"
  },
  {
-  "slug": "twitter-comments-scraper",
-  "priority": "P1",
-  "runs_30d": 5580,
-  "target_query": "twitter comments scraper",
-  "actor_account": "data-slayer",
-  "actor_slug": "twitter-comments",
-  "actor_title": "Twitter/X Comments Scraper \u00b7 No Cookies"
- },
- {
   "slug": "twitter-comments-api-alternative",
   "priority": "P1",
   "runs_30d": 5580,
@@ -124,15 +97,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "twitter-comments",
   "actor_title": "Twitter/X Comments Scraper \u00b7 No Cookies"
- },
- {
-  "slug": "linkedin-company-posts-scraper",
-  "priority": "P1",
-  "runs_30d": 4885,
-  "target_query": "linkedin company posts scraper",
-  "actor_account": "data-slayer",
-  "actor_slug": "linkedin-company-posts-scraper",
-  "actor_title": "LinkedIn Company Posts Scraper"
  },
  {
   "slug": "scrape-linkedin-company-posts-without-login",
@@ -169,15 +133,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "linkedin-company-posts-scraper",
   "actor_title": "LinkedIn Company Posts Scraper"
- },
- {
-  "slug": "how-to-scrape-instagram-reposts-without-getting-blocked",
-  "priority": "P1",
-  "runs_30d": 3793,
-  "target_query": "how to scrape instagram reposts without getting blocked",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-reposts",
-  "actor_title": "Instagram Reposts Scraper \u00b7 Profile Repost History \u00b7 No Login"
  },
  {
   "slug": "scrape-instagram-reposts-without-login",
