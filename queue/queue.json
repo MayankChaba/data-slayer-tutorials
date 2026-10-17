@@ -1,32 +1,5 @@
 [
  {
-  "slug": "instagram-post-data-extraction-tool",
-  "priority": "P1",
-  "runs_30d": 323913,
-  "target_query": "instagram post data extraction tool",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-post-details",
-  "actor_title": "Instagram Post & Reel Details Scraper \u00b7 No Login"
- },
- {
-  "slug": "instagram-posts-data-extraction-tool",
-  "priority": "P1",
-  "runs_30d": 174444,
-  "target_query": "instagram posts data extraction tool",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-posts",
-  "actor_title": "Instagram Profile Posts & Reels Scraper \u00b7 No Login"
- },
- {
-  "slug": "scrape-instagram-user-info-without-login",
-  "priority": "P1",
-  "runs_30d": 41682,
-  "target_query": "scrape instagram user info without login",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-user-info-scraper-cookieless",
-  "actor_title": "Instagram Profile Scraper \u00b7 Account Age & Verified Emails"
- },
- {
   "slug": "instagram-user-info-api-alternative",
   "priority": "P1",
   "runs_30d": 41682,
@@ -45,15 +18,6 @@
   "actor_title": "Instagram Stories Scraper \u00b7 No Login"
  },
  {
-  "slug": "find-buying-signal-contacts-on-facebook-for-lead-gen-marketers",
-  "priority": "P1",
-  "runs_30d": 13860,
-  "target_query": "find buying-signal contacts on Facebook for lead-gen marketers",
-  "actor_account": "data-slayer",
-  "actor_slug": "facebook-search-pages",
-  "actor_title": "Facebook Page Search Scraper \u00b7 No Cookies"
- },
- {
   "slug": "facebook-pages-data-extraction-tool",
   "priority": "P1",
   "runs_30d": 13860,
@@ -67,15 +31,6 @@
   "priority": "P1",
   "runs_30d": 10680,
   "target_query": "linkedin profile api alternative",
-  "actor_account": "data-slayer",
-  "actor_slug": "linkedin-profile-scraper",
-  "actor_title": "LinkedIn Profile Scraper \u00b7 Fresh \u00b7 No Cookies"
- },
- {
-  "slug": "find-buying-signal-contacts-on-linkedin-for-lead-gen-marketers",
-  "priority": "P1",
-  "runs_30d": 10680,
-  "target_query": "find buying-signal contacts on Linkedin for lead-gen marketers",
   "actor_account": "data-slayer",
   "actor_slug": "linkedin-profile-scraper",
   "actor_title": "LinkedIn Profile Scraper \u00b7 Fresh \u00b7 No Cookies"
