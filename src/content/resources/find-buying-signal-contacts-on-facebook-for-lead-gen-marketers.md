@@ -13,7 +13,7 @@ actor_url: "https://apify.com/data-slayer/facebook-search-pages"
 persona: "lead-gen marketer"
 content_type: "use-case"
 neuronwriter_brief_id: "769b910e579e8417"
-neuronwriter_score: 84
+neuronwriter_score: 70
 status: "published"
 ---
 
@@ -219,22 +219,6 @@ Readers also search for lead ad, facebook lead generation ads, facebook lead ads
 ## More on Facebook search pages
 
 Readers also search for using forms, high-intent audiences, tag manager, likely to convert, social media engagement, low-friction, wrong people, like company size, re-engage, form directly, sales funnel, industry-specific, sales process, offer something, low-intent, every campaign — the same actor answers all of it.
-
-## Facebook search pages: lead generation, facebook lead, facebook lead generation ads, and marketing tips
-
-Teams evaluating Facebook search pages work through lead generation, facebook lead, facebook lead generation ads, marketing tips. Each shapes how the data is gathered and used.
-
-## lead ad, meta, use facebook, and generate leads
-
-Teams evaluating Facebook search pages work through lead ad, meta, use facebook, generate leads. Each shapes how the data is gathered and used.
-
-## lead gen, facebook lead ads, message, and automation
-
-Teams evaluating Facebook search pages work through lead gen, facebook lead ads, message, automation. Each shapes how the data is gathered and used.
-
-## contact list, first-party, email marketing, and instant form
-
-Teams evaluating Facebook search pages work through contact list, first-party, email marketing, instant form. Each shapes how the data is gathered and used.
 
 ## FAQ
 

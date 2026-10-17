@@ -13,7 +13,7 @@ actor_url: "https://apify.com/data-slayer/instagram-posts"
 persona: "social media manager"
 content_type: "landing"
 neuronwriter_brief_id: "3247068a26006ca4"
-neuronwriter_score: 81
+neuronwriter_score: 76
 status: "published"
 ---
 
@@ -219,19 +219,7 @@ A quick reference for the terms this guide uses:
 - **data collection** — part of the Instagram posts data you get back. A run returns data collection for every row.
 - **full name** — part of the Instagram posts data you get back. A run returns full name for every row.
 
-Readers also search for profile scraper, web scraper api, web data, via api, instagram profile scraper, structured data, data from instagram profiles, specific instagram data, scrape instagram followers, instagram scraping tools, scrape instagram profiles, brand monitoring, post url, ready-made instagram scraper, extract posts, scrape instagram comments, frequently asked questions, engagement data, scraper can collect public profile, automated data, ai workflows, profile urls, scrape and extract data, terms of service, structured data instead of raw, publicly visible data, data such as followers, get data, apify actors, profile-level data, publicly visible, bright data offers, data points, available instagram, data processing, number of followers, making api calls — the same actor answers all of it.
-
-## Instagram posts: frequently asked questions, scraper api, instagram scraper api, and scrape instagram data
-
-Teams evaluating Instagram posts work through frequently asked questions, scraper api, instagram scraper api, scrape instagram data. Each shapes how the data is gathered and used.
-
-## web data, data from instagram, data collection, and web scraper api
-
-Teams evaluating Instagram posts work through web data, data from instagram, data collection, web scraper api. Each shapes how the data is gathered and used.
-
-## use instagram, available instagram, and export
-
-Teams evaluating Instagram posts work through use instagram, available instagram, export. Each shapes how the data is gathered and used.
+Readers also search for profile scraper, web scraper api, web data, via api, instagram profile scraper, structured data, data from instagram profiles, specific instagram data, scrape instagram followers, post data, instagram scraping tools, scrape instagram profiles, brand monitoring, post url, ready-made instagram scraper, extract posts, scrape instagram comments, frequently asked questions, engagement data, scraper can collect public profile, automated data, ai workflows, profile urls, scrape and extract data, terms of service, structured data instead of raw, publicly visible data, data such as followers, get data, apify actors, profile-level data, publicly visible, bright data offers, data points, available instagram, data processing, number of followers, making api calls — the same actor answers all of it.
 
 ## FAQ
 
@@ -322,9 +310,9 @@ If you are a **social media manager**, this replaces the manual Instagram posts 
 
 ## Related use cases
 
-- [instagram post data extraction tool](https://dataslayer.dev/use-cases/instagram-post-data-extraction-tool/)
-- [scrape instagram user info without login](https://dataslayer.dev/use-cases/scrape-instagram-user-info-without-login/)
 - [export instagram reels to csv](https://dataslayer.dev/use-cases/export-instagram-reels-to-csv/)
+- [export instagram profile reels to csv](https://dataslayer.dev/use-cases/export-instagram-profile-reels-to-csv/)
+- [export instagram stories to csv](https://dataslayer.dev/use-cases/export-instagram-stories-to-csv/)
 
 ## Try it now
 

@@ -1,11 +1,11 @@
 ---
 layout: "use-case"
-title: "export linkedin profile to csv"
+title: "How to export LinkedIn profile to CSV"
 description: "Scrape fresh LinkedIn profile data in bulk from profile URLs. Export structured JSON, CSV, or Excel with experience, education, skills, job, company, and…"
 slug: "export-linkedin-profile-to-csv"
 canonical_url: "/resources/export-linkedin-profile-to-csv/"
 date: "2026-10-02"
-tags: []
+tags: ["linkedin", "how-to", "lead-gen marketer"]
 target_keyword: "export linkedin profile to csv"
 actor_username: "data-slayer"
 actor_slug: "linkedin-profile-scraper"
@@ -34,7 +34,7 @@ Instead of building a scraper, you point **LinkedIn Profile Scraper · Fresh · 
 ## How it works — step by step
 
 **1. Open the actor**
-Go to [`data-slayer/linkedin-profile-scraper`](https://apify.com/data-slayer/linkedin-profile-scraper?utm_source=github&utm_medium=use-case&utm_campaign=export-linkedin-profile-to-csv) and click **Try for free**.
+Go to [`data-slayer/linkedin-profile-scraper`](https://apify.com/data-slayer/linkedin-profile-scraper) and click **Try for free**.
 
 **2. Paste your input**
 ```json
@@ -84,6 +84,14 @@ proxies, cookies, and retries — you want the rows.
 
 There are three honest ways to get Linkedin profile data in 2026. Each has a real cost.
 
+![A data card being filled with fields from a source](/art/enrichment.jpg)
+
+<!-- art-auto -->
+
+
+
+
+
 | Approach | How it works | The catch |
 |---|---|---|
 | **Build your own scraper** | Write a Python scraper with `requests`, rotate residential proxies, manage a login session, parse the private JSON | Weeks of work, constant breakage, and you own the block/ban risk. Fine for a one-off, painful at scale. |
@@ -121,6 +129,14 @@ move to a hosted **Linkedin scraper** instead of owning the plumbing.
 
 Once the rows land in a sheet, the data does the work. Four patterns we see most:
 
+![A single profile identity card](/art/profile.jpg)
+
+<!-- art-auto -->
+
+
+
+
+
 - **Competitor benchmarking.** Track the engagement metrics of a competitor's public posts
   over time and see what format wins in your niche.
 - **Creator and lead discovery.** Pull the public profiles behind a hashtag or keyword and
@@ -155,6 +171,14 @@ get a lawyer's read before you scale.
 Search for the **best Linkedin scraper** and you get a wall of tools. The **best Linkedin scraper**
 for your job comes down to four questions:
 
+![A spreadsheet workbook grid with tabs](/art/excel-workbook.jpg)
+
+<!-- art-auto -->
+
+
+
+
+
 - **Does it run logged out?** If a tool needs your Linkedin login, it is putting your account at
   risk. A good **Linkedin scraper** reads public data without a session.
 - **Does it handle the blocking for you?** Residential proxies, retries, and pacing should
@@ -186,6 +210,12 @@ If you have looked at **Bright Data** or another **scraping API**, the trade-off
 same everywhere: a **web scraping API** sells you the unblocking layer, and you still own
 the parsing. A hosted **Linkedin scraper API** goes one step further — it returns the parsed
 profile rows, not just the HTML.
+
+![Two tidy bar charts compared side by side](/art/competitor-bars.jpg)
+
+<!-- art-auto -->
+
+
 
 | | Custom Python build | Bright Data / raw proxy | Hosted actor |
 |---|---|---|---|
@@ -296,13 +326,13 @@ If you are a **lead-gen marketer**, this replaces the manual Linkedin profile pu
 
 ## Related use cases
 
-- [how to scrape linkedin profile without getting blocked](https://dataslayer.dev/use-cases/how-to-scrape-linkedin-profile-without-getting-blocked/)
-- [how to scrape linkedin post analytics without getting blocked](https://dataslayer.dev/use-cases/how-to-scrape-linkedin-post-analytics-without-getting-blocked/)
-- [how to scrape linkedin company posts without getting blocked](https://dataslayer.dev/use-cases/how-to-scrape-linkedin-company-posts-without-getting-blocked/)
+- [how to scrape linkedin profile without getting blocked](/resources/how-to-scrape-linkedin-profile-without-getting-blocked/)
+- [how to scrape linkedin post analytics without getting blocked](/resources/how-to-scrape-linkedin-post-analytics-without-getting-blocked/)
+- [how to scrape linkedin company posts without getting blocked](/resources/how-to-scrape-linkedin-company-posts-without-getting-blocked/)
 
 ## Try it now
 
-Ready to run it yourself? **[Open LinkedIn Profile Scraper · Fresh · No Cookies on Apify →](https://apify.com/data-slayer/linkedin-profile-scraper?utm_source=github&utm_medium=use-case&utm_campaign=export-linkedin-profile-to-csv)**
+Ready to run it yourself? **[Open LinkedIn Profile Scraper · Fresh · No Cookies on Apify →](https://apify.com/data-slayer/linkedin-profile-scraper)**
 
 No login, no code. Free tier included.
 

@@ -13,7 +13,7 @@ actor_url: "https://apify.com/data-slayer/instagram-user-info-scraper-cookieless
 persona: "social media manager"
 content_type: "how-to"
 neuronwriter_brief_id: "114a9b4423b9a64d"
-neuronwriter_score: 86
+neuronwriter_score: 78
 status: "published"
 ---
 
@@ -210,23 +210,7 @@ A quick reference for the terms this guide uses:
 - **automation** — the scheduled pipeline the actor plugs into. A run returns automation for every row.
 - **email addresses** — part of the Instagram user info data you get back. A run returns email addresses for every row.
 
-Readers also search for scrape instagram profile, scrape data, profile url, web data, profile urls, recent post, api call, instagram username, scrape instagram comments, scrape instagram profile data, instagram's terms of service, scrape instagram posts, number of followers, comment scraper, data collection, related profiles, search scraper, scrape from instagram, verification status, free credits, profile images, publicly available data, terms of service, post scraper, instagram followers, instagram posts and reels, post urls, profiles and posts, website links, contact details, user data, web app, public instagram reels, instagram returns, profile fields, scraping publicly available data, structured profile data, public web, hard to scrape, way to scrape, behind the login wall, sentiment analysis, post url, reel url, import json, accounts side by side, publicly available data is generally, available data is generally permitted — the same actor answers all of it.
-
-## Instagram user info: instagram profile, scrape instagram profile, profile scraper, and instagram profile scraper
-
-Teams evaluating Instagram user info work through instagram profile, scrape instagram profile, profile scraper, instagram profile scraper. Each shapes how the data is gathered and used.
-
-## scraper api, profile data, web data, and scrape from instagram
-
-Teams evaluating Instagram user info work through scraper api, profile data, web data, scrape from instagram. Each shapes how the data is gathered and used.
-
-## web scraping, public instagram, instagram post, and scrape data
-
-Teams evaluating Instagram user info work through web scraping, public instagram, instagram post, scrape data. Each shapes how the data is gathered and used.
-
-## profile url, endpoint, public data, and automation
-
-Teams evaluating Instagram user info work through profile url, endpoint, public data, automation. Each shapes how the data is gathered and used.
+Readers also search for scrape instagram profile, instagram post, scrape data, profile url, web data, profile urls, recent post, api call, post data, instagram username, scrape instagram comments, scrape instagram profile data, instagram's terms of service, scrape instagram posts, number of followers, comment scraper, data collection, related profiles, search scraper, scrape from instagram, verification status, free credits, profile images, data extraction, publicly available data, terms of service, post scraper, instagram followers, instagram posts and reels, post urls, profiles and posts, website links, contact details, user data, web app, public instagram reels, instagram returns, profile fields, scraping publicly available data, structured profile data, public web, hard to scrape, way to scrape, behind the login wall, sentiment analysis, post url, reel url, import json, accounts side by side, publicly available data is generally, available data is generally permitted — the same actor answers all of it.
 
 ## FAQ
 
@@ -317,9 +301,9 @@ If you are a **social media manager**, this replaces the manual Instagram user i
 
 ## Related use cases
 
-- [instagram post data extraction tool](https://dataslayer.dev/use-cases/instagram-post-data-extraction-tool/)
-- [instagram posts data extraction tool](https://dataslayer.dev/use-cases/instagram-posts-data-extraction-tool/)
 - [export instagram reels to csv](https://dataslayer.dev/use-cases/export-instagram-reels-to-csv/)
+- [export instagram profile reels to csv](https://dataslayer.dev/use-cases/export-instagram-profile-reels-to-csv/)
+- [export instagram stories to csv](https://dataslayer.dev/use-cases/export-instagram-stories-to-csv/)
 
 ## Try it now
 

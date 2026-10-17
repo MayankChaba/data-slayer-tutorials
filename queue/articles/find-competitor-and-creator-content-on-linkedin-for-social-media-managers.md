@@ -13,7 +13,7 @@ actor_url: "https://apify.com/data-slayer/linkedin-post-analytics-scraper"
 persona: "social media manager"
 content_type: "use-case"
 neuronwriter_brief_id: "ff0948de14e278d1"
-neuronwriter_score: 88
+neuronwriter_score: 77
 status: "draft"
 ---
 
@@ -214,22 +214,6 @@ Readers also search for competitive analysis, analysis on social media, social m
 ## More on Linkedin post analytics
 
 Readers also search for see what content formats, social strategy, social performance, content creator, media landscape, top content, makes competitor, every competitor, identify content gaps, linkedin members, creating content, competitors’ social, competitor analysis isn’t, competitors’ content, competitors’ top posts, what’s working — the same actor answers all of it.
-
-## Linkedin post analytics: social media competitor, competitor analysis, social media competitor analysis, and competitive analysis
-
-Teams evaluating Linkedin post analytics work through social media competitor, competitor analysis, social media competitor analysis, competitive analysis. Each shapes how the data is gathered and used.
-
-## analysis tools, social media competitive analysis tools, explore content categories, and social media management
-
-Teams evaluating Linkedin post analytics work through analysis tools, social media competitive analysis tools, explore content categories, social media management. Each shapes how the data is gathered and used.
-
-## audit, social listening, competitor analytics, and sprout social
-
-Teams evaluating Linkedin post analytics work through audit, social listening, competitor analytics, sprout social. Each shapes how the data is gathered and used.
-
-## top posts, competitor research, social blade, and analysis on social media
-
-Teams evaluating Linkedin post analytics work through top posts, competitor research, social blade, analysis on social media. Each shapes how the data is gathered and used.
 
 ## FAQ
 

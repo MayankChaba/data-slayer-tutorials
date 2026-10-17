@@ -1,11 +1,11 @@
 ---
 layout: "use-case"
-title: "how to scrape twitter user tweets without getting blocked"
+title: "How to scrape X (Twitter) user tweets without getting blocked"
 description: "Extract tweets from any public Twitter/X account without login. Get full tweet text, likes, retweets, replies, bookmarks, views, media attachments…"
 slug: "how-to-scrape-twitter-user-tweets-without-getting-blocked"
 canonical_url: "/resources/how-to-scrape-twitter-user-tweets-without-getting-blocked/"
 date: "2026-10-01"
-tags: []
+tags: ["twitter", "how-to", "social media manager"]
 target_keyword: "how to scrape twitter user tweets without getting blocked"
 actor_username: "data-slayer"
 actor_slug: "twitter-user-tweets"
@@ -35,7 +35,7 @@ Instead of building a scraper, you point **Twitter/X Tweets Scraper · No Cookie
 ## How it works — step by step
 
 **1. Open the actor**
-Go to [`data-slayer/twitter-user-tweets`](https://apify.com/data-slayer/twitter-user-tweets?utm_source=github&utm_medium=use-case&utm_campaign=how-to-scrape-twitter-user-tweets-without-getting-blocked) and click **Try for free**.
+Go to [`data-slayer/twitter-user-tweets`](https://apify.com/data-slayer/twitter-user-tweets) and click **Try for free**.
 
 **2. Paste your input**
 ```json
@@ -85,6 +85,14 @@ proxies, cookies, and retries — you want the rows.
 
 There are three honest ways to get Twitter user tweets data in 2026. Each has a real cost.
 
+![A neat grid of image tiles](/art/media-gallery.jpg)
+
+<!-- art-auto -->
+
+
+
+
+
 | Approach | How it works | The catch |
 |---|---|---|
 | **Build your own scraper** | Write a Python scraper with `requests`, rotate residential proxies, manage a login session, parse the private JSON | Weeks of work, constant breakage, and you own the block/ban risk. Fine for a one-off, painful at scale. |
@@ -122,6 +130,13 @@ move to a hosted **Twitter scraper** instead of owning the plumbing.
 
 Once the rows land in a sheet, the data does the work. Four patterns we see most:
 
+![An open path past a locked door](/art/no-login.jpg)
+
+<!-- art-auto -->
+
+
+
+
 - **Competitor benchmarking.** Track the engagement metrics of a competitor's public posts
   over time and see what format wins in your niche.
 - **Creator and lead discovery.** Pull the public profiles behind a hashtag or keyword and
@@ -156,6 +171,14 @@ get a lawyer's read before you scale.
 Search for the **best Twitter scraper** and you get a wall of tools. The **best Twitter scraper**
 for your job comes down to four questions:
 
+![A stack of pages with a cursor arrow advancing](/art/pagination.jpg)
+
+<!-- art-auto -->
+
+
+
+
+
 - **Does it run logged out?** If a tool needs your Twitter login, it is putting your account at
   risk. A good **Twitter scraper** reads public data without a session.
 - **Does it handle the blocking for you?** Residential proxies, retries, and pacing should
@@ -187,6 +210,12 @@ If you have looked at **Bright Data** or another **scraping API**, the trade-off
 same everywhere: a **web scraping API** sells you the unblocking layer, and you still own
 the parsing. A hosted **Twitter scraper API** goes one step further — it returns the parsed
 user tweets rows, not just the HTML.
+
+![A data pipeline flowing into a warehouse](/art/pipeline.jpg)
+
+<!-- art-auto -->
+
+
 
 | | Custom Python build | Bright Data / raw proxy | Hosted actor |
 |---|---|---|---|
@@ -297,11 +326,11 @@ If you are a **social media manager**, this replaces the manual Twitter user twe
 
 ## Related use cases
 
-- [twitter user tweets scraper](https://dataslayer.dev/use-cases/twitter-user-tweets-scraper/)
+- [twitter user tweets scraper](/resources/twitter-user-tweets-scraper/)
 
 ## Try it now
 
-Ready to run it yourself? **[Open Twitter/X Tweets Scraper · No Cookies on Apify →](https://apify.com/data-slayer/twitter-user-tweets?utm_source=github&utm_medium=use-case&utm_campaign=how-to-scrape-twitter-user-tweets-without-getting-blocked)**
+Ready to run it yourself? **[Open Twitter/X Tweets Scraper · No Cookies on Apify →](https://apify.com/data-slayer/twitter-user-tweets)**
 
 No login, no code. Free tier included.
 

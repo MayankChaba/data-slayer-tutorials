@@ -1,11 +1,11 @@
 ---
 layout: "use-case"
-title: "scrape instagram highlights without login"
+title: "Scrape Instagram highlights without login"
 description: "Extract saved Instagram Highlights from any public profile — no login. Get highlight titles, cover images, media counts, creation dates, and profile data…"
 slug: "scrape-instagram-highlights-without-login"
 canonical_url: "/resources/scrape-instagram-highlights-without-login/"
 date: "2026-10-02"
-tags: []
+tags: ["instagram", "how-to", "social media manager"]
 target_keyword: "scrape instagram highlights without login"
 actor_username: "data-slayer"
 actor_slug: "instagram-highlights-scraper"
@@ -35,7 +35,7 @@ Instead of building a scraper, you point **Instagram Highlights Scraper · No Lo
 ## How it works — step by step
 
 **1. Open the actor**
-Go to [`data-slayer/instagram-highlights-scraper`](https://apify.com/data-slayer/instagram-highlights-scraper?utm_source=github&utm_medium=use-case&utm_campaign=scrape-instagram-highlights-without-login) and click **Try for free**.
+Go to [`data-slayer/instagram-highlights-scraper`](https://apify.com/data-slayer/instagram-highlights-scraper) and click **Try for free**.
 
 **2. Paste your input**
 ```json
@@ -82,6 +82,14 @@ proxies, cookies, and retries — you want the rows.
 
 There are three honest ways to get Instagram highlights data in 2026. Each has a real cost.
 
+![A funnel narrowing into a short row of contact cards](/art/lead-funnel.jpg)
+
+<!-- art-auto -->
+
+
+
+
+
 | Approach | How it works | The catch |
 |---|---|---|
 | **Build your own scraper** | Write a Python scraper with `requests`, rotate residential proxies, manage a login session, parse the private JSON | Weeks of work, constant breakage, and you own the block/ban risk. Fine for a one-off, painful at scale. |
@@ -119,6 +127,14 @@ move to a hosted **Instagram scraper** instead of owning the plumbing.
 
 Once the rows land in a sheet, the data does the work. Four patterns we see most:
 
+![A story ring circle](/art/stories.jpg)
+
+<!-- art-auto -->
+
+
+
+
+
 - **Competitor benchmarking.** Track the engagement metrics of a competitor's public posts
   over time and see what format wins in your niche.
 - **Creator and lead discovery.** Pull the public profiles behind a hashtag or keyword and
@@ -153,6 +169,14 @@ get a lawyer's read before you scale.
 Search for the **best Instagram scraper** and you get a wall of tools. The **best Instagram scraper**
 for your job comes down to four questions:
 
+![An AI agent calling a tool through a connector](/art/mcp-agent.jpg)
+
+<!-- art-auto -->
+
+
+
+
+
 - **Does it run logged out?** If a tool needs your Instagram login, it is putting your account at
   risk. A good **Instagram scraper** reads public data without a session.
 - **Does it handle the blocking for you?** Residential proxies, retries, and pacing should
@@ -184,6 +208,12 @@ If you have looked at **Bright Data** or another **scraping API**, the trade-off
 same everywhere: a **web scraping API** sells you the unblocking layer, and you still own
 the parsing. A hosted **Instagram scraper API** goes one step further — it returns the parsed
 highlights rows, not just the HTML.
+
+![A neat grid of image tiles](/art/media-gallery.jpg)
+
+<!-- art-auto -->
+
+
 
 | | Custom Python build | Bright Data / raw proxy | Hosted actor |
 |---|---|---|---|
@@ -299,13 +329,13 @@ If you are a **social media manager**, this replaces the manual Instagram highli
 
 ## Related use cases
 
-- [scrape instagram post without login](https://dataslayer.dev/use-cases/scrape-instagram-post-without-login/)
-- [scrape instagram posts without login](https://dataslayer.dev/use-cases/scrape-instagram-posts-without-login/)
-- [export instagram user info to csv](https://dataslayer.dev/use-cases/export-instagram-user-info-to-csv/)
+- [scrape instagram post without login](/resources/scrape-instagram-post-without-login/)
+- [scrape instagram posts without login](/resources/scrape-instagram-posts-without-login/)
+- [export instagram user info to csv](/resources/export-instagram-user-info-to-csv/)
 
 ## Try it now
 
-Ready to run it yourself? **[Open Instagram Highlights Scraper · No Login on Apify →](https://apify.com/data-slayer/instagram-highlights-scraper?utm_source=github&utm_medium=use-case&utm_campaign=scrape-instagram-highlights-without-login)**
+Ready to run it yourself? **[Open Instagram Highlights Scraper · No Login on Apify →](https://apify.com/data-slayer/instagram-highlights-scraper)**
 
 No login, no code. Free tier included.
 

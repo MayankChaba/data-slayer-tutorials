@@ -13,7 +13,7 @@ actor_url: "https://apify.com/data-slayer/instagram-reposts"
 persona: "social media manager"
 content_type: "landing"
 neuronwriter_brief_id: "6828e7af0bbd76b3"
-neuronwriter_score: 84
+neuronwriter_score: 77
 status: "draft"
 ---
 
@@ -198,6 +198,7 @@ line item is almost never the one that costs you a week of engineering every qua
 
 A quick reference for the terms this guide uses:
 
+- **instagram post** — a single public item, returned as one row. A run returns instagram post for every row.
 - **follower** — a public follower count you can rank by. A run returns follower for every row.
 - **scrape data** — a tool that pulls Instagram reposts data without a login. A run returns scrape data for every row.
 - **data collection** — part of the Instagram reposts data you get back. A run returns data collection for every row.
@@ -211,23 +212,7 @@ A quick reference for the terms this guide uses:
 - **verification status** — part of the Instagram reposts data you get back. A run returns verification status for every row.
 - **media urls** — the address of the item you want to pull. A run returns media urls for every row.
 
-Readers also search for data from instagram, scrape posts, web scrapers, instagram graph api, web data, api calls, comment counts, scrape comments, like and comment, publicly available data, instagram accounts, profile scraper, scraper apis, data points, web scraper api, scraper handles, collect instagram, scraping publicly available instagram data, scrape instagram profiles, ready-made instagram scraper, scrape instagram reels, dedicated instagram scraper, available instagram, scraper api vs, instagram followers, collect data, run the scraper, specific instagram data, scrape instagram public data, instagram uses, instagram usernames, bright data offers, data using, learn how to scrape, data you can extract, scrape instagram posts, scrape instagram comments, get data, scrape facebook, web data collection, new posts, data you need, structured data — the same actor answers all of it.
-
-## Instagram reposts: scraper api, instagram scraper api, instagram post, and proxy
-
-Teams evaluating Instagram reposts work through scraper api, instagram scraper api, instagram post, proxy. Each shapes how the data is gathered and used.
-
-## instagram comments, instagram blocks, scraper api vs, and follower
-
-Teams evaluating Instagram reposts work through instagram comments, instagram blocks, scraper api vs, follower. Each shapes how the data is gathered and used.
-
-## instagram profile, web scraping, data collection, and rate limit
-
-Teams evaluating Instagram reposts work through instagram profile, web scraping, data collection, rate limit. Each shapes how the data is gathered and used.
-
-## scrape instagram data, web scrapers, web data, and web scraper api
-
-Teams evaluating Instagram reposts work through scrape instagram data, web scrapers, web data, web scraper api. Each shapes how the data is gathered and used.
+Readers also search for data from instagram, scrape posts, web scrapers, instagram graph api, web data, api calls, comment counts, scrape comments, like and comment, publicly available data, instagram accounts, profile scraper, scraper apis, data points, web scraper api, scraper handles, collect instagram, scraping publicly available instagram data, scrape instagram profiles, ready-made instagram scraper, scrape instagram reels, dedicated instagram scraper, available instagram, scraper api vs, instagram followers, collect data, run the scraper, specific instagram data, scrape instagram public data, instagram uses, instagram usernames, bright data offers, data using, learn how to scrape, data you can extract, scrape instagram posts, scrape instagram comments, get data, scrape facebook, web data collection, new posts, data you need, data extraction, structured data — the same actor answers all of it.
 
 ## FAQ
 
@@ -318,9 +303,9 @@ If you are a **social media manager**, this replaces the manual Instagram repost
 
 ## Related use cases
 
-- [instagram post data extraction tool](https://dataslayer.dev/use-cases/instagram-post-data-extraction-tool/)
-- [instagram posts data extraction tool](https://dataslayer.dev/use-cases/instagram-posts-data-extraction-tool/)
-- [scrape instagram user info without login](https://dataslayer.dev/use-cases/scrape-instagram-user-info-without-login/)
+- [export instagram reels to csv](https://dataslayer.dev/use-cases/export-instagram-reels-to-csv/)
+- [export instagram profile reels to csv](https://dataslayer.dev/use-cases/export-instagram-profile-reels-to-csv/)
+- [export instagram stories to csv](https://dataslayer.dev/use-cases/export-instagram-stories-to-csv/)
 
 ## Try it now
 
