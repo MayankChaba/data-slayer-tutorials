@@ -43,6 +43,24 @@ def slug_of(path: str) -> str:
     return os.path.basename(path)[:-3]
 
 
+def published_slugs() -> set[str]:
+    """Slugs already live in the Astro collection."""
+    return {slug_of(p) for p in glob.glob(os.path.join(CONTENT, "*.md"))}
+
+
+PLAYBOOK_TYPES = {"how-to", "use-case"}
+
+
+def section_of(slug: str) -> str:
+    """Map a draft's content_type to its site section (playbooks | blogs)."""
+    src = os.path.join(QART, slug + ".md")
+    ct = ""
+    if os.path.exists(src):
+        with open(src) as fh:
+            ct = fm_get(fh.read(), "content_type").lower()
+    return "playbooks" if ct in PLAYBOOK_TYPES else "blogs"
+
+
 def to_astro(src_md: str, slug: str) -> str:
     """Convert a queued draft into an Astro resources entry."""
     m = re.match(r"^---\n([\s\S]*?)\n---\n", src_md)
@@ -84,31 +102,52 @@ def to_astro(src_md: str, slug: str) -> str:
 
 
 def pick(queue: list[dict], due: int) -> list[dict]:
-    """One article per actor per batch (stagger), then fill any remainder."""
-    picks, seen = [], set()
-    for item in queue:
-        actor = item.get("actor_account", "") + "/" + item.get("actor_slug", "")
-        if actor in seen:
-            continue
+    """One article per actor per batch (stagger), balanced across the two
+    sections so a day's batch is distributed between /playbooks and /blogs."""
+    play = round(due * 0.6)
+    quota = {"playbooks": play, "blogs": due - play}
+    picks, seen_actor, seen_slug = [], set(), set()
+
+    def take(item: dict) -> None:
         picks.append(item)
-        seen.add(actor)
+        seen_slug.add(item["slug"])
+        seen_actor.add(item.get("actor_account", "") + "/" + item.get("actor_slug", ""))
+
+    for item in queue:
         if len(picks) >= due:
-            return picks
-    if len(picks) < due:
-        chosen = {p["slug"] for p in picks}
-        for item in queue:
-            if item["slug"] in chosen:
-                continue
-            picks.append(item)
-            chosen.add(item["slug"])
-            if len(picks) >= due:
-                break
+            break
+        actor = item.get("actor_account", "") + "/" + item.get("actor_slug", "")
+        sec = section_of(item["slug"])
+        if actor in seen_actor or quota[sec] <= 0:
+            continue
+        quota[sec] -= 1
+        take(item)
+
+    # Fill any remainder (e.g. a section ran short), still one-per-actor.
+    for item in queue:
+        if len(picks) >= due:
+            break
+        actor = item.get("actor_account", "") + "/" + item.get("actor_slug", "")
+        if item["slug"] in seen_slug or actor in seen_actor:
+            continue
+        take(item)
+
     return picks
 
 
 def main() -> None:
     state = json.load(open(STATE)) if os.path.exists(STATE) else {"last_run": None, "per_day": 5, "published": 0}
     queue = json.load(open(QJSON)) if os.path.exists(QJSON) else []
+
+    # Never re-publish: drop any queued slug that is already live (guards against a
+    # stale or duplicated queue.json) and persist the cleaned queue.
+    live = published_slugs()
+    stale = [q["slug"] for q in queue if q["slug"] in live]
+    if stale:
+        queue = [q for q in queue if q["slug"] not in live]
+        json.dump(queue, open(QJSON, "w"), indent=1)
+        print(f"drip: dropped {len(stale)} already-published slugs from queue")
+
     per_day = int(os.environ.get("DRIP_PER_DAY", state.get("per_day", 5)))
     today = dt.date.today()
     last = dt.date.fromisoformat(state["last_run"]) if state.get("last_run") else None
