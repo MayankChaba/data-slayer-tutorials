@@ -1,11 +1,11 @@
 ---
 layout: "use-case"
-title: "Instagram user info scraper"
+title: "instagram user info scraper"
 description: "Scrape public Instagram profiles in bulk. Get the published account-creation month, registration country, username-change count, followers, bio, links…"
 slug: "instagram-user-info-scraper"
 canonical_url: "/resources/instagram-user-info-scraper/"
 date: "2026-10-01"
-tags: ["instagram", "landing", "social media manager"]
+tags: []
 target_keyword: "instagram user info scraper"
 actor_username: "data-slayer"
 actor_slug: "instagram-user-info-scraper-cookieless"
@@ -35,7 +35,7 @@ Instead of building a scraper, you point **Instagram Profile Scraper · Account 
 ## How it works — step by step
 
 **1. Open the actor**
-Go to [`data-slayer/instagram-user-info-scraper-cookieless`](https://apify.com/data-slayer/instagram-user-info-scraper-cookieless) and click **Try for free**.
+Go to [`data-slayer/instagram-user-info-scraper-cookieless`](https://apify.com/data-slayer/instagram-user-info-scraper-cookieless?utm_source=github&utm_medium=use-case&utm_campaign=instagram-user-info-scraper) and click **Try for free**.
 
 **2. Paste your input**
 ```json
@@ -87,14 +87,6 @@ proxies, cookies, and retries — you want the rows.
 
 There are three honest ways to get Instagram user info data in 2026. Each has a real cost.
 
-![A month calendar grid with a few highlighted cells](/art/content-calendar.jpg)
-
-<!-- art-auto -->
-
-
-
-
-
 | Approach | How it works | The catch |
 |---|---|---|
 | **Build your own scraper** | Write a Python scraper with `requests`, rotate residential proxies, manage a login session, parse the private JSON | Weeks of work, constant breakage, and you own the block/ban risk. Fine for a one-off, painful at scale. |
@@ -132,14 +124,6 @@ move to a hosted **Instagram scraper** instead of owning the plumbing.
 
 Once the rows land in a sheet, the data does the work. Four patterns we see most:
 
-![A single profile identity card](/art/profile.jpg)
-
-<!-- art-auto -->
-
-
-
-
-
 - **Competitor benchmarking.** Track the engagement metrics of a competitor's public posts
   over time and see what format wins in your niche.
 - **Creator and lead discovery.** Pull the public profiles behind a hashtag or keyword and
@@ -174,14 +158,6 @@ get a lawyer's read before you scale.
 Search for the **best Instagram scraper** and you get a wall of tools. The **best Instagram scraper**
 for your job comes down to four questions:
 
-![A funnel with stages narrowing](/art/conversion-funnel.jpg)
-
-<!-- art-auto -->
-
-
-
-
-
 - **Does it run logged out?** If a tool needs your Instagram login, it is putting your account at
   risk. A good **Instagram scraper** reads public data without a session.
 - **Does it handle the blocking for you?** Residential proxies, retries, and pacing should
@@ -213,12 +189,6 @@ If you have looked at **Bright Data** or another **scraping API**, the trade-off
 same everywhere: a **web scraping API** sells you the unblocking layer, and you still own
 the parsing. A hosted **Instagram scraper API** goes one step further — it returns the parsed
 user info rows, not just the HTML.
-
-![A credit meter](/art/credits.jpg)
-
-<!-- art-auto -->
-
-
 
 | | Custom Python build | Bright Data / raw proxy | Hosted actor |
 |---|---|---|---|
@@ -330,13 +300,13 @@ If you are a **social media manager**, this replaces the manual Instagram user i
 
 ## Related use cases
 
-- [how to scrape instagram post without getting blocked](/resources/how-to-scrape-instagram-post-without-getting-blocked/)
-- [instagram post scraper](/resources/instagram-post-scraper/)
-- [how to scrape instagram posts without getting blocked](/resources/how-to-scrape-instagram-posts-without-getting-blocked/)
+- [how to scrape instagram post without getting blocked](https://dataslayer.dev/use-cases/how-to-scrape-instagram-post-without-getting-blocked/)
+- [instagram post scraper](https://dataslayer.dev/use-cases/instagram-post-scraper/)
+- [how to scrape instagram posts without getting blocked](https://dataslayer.dev/use-cases/how-to-scrape-instagram-posts-without-getting-blocked/)
 
 ## Try it now
 
-Ready to run it yourself? **[Open Instagram Profile Scraper · Account Age & Verified Emails on Apify →](https://apify.com/data-slayer/instagram-user-info-scraper-cookieless)**
+Ready to run it yourself? **[Open Instagram Profile Scraper · Account Age & Verified Emails on Apify →](https://apify.com/data-slayer/instagram-user-info-scraper-cookieless?utm_source=github&utm_medium=use-case&utm_campaign=instagram-user-info-scraper)**
 
 No login, no code. Free tier included.
 

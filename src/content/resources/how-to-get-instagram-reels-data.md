@@ -1,11 +1,11 @@
 ---
 layout: "use-case"
-title: "How to get Instagram reels data"
+title: "how to get instagram reels data"
 description: "Search Instagram Reels by keyword and discover trending content — no login, no cookies. Get play counts, likes, comments, shares, video URLs, captions…"
 slug: "how-to-get-instagram-reels-data"
 canonical_url: "/resources/how-to-get-instagram-reels-data/"
 date: "2026-10-02"
-tags: ["instagram", "how-to", "social media manager"]
+tags: []
 target_keyword: "how to get instagram reels data"
 actor_username: "data-slayer"
 actor_slug: "instagram-search-reels"
@@ -35,7 +35,7 @@ Instead of building a scraper, you point **Instagram Reels Search & Trend Discov
 ## How it works — step by step
 
 **1. Open the actor**
-Go to [`data-slayer/instagram-search-reels`](https://apify.com/data-slayer/instagram-search-reels) and click **Try for free**.
+Go to [`data-slayer/instagram-search-reels`](https://apify.com/data-slayer/instagram-search-reels?utm_source=github&utm_medium=use-case&utm_campaign=how-to-get-instagram-reels-data) and click **Try for free**.
 
 **2. Paste your input**
 ```json
@@ -85,14 +85,6 @@ proxies, cookies, and retries — you want the rows.
 
 There are three honest ways to get Instagram search reels data in 2026. Each has a real cost.
 
-![A neat grid of image tiles](/art/media-gallery.jpg)
-
-<!-- art-auto -->
-
-
-
-
-
 | Approach | How it works | The catch |
 |---|---|---|
 | **Build your own scraper** | Write a Python scraper with `requests`, rotate residential proxies, manage a login session, parse the private JSON | Weeks of work, constant breakage, and you own the block/ban risk. Fine for a one-off, painful at scale. |
@@ -130,14 +122,6 @@ move to a hosted **Instagram scraper** instead of owning the plumbing.
 
 Once the rows land in a sheet, the data does the work. Four patterns we see most:
 
-![A tidy cloud of hashtag chips on a grid](/art/hashtag-cloud.jpg)
-
-<!-- art-auto -->
-
-
-
-
-
 - **Competitor benchmarking.** Track the engagement metrics of a competitor's public posts
   over time and see what format wins in your niche.
 - **Creator and lead discovery.** Pull the public profiles behind a hashtag or keyword and
@@ -172,14 +156,6 @@ get a lawyer's read before you scale.
 Search for the **best Instagram scraper** and you get a wall of tools. The **best Instagram scraper**
 for your job comes down to four questions:
 
-![An open path past a locked door](/art/no-login.jpg)
-
-<!-- art-auto -->
-
-
-
-
-
 - **Does it run logged out?** If a tool needs your Instagram login, it is putting your account at
   risk. A good **Instagram scraper** reads public data without a session.
 - **Does it handle the blocking for you?** Residential proxies, retries, and pacing should
@@ -211,12 +187,6 @@ If you have looked at **Bright Data** or another **scraping API**, the trade-off
 same everywhere: a **web scraping API** sells you the unblocking layer, and you still own
 the parsing. A hosted **Instagram scraper API** goes one step further — it returns the parsed
 search reels rows, not just the HTML.
-
-![A data pipeline flowing into a warehouse](/art/pipeline.jpg)
-
-<!-- art-auto -->
-
-
 
 | | Custom Python build | Bright Data / raw proxy | Hosted actor |
 |---|---|---|---|
@@ -340,13 +310,13 @@ If you are a **social media manager**, this replaces the manual Instagram search
 
 ## Related use cases
 
-- [scrape instagram post without login](/resources/scrape-instagram-post-without-login/)
-- [scrape instagram posts without login](/resources/scrape-instagram-posts-without-login/)
-- [export instagram user info to csv](/resources/export-instagram-user-info-to-csv/)
+- [scrape instagram post without login](https://dataslayer.dev/use-cases/scrape-instagram-post-without-login/)
+- [scrape instagram posts without login](https://dataslayer.dev/use-cases/scrape-instagram-posts-without-login/)
+- [export instagram user info to csv](https://dataslayer.dev/use-cases/export-instagram-user-info-to-csv/)
 
 ## Try it now
 
-Ready to run it yourself? **[Open Instagram Reels Search & Trend Discovery · No Login on Apify →](https://apify.com/data-slayer/instagram-search-reels)**
+Ready to run it yourself? **[Open Instagram Reels Search & Trend Discovery · No Login on Apify →](https://apify.com/data-slayer/instagram-search-reels?utm_source=github&utm_medium=use-case&utm_campaign=how-to-get-instagram-reels-data)**
 
 No login, no code. Free tier included.
 

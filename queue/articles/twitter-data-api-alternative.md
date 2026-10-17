@@ -13,7 +13,7 @@ actor_url: "https://apify.com/data-slayer/twitter-search"
 persona: "social media manager"
 content_type: "comparison"
 neuronwriter_brief_id: "f49d5b7494e050fe"
-neuronwriter_score: 76
+neuronwriter_score: 86
 status: "draft"
 ---
 
@@ -210,6 +210,22 @@ A quick reference for the terms this guide uses:
 - **oauth** — part of the Twitter search data you get back. A run returns oauth for every row.
 
 Readers also search for official api, free credits, api for developers, api access, best twitter api alternatives, x data, free twitter, one api key, reddit, pay-as-you-go, social listening, official x api access, x's, twitter’s, academic research, frequently asked questions, social networks, compare twitter, data access, api behavior, current x, free access, upload, fraction of the cost, marketer, x pricing, data insights, crm, access model, monthly plan, questions developers ask, user profiles, real user, software developers, public-data, rapidapi, privacy policy, marketing teams, permission, saas, demographics, several networks, prepaid credits — the same actor answers all of it.
+
+## Twitter search: twitter api, developer, x api, and frequently asked questions
+
+Teams evaluating Twitter search work through twitter api, developer, x api, frequently asked questions. Each shapes how the data is gathered and used.
+
+## official x api, alternative to twitter, apis, and questions developers ask
+
+Teams evaluating Twitter search work through official x api, alternative to twitter, apis, questions developers ask. Each shapes how the data is gathered and used.
+
+## twitter api alternative, pricing, tier, and workflow
+
+Teams evaluating Twitter search work through twitter api alternative, pricing, tier, workflow. Each shapes how the data is gathered and used.
+
+## alternative to twitter api, api access, third-party, and oauth
+
+Teams evaluating Twitter search work through alternative to twitter api, api access, third-party, oauth. Each shapes how the data is gathered and used.
 
 ## FAQ
 

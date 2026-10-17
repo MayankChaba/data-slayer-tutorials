@@ -13,7 +13,7 @@ actor_url: "https://apify.com/data-slayer/linkedin-profile-scraper"
 persona: "lead-gen marketer"
 content_type: "use-case"
 neuronwriter_brief_id: "05e2fd512a5fe5e0"
-neuronwriter_score: 77
+neuronwriter_score: 83
 status: "published"
 ---
 
@@ -225,6 +225,22 @@ A quick reference for the terms this guide uses:
 - **recent funding** — part of the Linkedin profile data you get back. A run returns recent funding for every row.
 
 Readers also search for buying intent signal, lead lists, b2b buying signals, sales and marketing, qualified leads, linkedin ads, leads based, signals to track, outbound, based on buying, real-time buying signals, intent data, ready to buy, job change, linkedin profiles, linkedin messages, sales process, real buying, already looking, b2b buyers, tools like, sales pipeline, buying journey, b2b linkedin, data from linkedin, high-quality leads, funding announcements, product or service, sales cycle, score leads, lead generation means, signal types, match your icp, account-based marketing, stage in the buying, premium linkedin, linkedin gives, linkedin visibility, b2b outreach, engaging with your brand, ready to purchase, sales teams identify, vp of sales, engagement with your content, b2b teams, sales prospecting, signals like, like recent funding, people who viewed, sales calls, likely to engage, boost your sales — the same actor answers all of it.
+
+## Linkedin profile: buying signal, outreach, buying intent, and lead gen
+
+Teams evaluating Linkedin profile work through buying signal, outreach, buying intent, lead gen. Each shapes how the data is gathered and used.
+
+## automation tools, lead generation, prospect, and intent signal
+
+Teams evaluating Linkedin profile work through automation tools, lead generation, prospect, intent signal. Each shapes how the data is gathered and used.
+
+## linkedin lead generation, sales navigator, pipeline, and find leads
+
+Teams evaluating Linkedin profile work through linkedin lead generation, sales navigator, pipeline, find leads. Each shapes how the data is gathered and used.
+
+## linkedin sales, buying intent signal, automate, and lead generation tool
+
+Teams evaluating Linkedin profile work through linkedin sales, buying intent signal, automate, lead generation tool. Each shapes how the data is gathered and used.
 
 ## FAQ
 

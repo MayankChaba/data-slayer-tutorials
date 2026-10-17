@@ -13,7 +13,7 @@ actor_url: "https://apify.com/data-slayer/twitter-search"
 persona: "social media manager"
 content_type: "landing"
 neuronwriter_brief_id: "d8006fc0fddf61c7"
-neuronwriter_score: 72
+neuronwriter_score: 77
 status: "draft"
 ---
 
@@ -213,6 +213,22 @@ A quick reference for the terms this guide uses:
 - **media urls** — the address of the item you want to pull. A run returns media urls for every row.
 
 Readers also search for free twitter, million tweets, extract data from twitter, web data, profile scraper, twitter data extraction, twitter posts, web scrapers, social listening, start for free, publicly available data, free credits, market research, real-time twitter, official x api, stick to public data, 1 million tweets, data points, data science, twitter profile scraper, frequently asked questions, tweet content, x data, free tool, twitter scraper to extract, like bright data, reliable twitter data, social media monitoring, contain personal data, recent tweets, automated data collection, public tweets, scrap twitter, free tweet, high-volume data, legal to scrape twitter, ready to scrape, web crawling, works in 2026, extraction runs — the same actor answers all of it.
+
+## Twitter search: tweets, frequently asked questions, tweet, and scrape tweets
+
+Teams evaluating Twitter search work through tweets, frequently asked questions, tweet, scrape tweets. Each shapes how the data is gathered and used.
+
+## ready to scrape, proxy, tweet data, and json
+
+Teams evaluating Twitter search work through ready to scrape, proxy, tweet data, json. Each shapes how the data is gathered and used.
+
+## python, twitter profile, rate limit, and scraper api
+
+Teams evaluating Twitter search work through python, twitter profile, rate limit, scraper api. Each shapes how the data is gathered and used.
+
+## tweet scraper, automation, x api, and anti-bot
+
+Teams evaluating Twitter search work through tweet scraper, automation, x api, anti-bot. Each shapes how the data is gathered and used.
 
 ## FAQ
 

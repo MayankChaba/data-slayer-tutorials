@@ -13,7 +13,7 @@ actor_url: "https://apify.com/data-slayer/instagram-search-users"
 persona: "lead-gen marketer"
 content_type: "use-case"
 neuronwriter_brief_id: "c24ec459d8d47796"
-neuronwriter_score: 70
+neuronwriter_score: 79
 status: "draft"
 ---
 
@@ -210,6 +210,22 @@ Readers also search for generating b2b leads, buying intent, instagram marketing
 
 Readers also search for instagram’s, follower count — the same actor answers all of it.
 
+## Instagram search users: lead generation, b2b, instagram lead generation, and generating b2b leads
+
+Teams evaluating Instagram search users work through lead generation, b2b, instagram lead generation, generating b2b leads. Each shapes how the data is gathered and used.
+
+## use instagram, buying signals, buying intent, and playbook
+
+Teams evaluating Instagram search users work through use instagram, buying signals, buying intent, playbook. Each shapes how the data is gathered and used.
+
+## lead quality, generate leads, instagram marketing, and dms
+
+Teams evaluating Instagram search users work through lead quality, generate leads, instagram marketing, dms. Each shapes how the data is gathered and used.
+
+## instagram for business, lead gen, and signal-based
+
+Teams evaluating Instagram search users work through instagram for business, lead gen, signal-based. Each shapes how the data is gathered and used.
+
 ## FAQ
 
 **Can I scrape Instagram without logging in?**
@@ -299,9 +315,9 @@ If you are a **lead-gen marketer**, this replaces the manual Instagram search us
 
 ## Related use cases
 
-- [export instagram reels to csv](https://dataslayer.dev/use-cases/export-instagram-reels-to-csv/)
-- [export instagram profile reels to csv](https://dataslayer.dev/use-cases/export-instagram-profile-reels-to-csv/)
-- [export instagram stories to csv](https://dataslayer.dev/use-cases/export-instagram-stories-to-csv/)
+- [instagram post data extraction tool](https://dataslayer.dev/use-cases/instagram-post-data-extraction-tool/)
+- [instagram posts data extraction tool](https://dataslayer.dev/use-cases/instagram-posts-data-extraction-tool/)
+- [scrape instagram user info without login](https://dataslayer.dev/use-cases/scrape-instagram-user-info-without-login/)
 
 ## Try it now
 

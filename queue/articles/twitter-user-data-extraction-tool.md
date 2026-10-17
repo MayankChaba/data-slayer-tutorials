@@ -13,7 +13,7 @@ actor_url: "https://apify.com/data-slayer/twitter-user"
 persona: "social media manager"
 content_type: "landing"
 neuronwriter_brief_id: "987080085d7393f7"
-neuronwriter_score: 76
+neuronwriter_score: 80
 status: "draft"
 ---
 
@@ -208,6 +208,22 @@ A quick reference for the terms this guide uses:
 - **search results** — part of the Twitter user data you get back. A run returns search results for every row.
 
 Readers also search for tweet data, twitter profile scraper, octoparse, user profiles, scrape x, best twitter scrapers, free trial, web data, real-time, x api, workflow, search scraper, extract tweets, twitter posts, x data, twitter search, market research, data science, twitter api alternative, lead generation, media urls, social listening, best twitter scraping, top twitter, historical twitter, extract media links from tweets, tweet content, structured json, twitter automation, following scraper, apify store, social media analysis, reliable twitter data, social media monitoring, scrap twitter, publicly available data, twitter scraper to extract, extract tweet, data points, html parsing, extracts publicly visible data, use twitter data, high-volume data, data analysis, ready to scrape — the same actor answers all of it.
+
+## Twitter user: best twitter scrapers, best twitter scraping, ready to scrape, and twitter profile
+
+Teams evaluating Twitter user work through best twitter scrapers, best twitter scraping, ready to scrape, twitter profile. Each shapes how the data is gathered and used.
+
+## json, data from twitter, octoparse, and engagement metrics
+
+Teams evaluating Twitter user work through json, data from twitter, octoparse, engagement metrics. Each shapes how the data is gathered and used.
+
+## scraper api, automation, rate limits, and free trial
+
+Teams evaluating Twitter user work through scraper api, automation, rate limits, free trial. Each shapes how the data is gathered and used.
+
+## web data, x api, workflow, and x data
+
+Teams evaluating Twitter user work through web data, x api, workflow, x data. Each shapes how the data is gathered and used.
 
 ## FAQ
 

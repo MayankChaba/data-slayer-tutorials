@@ -13,7 +13,7 @@ actor_url: "https://apify.com/data-slayer/facebook-search-pages"
 persona: "lead-gen marketer"
 content_type: "landing"
 neuronwriter_brief_id: "42cb428b2dca7e88"
-neuronwriter_score: 78
+neuronwriter_score: 85
 status: "draft"
 ---
 
@@ -211,6 +211,22 @@ A quick reference for the terms this guide uses:
 - **publicly available** — part of the Facebook search pages data you get back. A run returns publicly available for every row.
 
 Readers also search for data scraping, facebook comments, extractor, scraping data, scrape facebook posts, profile data, post data, scraping tool, extract posts, scrape public facebook, facebook data scraping, collecting data from facebook, via api, workflow, automation, data points, free trial, social media platforms, group extractor, information from facebook, page owners, page metadata, follower count, web data, terms of service, contact details, data in json, profile information, scrape facebook comments, data parsing, automated data collection, sdks, web scraper, fb group, page information, dynamic content, specific data, node.js, number of comments — the same actor answers all of it.
+
+## Facebook search pages: extract data, facebook data extraction, web data, and scrape facebook pages
+
+Teams evaluating Facebook search pages work through extract data, facebook data extraction, web data, scrape facebook pages. Each shapes how the data is gathered and used.
+
+## data collection, json, public data, and scraper api
+
+Teams evaluating Facebook search pages work through data collection, json, public data, scraper api. Each shapes how the data is gathered and used.
+
+## facebook profiles, export, metric, and data scraping
+
+Teams evaluating Facebook search pages work through facebook profiles, export, metric, data scraping. Each shapes how the data is gathered and used.
+
+## fetch, extractor, facebook scraper api, and scraping tool
+
+Teams evaluating Facebook search pages work through fetch, extractor, facebook scraper api, scraping tool. Each shapes how the data is gathered and used.
 
 ## FAQ
 

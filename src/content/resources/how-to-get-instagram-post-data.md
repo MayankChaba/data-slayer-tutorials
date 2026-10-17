@@ -1,11 +1,11 @@
 ---
 layout: "use-case"
-title: "How to get Instagram post data"
+title: "how to get instagram post data"
 description: ""
 slug: "how-to-get-instagram-post-data"
 canonical_url: "/resources/how-to-get-instagram-post-data/"
 date: "2026-10-13"
-tags: ["instagram", "how-to", "social media manager"]
+tags: []
 target_keyword: "how to get instagram post data"
 actor_username: "data-slayer"
 actor_slug: "instagram-post-details"
@@ -32,7 +32,7 @@ Instead of building a scraper, you point **Instagram Post & Reel Details Scraper
 ## How it works — step by step
 
 **1. Open the actor**
-Go to [`data-slayer/instagram-post-details`](https://apify.com/data-slayer/instagram-post-details) and click **Try for free**.
+Go to [`data-slayer/instagram-post-details`](https://apify.com/data-slayer/instagram-post-details?utm_source=github&utm_medium=use-case&utm_campaign=how-to-get-instagram-post-data) and click **Try for free**.
 
 **2. Paste your input**
 ```json
@@ -84,14 +84,6 @@ proxies, cookies, and retries — you want the rows.
 
 There are three honest ways to get Instagram post data in 2026. Each has a real cost.
 
-![A percentage gauge beside a small bar chart](/art/engagement-rate.jpg)
-
-<!-- art-auto -->
-
-
-
-
-
 | Approach | How it works | The catch |
 |---|---|---|
 | **Build your own scraper** | Write a Python scraper with `requests`, rotate residential proxies, manage a login session, parse the private JSON | Weeks of work, constant breakage, and you own the block/ban risk. Fine for a one-off, painful at scale. |
@@ -129,13 +121,6 @@ move to a hosted **Instagram scraper** instead of owning the plumbing.
 
 Once the rows land in a sheet, the data does the work. Four patterns we see most:
 
-![A data card being filled with fields from a source](/art/enrichment.jpg)
-
-<!-- art-auto -->
-
-
-
-
 - **Competitor benchmarking.** Track the engagement metrics of a competitor's public posts
   over time and see what format wins in your niche.
 - **Creator and lead discovery.** Pull the public profiles behind a hashtag or keyword and
@@ -170,14 +155,6 @@ get a lawyer's read before you scale.
 Search for the **best Instagram scraper** and you get a wall of tools. The **best Instagram scraper**
 for your job comes down to four questions:
 
-![A spreadsheet workbook grid with tabs](/art/excel-workbook.jpg)
-
-<!-- art-auto -->
-
-
-
-
-
 - **Does it run logged out?** If a tool needs your Instagram login, it is putting your account at
   risk. A good **Instagram scraper** reads public data without a session.
 - **Does it handle the blocking for you?** Residential proxies, retries, and pacing should
@@ -209,12 +186,6 @@ If you have looked at **Bright Data** or another **scraping API**, the trade-off
 same everywhere: a **web scraping API** sells you the unblocking layer, and you still own
 the parsing. A hosted **Instagram scraper API** goes one step further — it returns the parsed
 post rows, not just the HTML.
-
-![Question marks and a knowledge base](/art/faq.jpg)
-
-<!-- art-auto -->
-
-
 
 | | Custom Python build | Bright Data / raw proxy | Hosted actor |
 |---|---|---|---|
@@ -326,13 +297,13 @@ If you are a **social media manager**, this replaces the manual Instagram post p
 
 ## Related use cases
 
-- [scrape instagram reels without login](/resources/scrape-instagram-reels-without-login/)
-- [scrape instagram profile reels without login](/resources/scrape-instagram-profile-reels-without-login/)
-- [scrape instagram stories without login](/resources/scrape-instagram-stories-without-login/)
+- [scrape instagram reels without login](https://dataslayer.dev/use-cases/scrape-instagram-reels-without-login/)
+- [scrape instagram profile reels without login](https://dataslayer.dev/use-cases/scrape-instagram-profile-reels-without-login/)
+- [scrape instagram stories without login](https://dataslayer.dev/use-cases/scrape-instagram-stories-without-login/)
 
 ## Try it now
 
-Ready to run it yourself? **[Open Instagram Post & Reel Details Scraper · No Login on Apify →](https://apify.com/data-slayer/instagram-post-details)**
+Ready to run it yourself? **[Open Instagram Post & Reel Details Scraper · No Login on Apify →](https://apify.com/data-slayer/instagram-post-details?utm_source=github&utm_medium=use-case&utm_campaign=how-to-get-instagram-post-data)**
 
 No login, no code. Free tier included.
 

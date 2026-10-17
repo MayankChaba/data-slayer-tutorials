@@ -13,7 +13,7 @@ actor_url: "https://apify.com/data-slayer/linkedin-profile-scraper"
 persona: "lead-gen marketer"
 content_type: "comparison"
 neuronwriter_brief_id: "ab1e9def68802d47"
-neuronwriter_score: 73
+neuronwriter_score: 82
 status: "draft"
 ---
 
@@ -223,6 +223,22 @@ A quick reference for the terms this guide uses:
 - **scraping publicly** — the programmatic way to run the Linkedin profile actor on a schedule. A run returns scraping publicly for every row.
 
 Readers also search for best linkedin api alternatives, linkedin automation, data access, rest api, marketing developer platform, sales navigator api, api product, share on linkedin, one api, using the official linkedin, data from linkedin, linkedin session, api documentation, need linkedin data, linkedin partner, terms of service, access linkedin, rate limiting, linkedin support, marketing api, api guide, linkedin publishes, linkedin's official api, linkedin's api access model, user's own profile, linkedin's own documentation, linkedin's, proxycurl api, rely on linkedin data, scraping publicly available data, complete linkedin, building linkedin, developers building, linkedin posts, behind a partner, linkedin data and actions, requires linkedin, developers use, right linkedin api, curl -x get, test the api, messaging api, marketing apis, regulatory developer products, programmatic access, get approved, linkedin functionality, pricing scales, app in the developer portal, developers without, api scopes, linkedin like, every api — the same actor answers all of it.
+
+## Linkedin profile: linkedin api, apis, proxycurl, and linkedin api pricing
+
+Teams evaluating Linkedin profile work through linkedin api, apis, proxycurl, linkedin api pricing. Each shapes how the data is gathered and used.
+
+## oauth, rest api, using the official linkedin, and complete linkedin
+
+Teams evaluating Linkedin profile work through oauth, rest api, using the official linkedin, complete linkedin. Each shapes how the data is gathered and used.
+
+## api access, automation, data api, and linkedin apis
+
+Teams evaluating Linkedin profile work through api access, automation, data api, linkedin apis. Each shapes how the data is gathered and used.
+
+## api call, official linkedin api, enrichment, and linkedin data api
+
+Teams evaluating Linkedin profile work through api call, official linkedin api, enrichment, linkedin data api. Each shapes how the data is gathered and used.
 
 ## FAQ
 

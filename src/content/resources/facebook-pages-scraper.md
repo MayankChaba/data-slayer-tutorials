@@ -1,11 +1,11 @@
 ---
 layout: "use-case"
-title: "Facebook pages scraper"
+title: "facebook pages scraper"
 description: "Search and discover Facebook pages by keyword without login. Get page names, URLs, Facebook IDs, verification status, and profile images. Build prospect…"
 slug: "facebook-pages-scraper"
 canonical_url: "/resources/facebook-pages-scraper/"
 date: "2026-10-01"
-tags: ["facebook", "landing", "lead-gen marketer"]
+tags: []
 target_keyword: "facebook pages scraper"
 actor_username: "data-slayer"
 actor_slug: "facebook-search-pages"
@@ -35,7 +35,7 @@ Instead of building a scraper, you point **Facebook Page Search Scraper · No Co
 ## How it works — step by step
 
 **1. Open the actor**
-Go to [`data-slayer/facebook-search-pages`](https://apify.com/data-slayer/facebook-search-pages) and click **Try for free**.
+Go to [`data-slayer/facebook-search-pages`](https://apify.com/data-slayer/facebook-search-pages?utm_source=github&utm_medium=use-case&utm_campaign=facebook-pages-scraper) and click **Try for free**.
 
 **2. Paste your input**
 ```json
@@ -85,14 +85,6 @@ proxies, cookies, and retries — you want the rows.
 
 There are three honest ways to get Facebook search pages data in 2026. Each has a real cost.
 
-![A tiered stair of pricing blocks](/art/pricing-tiers.jpg)
-
-<!-- art-auto -->
-
-
-
-
-
 | Approach | How it works | The catch |
 |---|---|---|
 | **Build your own scraper** | Write a Python scraper with `requests`, rotate residential proxies, manage a login session, parse the private JSON | Weeks of work, constant breakage, and you own the block/ban risk. Fine for a one-off, painful at scale. |
@@ -130,14 +122,6 @@ move to a hosted **Facebook scraper** instead of owning the plumbing.
 
 Once the rows land in a sheet, the data does the work. Four patterns we see most:
 
-![A stack of pages with a cursor arrow advancing](/art/pagination.jpg)
-
-<!-- art-auto -->
-
-
-
-
-
 - **Competitor benchmarking.** Track the engagement metrics of a competitor's public posts
   over time and see what format wins in your niche.
 - **Creator and lead discovery.** Pull the public profiles behind a hashtag or keyword and
@@ -172,14 +156,6 @@ get a lawyer's read before you scale.
 Search for the **best Facebook scraper** and you get a wall of tools. The **best Facebook scraper**
 for your job comes down to four questions:
 
-![A rotating network of proxy nodes](/art/proxy-network.jpg)
-
-<!-- art-auto -->
-
-
-
-
-
 - **Does it run logged out?** If a tool needs your Facebook login, it is putting your account at
   risk. A good **Facebook scraper** reads public data without a session.
 - **Does it handle the blocking for you?** Residential proxies, retries, and pacing should
@@ -211,12 +187,6 @@ If you have looked at **Bright Data** or another **scraping API**, the trade-off
 same everywhere: a **web scraping API** sells you the unblocking layer, and you still own
 the parsing. A hosted **Facebook scraper API** goes one step further — it returns the parsed
 search pages rows, not just the HTML.
-
-![Two tidy bar charts compared side by side](/art/competitor-bars.jpg)
-
-<!-- art-auto -->
-
-
 
 | | Custom Python build | Bright Data / raw proxy | Hosted actor |
 |---|---|---|---|
@@ -338,11 +308,11 @@ If you are a **lead-gen marketer**, this replaces the manual Facebook search pag
 
 ## Related use cases
 
-- [how to scrape facebook pages without getting blocked](/resources/how-to-scrape-facebook-pages-without-getting-blocked/)
+- [how to scrape facebook pages without getting blocked](https://dataslayer.dev/use-cases/how-to-scrape-facebook-pages-without-getting-blocked/)
 
 ## Try it now
 
-Ready to run it yourself? **[Open Facebook Page Search Scraper · No Cookies on Apify →](https://apify.com/data-slayer/facebook-search-pages)**
+Ready to run it yourself? **[Open Facebook Page Search Scraper · No Cookies on Apify →](https://apify.com/data-slayer/facebook-search-pages?utm_source=github&utm_medium=use-case&utm_campaign=facebook-pages-scraper)**
 
 No login, no code. Free tier included.
 
