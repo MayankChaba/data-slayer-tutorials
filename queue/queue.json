@@ -1,1 +1,200 @@
-[]
+[
+ {
+  "slug": "instagram-post-data-extraction-tool",
+  "priority": "P1",
+  "runs_30d": 323913,
+  "target_query": "instagram post data extraction tool",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-post-details",
+  "actor_title": "Instagram Post & Reel Details Scraper \u00b7 No Login"
+ },
+ {
+  "slug": "instagram-posts-data-extraction-tool",
+  "priority": "P1",
+  "runs_30d": 174444,
+  "target_query": "instagram posts data extraction tool",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-posts",
+  "actor_title": "Instagram Profile Posts & Reels Scraper \u00b7 No Login"
+ },
+ {
+  "slug": "scrape-instagram-user-info-without-login",
+  "priority": "P1",
+  "runs_30d": 41682,
+  "target_query": "scrape instagram user info without login",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-user-info-scraper-cookieless",
+  "actor_title": "Instagram Profile Scraper \u00b7 Account Age & Verified Emails"
+ },
+ {
+  "slug": "instagram-user-info-api-alternative",
+  "priority": "P1",
+  "runs_30d": 41682,
+  "target_query": "instagram user info api alternative",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-user-info-scraper-cookieless",
+  "actor_title": "Instagram Profile Scraper \u00b7 Account Age & Verified Emails"
+ },
+ {
+  "slug": "instagram-stories-api-alternative",
+  "priority": "P1",
+  "runs_30d": 16774,
+  "target_query": "instagram stories api alternative",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-stories-scraper",
+  "actor_title": "Instagram Stories Scraper \u00b7 No Login"
+ },
+ {
+  "slug": "find-buying-signal-contacts-on-facebook-for-lead-gen-marketers",
+  "priority": "P1",
+  "runs_30d": 13860,
+  "target_query": "find buying-signal contacts on Facebook for lead-gen marketers",
+  "actor_account": "data-slayer",
+  "actor_slug": "facebook-search-pages",
+  "actor_title": "Facebook Page Search Scraper \u00b7 No Cookies"
+ },
+ {
+  "slug": "facebook-pages-data-extraction-tool",
+  "priority": "P1",
+  "runs_30d": 13860,
+  "target_query": "facebook pages data extraction tool",
+  "actor_account": "data-slayer",
+  "actor_slug": "facebook-search-pages",
+  "actor_title": "Facebook Page Search Scraper \u00b7 No Cookies"
+ },
+ {
+  "slug": "linkedin-profile-api-alternative",
+  "priority": "P1",
+  "runs_30d": 10680,
+  "target_query": "linkedin profile api alternative",
+  "actor_account": "data-slayer",
+  "actor_slug": "linkedin-profile-scraper",
+  "actor_title": "LinkedIn Profile Scraper \u00b7 Fresh \u00b7 No Cookies"
+ },
+ {
+  "slug": "find-buying-signal-contacts-on-linkedin-for-lead-gen-marketers",
+  "priority": "P1",
+  "runs_30d": 10680,
+  "target_query": "find buying-signal contacts on Linkedin for lead-gen marketers",
+  "actor_account": "data-slayer",
+  "actor_slug": "linkedin-profile-scraper",
+  "actor_title": "LinkedIn Profile Scraper \u00b7 Fresh \u00b7 No Cookies"
+ },
+ {
+  "slug": "instagram-users-api-alternative",
+  "priority": "P1",
+  "runs_30d": 8427,
+  "target_query": "instagram users api alternative",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-search-users",
+  "actor_title": "Instagram User Search \u00b7 Find Leads by Keyword \u00b7 No Login"
+ },
+ {
+  "slug": "find-buying-signal-contacts-on-instagram-for-lead-gen-marketers",
+  "priority": "P1",
+  "runs_30d": 8427,
+  "target_query": "find buying-signal contacts on Instagram for lead-gen marketers",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-search-users",
+  "actor_title": "Instagram User Search \u00b7 Find Leads by Keyword \u00b7 No Login"
+ },
+ {
+  "slug": "find-competitor-and-creator-content-on-linkedin-for-social-media-managers",
+  "priority": "P1",
+  "runs_30d": 7204,
+  "target_query": "find competitor and creator content on Linkedin for social media managers",
+  "actor_account": "data-slayer",
+  "actor_slug": "linkedin-post-analytics-scraper",
+  "actor_title": "LinkedIn Post Performance Scraper"
+ },
+ {
+  "slug": "scrape-twitter-comments-without-login",
+  "priority": "P1",
+  "runs_30d": 5580,
+  "target_query": "scrape twitter comments without login",
+  "actor_account": "data-slayer",
+  "actor_slug": "twitter-comments",
+  "actor_title": "Twitter/X Comments Scraper \u00b7 No Cookies"
+ },
+ {
+  "slug": "how-to-get-twitter-comments-data",
+  "priority": "P1",
+  "runs_30d": 5580,
+  "target_query": "how to get twitter comments data",
+  "actor_account": "data-slayer",
+  "actor_slug": "twitter-comments",
+  "actor_title": "Twitter/X Comments Scraper \u00b7 No Cookies"
+ },
+ {
+  "slug": "twitter-comments-data-extraction-tool",
+  "priority": "P1",
+  "runs_30d": 5580,
+  "target_query": "twitter comments data extraction tool",
+  "actor_account": "data-slayer",
+  "actor_slug": "twitter-comments",
+  "actor_title": "Twitter/X Comments Scraper \u00b7 No Cookies"
+ },
+ {
+  "slug": "linkedin-company-posts-api-alternative",
+  "priority": "P1",
+  "runs_30d": 4885,
+  "target_query": "linkedin company posts api alternative",
+  "actor_account": "data-slayer",
+  "actor_slug": "linkedin-company-posts-scraper",
+  "actor_title": "LinkedIn Company Posts Scraper"
+ },
+ {
+  "slug": "instagram-reposts-scraper",
+  "priority": "P1",
+  "runs_30d": 3793,
+  "target_query": "instagram reposts scraper",
+  "actor_account": "data-slayer",
+  "actor_slug": "instagram-reposts",
+  "actor_title": "Instagram Reposts Scraper \u00b7 Profile Repost History \u00b7 No Login"
+ },
+ {
+  "slug": "scrape-twitter-user-without-login",
+  "priority": "P1",
+  "runs_30d": 2790,
+  "target_query": "scrape twitter user without login",
+  "actor_account": "data-slayer",
+  "actor_slug": "twitter-user",
+  "actor_title": "Twitter/X Profile Scraper \u00b7 Bulk Handles, URLs & IDs"
+ },
+ {
+  "slug": "twitter-user-data-extraction-tool",
+  "priority": "P1",
+  "runs_30d": 2790,
+  "target_query": "twitter user data extraction tool",
+  "actor_account": "data-slayer",
+  "actor_slug": "twitter-user",
+  "actor_title": "Twitter/X Profile Scraper \u00b7 Bulk Handles, URLs & IDs"
+ },
+ {
+  "slug": "twitter-data-api-alternative",
+  "priority": "P1",
+  "runs_30d": 2421,
+  "target_query": "twitter data api alternative",
+  "actor_account": "data-slayer",
+  "actor_slug": "twitter-search",
+  "actor_title": "Twitter/X Search Scraper \u00b7 Small Jobs & Advanced Queries"
+ },
+ {
+  "slug": "twitter-data-data-extraction-tool",
+  "priority": "P1",
+  "runs_30d": 2421,
+  "target_query": "twitter data data extraction tool",
+  "actor_account": "data-slayer",
+  "actor_slug": "twitter-search",
+  "actor_title": "Twitter/X Search Scraper \u00b7 Small Jobs & Advanced Queries"
+ },
+ {
+  "slug": "twitter-user-tweets-api-alternative",
+  "priority": "P1",
+  "runs_30d": 1064,
+  "target_query": "twitter user tweets api alternative",
+  "actor_account": "data-slayer",
+  "actor_slug": "twitter-user-tweets",
+  "actor_title": "Twitter/X Tweets Scraper \u00b7 No Cookies"
+ }
+]
