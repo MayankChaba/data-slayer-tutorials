@@ -1,23 +1,5 @@
 [
  {
-  "slug": "instagram-user-info-api-alternative",
-  "priority": "P1",
-  "runs_30d": 41682,
-  "target_query": "instagram user info api alternative",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-user-info-scraper-cookieless",
-  "actor_title": "Instagram Profile Scraper \u00b7 Account Age & Verified Emails"
- },
- {
-  "slug": "instagram-stories-api-alternative",
-  "priority": "P1",
-  "runs_30d": 16774,
-  "target_query": "instagram stories api alternative",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-stories-scraper",
-  "actor_title": "Instagram Stories Scraper \u00b7 No Login"
- },
- {
   "slug": "facebook-pages-data-extraction-tool",
   "priority": "P1",
   "runs_30d": 13860,
@@ -43,33 +25,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "instagram-search-users",
   "actor_title": "Instagram User Search \u00b7 Find Leads by Keyword \u00b7 No Login"
- },
- {
-  "slug": "find-buying-signal-contacts-on-instagram-for-lead-gen-marketers",
-  "priority": "P1",
-  "runs_30d": 8427,
-  "target_query": "find buying-signal contacts on Instagram for lead-gen marketers",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-search-users",
-  "actor_title": "Instagram User Search \u00b7 Find Leads by Keyword \u00b7 No Login"
- },
- {
-  "slug": "find-competitor-and-creator-content-on-linkedin-for-social-media-managers",
-  "priority": "P1",
-  "runs_30d": 7204,
-  "target_query": "find competitor and creator content on Linkedin for social media managers",
-  "actor_account": "data-slayer",
-  "actor_slug": "linkedin-post-analytics-scraper",
-  "actor_title": "LinkedIn Post Performance Scraper"
- },
- {
-  "slug": "scrape-twitter-comments-without-login",
-  "priority": "P1",
-  "runs_30d": 5580,
-  "target_query": "scrape twitter comments without login",
-  "actor_account": "data-slayer",
-  "actor_slug": "twitter-comments",
-  "actor_title": "Twitter/X Comments Scraper \u00b7 No Cookies"
  },
  {
   "slug": "how-to-get-twitter-comments-data",
