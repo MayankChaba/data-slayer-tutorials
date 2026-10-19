@@ -1,41 +1,5 @@
 [
  {
-  "slug": "facebook-pages-data-extraction-tool",
-  "priority": "P1",
-  "runs_30d": 13860,
-  "target_query": "facebook pages data extraction tool",
-  "actor_account": "data-slayer",
-  "actor_slug": "facebook-search-pages",
-  "actor_title": "Facebook Page Search Scraper \u00b7 No Cookies"
- },
- {
-  "slug": "linkedin-profile-api-alternative",
-  "priority": "P1",
-  "runs_30d": 10680,
-  "target_query": "linkedin profile api alternative",
-  "actor_account": "data-slayer",
-  "actor_slug": "linkedin-profile-scraper",
-  "actor_title": "LinkedIn Profile Scraper \u00b7 Fresh \u00b7 No Cookies"
- },
- {
-  "slug": "instagram-users-api-alternative",
-  "priority": "P1",
-  "runs_30d": 8427,
-  "target_query": "instagram users api alternative",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-search-users",
-  "actor_title": "Instagram User Search \u00b7 Find Leads by Keyword \u00b7 No Login"
- },
- {
-  "slug": "how-to-get-twitter-comments-data",
-  "priority": "P1",
-  "runs_30d": 5580,
-  "target_query": "how to get twitter comments data",
-  "actor_account": "data-slayer",
-  "actor_slug": "twitter-comments",
-  "actor_title": "Twitter/X Comments Scraper \u00b7 No Cookies"
- },
- {
   "slug": "twitter-comments-data-extraction-tool",
   "priority": "P1",
   "runs_30d": 5580,
@@ -61,15 +25,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "instagram-reposts",
   "actor_title": "Instagram Reposts Scraper \u00b7 Profile Repost History \u00b7 No Login"
- },
- {
-  "slug": "scrape-twitter-user-without-login",
-  "priority": "P1",
-  "runs_30d": 2790,
-  "target_query": "scrape twitter user without login",
-  "actor_account": "data-slayer",
-  "actor_slug": "twitter-user",
-  "actor_title": "Twitter/X Profile Scraper \u00b7 Bulk Handles, URLs & IDs"
  },
  {
   "slug": "twitter-user-data-extraction-tool",
