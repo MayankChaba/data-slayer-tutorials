@@ -1,50 +1,5 @@
 [
  {
-  "slug": "twitter-comments-data-extraction-tool",
-  "priority": "P1",
-  "runs_30d": 5580,
-  "target_query": "twitter comments data extraction tool",
-  "actor_account": "data-slayer",
-  "actor_slug": "twitter-comments",
-  "actor_title": "Twitter/X Comments Scraper \u00b7 No Cookies"
- },
- {
-  "slug": "linkedin-company-posts-api-alternative",
-  "priority": "P1",
-  "runs_30d": 4885,
-  "target_query": "linkedin company posts api alternative",
-  "actor_account": "data-slayer",
-  "actor_slug": "linkedin-company-posts-scraper",
-  "actor_title": "LinkedIn Company Posts Scraper"
- },
- {
-  "slug": "instagram-reposts-scraper",
-  "priority": "P1",
-  "runs_30d": 3793,
-  "target_query": "instagram reposts scraper",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-reposts",
-  "actor_title": "Instagram Reposts Scraper \u00b7 Profile Repost History \u00b7 No Login"
- },
- {
-  "slug": "twitter-user-data-extraction-tool",
-  "priority": "P1",
-  "runs_30d": 2790,
-  "target_query": "twitter user data extraction tool",
-  "actor_account": "data-slayer",
-  "actor_slug": "twitter-user",
-  "actor_title": "Twitter/X Profile Scraper \u00b7 Bulk Handles, URLs & IDs"
- },
- {
-  "slug": "twitter-data-api-alternative",
-  "priority": "P1",
-  "runs_30d": 2421,
-  "target_query": "twitter data api alternative",
-  "actor_account": "data-slayer",
-  "actor_slug": "twitter-search",
-  "actor_title": "Twitter/X Search Scraper \u00b7 Small Jobs & Advanced Queries"
- },
- {
   "slug": "twitter-data-data-extraction-tool",
   "priority": "P1",
   "runs_30d": 2421,
