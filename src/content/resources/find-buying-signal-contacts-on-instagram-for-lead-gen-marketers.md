@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "find buying-signal contacts on Instagram for lead-gen marketers"
+title: "Finding buying-signal contacts on Instagram"
 description: "Type any keyword and get every Instagram profile Instagram surfaces for that topic — usernames, verification status, and profile data. Enriched tier adds…"
 slug: "find-buying-signal-contacts-on-instagram-for-lead-gen-marketers"
 canonical_url: "/resources/find-buying-signal-contacts-on-instagram-for-lead-gen-marketers/"

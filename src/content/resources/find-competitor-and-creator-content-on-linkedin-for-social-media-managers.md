@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "find competitor and creator content on Linkedin for social media managers"
+title: "Finding competitor and creator content on LinkedIn"
 description: "Paste a LinkedIn post URL and get the numbers behind it: likes, comments, shares, the full reaction breakdown, author details, post text and media…"
 slug: "find-competitor-and-creator-content-on-linkedin-for-social-media-managers"
 canonical_url: "/resources/find-competitor-and-creator-content-on-linkedin-for-social-media-managers/"

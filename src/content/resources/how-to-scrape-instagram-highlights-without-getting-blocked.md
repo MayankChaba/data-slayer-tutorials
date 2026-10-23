@@ -16,9 +16,6 @@ neuronwriter_brief_id: "a2953ff4afeaf078"
 neuronwriter_score: 95
 status: "published"
 ---
-
-# how to scrape instagram highlights without getting blocked
-
 Pulling Instagram highlights data by hand does not scale. You either copy-paste it one item at a time, or you fight the API — rate limits, auth, and pagination — and still end up with half the fields missing. For a social media manager, the data only matters if it is complete, fresh, and in a sheet you can act on. That is the gap Instagram Highlights Scraper · No Login closes.
 
 > **Instagram Highlights Scraper · No Login** runs **16,734 times a month** on Apify.

@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "instagram reposts scraper"
+title: "Instagram reposts scraper"
 description: "Extract everything from any public Instagram profile's Reposts tab — reposted content, original creator data, captions, engagement metrics, and video…"
 slug: "instagram-reposts-scraper"
 canonical_url: "/resources/instagram-reposts-scraper/"

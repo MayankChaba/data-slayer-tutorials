@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "facebook pages data extraction tool"
+title: "Extracting Facebook pages data"
 description: "Search and discover Facebook pages by keyword without login. Get page names, URLs, Facebook IDs, verification status, and profile images. Build prospect…"
 slug: "facebook-pages-data-extraction-tool"
 canonical_url: "/resources/facebook-pages-data-extraction-tool/"

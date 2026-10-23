@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "instagram users api alternative"
+title: "The Instagram users API alternative"
 description: "Type any keyword and get every Instagram profile Instagram surfaces for that topic — usernames, verification status, and profile data. Enriched tier adds…"
 slug: "instagram-users-api-alternative"
 canonical_url: "/resources/instagram-users-api-alternative/"

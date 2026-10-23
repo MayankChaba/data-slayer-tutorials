@@ -1,0 +1,30 @@
+name: Queue health
+
+# Daily watchdog for the article drip. Fails (-> GitHub notifies the owner) and
+# optionally posts a webhook alert when the publish queue is dry or its runway is
+# short. This is what makes a silent dry pipeline impossible: the drip itself
+# exits 0 on an empty queue, so nothing else would tell you.
+#
+# Runs after the drip (16:30 UTC) so it reflects the post-drip queue.
+on:
+  schedule:
+    - cron: "15 17 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Queue health check
+        env:
+          ALERT_WEBHOOK_URL: ${{ secrets.ALERT_WEBHOOK_URL }}
+        run: python scripts/queue_health.py

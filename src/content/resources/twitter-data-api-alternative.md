@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "twitter data api alternative"
+title: "The X (Twitter) data API alternative"
 description: "Search public Twitter/X posts and profiles by keyword, hashtag, mention, or documented advanced operator. Export unique results with bounded pagination…"
 slug: "twitter-data-api-alternative"
 canonical_url: "/resources/twitter-data-api-alternative/"

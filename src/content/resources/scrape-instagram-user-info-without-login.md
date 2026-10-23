@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "scrape instagram user info without login"
+title: "Scrape Instagram user info without login"
 description: "Scrape public Instagram profiles in bulk. Get the published account-creation month, registration country, username-change count, followers, bio, links…"
 slug: "scrape-instagram-user-info-without-login"
 canonical_url: "/resources/scrape-instagram-user-info-without-login/"
@@ -16,9 +16,6 @@ neuronwriter_brief_id: "114a9b4423b9a64d"
 neuronwriter_score: 78
 status: "published"
 ---
-
-# scrape instagram user info without login
-
 Pulling Instagram user info data by hand does not scale. You either copy-paste it one item at a time, or you fight the API — rate limits, auth, and pagination — and still end up with half the fields missing. For a social media manager, the data only matters if it is complete, fresh, and in a sheet you can act on. That is the gap Instagram Profile Scraper · Account Age & Verified Emails closes.
 
 > **Instagram Profile Scraper · Account Age & Verified Emails** runs **41,682 times a month** on Apify.

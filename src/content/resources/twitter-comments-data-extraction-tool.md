@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "twitter comments data extraction tool"
+title: "Extracting X (Twitter) comments data"
 description: "Extract replies and comments from any tweet without login. Get comment text, author profiles, likes, retweets, bookmarks, views, timestamps, and…"
 slug: "twitter-comments-data-extraction-tool"
 canonical_url: "/resources/twitter-comments-data-extraction-tool/"

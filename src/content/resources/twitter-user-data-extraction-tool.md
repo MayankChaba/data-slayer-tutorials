@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "twitter user data extraction tool"
+title: "Extracting X (Twitter) user data"
 description: "Extract public Twitter/X profile data from handles, profile URLs, or numeric user IDs. Export bios, follower and following counts, verification, images…"
 slug: "twitter-user-data-extraction-tool"
 canonical_url: "/resources/twitter-user-data-extraction-tool/"

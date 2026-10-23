@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "instagram post data extraction tool"
+title: "Extracting Instagram post data"
 description: "Get full details from any Instagram post or Reel by URL — no login. 128 fields: likes, comments, views, shares, saves, reposts, captions, audio metadata…"
 slug: "instagram-post-data-extraction-tool"
 canonical_url: "/resources/instagram-post-data-extraction-tool/"
@@ -16,9 +16,6 @@ neuronwriter_brief_id: "d5c8d50f2036464b"
 neuronwriter_score: 75
 status: "published"
 ---
-
-# instagram post data extraction tool
-
 Pulling Instagram post data by hand does not scale. You either copy-paste it one item at a time, or you fight the API — rate limits, auth, and pagination — and still end up with half the fields missing. For a social media manager, the data only matters if it is complete, fresh, and in a sheet you can act on. That is the gap Instagram Post & Reel Details Scraper · No Login closes.
 
 > **Instagram Post & Reel Details Scraper · No Login** runs **323,913 times a month** on Apify.

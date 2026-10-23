@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "linkedin company posts api alternative"
+title: "The LinkedIn company posts API alternative"
 description: "LinkedIn Company Posts Scraper - extract public data cookieless."
 slug: "linkedin-company-posts-api-alternative"
 canonical_url: "/resources/linkedin-company-posts-api-alternative/"

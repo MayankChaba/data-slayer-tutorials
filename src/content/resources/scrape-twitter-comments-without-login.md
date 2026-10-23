@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "scrape twitter comments without login"
+title: "Scrape X (Twitter) comments without login"
 description: "Extract replies and comments from any tweet without login. Get comment text, author profiles, likes, retweets, bookmarks, views, timestamps, and…"
 slug: "scrape-twitter-comments-without-login"
 canonical_url: "/resources/scrape-twitter-comments-without-login/"

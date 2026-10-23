@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "instagram stories api alternative"
+title: "The Instagram stories API alternative"
 description: "Capture Instagram Stories from any public profile before they disappear — no login. Get story media URLs, timestamps, stickers, mentions, music info…"
 slug: "instagram-stories-api-alternative"
 canonical_url: "/resources/instagram-stories-api-alternative/"

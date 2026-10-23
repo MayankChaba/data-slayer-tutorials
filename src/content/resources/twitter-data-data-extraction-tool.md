@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "twitter data data extraction tool"
+title: "Extracting X (Twitter) data data"
 description: "Search public Twitter/X posts and profiles by keyword, hashtag, mention, or documented advanced operator. Export unique results with bounded pagination…"
 slug: "twitter-data-data-extraction-tool"
 canonical_url: "/resources/twitter-data-data-extraction-tool/"

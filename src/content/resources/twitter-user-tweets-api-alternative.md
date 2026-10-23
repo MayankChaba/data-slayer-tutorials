@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "twitter user tweets api alternative"
+title: "The X (Twitter) user tweets API alternative"
 description: "Extract tweets from any public Twitter/X account without login. Get full tweet text, likes, retweets, replies, bookmarks, views, media attachments…"
 slug: "twitter-user-tweets-api-alternative"
 canonical_url: "/resources/twitter-user-tweets-api-alternative/"

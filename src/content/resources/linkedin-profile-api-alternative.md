@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "linkedin profile api alternative"
+title: "The LinkedIn profile API alternative"
 description: "Scrape fresh LinkedIn profile data in bulk from profile URLs. Export structured JSON, CSV, or Excel with experience, education, skills, job, company, and…"
 slug: "linkedin-profile-api-alternative"
 canonical_url: "/resources/linkedin-profile-api-alternative/"

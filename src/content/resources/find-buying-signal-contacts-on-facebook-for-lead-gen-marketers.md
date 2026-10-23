@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "find buying-signal contacts on Facebook for lead-gen marketers"
+title: "Finding buying-signal contacts on Facebook"
 description: "Search and discover Facebook pages by keyword without login. Get page names, URLs, Facebook IDs, verification status, and profile images. Build prospect…"
 slug: "find-buying-signal-contacts-on-facebook-for-lead-gen-marketers"
 canonical_url: "/resources/find-buying-signal-contacts-on-facebook-for-lead-gen-marketers/"
@@ -16,9 +16,6 @@ neuronwriter_brief_id: "769b910e579e8417"
 neuronwriter_score: 70
 status: "published"
 ---
-
-# find buying-signal contacts on Facebook for lead-gen marketers
-
 Pulling Facebook search pages data by hand does not scale. You either copy-paste it one item at a time, or you fight the API — rate limits, auth, and pagination — and still end up with half the fields missing. For a lead-gen marketer, the data only matters if it is complete, fresh, and in a sheet you can act on. That is the gap Facebook Page Search Scraper · No Cookies closes.
 
 > **Facebook Page Search Scraper · No Cookies** runs **13,860 times a month** on Apify.

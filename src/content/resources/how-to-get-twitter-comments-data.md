@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "how to get twitter comments data"
+title: "How to get X (Twitter) comments data"
 description: "Extract replies and comments from any tweet without login. Get comment text, author profiles, likes, retweets, bookmarks, views, timestamps, and…"
 slug: "how-to-get-twitter-comments-data"
 canonical_url: "/resources/how-to-get-twitter-comments-data/"

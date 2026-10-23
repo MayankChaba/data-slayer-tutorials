@@ -16,9 +16,6 @@ neuronwriter_brief_id: "01efb14c341d935f"
 neuronwriter_score: 82
 status: "published"
 ---
-
-# export facebook pages to csv
-
 Pulling Facebook search pages data by hand does not scale. You either copy-paste it one item at a time, or you fight the API — rate limits, auth, and pagination — and still end up with half the fields missing. For a lead-gen marketer, the data only matters if it is complete, fresh, and in a sheet you can act on. That is the gap Facebook Page Search Scraper · No Cookies closes.
 
 > **Facebook Page Search Scraper · No Cookies** runs **13,860 times a month** on Apify.

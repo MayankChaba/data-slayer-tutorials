@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "scrape twitter user without login"
+title: "Scrape X (Twitter) user without login"
 description: "Extract public Twitter/X profile data from handles, profile URLs, or numeric user IDs. Export bios, follower and following counts, verification, images…"
 slug: "scrape-twitter-user-without-login"
 canonical_url: "/resources/scrape-twitter-user-without-login/"

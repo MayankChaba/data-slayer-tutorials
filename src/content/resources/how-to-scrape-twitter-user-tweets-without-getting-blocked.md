@@ -16,9 +16,6 @@ neuronwriter_brief_id: "4e895456f89635c1"
 neuronwriter_score: 87
 status: "published"
 ---
-
-# how to scrape twitter user tweets without getting blocked
-
 Pulling Twitter user tweets data by hand does not scale. You either copy-paste it one item at a time, or you fight the API — rate limits, auth, and pagination — and still end up with half the fields missing. For a social media manager, the data only matters if it is complete, fresh, and in a sheet you can act on. That is the gap Twitter/X Tweets Scraper · No Cookies closes.
 
 > **Twitter/X Tweets Scraper · No Cookies** runs **1,064 times a month** on Apify.

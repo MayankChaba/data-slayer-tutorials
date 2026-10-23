@@ -1,6 +1,6 @@
 ---
 layout: "use-case"
-title: "scrape instagram users without login"
+title: "Scrape Instagram users without login"
 description: "Type any keyword and get every Instagram profile Instagram surfaces for that topic — usernames, verification status, and profile data. Enriched tier adds…"
 slug: "scrape-instagram-users-without-login"
 canonical_url: "/resources/scrape-instagram-users-without-login/"
