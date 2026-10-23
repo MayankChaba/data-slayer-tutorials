@@ -67,6 +67,19 @@ def main() -> int:
     age = (today - dt.date.fromisoformat(last)).days if last else None
     live = len(glob.glob(os.path.join(CONTENT, "*.md")))
 
+    # Art coverage: every published article should have a cover jpg and in-content
+    # art. These come from the laptop art pipeline, so a growing gap means it stalled.
+    slugs = [os.path.basename(p)[:-3] for p in glob.glob(os.path.join(CONTENT, "*.md"))]
+    covers_dir = os.path.join(ROOT, "public", "covers")
+    no_cover = [s for s in slugs if not os.path.exists(os.path.join(covers_dir, s + ".jpg"))]
+    no_art = []
+    for s in slugs:
+        try:
+            if "/art/" not in open(os.path.join(CONTENT, s + ".md")).read():
+                no_art.append(s)
+        except OSError:
+            pass
+
     problems = []
     if depth == 0:
         problems.append("queue is EMPTY (0 pending)")
@@ -76,8 +89,11 @@ def main() -> int:
         problems.append(f"last drip run was {age}d ago")
 
     summary = (f"queue depth={depth} runway={runway}d per_day={per_day} "
-               f"last_run={last} age={age}d live={live}")
+               f"last_run={last} age={age}d live={live} "
+               f"covers_missing={len(no_cover)} art_missing={len(no_art)}")
     print(summary)
+    if no_cover or no_art:
+        print(f"::warning::art gap: {len(no_cover)} articles without a cover, {len(no_art)} without in-content art")
 
     if not problems:
         print("queue health: OK")
