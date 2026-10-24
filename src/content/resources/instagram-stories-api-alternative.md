@@ -4,7 +4,7 @@ title: "The Instagram stories API alternative"
 description: "Capture Instagram Stories from any public profile before they disappear — no login. Get story media URLs, timestamps, stickers, mentions, music info…"
 slug: "instagram-stories-api-alternative"
 canonical_url: "/resources/instagram-stories-api-alternative/"
-date: "2026-10-17"
+date: "2026-10-18"
 tags: []
 target_keyword: "instagram stories api alternative"
 actor_username: "data-slayer"

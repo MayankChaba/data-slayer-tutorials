@@ -4,7 +4,7 @@ title: "Extracting Facebook pages data"
 description: "Search and discover Facebook pages by keyword without login. Get page names, URLs, Facebook IDs, verification status, and profile images. Build prospect…"
 slug: "facebook-pages-data-extraction-tool"
 canonical_url: "/resources/facebook-pages-data-extraction-tool/"
-date: "2026-10-17"
+date: "2026-10-19"
 tags: []
 target_keyword: "facebook pages data extraction tool"
 actor_username: "data-slayer"

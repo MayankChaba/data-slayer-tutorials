@@ -4,7 +4,7 @@ title: "The X (Twitter) user tweets API alternative"
 description: "Extract tweets from any public Twitter/X account without login. Get full tweet text, likes, retweets, replies, bookmarks, views, media attachments…"
 slug: "twitter-user-tweets-api-alternative"
 canonical_url: "/resources/twitter-user-tweets-api-alternative/"
-date: "2026-10-17"
+date: "2026-10-21"
 tags: []
 target_keyword: "twitter user tweets api alternative"
 actor_username: "data-slayer"

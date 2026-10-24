@@ -4,7 +4,7 @@ title: "The LinkedIn company posts API alternative"
 description: "LinkedIn Company Posts Scraper - extract public data cookieless."
 slug: "linkedin-company-posts-api-alternative"
 canonical_url: "/resources/linkedin-company-posts-api-alternative/"
-date: "2026-10-17"
+date: "2026-10-20"
 tags: []
 target_keyword: "linkedin company posts api alternative"
 actor_username: "data-slayer"

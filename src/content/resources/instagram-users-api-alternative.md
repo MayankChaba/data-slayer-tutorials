@@ -4,7 +4,7 @@ title: "The Instagram users API alternative"
 description: "Type any keyword and get every Instagram profile Instagram surfaces for that topic — usernames, verification status, and profile data. Enriched tier adds…"
 slug: "instagram-users-api-alternative"
 canonical_url: "/resources/instagram-users-api-alternative/"
-date: "2026-10-17"
+date: "2026-10-19"
 tags: []
 target_keyword: "instagram users api alternative"
 actor_username: "data-slayer"

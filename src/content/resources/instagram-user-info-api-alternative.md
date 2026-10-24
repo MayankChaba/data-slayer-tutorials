@@ -4,7 +4,7 @@ title: "The Instagram user info API alternative"
 description: "Scrape public Instagram profiles in bulk. Get the published account-creation month, registration country, username-change count, followers, bio, links…"
 slug: "instagram-user-info-api-alternative"
 canonical_url: "/resources/instagram-user-info-api-alternative/"
-date: "2026-10-17"
+date: "2026-10-18"
 tags: []
 target_keyword: "instagram user info api alternative"
 actor_username: "data-slayer"

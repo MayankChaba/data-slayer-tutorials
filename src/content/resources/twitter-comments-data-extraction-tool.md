@@ -4,7 +4,7 @@ title: "Extracting X (Twitter) comments data"
 description: "Extract replies and comments from any tweet without login. Get comment text, author profiles, likes, retweets, bookmarks, views, timestamps, and…"
 slug: "twitter-comments-data-extraction-tool"
 canonical_url: "/resources/twitter-comments-data-extraction-tool/"
-date: "2026-10-17"
+date: "2026-10-20"
 tags: []
 target_keyword: "twitter comments data extraction tool"
 actor_username: "data-slayer"

@@ -4,7 +4,7 @@ title: "Scrape X (Twitter) user without login"
 description: "Extract public Twitter/X profile data from handles, profile URLs, or numeric user IDs. Export bios, follower and following counts, verification, images…"
 slug: "scrape-twitter-user-without-login"
 canonical_url: "/resources/scrape-twitter-user-without-login/"
-date: "2026-10-17"
+date: "2026-10-19"
 tags: []
 target_keyword: "scrape twitter user without login"
 actor_username: "data-slayer"

@@ -4,7 +4,7 @@ title: "Extracting X (Twitter) user data"
 description: "Extract public Twitter/X profile data from handles, profile URLs, or numeric user IDs. Export bios, follower and following counts, verification, images…"
 slug: "twitter-user-data-extraction-tool"
 canonical_url: "/resources/twitter-user-data-extraction-tool/"
-date: "2026-10-17"
+date: "2026-10-20"
 tags: []
 target_keyword: "twitter user data extraction tool"
 actor_username: "data-slayer"

@@ -93,7 +93,11 @@ def to_astro(src_md: str, slug: str) -> str:
             f'description: "{g("description")}"',
             f'slug: "{slug}"',
             f'canonical_url: "/resources/{slug}/"',
-            f'date: "{g("date")}"',
+            # `date` is the PUBLISH date (when the drip put it live), not the draft's
+            # generation date — otherwise a whole batch shows one stale date and the
+            # site looks like it stopped publishing.
+            f'date: "{dt.date.today().isoformat()}"',
+            f'generated_at: "{g("date")}"',
             f'tags: {g("tags") or "[]"}',
             f'target_keyword: "{g("target_keyword")}"',
             f'actor_username: "{g("actor_username")}"',

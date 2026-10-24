@@ -4,7 +4,7 @@ title: "Scrape X (Twitter) comments without login"
 description: "Extract replies and comments from any tweet without login. Get comment text, author profiles, likes, retweets, bookmarks, views, timestamps, and…"
 slug: "scrape-twitter-comments-without-login"
 canonical_url: "/resources/scrape-twitter-comments-without-login/"
-date: "2026-10-17"
+date: "2026-10-18"
 tags: []
 target_keyword: "scrape twitter comments without login"
 actor_username: "data-slayer"

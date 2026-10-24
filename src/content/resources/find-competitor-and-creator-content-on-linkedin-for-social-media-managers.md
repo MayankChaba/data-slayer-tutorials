@@ -4,7 +4,7 @@ title: "Finding competitor and creator content on LinkedIn"
 description: "Paste a LinkedIn post URL and get the numbers behind it: likes, comments, shares, the full reaction breakdown, author details, post text and media…"
 slug: "find-competitor-and-creator-content-on-linkedin-for-social-media-managers"
 canonical_url: "/resources/find-competitor-and-creator-content-on-linkedin-for-social-media-managers/"
-date: "2026-10-17"
+date: "2026-10-18"
 tags: []
 target_keyword: "find competitor and creator content on Linkedin for social media managers"
 actor_username: "data-slayer"

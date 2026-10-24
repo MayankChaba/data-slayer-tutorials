@@ -4,7 +4,7 @@ title: "Instagram reposts scraper"
 description: "Extract everything from any public Instagram profile's Reposts tab — reposted content, original creator data, captions, engagement metrics, and video…"
 slug: "instagram-reposts-scraper"
 canonical_url: "/resources/instagram-reposts-scraper/"
-date: "2026-10-17"
+date: "2026-10-20"
 tags: []
 target_keyword: "instagram reposts scraper"
 actor_username: "data-slayer"
