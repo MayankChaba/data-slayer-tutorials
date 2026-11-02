@@ -46,6 +46,14 @@ const hubHref = (id: string) =>
     <meta property="og:image:alt" content={`${site.wordmark} — scraper APIs for public social-media data`} />
     <meta name="twitter:image" content={new URL("/og/dataslayer-og.jpg", site.url).href} />
     <slot name="head" />
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EGML6K3LJ0"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-EGML6K3LJ0');
+    </script>
   </head>
   <body class="min-h-screen bg-bg text-text">
     <header class="sticky top-0 z-40 border-b border-line bg-bg/70 backdrop-blur-xl">
