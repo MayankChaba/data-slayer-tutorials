@@ -1,14 +1,5 @@
 [
  {
-  "slug": "facebook-marketplace-scraper",
-  "priority": "P2",
-  "runs_30d": 700,
-  "target_query": "facebook marketplace scraper",
-  "actor_account": "data-slayer",
-  "actor_slug": "facebook-marketplace-details",
-  "actor_title": "Facebook Marketplace Listing Scraper \u00b7 No Cookies"
- },
- {
   "slug": "scrape-facebook-marketplace-without-login",
   "priority": "P2",
   "runs_30d": 700,
@@ -54,15 +45,6 @@
   "actor_title": "Facebook Marketplace Listing Scraper \u00b7 No Cookies"
  },
  {
-  "slug": "how-to-scrape-twitter-trends-by-location-without-getting-blocked",
-  "priority": "P2",
-  "runs_30d": 626,
-  "target_query": "how to scrape twitter trends by location without getting blocked",
-  "actor_account": "data-slayer",
-  "actor_slug": "twitter-trends-by-location",
-  "actor_title": "Twitter/X Trends Scraper \u00b7 No Cookies"
- },
- {
   "slug": "twitter-trends-by-location-scraper",
   "priority": "P2",
   "runs_30d": 626,
@@ -106,15 +88,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "twitter-trends-by-location",
   "actor_title": "Twitter/X Trends Scraper \u00b7 No Cookies"
- },
- {
-  "slug": "how-to-scrape-instagram-followers-without-getting-blocked",
-  "priority": "P2",
-  "runs_30d": 510,
-  "target_query": "how to scrape instagram followers without getting blocked",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-followers-scraper---no-login",
-  "actor_title": "Instagram Followers Scraper & Enricher \u00b7 No Login"
  },
  {
   "slug": "instagram-followers-scraper",
@@ -169,15 +142,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "instagram-followers-scraper---no-login",
   "actor_title": "Instagram Followers Scraper & Enricher \u00b7 No Login"
- },
- {
-  "slug": "how-to-scrape-instagram-likes-without-getting-blocked",
-  "priority": "P2",
-  "runs_30d": 480,
-  "target_query": "how to scrape instagram likes without getting blocked",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-likes",
-  "actor_title": "Instagram Likes Scraper \u00b7 No Cookies"
  },
  {
   "slug": "instagram-likes-scraper",
@@ -238,15 +202,6 @@
   "priority": "P2",
   "runs_30d": 368,
   "target_query": "how to scrape linkedin company without getting blocked",
-  "actor_account": "data-slayer",
-  "actor_slug": "linkedin-company-scraper",
-  "actor_title": "LinkedIn Company Scraper"
- },
- {
-  "slug": "linkedin-company-scraper",
-  "priority": "P2",
-  "runs_30d": 368,
-  "target_query": "linkedin company scraper",
   "actor_account": "data-slayer",
   "actor_slug": "linkedin-company-scraper",
   "actor_title": "LinkedIn Company Scraper"
