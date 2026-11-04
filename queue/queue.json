@@ -1,14 +1,5 @@
 [
  {
-  "slug": "facebook-marketplace-api-alternative",
-  "priority": "P2",
-  "runs_30d": 700,
-  "target_query": "facebook marketplace api alternative",
-  "actor_account": "data-slayer",
-  "actor_slug": "facebook-marketplace-details",
-  "actor_title": "Facebook Marketplace Listing Scraper \u00b7 No Cookies"
- },
- {
   "slug": "export-facebook-marketplace-to-csv",
   "priority": "P2",
   "runs_30d": 700,
@@ -36,15 +27,6 @@
   "actor_title": "Facebook Marketplace Listing Scraper \u00b7 No Cookies"
  },
  {
-  "slug": "scrape-twitter-trends-by-location-without-login",
-  "priority": "P2",
-  "runs_30d": 626,
-  "target_query": "scrape twitter trends by location without login",
-  "actor_account": "data-slayer",
-  "actor_slug": "twitter-trends-by-location",
-  "actor_title": "Twitter/X Trends Scraper \u00b7 No Cookies"
- },
- {
   "slug": "twitter-trends-by-location-api-alternative",
   "priority": "P2",
   "runs_30d": 626,
@@ -70,15 +52,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "twitter-trends-by-location",
   "actor_title": "Twitter/X Trends Scraper \u00b7 No Cookies"
- },
- {
-  "slug": "scrape-instagram-followers-without-login",
-  "priority": "P2",
-  "runs_30d": 510,
-  "target_query": "scrape instagram followers without login",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-followers-scraper---no-login",
-  "actor_title": "Instagram Followers Scraper & Enricher \u00b7 No Login"
  },
  {
   "slug": "instagram-followers-api-alternative",
@@ -117,15 +90,6 @@
   "actor_title": "Instagram Followers Scraper & Enricher \u00b7 No Login"
  },
  {
-  "slug": "instagram-likes-scraper",
-  "priority": "P2",
-  "runs_30d": 480,
-  "target_query": "instagram likes scraper",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-likes",
-  "actor_title": "Instagram Likes Scraper \u00b7 No Cookies"
- },
- {
   "slug": "instagram-likes-api-alternative",
   "priority": "P2",
   "runs_30d": 480,
@@ -160,15 +124,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "instagram-likes",
   "actor_title": "Instagram Likes Scraper \u00b7 No Cookies"
- },
- {
-  "slug": "scrape-linkedin-company-without-login",
-  "priority": "P2",
-  "runs_30d": 368,
-  "target_query": "scrape linkedin company without login",
-  "actor_account": "data-slayer",
-  "actor_slug": "linkedin-company-scraper",
-  "actor_title": "LinkedIn Company Scraper"
  },
  {
   "slug": "linkedin-company-api-alternative",
