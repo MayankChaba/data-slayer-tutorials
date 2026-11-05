@@ -1,14 +1,5 @@
 [
  {
-  "slug": "export-facebook-marketplace-to-csv",
-  "priority": "P2",
-  "runs_30d": 700,
-  "target_query": "export facebook marketplace to csv",
-  "actor_account": "data-slayer",
-  "actor_slug": "facebook-marketplace-details",
-  "actor_title": "Facebook Marketplace Listing Scraper \u00b7 No Cookies"
- },
- {
   "slug": "find-product-and-pricing-data-on-facebook-for-ecommerce-operators",
   "priority": "P2",
   "runs_30d": 700,
@@ -27,15 +18,6 @@
   "actor_title": "Facebook Marketplace Listing Scraper \u00b7 No Cookies"
  },
  {
-  "slug": "twitter-trends-by-location-api-alternative",
-  "priority": "P2",
-  "runs_30d": 626,
-  "target_query": "twitter trends by location api alternative",
-  "actor_account": "data-slayer",
-  "actor_slug": "twitter-trends-by-location",
-  "actor_title": "Twitter/X Trends Scraper \u00b7 No Cookies"
- },
- {
   "slug": "export-twitter-trends-by-location-to-csv",
   "priority": "P2",
   "runs_30d": 626,
@@ -52,15 +34,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "twitter-trends-by-location",
   "actor_title": "Twitter/X Trends Scraper \u00b7 No Cookies"
- },
- {
-  "slug": "instagram-followers-api-alternative",
-  "priority": "P2",
-  "runs_30d": 510,
-  "target_query": "instagram followers api alternative",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-followers-scraper---no-login",
-  "actor_title": "Instagram Followers Scraper & Enricher \u00b7 No Login"
  },
  {
   "slug": "export-instagram-followers-to-csv",
@@ -99,15 +72,6 @@
   "actor_title": "Instagram Likes Scraper \u00b7 No Cookies"
  },
  {
-  "slug": "export-instagram-likes-to-csv",
-  "priority": "P2",
-  "runs_30d": 480,
-  "target_query": "export instagram likes to csv",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-likes",
-  "actor_title": "Instagram Likes Scraper \u00b7 No Cookies"
- },
- {
   "slug": "how-to-get-instagram-likes-data",
   "priority": "P2",
   "runs_30d": 480,
@@ -130,15 +94,6 @@
   "priority": "P2",
   "runs_30d": 368,
   "target_query": "linkedin company api alternative",
-  "actor_account": "data-slayer",
-  "actor_slug": "linkedin-company-scraper",
-  "actor_title": "LinkedIn Company Scraper"
- },
- {
-  "slug": "export-linkedin-company-to-csv",
-  "priority": "P2",
-  "runs_30d": 368,
-  "target_query": "export linkedin company to csv",
   "actor_account": "data-slayer",
   "actor_slug": "linkedin-company-scraper",
   "actor_title": "LinkedIn Company Scraper"
