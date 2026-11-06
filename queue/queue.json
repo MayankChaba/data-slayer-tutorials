@@ -1,14 +1,5 @@
 [
  {
-  "slug": "find-product-and-pricing-data-on-facebook-for-ecommerce-operators",
-  "priority": "P2",
-  "runs_30d": 700,
-  "target_query": "find product and pricing data on Facebook for ecommerce operators",
-  "actor_account": "data-slayer",
-  "actor_slug": "facebook-marketplace-details",
-  "actor_title": "Facebook Marketplace Listing Scraper \u00b7 No Cookies"
- },
- {
   "slug": "how-to-get-facebook-marketplace-data",
   "priority": "P2",
   "runs_30d": 700,
@@ -18,15 +9,6 @@
   "actor_title": "Facebook Marketplace Listing Scraper \u00b7 No Cookies"
  },
  {
-  "slug": "export-twitter-trends-by-location-to-csv",
-  "priority": "P2",
-  "runs_30d": 626,
-  "target_query": "export twitter trends by location to csv",
-  "actor_account": "data-slayer",
-  "actor_slug": "twitter-trends-by-location",
-  "actor_title": "Twitter/X Trends Scraper \u00b7 No Cookies"
- },
- {
   "slug": "twitter-trends-by-location-data-extraction-tool",
   "priority": "P2",
   "runs_30d": 626,
@@ -34,15 +16,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "twitter-trends-by-location",
   "actor_title": "Twitter/X Trends Scraper \u00b7 No Cookies"
- },
- {
-  "slug": "export-instagram-followers-to-csv",
-  "priority": "P2",
-  "runs_30d": 510,
-  "target_query": "export instagram followers to csv",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-followers-scraper---no-login",
-  "actor_title": "Instagram Followers Scraper & Enricher \u00b7 No Login"
  },
  {
   "slug": "how-to-get-instagram-followers-data",
@@ -63,15 +36,6 @@
   "actor_title": "Instagram Followers Scraper & Enricher \u00b7 No Login"
  },
  {
-  "slug": "instagram-likes-api-alternative",
-  "priority": "P2",
-  "runs_30d": 480,
-  "target_query": "instagram likes api alternative",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-likes",
-  "actor_title": "Instagram Likes Scraper \u00b7 No Cookies"
- },
- {
   "slug": "how-to-get-instagram-likes-data",
   "priority": "P2",
   "runs_30d": 480,
@@ -88,15 +52,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "instagram-likes",
   "actor_title": "Instagram Likes Scraper \u00b7 No Cookies"
- },
- {
-  "slug": "linkedin-company-api-alternative",
-  "priority": "P2",
-  "runs_30d": 368,
-  "target_query": "linkedin company api alternative",
-  "actor_account": "data-slayer",
-  "actor_slug": "linkedin-company-scraper",
-  "actor_title": "LinkedIn Company Scraper"
  },
  {
   "slug": "find-prospect-and-company-data-on-linkedin-for-sales-bd-leads",

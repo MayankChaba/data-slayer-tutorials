@@ -168,3 +168,8 @@ instagram-likes-scraper,2026-11-05
 scrape-instagram-followers-without-login,2026-11-05
 scrape-linkedin-company-without-login,2026-11-05
 scrape-twitter-trends-by-location-without-login,2026-11-05
+export-facebook-marketplace-to-csv,2026-11-06
+export-instagram-likes-to-csv,2026-11-06
+export-linkedin-company-to-csv,2026-11-06
+instagram-followers-api-alternative,2026-11-06
+twitter-trends-by-location-api-alternative,2026-11-06
