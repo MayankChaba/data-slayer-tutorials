@@ -1,32 +1,5 @@
 [
  {
-  "slug": "how-to-get-facebook-marketplace-data",
-  "priority": "P2",
-  "runs_30d": 700,
-  "target_query": "how to get facebook marketplace data",
-  "actor_account": "data-slayer",
-  "actor_slug": "facebook-marketplace-details",
-  "actor_title": "Facebook Marketplace Listing Scraper \u00b7 No Cookies"
- },
- {
-  "slug": "twitter-trends-by-location-data-extraction-tool",
-  "priority": "P2",
-  "runs_30d": 626,
-  "target_query": "twitter trends by location data extraction tool",
-  "actor_account": "data-slayer",
-  "actor_slug": "twitter-trends-by-location",
-  "actor_title": "Twitter/X Trends Scraper \u00b7 No Cookies"
- },
- {
-  "slug": "how-to-get-instagram-followers-data",
-  "priority": "P2",
-  "runs_30d": 510,
-  "target_query": "how to get instagram followers data",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-followers-scraper---no-login",
-  "actor_title": "Instagram Followers Scraper & Enricher \u00b7 No Login"
- },
- {
   "slug": "instagram-followers-data-extraction-tool",
   "priority": "P2",
   "runs_30d": 510,
@@ -34,15 +7,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "instagram-followers-scraper---no-login",
   "actor_title": "Instagram Followers Scraper & Enricher \u00b7 No Login"
- },
- {
-  "slug": "how-to-get-instagram-likes-data",
-  "priority": "P2",
-  "runs_30d": 480,
-  "target_query": "how to get instagram likes data",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-likes",
-  "actor_title": "Instagram Likes Scraper \u00b7 No Cookies"
  },
  {
   "slug": "instagram-likes-data-extraction-tool",
@@ -67,15 +31,6 @@
   "priority": "P2",
   "runs_30d": 368,
   "target_query": "how to get linkedin company data",
-  "actor_account": "data-slayer",
-  "actor_slug": "linkedin-company-scraper",
-  "actor_title": "LinkedIn Company Scraper"
- },
- {
-  "slug": "linkedin-company-data-extraction-tool",
-  "priority": "P2",
-  "runs_30d": 368,
-  "target_query": "linkedin company data extraction tool",
   "actor_account": "data-slayer",
   "actor_slug": "linkedin-company-scraper",
   "actor_title": "LinkedIn Company Scraper"
