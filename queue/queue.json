@@ -1,32 +1,5 @@
 [
  {
-  "slug": "instagram-followers-data-extraction-tool",
-  "priority": "P2",
-  "runs_30d": 510,
-  "target_query": "instagram followers data extraction tool",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-followers-scraper---no-login",
-  "actor_title": "Instagram Followers Scraper & Enricher \u00b7 No Login"
- },
- {
-  "slug": "instagram-likes-data-extraction-tool",
-  "priority": "P2",
-  "runs_30d": 480,
-  "target_query": "instagram likes data extraction tool",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-likes",
-  "actor_title": "Instagram Likes Scraper \u00b7 No Cookies"
- },
- {
-  "slug": "find-prospect-and-company-data-on-linkedin-for-sales-bd-leads",
-  "priority": "P2",
-  "runs_30d": 368,
-  "target_query": "find prospect and company data on Linkedin for sales / BD leads",
-  "actor_account": "data-slayer",
-  "actor_slug": "linkedin-company-scraper",
-  "actor_title": "LinkedIn Company Scraper"
- },
- {
   "slug": "how-to-get-linkedin-company-data",
   "priority": "P2",
   "runs_30d": 368,
@@ -34,15 +7,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "linkedin-company-scraper",
   "actor_title": "LinkedIn Company Scraper"
- },
- {
-  "slug": "how-to-scrape-instagram-tagged-posts-without-getting-blocked",
-  "priority": "P2",
-  "runs_30d": 345,
-  "target_query": "how to scrape instagram tagged posts without getting blocked",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-tagged-posts",
-  "actor_title": "Instagram Tagged Posts & Mentions Scraper \u00b7 No Login"
  },
  {
   "slug": "instagram-tagged-posts-scraper",
@@ -97,15 +61,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "instagram-tagged-posts",
   "actor_title": "Instagram Tagged Posts & Mentions Scraper \u00b7 No Login"
- },
- {
-  "slug": "how-to-scrape-facebook-page-posts-without-getting-blocked",
-  "priority": "P2",
-  "runs_30d": 329,
-  "target_query": "how to scrape facebook page posts without getting blocked",
-  "actor_account": "data-slayer",
-  "actor_slug": "facebook-page-posts",
-  "actor_title": "Facebook Page Posts Scraper \u00b7 No Cookies"
  },
  {
   "slug": "facebook-page-posts-scraper",
