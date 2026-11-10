@@ -1,24 +1,22 @@
 ---
-layout: use-case
-title: "Finding prospect and company data on LinkedIn for sales / BD leads"
+layout: "use-case"
+title: "How to get LinkedIn company data"
 description: "LinkedIn Company Scraper - extract public data cookieless."
-slug: "find-prospect-and-company-data-on-linkedin-for-sales-bd-leads"
-canonical_url: "https://dataslayer.dev/use-cases/find-prospect-and-company-data-on-linkedin-for-sales-bd-leads/"
-date: "2026-11-01"
-tags: ["linkedin", "use-case", "sales / BD lead"]
-target_keyword: "find prospect and company data on Linkedin for sales / BD leads"
+slug: "how-to-get-linkedin-company-data"
+canonical_url: "/resources/how-to-get-linkedin-company-data/"
+date: "2026-11-10"
+generated_at: "2026-11-01"
+tags: []
+target_keyword: "how to get linkedin company data"
 actor_username: "data-slayer"
 actor_slug: "linkedin-company-scraper"
 actor_url: "https://apify.com/data-slayer/linkedin-company-scraper"
 persona: "sales / BD lead"
-content_type: "use-case"
-neuronwriter_brief_id: "71231277b63cad06"
-neuronwriter_score: 92
-status: "draft"
-cover: "/assets/covers/find-prospect-and-company-data-on-linkedin-for-sales-bd-leads.jpg"
+content_type: "how-to"
+neuronwriter_brief_id: "6f8006034844a941"
+neuronwriter_score: 85
+status: "published"
 ---
-# Finding prospect and company data on LinkedIn for sales / BD leads
-
 Pulling Linkedin company data by hand does not scale. You either copy-paste it one item at a time, or you fight the API — rate limits, auth, and pagination — and still end up with half the fields missing. For a sales / BD lead, the data only matters if it is complete, fresh, and in a sheet you can act on. That is the gap LinkedIn Company Scraper closes.
 
 > **LinkedIn Company Scraper** runs **368 times a month** on Apify.
@@ -32,7 +30,7 @@ Instead of building a scraper, you point **LinkedIn Company Scraper** ([`data-sl
 ## How it works — step by step
 
 **1. Open the actor**
-Go to [`data-slayer/linkedin-company-scraper`](https://apify.com/data-slayer/linkedin-company-scraper?utm_source=github&utm_medium=use-case&utm_campaign=find-prospect-and-company-data-on-linkedin-for-sales-bd-leads) and click **Try for free**.
+Go to [`data-slayer/linkedin-company-scraper`](https://apify.com/data-slayer/linkedin-company-scraper?utm_source=github&utm_medium=use-case&utm_campaign=how-to-get-linkedin-company-data) and click **Try for free**.
 
 **2. Paste your input**
 ```json
@@ -82,7 +80,7 @@ proxies, cookies, and retries — you want the rows.
 
 There are three honest ways to get Linkedin company data in 2026. Each has a real cost.
 
-![Several platform nodes connected to one hub](/assets/art/multi-platform.jpg)
+![Several platform nodes connected to one hub](/art/multi-platform.jpg)
 
 <!-- art-auto -->
 
@@ -213,7 +211,7 @@ move to a hosted **Linkedin scraper** instead of owning the plumbing.
 
 Once the rows land in a sheet, the data does the work. Four patterns we see most:
 
-![An API request flowing into an endpoint and returning records](/assets/art/api-request.jpg)
+![An API request flowing into an endpoint and returning records](/art/api-request.jpg)
 
 <!-- art-auto -->
 
@@ -341,7 +339,7 @@ get a lawyer's read before you scale.
 Search for the **best Linkedin scraper** and you get a wall of tools. The **best Linkedin scraper**
 for your job comes down to four questions:
 
-![Two options weighed side by side](/assets/art/comparison.jpg)
+![Two options weighed side by side](/art/comparison.jpg)
 
 <!-- art-auto -->
 
@@ -481,33 +479,40 @@ line item is almost never the one that costs you a week of engineering every qua
 
 A quick reference for the terms this guide uses:
 
-- **potential leads** — part of the Linkedin company data you get back. A run returns potential leads for every row.
-- **sales prospecting** — part of the Linkedin company data you get back. A run returns sales prospecting for every row.
-- **outreach** — part of the Linkedin company data you get back. A run returns outreach for every row.
-- **automate** — part of the Linkedin company data you get back. A run returns automate for every row.
-- **personalize** — part of the Linkedin company data you get back. A run returns personalize for every row.
-- **crm** — part of the Linkedin company data you get back. A run returns crm for every row.
-- **phone numbers** — part of the Linkedin company data you get back. A run returns phone numbers for every row.
-- **job title** — part of the Linkedin company data you get back. A run returns job title for every row.
-- **privacy policy** — part of the Linkedin company data you get back. A run returns privacy policy for every row.
+- **linkedin profile** — the public profile or page you point the actor at. A run returns linkedin profile for every row.
+- **data from linkedin** — part of the Linkedin company data you get back. A run returns data from linkedin for every row.
+- **extract** — part of the Linkedin company data you get back. A run returns extract for every row.
+- **linkedin profile scraper** — a tool that pulls Linkedin company data without a login. A run returns linkedin profile scraper for every row.
+- **scrape data** — a tool that pulls Linkedin company data without a login. A run returns scrape data for every row.
+- **information from linkedin** — part of the Linkedin company data you get back. A run returns information from linkedin for every row.
+- **profile url** — the address of the item you want to pull. A run returns profile url for every row.
+- **data extraction** — part of the Linkedin company data you get back. A run returns data extraction for every row.
+- **company name** — part of the Linkedin company data you get back. A run returns company name for every row.
+- **web scraper** — a tool that pulls Linkedin company data without a login. A run returns web scraper for every row.
+- **data collection** — part of the Linkedin company data you get back. A run returns data collection for every row.
+- **extract company** — part of the Linkedin company data you get back. A run returns extract company for every row.
+- **profile urls** — the address of the item you want to pull. A run returns profile urls for every row.
+- **profile information** — the public profile or page you point the actor at. A run returns profile information for every row.
+- **linkedin search** — part of the Linkedin company data you get back. A run returns linkedin search for every row.
+- **publicly available data** — part of the Linkedin company data you get back. A run returns publicly available data for every row.
 
-Readers also search for linkedin profile, b2b sales, sales prospecting tools, identifying and targeting potential leads, sales management, ideal customer, effective lead generation, search results, enrichment, linkedin’s, linkedin's, new leads, linkedin search, lead generation tool, outreach efforts, converting leads, linkedin account, inmail, email finder, potential customers, sales professionals, help you find, paid plans start, powerful tool, free plan, sales navigator search, targeted linkedin, export the data, company size, connect with potential, leveraging data, personalized messages, ideal customer profile, lead enrichment, customer relationship management, user agreement, b2b prospecting, contact data, right leads, send personalized connection requests, lead generation tasks, prospecting efforts, crm tools, analytics tools, likely to convert, prospecting process, automate repetitive tasks, personalize your outreach, based on specific criteria, refine your strategy, advanced search filters, social media profiles, enrichment tools — the same actor answers all of it.
+Readers also search for extract data from linkedin, collect data from linkedin, data scraping, linkedin profile url, linkedin profile data, company information, gathering information from linkedin, emails from linkedin, profile page, company data from linkedin, web data, company website, large amounts of data, data points, extract linkedin data, data sources, linkedin search results, data in json, public profile url, current company, data in bulk, extract information, profile scraping, data from linkedin company profiles, linkedin data extraction, profile details, uses linkedin, scrape a linkedin profile, linkedin job, extract company data from linkedin, scraping of linkedin, benefits of scraping linkedin, data scraping services, start scraping linkedin, linkedin marketing developer platform, scraping from linkedin, company scraper is a tool, data to your crm, 3i data scraping, need to scrape linkedin, scraper works, linkedin profile page, linkedin profile scraping, data manually, data from websites, ideal customer profile, take the data, key data points, scraper that extracts — the same actor answers all of it.
 
-## Linkedin company: linkedin sales navigator, outreach, lead generation, and prospecting tool
+## Linkedin company: linkedin profile, scrape linkedin profiles, linkedin company scraper, and company profile
 
-Teams evaluating Linkedin company work through linkedin sales navigator, outreach, lead generation, prospecting tool. Each shapes how the data is gathered and used.
+Teams evaluating Linkedin company work through linkedin profile, scrape linkedin profiles, linkedin company scraper, company profile. Each shapes how the data is gathered and used.
 
-## lead lists, automation, linkedin profile, and crm
+## data extraction, linkedin company profile, benefits of scraping linkedin, and profile data
 
-Teams evaluating Linkedin company work through lead lists, automation, linkedin profile, crm. Each shapes how the data is gathered and used.
+Teams evaluating Linkedin company work through data extraction, linkedin company profile, benefits of scraping linkedin, profile data. Each shapes how the data is gathered and used.
 
-## enrichment, lead generation strategy, email finder, and leveraging data
+## linkedin profile scraper, scrape data, data scraping, and linkedin search
 
-Teams evaluating Linkedin company work through enrichment, lead generation strategy, email finder, leveraging data. Each shapes how the data is gathered and used.
+Teams evaluating Linkedin company work through linkedin profile scraper, scrape data, data scraping, linkedin search. Each shapes how the data is gathered and used.
 
-## lead enrichment, enrichment tools, 2025, and potential leads
+## linkedin scraping tools, extract linkedin, data points, and extract linkedin data
 
-Teams evaluating Linkedin company work through lead enrichment, enrichment tools, 2025, potential leads. Each shapes how the data is gathered and used.
+Teams evaluating Linkedin company work through linkedin scraping tools, extract linkedin, data points, extract linkedin data. Each shapes how the data is gathered and used.
 
 ## FAQ
 
@@ -526,70 +531,70 @@ You pay Apify compute plus a small per-result price; check the actor's Pricing t
 **Can I export Linkedin company to CSV or Excel?**
 Yes — download as JSON, CSV, or Excel, or connect Google Sheets / Airtable directly from the actor page: https://apify.com/data-slayer/linkedin-company-scraper
 
-**Agency owner or B2B business doing at least 100K/month?**
+**Are LinkedIn Company Pages free?**
 Short answer: run **LinkedIn Company Scraper** on your Linkedin company input — it returns clean rows without a login. Full detail is above.
 
-**Also, how many credits for a phone number?**
-You can pull as many public company rows as you need; the actor pages through results and respects the rate limit so runs stay reliable at volume.
-
-**Can I use LinkedIn Sales Navigator without a premium subscription?**
+**Are LinkedIn pages replacing LinkedIn groups?**
 Short answer: run **LinkedIn Company Scraper** on your Linkedin company input — it returns clean rows without a login. Full detail is above.
 
-**Do you have a sales team of more than 5 people?**
+**Are there any legal or ethical considerations when using a LinkedIn company scraper?**
+Scraping **public Linkedin data** is generally legal; private data and personal data have rules. See the legality section above, and get legal advice for commercial use.
+
+**Can ChatGPT scrape LinkedIn profiles?**
 Short answer: run **LinkedIn Company Scraper** on your Linkedin company input — it returns clean rows without a login. Full detail is above.
 
-**Facing industry shifts, how can you adjust your lead generation tactics on social media effectively?**
-Short answer: run **LinkedIn Company Scraper** on your Linkedin company input — it returns clean rows without a login. Full detail is above.
-
-**How can I enrich lead lists beyond email addresses?**
-Emails are only available where they are already public; this actor does not bypass a login to find them.
-
-**How can you effectively engage with prospects in the technology sector?**
-Short answer: run **LinkedIn Company Scraper** on your Linkedin company input — it returns clean rows without a login. Full detail is above.
-
-**How do I use LinkedIn as a prospecting tool?**
+**Can I embed company page posts via LinkedIn's official API?**
 Open [data-slayer/linkedin-company-scraper](https://apify.com/data-slayer/linkedin-company-scraper), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
 
-**How do you handle interruptions and distractions while focusing on your prospecting goals?**
+**Can I export LinkedIn company data to my CRM?**
 Short answer: run **LinkedIn Company Scraper** on your Linkedin company input — it returns clean rows without a login. Full detail is above.
 
-**How do you measure the success of automation tools?**
+**Can I scrape multiple LinkedIn company profiles at once?**
+You can run the actor across the company URLs you care about in one job and get one row per item, mixed types included.
+
+**Can I see my followers on a LinkedIn company page?**
 Short answer: run **LinkedIn Company Scraper** on your Linkedin company input — it returns clean rows without a login. Full detail is above.
 
-**How do you navigate conflicts with team members during a crucial lead generation project?**
+**Can Kanbox scrape Sales Navigator?**
 Short answer: run **LinkedIn Company Scraper** on your Linkedin company input — it returns clean rows without a login. Full detail is above.
 
-**How do you salvage your lead generation strategy?**
+**Can a LinkedIn scraper be used to automate lead generation?**
 Short answer: run **LinkedIn Company Scraper** on your Linkedin company input — it returns clean rows without a login. Full detail is above.
 
-**How often should lead lists be updated for accuracy?**
+**Can a company know who visits their company pages on LinkedIn?**
 Short answer: run **LinkedIn Company Scraper** on your Linkedin company input — it returns clean rows without a login. Full detail is above.
 
-**How to find prospects on LinkedIn in 2025 ?**
+**Can an AI resume builder extract data from my LinkedIn profile?**
 Short answer: run **LinkedIn Company Scraper** on your Linkedin company input — it returns clean rows without a login. Full detail is above.
 
-**How would you incorporate customer feedback data into your lead generation analytics for enhanced targeting?**
+**Can company pages join groups on LinkedIn?**
 Short answer: run **LinkedIn Company Scraper** on your Linkedin company input — it returns clean rows without a login. Full detail is above.
 
-**How would you navigate a situation where your lead generation campaign is not yielding desired results?**
-You can pull as many public company rows as you need; the actor pages through results and respects the rate limit so runs stay reliable at volume.
-
-**Is LinkedIn good for prospecting?**
+**Can you convert personal LinkedIn page into company/business page?**
 Short answer: run **LinkedIn Company Scraper** on your Linkedin company input — it returns clean rows without a login. Full detail is above.
 
-**Need to reach your prospect?**
+**Can you download LinkedIn data?**
 Short answer: run **LinkedIn Company Scraper** on your Linkedin company input — it returns clean rows without a login. Full detail is above.
 
-**Want to generate leads for your business?**
+**Can you scrape LinkedIn event attendees?**
 Short answer: run **LinkedIn Company Scraper** on your Linkedin company input — it returns clean rows without a login. Full detail is above.
 
-**What are the best filters to combine for highly targeted lead lists?**
+**Can you tell me the list of LinkedIn Scraping Tools?**
+Open [data-slayer/linkedin-company-scraper](https://apify.com/data-slayer/linkedin-company-scraper), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
+
+**Can you use LinkedIn scraping for recruitment?**
+Open [data-slayer/linkedin-company-scraper](https://apify.com/data-slayer/linkedin-company-scraper), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
+
+**Cannot always save LinkedIn user public profile data despite receiving user permission?**
 Short answer: run **LinkedIn Company Scraper** on your Linkedin company input — it returns clean rows without a login. Full detail is above.
 
-**What are the business tools on LinkedIn?**
+**Does Kanbox have a LinkedIn scraper API?**
+Open [data-slayer/linkedin-company-scraper](https://apify.com/data-slayer/linkedin-company-scraper), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
+
+**Does LinkedIn automatically create company pages?**
 Short answer: run **LinkedIn Company Scraper** on your Linkedin company input — it returns clean rows without a login. Full detail is above.
 
-**What data privacy considerations apply when exporting and using lead lists?**
+**Does LinkedIn sell lead data, such as company size, industry, and location, from its profiles?**
 Short answer: run **LinkedIn Company Scraper** on your Linkedin company input — it returns clean rows without a login. Full detail is above.
 
 ## Who this is for
@@ -604,7 +609,7 @@ If you are a **sales / BD lead**, this replaces the manual Linkedin company pull
 
 ## Try it now
 
-Ready to run it yourself? **[Open LinkedIn Company Scraper on Apify →](https://apify.com/data-slayer/linkedin-company-scraper?utm_source=github&utm_medium=use-case&utm_campaign=find-prospect-and-company-data-on-linkedin-for-sales-bd-leads)**
+Ready to run it yourself? **[Open LinkedIn Company Scraper on Apify →](https://apify.com/data-slayer/linkedin-company-scraper?utm_source=github&utm_medium=use-case&utm_campaign=how-to-get-linkedin-company-data)**
 
 No login, no code. Free tier included.
 

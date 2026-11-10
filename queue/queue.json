@@ -1,23 +1,5 @@
 [
  {
-  "slug": "how-to-get-linkedin-company-data",
-  "priority": "P2",
-  "runs_30d": 368,
-  "target_query": "how to get linkedin company data",
-  "actor_account": "data-slayer",
-  "actor_slug": "linkedin-company-scraper",
-  "actor_title": "LinkedIn Company Scraper"
- },
- {
-  "slug": "instagram-tagged-posts-scraper",
-  "priority": "P2",
-  "runs_30d": 345,
-  "target_query": "instagram tagged posts scraper",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-tagged-posts",
-  "actor_title": "Instagram Tagged Posts & Mentions Scraper \u00b7 No Login"
- },
- {
   "slug": "scrape-instagram-tagged-posts-without-login",
   "priority": "P2",
   "runs_30d": 345,
@@ -63,15 +45,6 @@
   "actor_title": "Instagram Tagged Posts & Mentions Scraper \u00b7 No Login"
  },
  {
-  "slug": "facebook-page-posts-scraper",
-  "priority": "P2",
-  "runs_30d": 329,
-  "target_query": "facebook page posts scraper",
-  "actor_account": "data-slayer",
-  "actor_slug": "facebook-page-posts",
-  "actor_title": "Facebook Page Posts Scraper \u00b7 No Cookies"
- },
- {
   "slug": "scrape-facebook-page-posts-without-login",
   "priority": "P2",
   "runs_30d": 329,
@@ -106,15 +79,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "facebook-page-posts",
   "actor_title": "Facebook Page Posts Scraper \u00b7 No Cookies"
- },
- {
-  "slug": "how-to-scrape-facebook-page-without-getting-blocked",
-  "priority": "P2",
-  "runs_30d": 253,
-  "target_query": "how to scrape facebook page without getting blocked",
-  "actor_account": "data-slayer",
-  "actor_slug": "facebook-page-details",
-  "actor_title": "Facebook Page Details Scraper \u00b7 No Cookies"
  },
  {
   "slug": "facebook-page-scraper",
@@ -162,15 +126,6 @@
   "actor_title": "Facebook Page Details Scraper \u00b7 No Cookies"
  },
  {
-  "slug": "how-to-scrape-twitter-followings-without-getting-blocked",
-  "priority": "P2",
-  "runs_30d": 206,
-  "target_query": "how to scrape twitter followings without getting blocked",
-  "actor_account": "data-slayer",
-  "actor_slug": "twitter-followings",
-  "actor_title": "Twitter/X Following Scraper \u00b7 Public Profiles"
- },
- {
   "slug": "twitter-followings-scraper",
   "priority": "P2",
   "runs_30d": 206,
@@ -214,15 +169,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "twitter-followings",
   "actor_title": "Twitter/X Following Scraper \u00b7 Public Profiles"
- },
- {
-  "slug": "how-to-scrape-instagram-following-without-getting-blocked",
-  "priority": "P2",
-  "runs_30d": 193,
-  "target_query": "how to scrape instagram following without getting blocked",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-following",
-  "actor_title": "Instagram Following Scraper & Enricher \u00b7 No Login"
  },
  {
   "slug": "instagram-following-scraper",
@@ -270,15 +216,6 @@
   "actor_title": "Instagram Following Scraper & Enricher \u00b7 No Login"
  },
  {
-  "slug": "how-to-scrape-facebook-group-posts-without-getting-blocked",
-  "priority": "P2",
-  "runs_30d": 129,
-  "target_query": "how to scrape facebook group posts without getting blocked",
-  "actor_account": "data-slayer",
-  "actor_slug": "facebook-group-posts",
-  "actor_title": "Facebook Group Posts Scraper \u00b7 No Cookies"
- },
- {
   "slug": "facebook-group-posts-scraper",
   "priority": "P2",
   "runs_30d": 129,
@@ -304,24 +241,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "facebook-group-posts",
   "actor_title": "Facebook Group Posts Scraper \u00b7 No Cookies"
- },
- {
-  "slug": "how-to-scrape-instagram-keyword-posts-without-getting-blocked",
-  "priority": "P2",
-  "runs_30d": 128,
-  "target_query": "how to scrape instagram keyword posts without getting blocked",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-keyword-posts-scraper",
-  "actor_title": "Instagram Keyword Posts Scraper"
- },
- {
-  "slug": "facebook-marketplace-data-extraction-tool",
-  "priority": "P2",
-  "runs_30d": 700,
-  "target_query": "facebook marketplace data extraction tool",
-  "actor_account": "data-slayer",
-  "actor_slug": "facebook-marketplace-details",
-  "actor_title": "Facebook Marketplace Listing Scraper \u00b7 No Cookies"
  },
  {
   "slug": "how-to-get-twitter-trends-by-location-data",
@@ -463,15 +382,6 @@
   "priority": "P2",
   "runs_30d": 105,
   "target_query": "how to scrape linkedin post engagers email no cookies without getting blocked",
-  "actor_account": "data-slayer",
-  "actor_slug": "linkedin-post-engagers-email-finder-no-cookies",
-  "actor_title": "LinkedIn Post Engagers Scraper"
- },
- {
-  "slug": "linkedin-post-engagers-email-no-cookies-scraper",
-  "priority": "P2",
-  "runs_30d": 105,
-  "target_query": "linkedin post engagers email no cookies scraper",
   "actor_account": "data-slayer",
   "actor_slug": "linkedin-post-engagers-email-finder-no-cookies",
   "actor_title": "LinkedIn Post Engagers Scraper"
