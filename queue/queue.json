@@ -1,14 +1,5 @@
 [
  {
-  "slug": "scrape-instagram-tagged-posts-without-login",
-  "priority": "P2",
-  "runs_30d": 345,
-  "target_query": "scrape instagram tagged posts without login",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-tagged-posts",
-  "actor_title": "Instagram Tagged Posts & Mentions Scraper \u00b7 No Login"
- },
- {
   "slug": "instagram-tagged-posts-api-alternative",
   "priority": "P2",
   "runs_30d": 345,
@@ -45,15 +36,6 @@
   "actor_title": "Instagram Tagged Posts & Mentions Scraper \u00b7 No Login"
  },
  {
-  "slug": "scrape-facebook-page-posts-without-login",
-  "priority": "P2",
-  "runs_30d": 329,
-  "target_query": "scrape facebook page posts without login",
-  "actor_account": "data-slayer",
-  "actor_slug": "facebook-page-posts",
-  "actor_title": "Facebook Page Posts Scraper \u00b7 No Cookies"
- },
- {
   "slug": "facebook-page-posts-api-alternative",
   "priority": "P2",
   "runs_30d": 329,
@@ -79,15 +61,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "facebook-page-posts",
   "actor_title": "Facebook Page Posts Scraper \u00b7 No Cookies"
- },
- {
-  "slug": "facebook-page-scraper",
-  "priority": "P2",
-  "runs_30d": 253,
-  "target_query": "facebook page scraper",
-  "actor_account": "data-slayer",
-  "actor_slug": "facebook-page-details",
-  "actor_title": "Facebook Page Details Scraper \u00b7 No Cookies"
  },
  {
   "slug": "scrape-facebook-page-without-login",
@@ -124,15 +97,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "facebook-page-details",
   "actor_title": "Facebook Page Details Scraper \u00b7 No Cookies"
- },
- {
-  "slug": "twitter-followings-scraper",
-  "priority": "P2",
-  "runs_30d": 206,
-  "target_query": "twitter followings scraper",
-  "actor_account": "data-slayer",
-  "actor_slug": "twitter-followings",
-  "actor_title": "Twitter/X Following Scraper \u00b7 Public Profiles"
  },
  {
   "slug": "scrape-twitter-followings-without-login",
@@ -175,15 +139,6 @@
   "priority": "P2",
   "runs_30d": 193,
   "target_query": "instagram following scraper",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-following",
-  "actor_title": "Instagram Following Scraper & Enricher \u00b7 No Login"
- },
- {
-  "slug": "scrape-instagram-following-without-login",
-  "priority": "P2",
-  "runs_30d": 193,
-  "target_query": "scrape instagram following without login",
   "actor_account": "data-slayer",
   "actor_slug": "instagram-following",
   "actor_title": "Instagram Following Scraper & Enricher \u00b7 No Login"
