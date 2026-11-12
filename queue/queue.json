@@ -1,14 +1,5 @@
 [
  {
-  "slug": "instagram-tagged-posts-api-alternative",
-  "priority": "P2",
-  "runs_30d": 345,
-  "target_query": "instagram tagged posts api alternative",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-tagged-posts",
-  "actor_title": "Instagram Tagged Posts & Mentions Scraper \u00b7 No Login"
- },
- {
   "slug": "export-instagram-tagged-posts-to-csv",
   "priority": "P2",
   "runs_30d": 345,
@@ -36,15 +27,6 @@
   "actor_title": "Instagram Tagged Posts & Mentions Scraper \u00b7 No Login"
  },
  {
-  "slug": "facebook-page-posts-api-alternative",
-  "priority": "P2",
-  "runs_30d": 329,
-  "target_query": "facebook page posts api alternative",
-  "actor_account": "data-slayer",
-  "actor_slug": "facebook-page-posts",
-  "actor_title": "Facebook Page Posts Scraper \u00b7 No Cookies"
- },
- {
   "slug": "export-facebook-page-posts-to-csv",
   "priority": "P2",
   "runs_30d": 329,
@@ -61,15 +43,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "facebook-page-posts",
   "actor_title": "Facebook Page Posts Scraper \u00b7 No Cookies"
- },
- {
-  "slug": "scrape-facebook-page-without-login",
-  "priority": "P2",
-  "runs_30d": 253,
-  "target_query": "scrape facebook page without login",
-  "actor_account": "data-slayer",
-  "actor_slug": "facebook-page-details",
-  "actor_title": "Facebook Page Details Scraper \u00b7 No Cookies"
  },
  {
   "slug": "facebook-page-api-alternative",
@@ -97,15 +70,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "facebook-page-details",
   "actor_title": "Facebook Page Details Scraper \u00b7 No Cookies"
- },
- {
-  "slug": "scrape-twitter-followings-without-login",
-  "priority": "P2",
-  "runs_30d": 206,
-  "target_query": "scrape twitter followings without login",
-  "actor_account": "data-slayer",
-  "actor_slug": "twitter-followings",
-  "actor_title": "Twitter/X Following Scraper \u00b7 Public Profiles"
  },
  {
   "slug": "twitter-followings-api-alternative",
@@ -148,15 +112,6 @@
   "priority": "P2",
   "runs_30d": 193,
   "target_query": "instagram following api alternative",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-following",
-  "actor_title": "Instagram Following Scraper & Enricher \u00b7 No Login"
- },
- {
-  "slug": "export-instagram-following-to-csv",
-  "priority": "P2",
-  "runs_30d": 193,
-  "target_query": "export instagram following to csv",
   "actor_account": "data-slayer",
   "actor_slug": "instagram-following",
   "actor_title": "Instagram Following Scraper & Enricher \u00b7 No Login"

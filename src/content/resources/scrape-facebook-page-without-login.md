@@ -1,24 +1,22 @@
 ---
-layout: use-case
-title: "Facebook page scraper"
+layout: "use-case"
+title: "Scrape Facebook page without login"
 description: "Extract full Facebook page profiles without login. Get page name, followers, categories, contact info (phone, email, website), address, ratings, services…"
-slug: "facebook-page-scraper"
-canonical_url: "https://dataslayer.dev/use-cases/facebook-page-scraper/"
-date: "2026-11-01"
-tags: ["facebook", "landing", "lead-gen marketer"]
-target_keyword: "facebook page scraper"
+slug: "scrape-facebook-page-without-login"
+canonical_url: "/resources/scrape-facebook-page-without-login/"
+date: "2026-11-12"
+generated_at: "2026-11-01"
+tags: []
+target_keyword: "scrape facebook page without login"
 actor_username: "data-slayer"
 actor_slug: "facebook-page-details"
 actor_url: "https://apify.com/data-slayer/facebook-page-details"
 persona: "lead-gen marketer"
-content_type: "landing"
-neuronwriter_brief_id: "5382435699d4a1b7"
-neuronwriter_score: 91
-status: "draft"
-cover: "/assets/covers/facebook-page-scraper.jpg"
+content_type: "how-to"
+neuronwriter_brief_id: "6930bee02ff0a30b"
+neuronwriter_score: 88
+status: "published"
 ---
-# Facebook page scraper
-
 Pulling Facebook page data by hand does not scale. You either copy-paste it one item at a time, or you fight the API — rate limits, auth, and pagination — and still end up with half the fields missing. For a lead-gen marketer, the data only matters if it is complete, fresh, and in a sheet you can act on. That is the gap Facebook Page Details Scraper · No Cookies closes.
 
 > **Facebook Page Details Scraper · No Cookies** runs **253 times a month** on Apify.
@@ -35,7 +33,7 @@ Instead of building a scraper, you point **Facebook Page Details Scraper · No C
 ## How it works — step by step
 
 **1. Open the actor**
-Go to [`data-slayer/facebook-page-details`](https://apify.com/data-slayer/facebook-page-details?utm_source=github&utm_medium=use-case&utm_campaign=facebook-page-scraper) and click **Try for free**.
+Go to [`data-slayer/facebook-page-details`](https://apify.com/data-slayer/facebook-page-details?utm_source=github&utm_medium=use-case&utm_campaign=scrape-facebook-page-without-login) and click **Try for free**.
 
 **2. Paste your input**
 ```json
@@ -87,7 +85,7 @@ proxies, cookies, and retries — you want the rows.
 
 There are three honest ways to get Facebook page data in 2026. Each has a real cost.
 
-![Several platform nodes connected to one hub](/assets/art/multi-platform.jpg)
+![Several platform nodes connected to one hub](/art/multi-platform.jpg)
 
 <!-- art-auto -->
 
@@ -260,7 +258,7 @@ move to a hosted **Facebook scraper** instead of owning the plumbing.
 
 Once the rows land in a sheet, the data does the work. Four patterns we see most:
 
-![An API request flowing into an endpoint and returning records](/assets/art/api-request.jpg)
+![An API request flowing into an endpoint and returning records](/art/api-request.jpg)
 
 <!-- art-auto -->
 
@@ -430,7 +428,7 @@ get a lawyer's read before you scale.
 Search for the **best Facebook scraper** and you get a wall of tools. The **best Facebook scraper**
 for your job comes down to four questions:
 
-![Two options weighed side by side](/assets/art/comparison.jpg)
+![Two options weighed side by side](/art/comparison.jpg)
 
 <!-- art-auto -->
 
@@ -612,27 +610,26 @@ line item is almost never the one that costs you a week of engineering every qua
 
 A quick reference for the terms this guide uses:
 
-- **facebook profile** — the public profile or page you point the actor at. A run returns facebook profile for every row.
-- **automation** — the scheduled pipeline the actor plugs into. A run returns automation for every row.
-- **meta** — part of the Facebook page data you get back. A run returns meta for every row.
+- **api key** — the programmatic way to run the Facebook page actor on a schedule. A run returns api key for every row.
+- **page url** — the address of the item you want to pull. A run returns page url for every row.
 
-Readers also search for post scraper, scrape facebook pages, data extraction, extract data from facebook, graph api, page url, extract data, automate, web data, data scraping, facebook scraping tool, b2b, profile scraper, start scraping facebook, public pages, scraping facebook data, residential proxy, extract posts, scraping tools, want to scrape, lead generation, business pages, facebook page url, scrape facebook at scale, analytics, chrome extension, chatgpt, terms of service, profile data, info from facebook, web pages, structured json, scraper returns, ai web, using facebook, follower counts, recent posts, paid plans, allows you to extract, collect data, scraping without, build web, free trial, structured data, scraping publicly available data, public business, proxy network, privacy policy, customize your export, want to extract, number of posts, send a url, captchas — the same actor answers all of it.
+Readers also search for facebook posts scraper, data from facebook, facebook group, facebook scraping tools, best facebook scraper tools, without an api key, public pages, facebook page scraper, scrape public facebook data, number of posts, want to scrape, list of facebook, pages without, selector, post url, post data, meta, page or profile, group members, facebook's, apify’s, structured json, free plan, extract data, css, profile url, selenium, market research, pages and profiles, dedicated facebook, graph api, maximum number of posts, number of likes, css selectors, data extraction, scraping actions, data in json, chrome extension, post text, proxy pool, comments and shares, post content, facebook data goes, public content, social media monitoring, marketplace listings, geo-targeting, pay-as-you-go, train ai models, want to extract — the same actor answers all of it.
 
-## Facebook page: facebook scraping tool, start scraping facebook, scraping tools, and raw html
+## Facebook page: scraping tools, facebook scraping tools, proxy, and facebook profile
 
-Teams evaluating Facebook page work through facebook scraping tool, start scraping facebook, scraping tools, raw html. Each shapes how the data is gathered and used.
+Teams evaluating Facebook page work through scraping tools, facebook scraping tools, proxy, facebook profile. Each shapes how the data is gathered and used.
 
-## facebook group, facebook posts, json, and proxy
+## facebook post, facebook group, facebook api, and automation
 
-Teams evaluating Facebook page work through facebook group, facebook posts, json, proxy. Each shapes how the data is gathered and used.
+Teams evaluating Facebook page work through facebook post, facebook group, facebook api, automation. Each shapes how the data is gathered and used.
 
-## scraping facebook posts, data scraping, scrape facebook at scale, and facebook api
+## best facebook scraper tools, scrape data, scrape facebook posts, and google sheets
 
-Teams evaluating Facebook page work through scraping facebook posts, data scraping, scrape facebook at scale, facebook api. Each shapes how the data is gathered and used.
+Teams evaluating Facebook page work through best facebook scraper tools, scrape data, scrape facebook posts, google sheets. Each shapes how the data is gathered and used.
 
-## structured json, use data, scraper api, and post scraper
+## group members, raw html, facebook pages, and page post
 
-Teams evaluating Facebook page work through structured json, use data, scraper api, post scraper. Each shapes how the data is gathered and used.
+Teams evaluating Facebook page work through group members, raw html, facebook pages, page post. Each shapes how the data is gathered and used.
 
 ## FAQ
 
@@ -651,70 +648,70 @@ You pay Apify compute plus a small per-result price; check the actor's Pricing t
 **Can I export Facebook page to CSV or Excel?**
 Yes — download as JSON, CSV, or Excel, or connect Google Sheets / Airtable directly from the actor page: https://apify.com/data-slayer/facebook-page-details
 
+**Are Proxies Necessary for Facebook Scraping?**
+Open [data-slayer/facebook-page-details](https://apify.com/data-slayer/facebook-page-details), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
+
+**Are browser extension scraping tools effective for Facebook?**
+Open [data-slayer/facebook-page-details](https://apify.com/data-slayer/facebook-page-details), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
+
+**Best way to scrape all of a facebook page posts including images and videos?**
+Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
+
+**But what if you're using the official Facebook API?**
+Open [data-slayer/facebook-page-details](https://apify.com/data-slayer/facebook-page-details), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
+
 **Can I scrape Facebook comments?**
 Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
 
-**Can we use the Facebook group scraper to get the contact info of the group members?**
-Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
+**Can I use a headless browser for Facebook scraping, or is it too risky now?**
+Open [data-slayer/facebook-page-details](https://apify.com/data-slayer/facebook-page-details), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
 
-**Can you scrape a list of existing facebook groups with members, post number and status (private-public)?**
-No. This actor reads **public** Facebook page only — it will not touch private profiles or anything behind a login.
+**Can the Facebook API Help You Scrape Data?**
+Open [data-slayer/facebook-page-details](https://apify.com/data-slayer/facebook-page-details), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
+
+**Do I need a verified Facebook account to scrape groups or comments?**
+Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
 
 **Do I need proxies to scrape Facebook posts?**
 Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
 
-**Do I need to know how to code to use a Facebook scraper?**
-Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
-
-**Do I need to log in to scrape Facebook?**
-Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
+**Does that make scraping better?**
+Open [data-slayer/facebook-page-details](https://apify.com/data-slayer/facebook-page-details), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
 
 **Does this scraper access private account data?**
 No. This actor reads **public** Facebook page only — it will not touch private profiles or anything behind a login.
 
-**Facebook API or Raw HTML scraper?**
+**Facebook Business Page API or Raw HTML scraper?**
 Open [data-slayer/facebook-page-details](https://apify.com/data-slayer/facebook-page-details), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
+
+**Have a question about this automation?**
+Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
 
 **How can I use data from scraped Facebook posts?**
 Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
 
-**How do Facebook scrapers avoid getting blocked?**
-The actor rotates **residential proxies**, paces under the rate limit, and retries with backoff, which is what keeps a **Facebook scraper** from getting blocked.
-
-**How do I avoid getting blocked when scraping Facebook?**
-The actor rotates **residential proxies**, paces under the rate limit, and retries with backoff, which is what keeps a **Facebook scraper** from getting blocked.
-
-**How do I protect my Facebook data?**
+**How do I scrape likes with profile link ?**
 Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
 
-**How do I scrape a Facebook page?**
+**How does the Facebook Profile Scraper Phantom work?**
 Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
 
-**How does Facebook prevent scraping?**
-Open [data-slayer/facebook-page-details](https://apify.com/data-slayer/facebook-page-details), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
+**How many Facebook pages or profiles can I scrape per day without getting flagged?**
+You can pull as many public page rows as you need; the actor pages through results and respects the rate limit so runs stay reliable at volume.
 
-**How much does the Facebook Scraper cost?**
-Apify compute plus a small per-result price; the free tier covers small runs. Exact rate is on the actor's Pricing tab.
-
-**Is Facebook Page Scraper legal to use?**
+**Is Facebook Scraping Legal?**
 Scraping **public Facebook data** is generally legal; private data and personal data have rules. See the legality section above, and get legal advice for commercial use.
 
 **Is Facebook against scraping?**
 Open [data-slayer/facebook-page-details](https://apify.com/data-slayer/facebook-page-details), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
 
-**Is it legal to scrape Facebook?**
+**Is Web Scraping Legal?**
 Scraping **public Facebook data** is generally legal; private data and personal data have rules. See the legality section above, and get legal advice for commercial use.
 
 **Is it possible to scrape Facebook Events?**
 Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
 
 **Is scraping Facebook posts legal?**
-Scraping **public Facebook data** is generally legal; private data and personal data have rules. See the legality section above, and get legal advice for commercial use.
-
-**Is the Facebook data returned as JSON?**
-Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
-
-**Is web scraping legal?**
 Scraping **public Facebook data** is generally legal; private data and personal data have rules. See the legality section above, and get legal advice for commercial use.
 
 ## Who this is for
@@ -729,7 +726,7 @@ If you are a **lead-gen marketer**, this replaces the manual Facebook page pull.
 
 ## Try it now
 
-Ready to run it yourself? **[Open Facebook Page Details Scraper · No Cookies on Apify →](https://apify.com/data-slayer/facebook-page-details?utm_source=github&utm_medium=use-case&utm_campaign=facebook-page-scraper)**
+Ready to run it yourself? **[Open Facebook Page Details Scraper · No Cookies on Apify →](https://apify.com/data-slayer/facebook-page-details?utm_source=github&utm_medium=use-case&utm_campaign=scrape-facebook-page-without-login)**
 
 No login, no code. Free tier included.
 
