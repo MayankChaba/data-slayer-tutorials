@@ -1,24 +1,22 @@
 ---
-layout: use-case
-title: "Scrape X (Twitter) followings without login"
+layout: "use-case"
+title: "The X (Twitter) followings API alternative"
 description: "Export a bounded, deduplicated list of accounts followed by a public Twitter/X profile. Accept usernames, profile URLs, and numeric user IDs; download…"
-slug: "scrape-twitter-followings-without-login"
-canonical_url: "https://dataslayer.dev/use-cases/scrape-twitter-followings-without-login/"
-date: "2026-11-01"
-tags: ["twitter", "how-to", "social media manager"]
-target_keyword: "scrape twitter followings without login"
+slug: "twitter-followings-api-alternative"
+canonical_url: "/resources/twitter-followings-api-alternative/"
+date: "2026-11-13"
+generated_at: "2026-11-01"
+tags: []
+target_keyword: "twitter followings api alternative"
 actor_username: "data-slayer"
 actor_slug: "twitter-followings"
 actor_url: "https://apify.com/data-slayer/twitter-followings"
 persona: "social media manager"
-content_type: "how-to"
-neuronwriter_brief_id: "decf6673584d325e"
-neuronwriter_score: 81
-status: "draft"
-cover: "/assets/covers/scrape-twitter-followings-without-login.jpg"
+content_type: "comparison"
+neuronwriter_brief_id: "55fdec106a0af8bf"
+neuronwriter_score: 94
+status: "published"
 ---
-# Scrape X (Twitter) followings without login
-
 Pulling Twitter followings data by hand does not scale. You either copy-paste it one item at a time, or you fight the API — rate limits, auth, and pagination — and still end up with half the fields missing. For a social media manager, the data only matters if it is complete, fresh, and in a sheet you can act on. That is the gap Twitter/X Following Scraper · Public Profiles closes.
 
 > **Twitter/X Following Scraper · Public Profiles** runs **206 times a month** on Apify.
@@ -34,7 +32,7 @@ Instead of building a scraper, you point **Twitter/X Following Scraper · Public
 ## How it works — step by step
 
 **1. Open the actor**
-Go to [`data-slayer/twitter-followings`](https://apify.com/data-slayer/twitter-followings?utm_source=github&utm_medium=use-case&utm_campaign=scrape-twitter-followings-without-login) and click **Try for free**.
+Go to [`data-slayer/twitter-followings`](https://apify.com/data-slayer/twitter-followings?utm_source=github&utm_medium=use-case&utm_campaign=twitter-followings-api-alternative) and click **Try for free**.
 
 **2. Paste your input**
 ```json
@@ -84,7 +82,7 @@ proxies, cookies, and retries — you want the rows.
 
 There are three honest ways to get Twitter followings data in 2026. Each has a real cost.
 
-![Several platform nodes connected to one hub](/assets/art/multi-platform.jpg)
+![Several platform nodes connected to one hub](/art/multi-platform.jpg)
 
 <!-- art-auto -->
 
@@ -272,7 +270,7 @@ move to a hosted **Twitter scraper** instead of owning the plumbing.
 
 Once the rows land in a sheet, the data does the work. Four patterns we see most:
 
-![An API request flowing into an endpoint and returning records](/assets/art/api-request.jpg)
+![An API request flowing into an endpoint and returning records](/art/api-request.jpg)
 
 <!-- art-auto -->
 
@@ -457,7 +455,7 @@ get a lawyer's read before you scale.
 Search for the **best Twitter scraper** and you get a wall of tools. The **best Twitter scraper**
 for your job comes down to four questions:
 
-![Two options weighed side by side](/assets/art/comparison.jpg)
+![Two options weighed side by side](/art/comparison.jpg)
 
 <!-- art-auto -->
 
@@ -654,29 +652,26 @@ line item is almost never the one that costs you a week of engineering every qua
 
 A quick reference for the terms this guide uses:
 
-- **following list** — part of the Twitter followings data you get back. A run returns following list for every row.
-- **follower and following** — a public follower count you can rank by. A run returns follower and following for every row.
-- **twitter user** — part of the Twitter followings data you get back. A run returns twitter user for every row.
-- **twitter profiles** — the public profile or page you point the actor at. A run returns twitter profiles for every row.
-- **influencer** — part of the Twitter followings data you get back. A run returns influencer for every row.
+- **api key** — the programmatic way to run the Twitter followings actor on a schedule. A run returns api key for every row.
+- **tweets** — a single public item, returned as one row. A run returns tweets for every row.
 
-Readers also search for followers and following lists, export twitter followers, tweets, export x, export x followers, twitter accounts, x platform, twitter usernames, authentication, csv file, terms of service, list followers, x login, scraper service, user scraper, data collection, api key, api request, cheapest x, user details, api access, user info, fast extraction, success rate, filter by email, official api, social media data, tweet data, network data, structured data, best tools, scraping needs, export tool — the same actor answers all of it.
+Readers also search for official x api, x developers, free credits, api v2, follower count, data api, api for developers, third-party, x data, getting the followers, x's official api, latency, public tweets, credit card required, pay-as-you-go, get your api key, follower graph, rest api, pay-per-use, follower changes, api surface, scrape x, per-call, api like, x.com, webhook, data access, public x, pricing page, user profiles, many accounts, paginate, pay-per-use pricing, scraping tools, way to access, endpoints covering, write actions, per-tier, user_ids, writing code, per user, every few minutes, need to verify, tweets costs, cron, basic plan — the same actor answers all of it.
 
-## Twitter followings: follower scraper, follower, twitter follower, and twitter follower scraper
+## Twitter followings: x api, endpoint, twitterapi.io, and latency
 
-Teams evaluating Twitter followings work through follower scraper, follower, twitter follower, twitter follower scraper. Each shapes how the data is gathered and used.
+Teams evaluating Twitter followings work through x api, endpoint, twitterapi.io, latency. Each shapes how the data is gathered and used.
 
-## following list, export, csv, and following scraper
+## follower, twitter api, official x api, and tweets
 
-Teams evaluating Twitter followings work through following list, export, csv, following scraper. Each shapes how the data is gathered and used.
+Teams evaluating Twitter followings work through follower, twitter api, official x api, tweets. Each shapes how the data is gathered and used.
 
-## twitter api, csv file, api key, and digital marketing
+## real-time, official api, third-party, and apis
 
-Teams evaluating Twitter followings work through twitter api, csv file, api key, digital marketing. Each shapes how the data is gathered and used.
+Teams evaluating Twitter followings work through real-time, official api, third-party, apis. Each shapes how the data is gathered and used.
 
-## export tool, rate limit, x platform, and download followers
+## data access, paginate, api alternatives, and data api
 
-Teams evaluating Twitter followings work through export tool, rate limit, x platform, download followers. Each shapes how the data is gathered and used.
+Teams evaluating Twitter followings work through data access, paginate, api alternatives, data api. Each shapes how the data is gathered and used.
 
 ## FAQ
 
@@ -695,70 +690,70 @@ You pay Apify compute plus a small per-result price; check the actor's Pricing t
 **Can I export Twitter followings to CSV or Excel?**
 Yes — download as JSON, CSV, or Excel, or connect Google Sheets / Airtable directly from the actor page: https://apify.com/data-slayer/twitter-followings
 
-**Are Twitter Scrapers Legal?**
-Scraping **public Twitter data** is generally legal; private data and personal data have rules. See the legality section above, and get legal advice for commercial use.
-
-**But why would you want to scrape the accounts another account is following?**
-Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
-
-**Can I scrape followers of any account?**
-Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
-
-**Can I scrape followers without logging in?**
-Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
-
-**Do I need to know how to code to scrape Twitter?**
-Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
-
-**How credible or active are these followers?**
-Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
-
-**Is it legal to scrape Twitter followers?**
-Scraping **public Twitter data** is generally legal; private data and personal data have rules. See the legality section above, and get legal advice for commercial use.
-
-**Is scraping Twitter legal?**
-Scraping **public Twitter data** is generally legal; private data and personal data have rules. See the legality section above, and get legal advice for commercial use.
-
-**Looking for a Twitter Scraper?**
-Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
-
-**Need a high-scale Twitter/X follower scraper that can collect both followers and following fast, stream results in real time, and stay cost-efficient for large runs?**
-Apify compute plus a small per-result price; the free tier covers small runs. Exact rate is on the actor's Pricing tab.
-
-**Need more sales from your digital marketing?**
-Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
-
-**Q: Can Scrapeless track the growth of a private account's followers?**
-No. This actor reads **public** Twitter followings only — it will not touch private profiles or anything behind a login.
-
-**Q: Does the scraped data include the profile's bio and name?**
-Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
-
-**Q: How often can I scrape a profile's follower count?**
-Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
-
-**Ready to experience efficient, hassle-free Twitter/X data extraction?**
-Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
-
-**Scraping Twitter followings with new API changes?**
+**Already building with TwitterAPI.io?**
 Open [data-slayer/twitter-followings](https://apify.com/data-slayer/twitter-followings), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
 
-**The Biggest Problem with Twitter Scrapers?**
+**Alternatives to the X API for a student project?**
+Open [data-slayer/twitter-followings](https://apify.com/data-slayer/twitter-followings), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
+
+**Any alternative for Getting list of followers for a given userid in v2 or can i use v1.1?**
 Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
 
-**Use Cases: Who Needs a Twitter Follower Scraper?**
+**Are there any specific endpoints or features in the higher-tier plans that would make this process more efficient?**
 Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
 
-**What Is a Twitter Follower Scraper?**
+**Can AI agents use TwexAPI directly?**
+Open [data-slayer/twitter-followings](https://apify.com/data-slayer/twitter-followings), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
+
+**Can I get real-time unfollow notifications via API?**
+Open [data-slayer/twitter-followings](https://apify.com/data-slayer/twitter-followings), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
+
+**How do I scrape Twitter without an API in 2026?**
+Open [data-slayer/twitter-followings](https://apify.com/data-slayer/twitter-followings), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
+
+**How do I use TwitterAPI.io?**
+Open [data-slayer/twitter-followings](https://apify.com/data-slayer/twitter-followings), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
+
+**How does TwitterAPIs compare to unofficial Twitter API methods?**
+A ready-made **scraping API** skips the Python scraper, the residential proxies, and the login/cookie system you would otherwise maintain. You trade a per-result price for not owning the block risk.
+
+**How much does an unofficial Twitter API cost?**
+Apify compute plus a small per-result price; the free tier covers small runs. Exact rate is on the actor's Pricing tab.
+
+**How much does it cost to snapshot 100 accounts' follower lists weekly?**
+Apify compute plus a small per-result price; the free tier covers small runs. Exact rate is on the actor's Pricing tab.
+
+**Is it safe to use an unofficial Twitter API in production?**
+Open [data-slayer/twitter-followings](https://apify.com/data-slayer/twitter-followings), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
+
+**Is there an unofficial Twitter API that still works in 2026?**
+Open [data-slayer/twitter-followings](https://apify.com/data-slayer/twitter-followings), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
+
+**Related: Twitter/X API alternatives compared · Is web scraping legal?**
+Scraping **public Twitter data** is generally legal; private data and personal data have rules. See the legality section above, and get legal advice for commercial use.
+
+**Since the API is off-limits, what are the current best methods or tools to get public tweet data?**
+Open [data-slayer/twitter-followings](https://apify.com/data-slayer/twitter-followings), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
+
+**Still misleading on accounts that lose followers — a -2% rate looks bad without context (campaign?**
 Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
 
-**What data can a Twitter scraper actually collect?**
-Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
+**Twitter (X) API Too Expensive?**
+Open [data-slayer/twitter-followings](https://apify.com/data-slayer/twitter-followings), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
 
-**What format can I download followers in?**
-Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
+**What data can I read through an unofficial Twitter API?**
+Open [data-slayer/twitter-followings](https://apify.com/data-slayer/twitter-followings), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
 
-**What is Followers/Following Data Scraping?**
+**What is TwitterAPI.io?**
+Open [data-slayer/twitter-followings](https://apify.com/data-slayer/twitter-followings), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
+
+**What is a Twitter Unofficial API?**
+Open [data-slayer/twitter-followings](https://apify.com/data-slayer/twitter-followings), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
+
+**What is an unofficial Twitter (X) API?**
+Open [data-slayer/twitter-followings](https://apify.com/data-slayer/twitter-followings), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
+
+**What is an unofficial Twitter API?**
 Open [data-slayer/twitter-followings](https://apify.com/data-slayer/twitter-followings), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
 
 ## Who this is for
@@ -773,7 +768,7 @@ If you are a **social media manager**, this replaces the manual Twitter followin
 
 ## Try it now
 
-Ready to run it yourself? **[Open Twitter/X Following Scraper · Public Profiles on Apify →](https://apify.com/data-slayer/twitter-followings?utm_source=github&utm_medium=use-case&utm_campaign=scrape-twitter-followings-without-login)**
+Ready to run it yourself? **[Open Twitter/X Following Scraper · Public Profiles on Apify →](https://apify.com/data-slayer/twitter-followings?utm_source=github&utm_medium=use-case&utm_campaign=twitter-followings-api-alternative)**
 
 No login, no code. Free tier included.
 

@@ -203,3 +203,8 @@ scrape-facebook-page-posts-without-login,2026-11-12
 scrape-instagram-following-without-login,2026-11-12
 scrape-instagram-tagged-posts-without-login,2026-11-12
 twitter-followings-scraper,2026-11-12
+export-instagram-following-to-csv,2026-11-13
+facebook-page-posts-api-alternative,2026-11-13
+instagram-tagged-posts-api-alternative,2026-11-13
+scrape-facebook-page-without-login,2026-11-13
+scrape-twitter-followings-without-login,2026-11-13
