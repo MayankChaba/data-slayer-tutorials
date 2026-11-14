@@ -1,14 +1,5 @@
 [
  {
-  "slug": "how-to-get-instagram-tagged-posts-data",
-  "priority": "P2",
-  "runs_30d": 345,
-  "target_query": "how to get instagram tagged posts data",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-tagged-posts",
-  "actor_title": "Instagram Tagged Posts & Mentions Scraper \u00b7 No Login"
- },
- {
   "slug": "instagram-tagged-posts-data-extraction-tool",
   "priority": "P2",
   "runs_30d": 345,
@@ -16,24 +7,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "instagram-tagged-posts",
   "actor_title": "Instagram Tagged Posts & Mentions Scraper \u00b7 No Login"
- },
- {
-  "slug": "how-to-get-facebook-page-posts-data",
-  "priority": "P2",
-  "runs_30d": 329,
-  "target_query": "how to get facebook page posts data",
-  "actor_account": "data-slayer",
-  "actor_slug": "facebook-page-posts",
-  "actor_title": "Facebook Page Posts Scraper \u00b7 No Cookies"
- },
- {
-  "slug": "export-facebook-page-to-csv",
-  "priority": "P2",
-  "runs_30d": 253,
-  "target_query": "export facebook page to csv",
-  "actor_account": "data-slayer",
-  "actor_slug": "facebook-page-details",
-  "actor_title": "Facebook Page Details Scraper \u00b7 No Cookies"
  },
  {
   "slug": "how-to-get-facebook-page-data",
@@ -63,15 +36,6 @@
   "actor_title": "Twitter/X Following Scraper \u00b7 Public Profiles"
  },
  {
-  "slug": "instagram-following-scraper",
-  "priority": "P2",
-  "runs_30d": 193,
-  "target_query": "instagram following scraper",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-following",
-  "actor_title": "Instagram Following Scraper & Enricher \u00b7 No Login"
- },
- {
   "slug": "instagram-following-api-alternative",
   "priority": "P2",
   "runs_30d": 193,
@@ -79,15 +43,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "instagram-following",
   "actor_title": "Instagram Following Scraper & Enricher \u00b7 No Login"
- },
- {
-  "slug": "facebook-group-posts-scraper",
-  "priority": "P2",
-  "runs_30d": 129,
-  "target_query": "facebook group posts scraper",
-  "actor_account": "data-slayer",
-  "actor_slug": "facebook-group-posts",
-  "actor_title": "Facebook Group Posts Scraper \u00b7 No Cookies"
  },
  {
   "slug": "facebook-group-posts-api-alternative",

@@ -1,51 +1,51 @@
 ---
-layout: use-case
-title: "How to export Facebook page posts to CSV"
-description: "Extract posts from any Facebook page without login. Get full post text, reactions by type (like, love, care, wow, sad, angry), comments, shares, author…"
-slug: "export-facebook-page-posts-to-csv"
-canonical_url: "https://dataslayer.dev/use-cases/export-facebook-page-posts-to-csv/"
-date: "2026-11-01"
-tags: ["facebook", "how-to", "social media manager"]
-target_keyword: "export facebook page posts to csv"
+layout: "use-case"
+title: "How to export Facebook page to CSV"
+description: "Extract full Facebook page profiles without login. Get page name, followers, categories, contact info (phone, email, website), address, ratings, services…"
+slug: "export-facebook-page-to-csv"
+canonical_url: "/resources/export-facebook-page-to-csv/"
+date: "2026-11-14"
+generated_at: "2026-11-01"
+tags: []
+target_keyword: "export facebook page to csv"
 actor_username: "data-slayer"
-actor_slug: "facebook-page-posts"
-actor_url: "https://apify.com/data-slayer/facebook-page-posts"
-persona: "social media manager"
+actor_slug: "facebook-page-details"
+actor_url: "https://apify.com/data-slayer/facebook-page-details"
+persona: "lead-gen marketer"
 content_type: "how-to"
-neuronwriter_brief_id: "520c058b6a0c4df7"
-neuronwriter_score: 95
-status: "draft"
-cover: "/assets/covers/export-facebook-page-posts-to-csv.jpg"
+neuronwriter_brief_id: "14a2bb0fd7ee9bf0"
+neuronwriter_score: 96
+status: "published"
 ---
-# How to export Facebook page posts to CSV
+Pulling Facebook page data by hand does not scale. You either copy-paste it one item at a time, or you fight the API — rate limits, auth, and pagination — and still end up with half the fields missing. For a lead-gen marketer, the data only matters if it is complete, fresh, and in a sheet you can act on. That is the gap Facebook Page Details Scraper · No Cookies closes.
 
-Pulling Facebook page posts data by hand does not scale. You either copy-paste it one item at a time, or you fight the API — rate limits, auth, and pagination — and still end up with half the fields missing. For a social media manager, the data only matters if it is complete, fresh, and in a sheet you can act on. That is the gap Facebook Page Posts Scraper · No Cookies closes.
-
-> **Facebook Page Posts Scraper · No Cookies** runs **329 times a month** on Apify.
+> **Facebook Page Details Scraper · No Cookies** runs **253 times a month** on Apify.
 
 ## What you get
 
 - No cookies, no authentication
-- reactions by type (like
-- author profiles
-- media attachments
+- categories
+- contact info (phone
+- price range
 
-Instead of building a scraper, you point **Facebook Page Posts Scraper · No Cookies** ([`data-slayer/facebook-page-posts`](https://apify.com/data-slayer/facebook-page-posts)) at your input and run it. It handles the requests, retries, and parsing, and returns one clean row per item in the format you already use.
+Instead of building a scraper, you point **Facebook Page Details Scraper · No Cookies** ([`data-slayer/facebook-page-details`](https://apify.com/data-slayer/facebook-page-details)) at your input and run it. It handles the requests, retries, and parsing, and returns one clean row per item in the format you already use.
 
 ## How it works — step by step
 
 **1. Open the actor**
-Go to [`data-slayer/facebook-page-posts`](https://apify.com/data-slayer/facebook-page-posts?utm_source=github&utm_medium=use-case&utm_campaign=export-facebook-page-posts-to-csv) and click **Try for free**.
+Go to [`data-slayer/facebook-page-details`](https://apify.com/data-slayer/facebook-page-details?utm_source=github&utm_medium=use-case&utm_campaign=export-facebook-page-to-csv) and click **Try for free**.
 
 **2. Paste your input**
 ```json
 {
-  "pageId": "100064860875397"
+  "pageUrls": [
+    "https://www.facebook.com/facebook"
+  ]
 }
 ```
 
 **3. Run it**
-Click **Start**. A typical run finishes in under a minute and returns one row per item.
+Click **Start**. A typical run finishes in under a minute and returns one row per page.
 
 **4. Get your data**
 Download as **JSON, CSV, or Excel**, or push straight to Google Sheets / Airtable via the built-in integrations.
@@ -59,7 +59,7 @@ Download as **JSON, CSV, or Excel**, or push straight to Google Sheets / Airtabl
 | `engagement` | `…` | filter / sort / export |
 | `collectedAt` | `2026-09-30T12:00:00Z` | time-series / scheduling |
 
-## Why scraping Facebook page posts without getting blocked is hard in 2026
+## Why scraping Facebook page without getting blocked is hard in 2026
 
 Facebook is one of the most aggressively defended sites on the web, and 2026 is the hardest
 year yet to pull Facebook data at scale. If you have tried to **scrape Facebook** yourself, you have
@@ -78,14 +78,14 @@ probably already hit one of these walls:
   scraper you wrote last quarter silently returns half the fields today.
 
 That is the difference between a script that works once on your laptop and a **Facebook scraper**
-that runs every day without maintenance. For a page posts job you do not want to babysit
+that runs every day without maintenance. For a page job you do not want to babysit
 proxies, cookies, and retries — you want the rows.
 
 ## Three ways to get Facebook data — and which one to use
 
-There are three honest ways to get Facebook page posts data in 2026. Each has a real cost.
+There are three honest ways to get Facebook page data in 2026. Each has a real cost.
 
-![Several platform nodes connected to one hub](/assets/art/multi-platform.jpg)
+![Several platform nodes connected to one hub](/art/multi-platform.jpg)
 
 <!-- art-auto -->
 
@@ -257,12 +257,12 @@ There are three honest ways to get Facebook page posts data in 2026. Each has a 
 | **Official Facebook API** | Use the platform's own API | Heavily restricted, requires app review, returns a fraction of the public fields, and is not built for bulk extraction. |
 | **A ready-made scraping API / actor** | Point a maintained actor at your input and download clean rows | You pay per result, but you skip the proxy, login, and parsing work entirely. |
 
-For most page posts work the third option wins on total cost. A **scraping API** gives you the
+For most page work the third option wins on total cost. A **scraping API** gives you the
 same **public Facebook data** a hand-built Python scraper would, without the account-handling
 system around it. **Apify** hosts these actors and exposes them through a **web scraping
 API**, so you can run one by hand, on a schedule, or from code with the **Apify API**.
 
-## How to scrape Facebook page posts without getting blocked
+## How to scrape Facebook page without getting blocked
 
 If you do build your own **Facebook scraper**, these are the controls that actually keep it
 alive. Every one of them is already handled for you inside a maintained actor.
@@ -284,11 +284,11 @@ Do all six and you can **scrape Facebook without getting blocked** for a while. 
 and you will **get blocked** on day one. That maintenance burden is the real reason teams
 move to a hosted **Facebook scraper** instead of owning the plumbing.
 
-## What you can do with Facebook page posts data
+## What you can do with Facebook page data
 
 Once the rows land in a sheet, the data does the work. Four patterns we see most:
 
-![An API request flowing into an endpoint and returning records](/assets/art/api-request.jpg)
+![An API request flowing into an endpoint and returning records](/art/api-request.jpg)
 
 <!-- art-auto -->
 
@@ -465,7 +465,7 @@ Once the rows land in a sheet, the data does the work. Four patterns we see most
 
 All of it runs on **public data** — no login, no personal data, and no private accounts.
 
-## Is scraping Facebook page posts legal?
+## Is scraping Facebook page legal?
 
 Scraping **public Facebook data** is generally lawful in most jurisdictions, but the rules are
 not uniform and they change. A few principles keep you on the right side of it:
@@ -488,7 +488,7 @@ get a lawyer's read before you scale.
 Search for the **best Facebook scraper** and you get a wall of tools. The **best Facebook scraper**
 for your job comes down to four questions:
 
-![Two options weighed side by side](/assets/art/comparison.jpg)
+![Two options weighed side by side](/art/comparison.jpg)
 
 <!-- art-auto -->
 
@@ -684,7 +684,7 @@ hashtags — you do not stitch together four tools.
 If you have looked at **Bright Data** or another **scraping API**, the trade-off is the
 same everywhere: a **web scraping API** sells you the unblocking layer, and you still own
 the parsing. A hosted **Facebook scraper API** goes one step further — it returns the parsed
-page posts rows, not just the HTML.
+page rows, not just the HTML.
 
 | | Custom Python build | Bright Data / raw proxy | Hosted actor |
 |---|---|---|---|
@@ -696,30 +696,31 @@ page posts rows, not just the HTML.
 **Social media scraping** is a maintenance problem, not a one-off script. The cheapest
 line item is almost never the one that costs you a week of engineering every quarter.
 
-## Facebook page posts terms, explained
+## Facebook page terms, explained
 
 A quick reference for the terms this guide uses:
 
-- **meta** — part of the Facebook page posts data you get back. A run returns meta for every row.
-- **privacy policy** — part of the Facebook page posts data you get back. A run returns privacy policy for every row.
+- **setting** — part of the Facebook page data you get back. A run returns setting for every row.
+- **meta** — part of the Facebook page data you get back. A run returns meta for every row.
+- **tutorial** — part of the Facebook page data you get back. A run returns tutorial for every row.
 
-Readers also search for facebook groups, export posts, scraper – export, update, analytics, facepager user group, setting, export your data, page's, processing, linkedin, archive, page insights, multiple export, user agreement, group members, dataset, structure, page data, data points, scroll, comments section, posts directly, chrome, parameter, analyze, profile information, functionality, designed for marketers, available information, explore content categories, automatic, • post text, demographics, up-to-date, interactive, workflow, per post, engagement counts, unlimited exports — the same actor answers all of it.
+Readers also search for facebook groups, export data, facebook group members to csv, spreadsheet, insight, phantombuster, column, want to export facebook group, workflow, category, facebook comments, automation, learn how to export, download your information, dataset, facebook members, video tutorial, group urls, backup, archive, node.js, xml, set up facebook, admin, structure, crm, privacy settings — the same actor answers all of it.
 
-## Facebook page posts: user, facepager user group, top posts, and linkedin
+## Facebook page: download, meta, title, and facebook groups
 
-Teams evaluating Facebook page posts work through user, facepager user group, top posts, linkedin. Each shapes how the data is gathered and used.
+Teams evaluating Facebook page work through download, meta, title, facebook groups. Each shapes how the data is gathered and used.
 
-## developer, explore content categories, profile, and facebook profile
+## data from facebook, facebook post, export data, and download facebook
 
-Teams evaluating Facebook page posts work through developer, explore content categories, profile, facebook profile. Each shapes how the data is gathered and used.
+Teams evaluating Facebook page work through data from facebook, facebook post, export data, download facebook. Each shapes how the data is gathered and used.
 
-## excel, facebook business, analytics, and google sheets
+## insight, phantombuster, output, and python
 
-Teams evaluating Facebook page posts work through excel, facebook business, analytics, google sheets. Each shapes how the data is gathered and used.
+Teams evaluating Facebook page work through insight, phantombuster, output, python. Each shapes how the data is gathered and used.
 
-## export your data, data from facebook, comments section, and insight
+## export facebook group members, facebook group members to csv, and excel
 
-Teams evaluating Facebook page posts work through export your data, data from facebook, comments section, insight. Each shapes how the data is gathered and used.
+Teams evaluating Facebook page work through export facebook group members, facebook group members to csv, excel. Each shapes how the data is gathered and used.
 
 ## FAQ
 
@@ -732,81 +733,81 @@ Facebook blocks naive scrapers aggressively: datacenter IPs, cold sessions, and 
 **Do I need coding skills to scrape Facebook data?**
 No. You paste your input into the actor's form and click Start — no Python, no proxy setup, no cookie handling. Developers can still drive the same actor through the **Apify API**.
 
-**How much does it cost to scrape Facebook page posts?**
+**How much does it cost to scrape Facebook page?**
 You pay Apify compute plus a small per-result price; check the actor's Pricing tab for the exact rate. The free tier covers small runs, so you can test before you commit.
 
-**Can I export Facebook page posts to CSV or Excel?**
-Yes — download as JSON, CSV, or Excel, or connect Google Sheets / Airtable directly from the actor page: https://apify.com/data-slayer/facebook-page-posts
+**Can I export Facebook page to CSV or Excel?**
+Yes — download as JSON, CSV, or Excel, or connect Google Sheets / Airtable directly from the actor page: https://apify.com/data-slayer/facebook-page-details
 
-**Can you export Facebook posts/pages in a quicker manner?**
-Short answer: run **Facebook Page Posts Scraper · No Cookies** on your Facebook page posts input — it returns clean rows without a login. Full detail is above.
+**2: How do I get a list of members of a Facebook group?**
+Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
 
-**Does anyone know how to 'export' FB posts/pages in an efficient, quicker manner?**
-Short answer: run **Facebook Page Posts Scraper · No Cookies** on your Facebook page posts input — it returns clean rows without a login. Full detail is above.
+**3: How do I export Facebook group data?**
+Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
 
-**Export Facebook profile for FREE?**
-Short answer: run **Facebook Page Posts Scraper · No Cookies** on your Facebook page posts input — it returns clean rows without a login. Full detail is above.
+**4: How do I export Facebook group members to Excel?**
+Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
 
-**Export to csv Facebook Insights data?**
-Short answer: run **Facebook Page Posts Scraper · No Cookies** on your Facebook page posts input — it returns clean rows without a login. Full detail is above.
+**Can I export Facebook Marketplace search results to Excel?**
+You can pull as many public page rows as you need; the actor pages through results and respects the rate limit so runs stay reliable at volume.
 
-**Hello everyone please i need a help; is there any possibility to get data from facebook and instagram as a CSV file??**
-Short answer: run **Facebook Page Posts Scraper · No Cookies** on your Facebook page posts input — it returns clean rows without a login. Full detail is above.
+**Can I export Facebook Posts data using API?**
+Open [data-slayer/facebook-page-details](https://apify.com/data-slayer/facebook-page-details), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
 
-**How to export Facebook profile to CSV?**
-Short answer: run **Facebook Page Posts Scraper · No Cookies** on your Facebook page posts input — it returns clean rows without a login. Full detail is above.
+**Can I export all of my own Facebook Marketplace listings?**
+Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
 
-**How to export Facebook profile to Excel?**
-Short answer: run **Facebook Page Posts Scraper · No Cookies** on your Facebook page posts input — it returns clean rows without a login. Full detail is above.
-
-**How to export Facebook profile to Google Sheets?**
+**Can I integrate data from Facebook Posts Scraper with other apps?**
 Yes — export to CSV/JSON/Excel or wire it to Google Sheets, Airtable, Zapier, or the Apify API for a hands-off pipeline.
 
-**How to extract Facebook posts with name, message, and link?**
-Short answer: run **Facebook Page Posts Scraper · No Cookies** on your Facebook page posts input — it returns clean rows without a login. Full detail is above.
+**Can I use Facebook Posts Scraper through an MCP server?**
+You can expose the actor to an agent through Apify's MCP server and call it like any other tool; the actor itself is a standard Apify actor.
 
-**Is there a way to export all posts on a Facebook business page?**
-Short answer: run **Facebook Page Posts Scraper · No Cookies** on your Facebook page posts input — it returns clean rows without a login. Full detail is above.
+**Can I use this info for targeting FB ads?**
+Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
 
-**Need to download Facebook group posts and comments or get data from a Facebook Page?**
-Short answer: run **Facebook Page Posts Scraper · No Cookies** on your Facebook page posts input — it returns clean rows without a login. Full detail is above.
+**Can we scrape data from Facebook page post's likes and comments?**
+Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
 
-**Trying to extract group member information to a csv file - has anyone done this / can someone point me to directions?**
-Short answer: run **Facebook Page Posts Scraper · No Cookies** on your Facebook page posts input — it returns clean rows without a login. Full detail is above.
+**Do I need proxies to scrape data from Facebook posts?**
+Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
 
-**What Data Should Marketers Be Analyzing?**
-Short answer: run **Facebook Page Posts Scraper · No Cookies** on your Facebook page posts input — it returns clean rows without a login. Full detail is above.
+**Does ScrapeCreators return a CSV file?**
+Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
 
-**What Types of Data Can You Export from Facebook?**
-Short answer: run **Facebook Page Posts Scraper · No Cookies** on your Facebook page posts input — it returns clean rows without a login. Full detail is above.
+**Facebook Posts Scraper is not working?**
+Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
 
-**please i need a help; is there any possibility to get data from facebook and instagram as a CSV file?**
-Short answer: run **Facebook Page Posts Scraper · No Cookies** on your Facebook page posts input — it returns clean rows without a login. Full detail is above.
+**Hello everyone please i need a help; is there any possibility to get data from facebook and instagram as a CSV file??**
+Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
 
-**who export facebook page posts to csv file**
-Short answer: run **Facebook Page Posts Scraper · No Cookies** on your Facebook page posts input — it returns clean rows without a login. Full detail is above.
+**Hi Christian, Howcome when you export a date range Facebook provides you with one day past the selected day ranges?**
+Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
 
-**how export facebook page posts to csv file**
-Short answer: run **Facebook Page Posts Scraper · No Cookies** on your Facebook page posts input — it returns clean rows without a login. Full detail is above.
+**Hi Christian, is it possible to extract emai id's of the people who are following a facebook page?**
+Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
 
-**have export facebook page posts to csv wordpress**
-Short answer: run **Facebook Page Posts Scraper · No Cookies** on your Facebook page posts input — it returns clean rows without a login. Full detail is above.
+**How can I scrape only filter specific profiles?**
+Sort or filter the output after export; the actor returns the items for the URLs or handles you give it, and you keep the newest by timestamp.
 
-**when export facebook page posts to csv file**
-Short answer: run **Facebook Page Posts Scraper · No Cookies** on your Facebook page posts input — it returns clean rows without a login. Full detail is above.
+**How do I download Facebook Page?**
+Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
 
-**will export facebook page posts to csv file**
-Short answer: run **Facebook Page Posts Scraper · No Cookies** on your Facebook page posts input — it returns clean rows without a login. Full detail is above.
+**How do I download Page information?**
+Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
 
-**which export facebook page posts to csv file**
-Short answer: run **Facebook Page Posts Scraper · No Cookies** on your Facebook page posts input — it returns clean rows without a login. Full detail is above.
+**How do I download my profile data?**
+Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
 
-**how export facebook page posts to csv format**
-Short answer: run **Facebook Page Posts Scraper · No Cookies** on your Facebook page posts input — it returns clean rows without a login. Full detail is above.
+**How do I export Facebook Marketplace listings to CSV?**
+Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
+
+**How do I use Facebook Posts Scraper?**
+Open [data-slayer/facebook-page-details](https://apify.com/data-slayer/facebook-page-details), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
 
 ## Who this is for
 
-If you are a **social media manager**, this replaces the manual Facebook page posts pull. Run it on a schedule, push the output to Sheets or Airtable, and your report refreshes itself.
+If you are a **lead-gen marketer**, this replaces the manual Facebook page pull. Run it on a schedule, push the output to Sheets or Airtable, and your report refreshes itself.
 
 ## Related use cases
 
@@ -816,7 +817,7 @@ If you are a **social media manager**, this replaces the manual Facebook page po
 
 ## Try it now
 
-Ready to run it yourself? **[Open Facebook Page Posts Scraper · No Cookies on Apify →](https://apify.com/data-slayer/facebook-page-posts?utm_source=github&utm_medium=use-case&utm_campaign=export-facebook-page-posts-to-csv)**
+Ready to run it yourself? **[Open Facebook Page Details Scraper · No Cookies on Apify →](https://apify.com/data-slayer/facebook-page-details?utm_source=github&utm_medium=use-case&utm_campaign=export-facebook-page-to-csv)**
 
 No login, no code. Free tier included.
 

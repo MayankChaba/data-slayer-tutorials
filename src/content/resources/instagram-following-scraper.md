@@ -1,24 +1,22 @@
 ---
-layout: use-case
-title: "How to get Instagram following data"
+layout: "use-case"
+title: "Instagram following scraper"
 description: "See who any Instagram account follows and optionally enrich each with emails, phones, websites, and bios. Map partnership networks, competitor…"
-slug: "how-to-get-instagram-following-data"
-canonical_url: "https://dataslayer.dev/use-cases/how-to-get-instagram-following-data/"
-date: "2026-11-01"
-tags: ["instagram", "how-to", "social media manager"]
-target_keyword: "how to get instagram following data"
+slug: "instagram-following-scraper"
+canonical_url: "/resources/instagram-following-scraper/"
+date: "2026-11-14"
+generated_at: "2026-11-01"
+tags: []
+target_keyword: "instagram following scraper"
 actor_username: "data-slayer"
 actor_slug: "instagram-following"
 actor_url: "https://apify.com/data-slayer/instagram-following"
 persona: "social media manager"
-content_type: "how-to"
-neuronwriter_brief_id: "18ae72739f0f72c7"
-neuronwriter_score: 86
-status: "draft"
-cover: "/assets/covers/how-to-get-instagram-following-data.jpg"
+content_type: "landing"
+neuronwriter_brief_id: "355523eac799446e"
+neuronwriter_score: 89
+status: "published"
 ---
-# How to get Instagram following data
-
 Pulling Instagram following data by hand does not scale. You either copy-paste it one item at a time, or you fight the API — rate limits, auth, and pagination — and still end up with half the fields missing. For a social media manager, the data only matters if it is complete, fresh, and in a sheet you can act on. That is the gap Instagram Following Scraper & Enricher · No Login closes.
 
 > **Instagram Following Scraper & Enricher · No Login** runs **193 times a month** on Apify.
@@ -35,7 +33,7 @@ Instead of building a scraper, you point **Instagram Following Scraper & Enriche
 ## How it works — step by step
 
 **1. Open the actor**
-Go to [`data-slayer/instagram-following`](https://apify.com/data-slayer/instagram-following?utm_source=github&utm_medium=use-case&utm_campaign=how-to-get-instagram-following-data) and click **Try for free**.
+Go to [`data-slayer/instagram-following`](https://apify.com/data-slayer/instagram-following?utm_source=github&utm_medium=use-case&utm_campaign=instagram-following-scraper) and click **Try for free**.
 
 **2. Paste your input**
 ```json
@@ -82,7 +80,7 @@ proxies, cookies, and retries — you want the rows.
 
 There are three honest ways to get Instagram following data in 2026. Each has a real cost.
 
-![Several platform nodes connected to one hub](/assets/art/multi-platform.jpg)
+![Several platform nodes connected to one hub](/art/multi-platform.jpg)
 
 <!-- art-auto -->
 
@@ -285,7 +283,7 @@ move to a hosted **Instagram scraper** instead of owning the plumbing.
 
 Once the rows land in a sheet, the data does the work. Four patterns we see most:
 
-![An API request flowing into an endpoint and returning records](/assets/art/api-request.jpg)
+![An API request flowing into an endpoint and returning records](/art/api-request.jpg)
 
 <!-- art-auto -->
 
@@ -485,7 +483,7 @@ get a lawyer's read before you scale.
 Search for the **best Instagram scraper** and you get a wall of tools. The **best Instagram scraper**
 for your job comes down to four questions:
 
-![Two options weighed side by side](/assets/art/comparison.jpg)
+![Two options weighed side by side](/art/comparison.jpg)
 
 <!-- art-auto -->
 
@@ -697,27 +695,35 @@ line item is almost never the one that costs you a week of engineering every qua
 
 A quick reference for the terms this guide uses:
 
-- **follower data** — a public follower count you can rank by. A run returns follower data for every row.
 - **instagram profile** — the public profile or page you point the actor at. A run returns instagram profile for every row.
-- **followers and following** — a public follower count you can rank by. A run returns followers and following for every row.
+- **follower count** — a public follower count you can rank by. A run returns follower count for every row.
+- **public instagram profile** — the public profile or page you point the actor at. A run returns public instagram profile for every row.
+- **number of followers** — a public follower count you can rank by. A run returns number of followers for every row.
+- **workflow** — the scheduled pipeline the actor plugs into. A run returns workflow for every row.
+- **full name** — part of the Instagram following data you get back. A run returns full name for every row.
+- **profile data** — the public profile or page you point the actor at. A run returns profile data for every row.
+- **influencer** — part of the Instagram following data you get back. A run returns influencer for every row.
+- **publicly available** — part of the Instagram following data you get back. A run returns publicly available for every row.
+- **dataset** — the file or dataset you download when the run finishes. A run returns dataset for every row.
+- **analytics** — the likes, comments, views, and shares on an item. A run returns analytics for every row.
 
-Readers also search for follower export, export tool, instagram followers scraper, ig follower export tool, structured data, follower and following lists, follower or following, instagram follower data, data extraction, full follower, usernames, dataset, api to fetch, workflow, automate, full follower list, data collection, spreadsheet, profile page, csv export, follow back, follower count, public instagram account, exporter, online tool, following count, frequently asked, list of accounts, profile picture, marketer, lead generation, influencer, browser-based, free plan, public follower, profile data, follower collection, audience research, competitor analysis, dynamically, api requires, session cookies, frequently asked questions, creator account, paid plan, snapshot, source code, via api, detailed profile, thousands of accounts, reasonable batches, incrementally, large accounts, large exports, micro-influencers — the same actor answers all of it.
+Readers also search for follower data, following list, instagram follower data, follower or following, instagram follower collector, scrape data, instagram posts, usernames, integrate with other tools, export scraped data, via api, exporting followers, instagram usernames, data from instagram, public account, instagram account's, account's follower, instagram's, instagram's terms, verification status, crm, public instagram account, profile url, scrape instagram posts, web scraper, frequently asked questions, instagram followers or following, followers and following lists, tools or ai workflows, data from any public instagram, metadata, collect follower, profile info, export the followers, following from any public account, download instagram, available instagram, browser extension, instagram reels, scrape instagram comments, publicly available data, follower records, export data, scrape instagram followers using, need to export, extract instagram posts, schedule and monitor runs, monitor runs or integrate, add instagram usernames, export any public, scraper extracts, learn how to find — the same actor answers all of it.
 
-## Instagram following: export, frequently asked, follower, and automation
+## Instagram following: follower, instagram follower, frequently asked questions, and export
 
-Teams evaluating Instagram following work through export, frequently asked, follower, automation. Each shapes how the data is gathered and used.
+Teams evaluating Instagram following work through follower, instagram follower, frequently asked questions, export. Each shapes how the data is gathered and used.
 
-## automate, browser-based, frequently asked questions, and follower export
+## automation, export tool, instagram follower export, and scrape instagram followers
 
-Teams evaluating Instagram following work through automate, browser-based, frequently asked questions, follower export. Each shapes how the data is gathered and used.
+Teams evaluating Instagram following work through automation, export tool, instagram follower export, scrape instagram followers. Each shapes how the data is gathered and used.
 
-## export tool, export instagram, ig follower export tool, and data extraction
+## instagram follower scraper, follower data, workflow, and following list
 
-Teams evaluating Instagram following work through export tool, export instagram, ig follower export tool, data extraction. Each shapes how the data is gathered and used.
+Teams evaluating Instagram following work through instagram follower scraper, follower data, workflow, following list. Each shapes how the data is gathered and used.
 
-## api to fetch, workflow, fetch, and exporter
+## export instagram followers, web scraper, available instagram, and scraper extracts
 
-Teams evaluating Instagram following work through api to fetch, workflow, fetch, exporter. Each shapes how the data is gathered and used.
+Teams evaluating Instagram following work through export instagram followers, web scraper, available instagram, scraper extracts. Each shapes how the data is gathered and used.
 
 ## FAQ
 
@@ -736,70 +742,70 @@ You pay Apify compute plus a small per-result price; check the actor's Pricing t
 **Can I export Instagram following to CSV or Excel?**
 Yes — download as JSON, CSV, or Excel, or connect Google Sheets / Airtable directly from the actor page: https://apify.com/data-slayer/instagram-following
 
-**Are Instagram follower and following list ordered by most interaction?**
+**Are Instagram follower scraper tools allowed?**
 Short answer: run **Instagram Following Scraper & Enricher · No Login** on your Instagram following input — it returns clean rows without a login. Full detail is above.
 
-**Are Instagram followers in order?**
-Short answer: run **Instagram Following Scraper & Enricher · No Login** on your Instagram following input — it returns clean rows without a login. Full detail is above.
+**Can AI agents use the Instagram Scraper API?**
+Open [data-slayer/instagram-following](https://apify.com/data-slayer/instagram-following), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
 
-**Are Instagram followers listed by activity or alphabetically?**
-Short answer: run **Instagram Following Scraper & Enricher · No Login** on your Instagram following input — it returns clean rows without a login. Full detail is above.
-
-**Can Gramlens download Instagram photos, videos and stories?**
-Short answer: run **Instagram Following Scraper & Enricher · No Login** on your Instagram following input — it returns clean rows without a login. Full detail is above.
-
-**Can Gramlens show my newest followers, or the list in the order people followed?**
-Sort or filter the output after export; the actor returns the items for the URLs or handles you give it, and you keep the newest by timestamp.
-
-**Can I export comments and likes?**
-Short answer: run **Instagram Following Scraper & Enricher · No Login** on your Instagram following input — it returns clean rows without a login. Full detail is above.
-
-**Can I export followers from private Instagram accounts?**
-No. This actor reads **public** Instagram following only — it will not touch private profiles or anything behind a login.
-
-**Can I export followers from private accounts?**
-No. This actor reads **public** Instagram following only — it will not touch private profiles or anything behind a login.
-
-**Can I see someone's followers on Instagram?**
-Short answer: run **Instagram Following Scraper & Enricher · No Login** on your Instagram following input — it returns clean rows without a login. Full detail is above.
-
-**Can people see your public following list on Instagram?**
-Short answer: run **Instagram Following Scraper & Enricher · No Login** on your Instagram following input — it returns clean rows without a login. Full detail is above.
-
-**Can someone gain followers on Instagram solely by following others?**
-Short answer: run **Instagram Following Scraper & Enricher · No Login** on your Instagram following input — it returns clean rows without a login. Full detail is above.
-
-**Can someone in my followers list without approval in instagram?**
-Short answer: run **Instagram Following Scraper & Enricher · No Login** on your Instagram following input — it returns clean rows without a login. Full detail is above.
-
-**Can you download the list of Instagram followers?**
-Short answer: run **Instagram Following Scraper & Enricher · No Login** on your Instagram following input — it returns clean rows without a login. Full detail is above.
-
-**Can you export Instagram followers in a list?**
-Short answer: run **Instagram Following Scraper & Enricher · No Login** on your Instagram following input — it returns clean rows without a login. Full detail is above.
-
-**Can you export a list of your Instagram followers with Hootsuite?**
-Short answer: run **Instagram Following Scraper & Enricher · No Login** on your Instagram following input — it returns clean rows without a login. Full detail is above.
-
-**Could an Instagram recent followers list and following list order be made permanent?**
-Sort or filter the output after export; the actor returns the items for the URLs or handles you give it, and you keep the newest by timestamp.
-
-**Do people buy followers or pay a company to increase their followers?**
-Short answer: run **Instagram Following Scraper & Enricher · No Login** on your Instagram following input — it returns clean rows without a login. Full detail is above.
-
-**Do you need my Instagram password?**
-Short answer: run **Instagram Following Scraper & Enricher · No Login** on your Instagram following input — it returns clean rows without a login. Full detail is above.
-
-**Does Instagram tell you when someone unfollows you?**
-Short answer: run **Instagram Following Scraper & Enricher · No Login** on your Instagram following input — it returns clean rows without a login. Full detail is above.
-
-**Does it matter how many followers I have on Instagram?**
+**Can I limit how many followers to extract?**
 You can pull as many public following rows as you need; the actor pages through results and respects the rate limit so runs stay reliable at volume.
 
-**Does this break Instagram's rules?**
+**Can I scrape followers of private accounts?**
+No. This actor reads **public** Instagram following only — it will not touch private profiles or anything behind a login.
+
+**Can I track new mutual follows while exporting Instagram followers?**
 Short answer: run **Instagram Following Scraper & Enricher · No Login** on your Instagram following input — it returns clean rows without a login. Full detail is above.
 
+**Can I use the Instagram Scraper API for competitive analysis?**
+Open [data-slayer/instagram-following](https://apify.com/data-slayer/instagram-following), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
+
+**Can Instagram followers be exported to Excel?**
+Short answer: run **Instagram Following Scraper & Enricher · No Login** on your Instagram following input — it returns clean rows without a login. Full detail is above.
+
+**Can you export Instagram followers for free?**
+Short answer: run **Instagram Following Scraper & Enricher · No Login** on your Instagram following input — it returns clean rows without a login. Full detail is above.
+
+**Comparing scraping platforms?**
+Open [data-slayer/instagram-following](https://apify.com/data-slayer/instagram-following), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
+
+**Do I need to log in with my Instagram account?**
+Short answer: run **Instagram Following Scraper & Enricher · No Login** on your Instagram following input — it returns clean rows without a login. Full detail is above.
+
+**Do you provide support for the Instagram Scraper API?**
+Open [data-slayer/instagram-following](https://apify.com/data-slayer/instagram-following), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
+
+**Does the Instagram follower export tool work for private accounts?**
+No. This actor reads **public** Instagram following only — it will not touch private profiles or anything behind a login.
+
 **Have a question about this automation?**
+Short answer: run **Instagram Following Scraper & Enricher · No Login** on your Instagram following input — it returns clean rows without a login. Full detail is above.
+
+**How can I integrate the Instagram Scraper API with my existing systems?**
+Yes — export to CSV/JSON/Excel or wire it to Google Sheets, Airtable, Zapier, or the Apify API for a hands-off pipeline.
+
+**How do I extract Instagram followers into a spreadsheet?**
+Short answer: run **Instagram Following Scraper & Enricher · No Login** on your Instagram following input — it returns clean rows without a login. Full detail is above.
+
+**How does the Instagram Scraper API work?**
+Open [data-slayer/instagram-following](https://apify.com/data-slayer/instagram-following), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
+
+**How many followers can I scrape?**
+You can pull as many public following rows as you need; the actor pages through results and respects the rate limit so runs stay reliable at volume.
+
+**How to export Instagram followers list?**
+Short answer: run **Instagram Following Scraper & Enricher · No Login** on your Instagram following input — it returns clean rows without a login. Full detail is above.
+
+**How to export Instagram followers to Excel?**
+Short answer: run **Instagram Following Scraper & Enricher · No Login** on your Instagram following input — it returns clean rows without a login. Full detail is above.
+
+**How to export someone else's Instagram followers?**
+Short answer: run **Instagram Following Scraper & Enricher · No Login** on your Instagram following input — it returns clean rows without a login. Full detail is above.
+
+**How to scrape hashtags and comment on the top posts linked to specific Instagram followers?**
+Short answer: run **Instagram Following Scraper & Enricher · No Login** on your Instagram following input — it returns clean rows without a login. Full detail is above.
+
+**Is a Chrome extension needed to export Instagram followers?**
 Short answer: run **Instagram Following Scraper & Enricher · No Login** on your Instagram following input — it returns clean rows without a login. Full detail is above.
 
 ## Who this is for
@@ -814,7 +820,7 @@ If you are a **social media manager**, this replaces the manual Instagram follow
 
 ## Try it now
 
-Ready to run it yourself? **[Open Instagram Following Scraper & Enricher · No Login on Apify →](https://apify.com/data-slayer/instagram-following?utm_source=github&utm_medium=use-case&utm_campaign=how-to-get-instagram-following-data)**
+Ready to run it yourself? **[Open Instagram Following Scraper & Enricher · No Login on Apify →](https://apify.com/data-slayer/instagram-following?utm_source=github&utm_medium=use-case&utm_campaign=instagram-following-scraper)**
 
 No login, no code. Free tier included.
 
