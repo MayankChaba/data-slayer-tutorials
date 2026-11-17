@@ -1,41 +1,5 @@
 [
  {
-  "slug": "how-to-get-twitter-followings-data",
-  "priority": "P2",
-  "runs_30d": 206,
-  "target_query": "how to get twitter followings data",
-  "actor_account": "data-slayer",
-  "actor_slug": "twitter-followings",
-  "actor_title": "Twitter/X Following Scraper \u00b7 Public Profiles"
- },
- {
-  "slug": "facebook-group-posts-api-alternative",
-  "priority": "P2",
-  "runs_30d": 129,
-  "target_query": "facebook group posts api alternative",
-  "actor_account": "data-slayer",
-  "actor_slug": "facebook-group-posts",
-  "actor_title": "Facebook Group Posts Scraper \u00b7 No Cookies"
- },
- {
-  "slug": "how-to-get-twitter-trends-by-location-data",
-  "priority": "P2",
-  "runs_30d": 626,
-  "target_query": "how to get twitter trends by location data",
-  "actor_account": "data-slayer",
-  "actor_slug": "twitter-trends-by-location",
-  "actor_title": "Twitter/X Trends Scraper \u00b7 No Cookies"
- },
- {
-  "slug": "find-competitor-and-creator-content-on-facebook-for-social-media-managers",
-  "priority": "P2",
-  "runs_30d": 329,
-  "target_query": "find competitor and creator content on Facebook for social media managers",
-  "actor_account": "data-slayer",
-  "actor_slug": "facebook-page-posts",
-  "actor_title": "Facebook Page Posts Scraper \u00b7 No Cookies"
- },
- {
   "slug": "facebook-page-posts-data-extraction-tool",
   "priority": "P2",
   "runs_30d": 329,
@@ -45,15 +9,6 @@
   "actor_title": "Facebook Page Posts Scraper \u00b7 No Cookies"
  },
  {
-  "slug": "facebook-page-data-extraction-tool",
-  "priority": "P2",
-  "runs_30d": 253,
-  "target_query": "facebook page data extraction tool",
-  "actor_account": "data-slayer",
-  "actor_slug": "facebook-page-details",
-  "actor_title": "Facebook Page Details Scraper \u00b7 No Cookies"
- },
- {
   "slug": "twitter-followings-data-extraction-tool",
   "priority": "P2",
   "runs_30d": 206,
@@ -61,15 +16,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "twitter-followings",
   "actor_title": "Twitter/X Following Scraper \u00b7 Public Profiles"
- },
- {
-  "slug": "instagram-following-data-extraction-tool",
-  "priority": "P2",
-  "runs_30d": 193,
-  "target_query": "instagram following data extraction tool",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-following",
-  "actor_title": "Instagram Following Scraper & Enricher \u00b7 No Login"
  },
  {
   "slug": "scrape-facebook-group-posts-without-login",
@@ -97,15 +43,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "facebook-group-posts",
   "actor_title": "Facebook Group Posts Scraper \u00b7 No Cookies"
- },
- {
-  "slug": "instagram-keyword-posts-scraper",
-  "priority": "P2",
-  "runs_30d": 128,
-  "target_query": "instagram keyword posts scraper",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-keyword-posts-scraper",
-  "actor_title": "Instagram Keyword Posts Scraper"
  },
  {
   "slug": "scrape-instagram-keyword-posts-without-login",
@@ -153,15 +90,6 @@
   "actor_title": "Instagram Keyword Posts Scraper"
  },
  {
-  "slug": "how-to-scrape-linkedin-post-engagers-email-no-cookies-without-getting-blocked",
-  "priority": "P2",
-  "runs_30d": 105,
-  "target_query": "how to scrape linkedin post engagers email no cookies without getting blocked",
-  "actor_account": "data-slayer",
-  "actor_slug": "linkedin-post-engagers-email-finder-no-cookies",
-  "actor_title": "LinkedIn Post Engagers Scraper"
- },
- {
   "slug": "scrape-linkedin-post-engagers-email-no-cookies-without-login",
   "priority": "P2",
   "runs_30d": 105,
@@ -205,15 +133,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "linkedin-post-engagers-email-finder-no-cookies",
   "actor_title": "LinkedIn Post Engagers Scraper"
- },
- {
-  "slug": "how-to-scrape-instagram-hashtags-required-without-getting-blocked",
-  "priority": "P2",
-  "runs_30d": 90,
-  "target_query": "how to scrape instagram hashtags required without getting blocked",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-hashtags-scraper-no-login-required",
-  "actor_title": "Instagram Hashtag Finder \u00b7 No Login"
  },
  {
   "slug": "instagram-hashtags-required-scraper",
@@ -268,15 +187,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "instagram-hashtags-scraper-no-login-required",
   "actor_title": "Instagram Hashtag Finder \u00b7 No Login"
- },
- {
-  "slug": "how-to-scrape-twitter-followers-without-getting-blocked",
-  "priority": "P2",
-  "runs_30d": 85,
-  "target_query": "how to scrape twitter followers without getting blocked",
-  "actor_account": "data-slayer",
-  "actor_slug": "twitter-followers",
-  "actor_title": "Twitter/X Followers Scraper \u00b7 No Cookies"
  },
  {
   "slug": "twitter-followers-scraper",

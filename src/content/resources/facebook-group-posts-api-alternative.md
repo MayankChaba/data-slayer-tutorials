@@ -1,53 +1,49 @@
 ---
-layout: use-case
-title: "How to get Facebook page data"
-description: "Extract full Facebook page profiles without login. Get page name, followers, categories, contact info (phone, email, website), address, ratings, services…"
-slug: "how-to-get-facebook-page-data"
-canonical_url: "https://dataslayer.dev/use-cases/how-to-get-facebook-page-data/"
-date: "2026-11-01"
-tags: ["facebook", "how-to", "lead-gen marketer"]
-target_keyword: "how to get facebook page data"
+layout: "use-case"
+title: "The Facebook group posts API alternative"
+description: "Extract posts from any public Facebook group without login. Get full post text, reactions by type, comments, shares, author profiles, media attachments…"
+slug: "facebook-group-posts-api-alternative"
+canonical_url: "/resources/facebook-group-posts-api-alternative/"
+date: "2026-11-17"
+generated_at: "2026-11-01"
+tags: []
+target_keyword: "facebook group posts api alternative"
 actor_username: "data-slayer"
-actor_slug: "facebook-page-details"
-actor_url: "https://apify.com/data-slayer/facebook-page-details"
-persona: "lead-gen marketer"
-content_type: "how-to"
-neuronwriter_brief_id: "bceddc3e77c907c3"
-neuronwriter_score: 87
-status: "draft"
-cover: "/assets/covers/how-to-get-facebook-page-data.jpg"
+actor_slug: "facebook-group-posts"
+actor_url: "https://apify.com/data-slayer/facebook-group-posts"
+persona: "social media manager"
+content_type: "comparison"
+neuronwriter_brief_id: "c4f2912bc1316cb8"
+neuronwriter_score: 96
+status: "published"
 ---
-# How to get Facebook page data
+Pulling Facebook group posts data by hand does not scale. You either copy-paste it one item at a time, or you fight the API — rate limits, auth, and pagination — and still end up with half the fields missing. For a social media manager, the data only matters if it is complete, fresh, and in a sheet you can act on. That is the gap Facebook Group Posts Scraper · No Cookies closes.
 
-Pulling Facebook page data by hand does not scale. You either copy-paste it one item at a time, or you fight the API — rate limits, auth, and pagination — and still end up with half the fields missing. For a lead-gen marketer, the data only matters if it is complete, fresh, and in a sheet you can act on. That is the gap Facebook Page Details Scraper · No Cookies closes.
-
-> **Facebook Page Details Scraper · No Cookies** runs **253 times a month** on Apify.
+> **Facebook Group Posts Scraper · No Cookies** runs **129 times a month** on Apify.
 
 ## What you get
 
 - No cookies, no authentication
-- categories
-- contact info (phone
-- price range
+- reactions by type
+- author profiles
+- media attachments
 
-Instead of building a scraper, you point **Facebook Page Details Scraper · No Cookies** ([`data-slayer/facebook-page-details`](https://apify.com/data-slayer/facebook-page-details)) at your input and run it. It handles the requests, retries, and parsing, and returns one clean row per item in the format you already use.
+Instead of building a scraper, you point **Facebook Group Posts Scraper · No Cookies** ([`data-slayer/facebook-group-posts`](https://apify.com/data-slayer/facebook-group-posts)) at your input and run it. It handles the requests, retries, and parsing, and returns one clean row per item in the format you already use.
 
 ## How it works — step by step
 
 **1. Open the actor**
-Go to [`data-slayer/facebook-page-details`](https://apify.com/data-slayer/facebook-page-details?utm_source=github&utm_medium=use-case&utm_campaign=how-to-get-facebook-page-data) and click **Try for free**.
+Go to [`data-slayer/facebook-group-posts`](https://apify.com/data-slayer/facebook-group-posts?utm_source=github&utm_medium=use-case&utm_campaign=facebook-group-posts-api-alternative) and click **Try for free**.
 
 **2. Paste your input**
 ```json
 {
-  "pageUrls": [
-    "https://www.facebook.com/facebook"
-  ]
+  "groupUrlOrId": "https://www.facebook.com/groups/1439220986320043/"
 }
 ```
 
 **3. Run it**
-Click **Start**. A typical run finishes in under a minute and returns one row per page.
+Click **Start**. A typical run finishes in under a minute and returns one row per item.
 
 **4. Get your data**
 Download as **JSON, CSV, or Excel**, or push straight to Google Sheets / Airtable via the built-in integrations.
@@ -61,7 +57,7 @@ Download as **JSON, CSV, or Excel**, or push straight to Google Sheets / Airtabl
 | `engagement` | `…` | filter / sort / export |
 | `collectedAt` | `2026-09-30T12:00:00Z` | time-series / scheduling |
 
-## Why scraping Facebook page without getting blocked is hard in 2026
+## Why scraping Facebook group posts without getting blocked is hard in 2026
 
 Facebook is one of the most aggressively defended sites on the web, and 2026 is the hardest
 year yet to pull Facebook data at scale. If you have tried to **scrape Facebook** yourself, you have
@@ -80,14 +76,14 @@ probably already hit one of these walls:
   scraper you wrote last quarter silently returns half the fields today.
 
 That is the difference between a script that works once on your laptop and a **Facebook scraper**
-that runs every day without maintenance. For a page job you do not want to babysit
+that runs every day without maintenance. For a group posts job you do not want to babysit
 proxies, cookies, and retries — you want the rows.
 
 ## Three ways to get Facebook data — and which one to use
 
-There are three honest ways to get Facebook page data in 2026. Each has a real cost.
+There are three honest ways to get Facebook group posts data in 2026. Each has a real cost.
 
-![Several platform nodes connected to one hub](/assets/art/multi-platform.jpg)
+![Several platform nodes connected to one hub](/art/multi-platform.jpg)
 
 <!-- art-auto -->
 
@@ -276,12 +272,12 @@ There are three honest ways to get Facebook page data in 2026. Each has a real c
 | **Official Facebook API** | Use the platform's own API | Heavily restricted, requires app review, returns a fraction of the public fields, and is not built for bulk extraction. |
 | **A ready-made scraping API / actor** | Point a maintained actor at your input and download clean rows | You pay per result, but you skip the proxy, login, and parsing work entirely. |
 
-For most page work the third option wins on total cost. A **scraping API** gives you the
+For most group posts work the third option wins on total cost. A **scraping API** gives you the
 same **public Facebook data** a hand-built Python scraper would, without the account-handling
 system around it. **Apify** hosts these actors and exposes them through a **web scraping
 API**, so you can run one by hand, on a schedule, or from code with the **Apify API**.
 
-## How to scrape Facebook page without getting blocked
+## How to scrape Facebook group posts without getting blocked
 
 If you do build your own **Facebook scraper**, these are the controls that actually keep it
 alive. Every one of them is already handled for you inside a maintained actor.
@@ -303,11 +299,11 @@ Do all six and you can **scrape Facebook without getting blocked** for a while. 
 and you will **get blocked** on day one. That maintenance burden is the real reason teams
 move to a hosted **Facebook scraper** instead of owning the plumbing.
 
-## What you can do with Facebook page data
+## What you can do with Facebook group posts data
 
 Once the rows land in a sheet, the data does the work. Four patterns we see most:
 
-![An API request flowing into an endpoint and returning records](/assets/art/api-request.jpg)
+![An API request flowing into an endpoint and returning records](/art/api-request.jpg)
 
 <!-- art-auto -->
 
@@ -501,7 +497,7 @@ Once the rows land in a sheet, the data does the work. Four patterns we see most
 
 All of it runs on **public data** — no login, no personal data, and no private accounts.
 
-## Is scraping Facebook page legal?
+## Is scraping Facebook group posts legal?
 
 Scraping **public Facebook data** is generally lawful in most jurisdictions, but the rules are
 not uniform and they change. A few principles keep you on the right side of it:
@@ -524,7 +520,7 @@ get a lawyer's read before you scale.
 Search for the **best Facebook scraper** and you get a wall of tools. The **best Facebook scraper**
 for your job comes down to four questions:
 
-![Two options weighed side by side](/assets/art/comparison.jpg)
+![Two options weighed side by side](/art/comparison.jpg)
 
 <!-- art-auto -->
 
@@ -737,7 +733,7 @@ hashtags — you do not stitch together four tools.
 If you have looked at **Bright Data** or another **scraping API**, the trade-off is the
 same everywhere: a **web scraping API** sells you the unblocking layer, and you still own
 the parsing. A hosted **Facebook scraper API** goes one step further — it returns the parsed
-page rows, not just the HTML.
+group posts rows, not just the HTML.
 
 | | Custom Python build | Bright Data / raw proxy | Hosted actor |
 |---|---|---|---|
@@ -749,32 +745,28 @@ page rows, not just the HTML.
 **Social media scraping** is a maintenance problem, not a one-off script. The cheapest
 line item is almost never the one that costs you a week of engineering every quarter.
 
-## Facebook page terms, explained
+## Facebook group posts terms, explained
 
 A quick reference for the terms this guide uses:
 
-- **facebook posts** — a single public item, returned as one row. A run returns facebook posts for every row.
-- **graph api** — the programmatic way to run the Facebook page actor on a schedule. A run returns graph api for every row.
-- **reply** — part of the Facebook page data you get back. A run returns reply for every row.
-- **meta** — part of the Facebook page data you get back. A run returns meta for every row.
+- **admin** — part of the Facebook group posts data you get back. A run returns admin for every row.
+- **permission** — part of the Facebook group posts data you get back. A run returns permission for every row.
+- **reply** — part of the Facebook group posts data you get back. A run returns reply for every row.
+- **message** — part of the Facebook group posts data you get back. A run returns message for every row.
 
-Readers also search for facepager user group, download your facebook data, facebook for developers, data extraction, web data, structure, group posts, automate, extract posts, data collection, automated data, automation, data scraping, data you are allowed, api call, dataset, facebook posts and comments, data from facebook groups, data including, permission, post url, page and profile, profile data, data processing, available data, data pipelines, personal profile, compliant, post content, way to scrape, related posts, terms of service, primary_category, comment counts, api is designed, date range, apis, real-time, share counts, via api, ethically, step-by-step, schema, legal counsel, browser automation, preset — the same actor answers all of it.
+Readers also search for graph api, facebook pages, facebook’s, meta’s, ability for group admins, group admins to install apps, suite, april 2024, publish_to_groups, groups_access_member_info, announcement, graph api v19.0, reminder, deprecate, existing facebook, coaching groups, notification, new facebook, webhooks, business suite, new post, one group, moderator, online communities, buffer, free trial, getting started, date and time, manually, community managers, token, private replies, help center, plugins, node, privacy policy, real time, workaround, 2023, deadline, module, natively, drop a new, step-by-step — the same actor answers all of it.
 
-## Facebook page: facepager user group, facebook for developers, graph api, and meta
+## Facebook group posts: developer, automation, publish, and integration
 
-Teams evaluating Facebook page work through facepager user group, facebook for developers, graph api, meta. Each shapes how the data is gathered and used.
+Teams evaluating Facebook group posts work through developer, automation, publish, integration. Each shapes how the data is gathered and used.
 
-## related posts, facebook group, public facebook, and public facebook page
+## coach, april 2024, slack, and discord
 
-Teams evaluating Facebook page work through related posts, facebook group, public facebook, public facebook page. Each shapes how the data is gathered and used.
+Teams evaluating Facebook group posts work through coach, april 2024, slack, discord. Each shapes how the data is gathered and used.
 
-## download your facebook data, web data, structure, and group posts
+## webhooks, connect, meta, and third-party
 
-Teams evaluating Facebook page work through download your facebook data, web data, structure, group posts. Each shapes how the data is gathered and used.
-
-## data collection, automation, data scraping, and dataset
-
-Teams evaluating Facebook page work through data collection, automation, data scraping, dataset. Each shapes how the data is gathered and used.
+Teams evaluating Facebook group posts work through webhooks, connect, meta, third-party. Each shapes how the data is gathered and used.
 
 ## FAQ
 
@@ -787,81 +779,81 @@ Facebook blocks naive scrapers aggressively: datacenter IPs, cold sessions, and 
 **Do I need coding skills to scrape Facebook data?**
 No. You paste your input into the actor's form and click Start — no Python, no proxy setup, no cookie handling. Developers can still drive the same actor through the **Apify API**.
 
-**How much does it cost to scrape Facebook page?**
+**How much does it cost to scrape Facebook group posts?**
 You pay Apify compute plus a small per-result price; check the actor's Pricing tab for the exact rate. The free tier covers small runs, so you can test before you commit.
 
-**Can I export Facebook page to CSV or Excel?**
-Yes — download as JSON, CSV, or Excel, or connect Google Sheets / Airtable directly from the actor page: https://apify.com/data-slayer/facebook-page-details
+**Can I export Facebook group posts to CSV or Excel?**
+Yes — download as JSON, CSV, or Excel, or connect Google Sheets / Airtable directly from the actor page: https://apify.com/data-slayer/facebook-group-posts
 
-**A company hacked my Facebook business page, how do I get it back?**
-Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
+**After FB group API shutdown, how are you monitoring posts and scheduling content?**
+Open [data-slayer/facebook-group-posts](https://apify.com/data-slayer/facebook-group-posts), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
 
-**Am I allowed to extract data from public Facebook pages for an SaaS tool?**
-Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
+**Can I automatically share YouTube videos to Facebook groups?**
+Short answer: run **Facebook Group Posts Scraper · No Cookies** on your Facebook group posts input — it returns clean rows without a login. Full detail is above.
 
-**Anyone know a tool to collect data from facebook public group?**
-Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
+**Can I move my Facebook group members to a new platform?**
+Short answer: run **Facebook Group Posts Scraper · No Cookies** on your Facebook group posts input — it returns clean rows without a login. Full detail is above.
 
-**Are Facebook business pages public?**
-Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
+**Can I schedule posts to a Facebook group?**
+Short answer: run **Facebook Group Posts Scraper · No Cookies** on your Facebook group posts input — it returns clean rows without a login. Full detail is above.
 
-**Are there any legal implications I should be aware of when using data collected from users via a Facebook page?**
-Scraping **public Facebook data** is generally legal; private data and personal data have rules. See the legality section above, and get legal advice for commercial use.
+**Can I still integrate Facebook groups with Zapier or Make in 2026?**
+Yes — export to CSV/JSON/Excel or wire it to Google Sheets, Airtable, Zapier, or the Apify API for a hands-off pipeline.
 
-**Can AI agents use the Facebook Scraper API?**
-Open [data-slayer/facebook-page-details](https://apify.com/data-slayer/facebook-page-details), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
+**Can Instagram posts be shared to Facebook groups automatically?**
+Short answer: run **Facebook Group Posts Scraper · No Cookies** on your Facebook group posts input — it returns clean rows without a login. Full detail is above.
 
-**Can Facebook Page data be exported to Excel?**
-Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
+**Can WordPress post automatically to a Facebook group?**
+Short answer: run **Facebook Group Posts Scraper · No Cookies** on your Facebook group posts input — it returns clean rows without a login. Full detail is above.
 
-**Can Facebook business page sell on marketplace?**
-Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
+**How do I connect an RSS feed to a Facebook group?**
+Yes — export to CSV/JSON/Excel or wire it to Google Sheets, Airtable, Zapier, or the Apify API for a hands-off pipeline.
 
-**Can Facebook pages like other Facebook pages?**
-Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
+**How do I connect my Facebook Page to my Facebook groups?**
+Yes — export to CSV/JSON/Excel or wire it to Google Sheets, Airtable, Zapier, or the Apify API for a hands-off pipeline.
 
-**Can I change the name of my Facebook page?**
-Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
+**How do I get Facebook group posts into Slack, Discord or Google Sheets?**
+Yes — export to CSV/JSON/Excel or wire it to Google Sheets, Airtable, Zapier, or the Apify API for a hands-off pipeline.
 
-**Can I extract email from Facebook page or groups?**
-Emails are only available where they are already public; this actor does not bypass a login to find them.
+**If you have recently built any automation with Facebook APIs for your Facebook group/s with a third-party app?**
+Sort or filter the output after export; the actor returns the items for the URLs or handles you give it, and you keep the newest by timestamp.
 
-**Can I hide my Facebook business page?**
-Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
+**Is there a Facebook API to publish posts to groups?**
+Open [data-slayer/facebook-group-posts](https://apify.com/data-slayer/facebook-group-posts), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
 
-**Can I scrape/download an entire FB page (2100 posts)?**
-Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
+**Is there a Facebook Groups API for posting content?**
+Open [data-slayer/facebook-group-posts](https://apify.com/data-slayer/facebook-group-posts), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
 
-**Can I specify who can see my business Facebook page posts?**
-Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
+**Is there a Facebook groups Discord integration?**
+Yes — export to CSV/JSON/Excel or wire it to Google Sheets, Airtable, Zapier, or the Apify API for a hands-off pipeline.
 
-**Can I use the Facebook Scraper API for competitive analysis?**
-Open [data-slayer/facebook-page-details](https://apify.com/data-slayer/facebook-page-details), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
+**Is there an alternative to Facebook groups that’s actually better?**
+Short answer: run **Facebook Group Posts Scraper · No Cookies** on your Facebook group posts input — it returns clean rows without a login. Full detail is above.
 
-**Comparing scraping platforms?**
-Open [data-slayer/facebook-page-details](https://apify.com/data-slayer/facebook-page-details), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
+**Is there any API for that?**
+Open [data-slayer/facebook-group-posts](https://apify.com/data-slayer/facebook-group-posts), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
 
-**Did Facebook remove your business page?**
-Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
+**Is there interest in an API specific group on FB?**
+Open [data-slayer/facebook-group-posts](https://apify.com/data-slayer/facebook-group-posts), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
 
-**Do you provide support for the Facebook Scraper API?**
-Open [data-slayer/facebook-page-details](https://apify.com/data-slayer/facebook-page-details), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
+**Meta API Update Breaking/Deprecating means Removing Access to Groups From 3rd Party in April?**
+Open [data-slayer/facebook-group-posts](https://apify.com/data-slayer/facebook-group-posts), paste your input, and click Start; developers can also call the same actor through the **Apify API**.
 
-**Does a manual social media planner for Facebook group posting already exist?**
-Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
+**Ready to automate this?**
+Short answer: run **Facebook Group Posts Scraper · No Cookies** on your Facebook group posts input — it returns clean rows without a login. Full detail is above.
 
-**Extracting images from Facebook?**
-Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
+**What About Free Facebook Group Alternatives?**
+Short answer: run **Facebook Group Posts Scraper · No Cookies** on your Facebook group posts input — it returns clean rows without a login. Full detail is above.
 
-**How can I automatically extract data from Facebook?**
-Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
+**What is the best free alternative to Facebook groups?**
+Short answer: run **Facebook Group Posts Scraper · No Cookies** on your Facebook group posts input — it returns clean rows without a login. Full detail is above.
 
-**How can I extract data from a page where 10 entries are recorded on 28 pages?**
-Short answer: run **Facebook Page Details Scraper · No Cookies** on your Facebook page input — it returns clean rows without a login. Full detail is above.
+**Which Facebook group alternative is best for coaching or cohort programs?**
+Short answer: run **Facebook Group Posts Scraper · No Cookies** on your Facebook group posts input — it returns clean rows without a login. Full detail is above.
 
 ## Who this is for
 
-If you are a **lead-gen marketer**, this replaces the manual Facebook page pull. Run it on a schedule, push the output to Sheets or Airtable, and your report refreshes itself.
+If you are a **social media manager**, this replaces the manual Facebook group posts pull. Run it on a schedule, push the output to Sheets or Airtable, and your report refreshes itself.
 
 ## Related use cases
 
@@ -871,7 +863,7 @@ If you are a **lead-gen marketer**, this replaces the manual Facebook page pull.
 
 ## Try it now
 
-Ready to run it yourself? **[Open Facebook Page Details Scraper · No Cookies on Apify →](https://apify.com/data-slayer/facebook-page-details?utm_source=github&utm_medium=use-case&utm_campaign=how-to-get-facebook-page-data)**
+Ready to run it yourself? **[Open Facebook Group Posts Scraper · No Cookies on Apify →](https://apify.com/data-slayer/facebook-group-posts?utm_source=github&utm_medium=use-case&utm_campaign=facebook-group-posts-api-alternative)**
 
 No login, no code. Free tier included.
 

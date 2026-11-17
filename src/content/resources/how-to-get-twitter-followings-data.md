@@ -1,24 +1,22 @@
 ---
-layout: use-case
-title: "How to export X (Twitter) followings to CSV"
+layout: "use-case"
+title: "How to get X (Twitter) followings data"
 description: "Export a bounded, deduplicated list of accounts followed by a public Twitter/X profile. Accept usernames, profile URLs, and numeric user IDs; download…"
-slug: "export-twitter-followings-to-csv"
-canonical_url: "https://dataslayer.dev/use-cases/export-twitter-followings-to-csv/"
-date: "2026-11-01"
-tags: ["twitter", "how-to", "social media manager"]
-target_keyword: "export twitter followings to csv"
+slug: "how-to-get-twitter-followings-data"
+canonical_url: "/resources/how-to-get-twitter-followings-data/"
+date: "2026-11-17"
+generated_at: "2026-11-01"
+tags: []
+target_keyword: "how to get twitter followings data"
 actor_username: "data-slayer"
 actor_slug: "twitter-followings"
 actor_url: "https://apify.com/data-slayer/twitter-followings"
 persona: "social media manager"
 content_type: "how-to"
-neuronwriter_brief_id: "efa13ffe162d31e0"
-neuronwriter_score: 86
-status: "draft"
-cover: "/assets/covers/export-twitter-followings-to-csv.jpg"
+neuronwriter_brief_id: "0e8fe12071a04c9c"
+neuronwriter_score: 83
+status: "published"
 ---
-# How to export X (Twitter) followings to CSV
-
 Pulling Twitter followings data by hand does not scale. You either copy-paste it one item at a time, or you fight the API — rate limits, auth, and pagination — and still end up with half the fields missing. For a social media manager, the data only matters if it is complete, fresh, and in a sheet you can act on. That is the gap Twitter/X Following Scraper · Public Profiles closes.
 
 > **Twitter/X Following Scraper · Public Profiles** runs **206 times a month** on Apify.
@@ -34,7 +32,7 @@ Instead of building a scraper, you point **Twitter/X Following Scraper · Public
 ## How it works — step by step
 
 **1. Open the actor**
-Go to [`data-slayer/twitter-followings`](https://apify.com/data-slayer/twitter-followings?utm_source=github&utm_medium=use-case&utm_campaign=export-twitter-followings-to-csv) and click **Try for free**.
+Go to [`data-slayer/twitter-followings`](https://apify.com/data-slayer/twitter-followings?utm_source=github&utm_medium=use-case&utm_campaign=how-to-get-twitter-followings-data) and click **Try for free**.
 
 **2. Paste your input**
 ```json
@@ -84,7 +82,7 @@ proxies, cookies, and retries — you want the rows.
 
 There are three honest ways to get Twitter followings data in 2026. Each has a real cost.
 
-![Several platform nodes connected to one hub](/assets/art/multi-platform.jpg)
+![Several platform nodes connected to one hub](/art/multi-platform.jpg)
 
 <!-- art-auto -->
 
@@ -304,7 +302,7 @@ move to a hosted **Twitter scraper** instead of owning the plumbing.
 
 Once the rows land in a sheet, the data does the work. Four patterns we see most:
 
-![An API request flowing into an endpoint and returning records](/assets/art/api-request.jpg)
+![An API request flowing into an endpoint and returning records](/art/api-request.jpg)
 
 <!-- art-auto -->
 
@@ -521,7 +519,7 @@ get a lawyer's read before you scale.
 Search for the **best Twitter scraper** and you get a wall of tools. The **best Twitter scraper**
 for your job comes down to four questions:
 
-![Two options weighed side by side](/assets/art/comparison.jpg)
+![Two options weighed side by side](/art/comparison.jpg)
 
 <!-- art-auto -->
 
@@ -751,40 +749,27 @@ line item is almost never the one that costs you a week of engineering every qua
 A quick reference for the terms this guide uses:
 
 - **follower** — a public follower count you can rank by. A run returns follower for every row.
-- **export twitter followers** — a public follower count you can rank by. A run returns export twitter followers for every row.
-- **follower and following** — a public follower count you can rank by. A run returns follower and following for every row.
 - **follower count** — a public follower count you can rank by. A run returns follower count for every row.
-- **chrome** — part of the Twitter followings data you get back. A run returns chrome for every row.
-- **export tool** — the file or dataset you download when the run finishes. A run returns export tool for every row.
-- **chrome extension** — part of the Twitter followings data you get back. A run returns chrome extension for every row.
-- **follower export** — a public follower count you can rank by. A run returns follower export for every row.
+- **analytics** — the likes, comments, views, and shares on an item. A run returns analytics for every row.
 - **bio** — part of the Twitter followings data you get back. A run returns bio for every row.
-- **third-party** — part of the Twitter followings data you get back. A run returns third-party for every row.
-- **spreadsheet** — part of the Twitter followings data you get back. A run returns spreadsheet for every row.
-- **outreach** — part of the Twitter followings data you get back. A run returns outreach for every row.
-- **terms of service** — part of the Twitter followings data you get back. A run returns terms of service for every row.
 
-Readers also search for list to csv, followers or following, twitter followers list, exporter, csv or excel file, list members, follower data, excel file, twitter following list, export followers, x api, recent followers, official x, data export, list to excel, followers and following lists, followers or following list, export button, following count, circleboom twitter, per export, export and download, export as csv, full list, data to csv, tweet data, followers to csv, xfollowexporter, list of twitter followers, official x api, following lists to csv, export tweet data, data to excel, excel and csv, chrome web store, open the list, million followers, x list, exported data, data to a csv, privacy policy, inactive followers, export formats, targeted list, export your twitter followers, export the followers, followers tab, ✅ export, formerly twitter, want to export, account and export, one-click export, large lists, start the export, list using, single csv, export the list, x corp, follower count to find, sort by follower count — the same actor answers all of it.
+Readers also search for number of followers, follower growth, twitter analytics, circleboom, twitter profile, track followers, twitter follower count, twitter follower analysis, followers and following, track twitter followers, x developers, complete follower, use the search bar, twitter’s, account’s, twitter's, sort followers, follower tracking, workflow, x api, dataset, fedica, track follower growth, best twitter follower, followers of any twitter, retweets, using a twitter follower, another account, oauth, v1.1, analysis tools, get followers, api access, daily follower, followers and unfollowers, formerly twitter, free account, understand your audience, x analytics, specific account, social media strategy, start collecting, verified accounts, rate-limit, inactive accounts, hashtag analytics, native analytics, unfollowing, andypiper, competitive analysis, geographic distribution, valuable insights — the same actor answers all of it.
 
-## More on Twitter followings
+## Twitter followings: follower, twitter follower, fedica, and twitter account
 
-Readers also search for structured data, using data, rich data fields — the same actor answers all of it.
+Teams evaluating Twitter followings work through follower, twitter follower, fedica, twitter account. Each shapes how the data is gathered and used.
 
-## Twitter followings: follower, twitter follower, export twitter, and follower list
+## follower count, twitter user, tweet, and follower growth
 
-Teams evaluating Twitter followings work through follower, twitter follower, export twitter, follower list. Each shapes how the data is gathered and used.
+Teams evaluating Twitter followings work through follower count, twitter user, tweet, follower growth. Each shapes how the data is gathered and used.
 
-## following list, export twitter followers, follower and following, and export tool
+## circleboom, track followers, twitter follower count, and track twitter followers
 
-Teams evaluating Twitter followings work through following list, export twitter followers, follower and following, export tool. Each shapes how the data is gathered and used.
+Teams evaluating Twitter followings work through circleboom, track followers, twitter follower count, track twitter followers. Each shapes how the data is gathered and used.
 
-## follower export, list to csv, followers or following, and twitter followers list
+## track follower growth, best twitter follower, another account, and andypiper
 
-Teams evaluating Twitter followings work through follower export, list to csv, followers or following, twitter followers list. Each shapes how the data is gathered and used.
-
-## browser extension, export followers, x api, and official x
-
-Teams evaluating Twitter followings work through browser extension, export followers, x api, official x. Each shapes how the data is gathered and used.
+Teams evaluating Twitter followings work through track follower growth, best twitter follower, another account, andypiper. Each shapes how the data is gathered and used.
 
 ## FAQ
 
@@ -803,70 +788,70 @@ You pay Apify compute plus a small per-result price; check the actor's Pricing t
 **Can I export Twitter followings to CSV or Excel?**
 Yes — download as JSON, CSV, or Excel, or connect Google Sheets / Airtable directly from the actor page: https://apify.com/data-slayer/twitter-followings
 
-**Can I download my full Twitter/X follower list in one click?**
+**Are Twitter followers worth anything?**
 Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
 
-**Can I export a list from Twitter without a tool?**
+**Are there any good tools for managing Twitter follows - whom you follow, whom you might unfollow?**
 Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
 
-**Can I export only part of a Twitter List instead of all members?**
-Sort or filter the output after export; the actor returns the items for the URLs or handles you give it, and you keep the newest by timestamp.
-
-**Can I work with Twitter follower lists if I’m not technical?**
+**Are there any websites that automatically follow people back on Twitter if they follow you first?**
 Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
 
-**Can JarveePro export profile URLs to CSV?**
+**But have you any magic for search like followers:screen_name?**
 Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
 
-**Can a list become a CSV file?**
+**But the real question is: Who exactly is following you, and when?**
 Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
 
-**Can exporting followers get your X account banned?**
+**But who can sit in front of the computer and concentrate on Twitter activity all day long?**
+Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
+
+**Can I buy a list of Twitter users?**
+Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
+
+**Can I use automation tools to track and manage my Twitter engagement across multiple accounts at once?**
+You can run the actor across the followings URLs you care about in one job and get one row per item, mixed types included.
+
+**Can I view another user's Twitter follower statistics over time?**
+Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
+
+**Can anyone list some Twitter accounts that're worth following?**
+Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
+
+**Can blocked users see your following or followers list?**
 The actor rotates **residential proxies**, paces under the rate limit, and retries with backoff, which is what keeps a **Twitter scraper** from getting blocked.
 
-**Can you export a Notion.so table to CSV format?**
+**Can the export include followers' recent posts or engagement on my account?**
+Sort or filter the output after export; the actor returns the items for the URLs or handles you give it, and you keep the newest by timestamp.
+
+**Can you follow back?**
 Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
 
-**Can you export someone else's Twitter followers?**
+**Can you hide your followers/following list on Twitter but still keep your tweets public?**
 Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
 
-**Does Twitter offer any way to upload a CSV file to see which of your contacts might already be on Twitter?**
+**Can you look at someone's tweets without having a Twitter account?**
 Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
 
-**Does exporting a list require a browser extension?**
+**Did you decide to follow me or were added by the system?**
 Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
 
-**Does the export cost tokens, and how do I know my balance?**
-Apify compute plus a small per-result price; the free tier covers small runs. Exact rate is on the actor's Pricing tab.
+**Did you know that Shakira (232 friends) and Gerard Pique (763 friends) have only 25 common following accounts?**
+Sort or filter the output after export; the actor returns the items for the URLs or handles you give it, and you keep the newest by timestamp.
 
-**How can I batch edit my Twitter lists?**
+**Do you know the language distribution of your Twitter followers?**
 Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
 
-**How can I create a Twitter List from an existing list of Twitter names without loading each and clicking add for each?**
+**Do you know the optimal time to tweet for maximum engagement with your followers?**
 Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
 
-**How can I create a Twitter list based on a CSV file?**
+**Does Twitter collect user data?**
 Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
 
-**How can I export Google CSV files to PDF format?**
+**Does Twitter follow anyone?**
 Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
 
-**How can I export MSTodo lists to CSV?**
-Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
-
-**How can I export all (x user) Tweets to Excel or CSV?**
-Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
-
-**How can I export data from Zappi to CSV?**
-Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
-
-**How can I export my Facebook messages in html, csv, or txt format?**
-Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
-
-**How can I export my Instagram followers into Excel?**
-Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
-
-**How can I export my Instagram following list into excel?**
+**For example, do you want to know when any baseball team starts following a new player?**
 Short answer: run **Twitter/X Following Scraper · Public Profiles** on your Twitter followings input — it returns clean rows without a login. Full detail is above.
 
 ## Who this is for
@@ -881,7 +866,7 @@ If you are a **social media manager**, this replaces the manual Twitter followin
 
 ## Try it now
 
-Ready to run it yourself? **[Open Twitter/X Following Scraper · Public Profiles on Apify →](https://apify.com/data-slayer/twitter-followings?utm_source=github&utm_medium=use-case&utm_campaign=export-twitter-followings-to-csv)**
+Ready to run it yourself? **[Open Twitter/X Following Scraper · Public Profiles on Apify →](https://apify.com/data-slayer/twitter-followings?utm_source=github&utm_medium=use-case&utm_campaign=how-to-get-twitter-followings-data)**
 
 No login, no code. Free tier included.
 
