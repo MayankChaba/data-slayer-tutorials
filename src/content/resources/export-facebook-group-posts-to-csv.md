@@ -1,24 +1,22 @@
 ---
-layout: use-case
-title: "Scrape Facebook group posts without login"
+layout: "use-case"
+title: "How to export Facebook group posts to CSV"
 description: "Extract posts from any public Facebook group without login. Get full post text, reactions by type, comments, shares, author profiles, media attachments…"
-slug: "scrape-facebook-group-posts-without-login"
-canonical_url: "https://dataslayer.dev/use-cases/scrape-facebook-group-posts-without-login/"
-date: "2026-11-01"
-tags: ["facebook", "how-to", "social media manager"]
-target_keyword: "scrape facebook group posts without login"
+slug: "export-facebook-group-posts-to-csv"
+canonical_url: "/resources/export-facebook-group-posts-to-csv/"
+date: "2026-11-19"
+generated_at: "2026-11-01"
+tags: []
+target_keyword: "export facebook group posts to csv"
 actor_username: "data-slayer"
 actor_slug: "facebook-group-posts"
 actor_url: "https://apify.com/data-slayer/facebook-group-posts"
 persona: "social media manager"
 content_type: "how-to"
-neuronwriter_brief_id: null
+neuronwriter_brief_id: "null"
 neuronwriter_score: null
-status: "draft"
-cover: "/assets/covers/scrape-facebook-group-posts-without-login.jpg"
+status: "published"
 ---
-# Scrape Facebook group posts without login
-
 Pulling Facebook group posts data by hand does not scale. You either copy-paste it one item at a time, or you fight the API — rate limits, auth, and pagination — and still end up with half the fields missing. For a social media manager, the data only matters if it is complete, fresh, and in a sheet you can act on. That is the gap Facebook Group Posts Scraper · No Cookies closes.
 
 > **Facebook Group Posts Scraper · No Cookies** runs **129 times a month** on Apify.
@@ -35,7 +33,7 @@ Instead of building a scraper, you point **Facebook Group Posts Scraper · No Co
 ## How it works — step by step
 
 **1. Open the actor**
-Go to [`data-slayer/facebook-group-posts`](https://apify.com/data-slayer/facebook-group-posts?utm_source=github&utm_medium=use-case&utm_campaign=scrape-facebook-group-posts-without-login) and click **Try for free**.
+Go to [`data-slayer/facebook-group-posts`](https://apify.com/data-slayer/facebook-group-posts?utm_source=github&utm_medium=use-case&utm_campaign=export-facebook-group-posts-to-csv) and click **Try for free**.
 
 **2. Paste your input**
 ```json
@@ -85,7 +83,7 @@ proxies, cookies, and retries — you want the rows.
 
 There are three honest ways to get Facebook group posts data in 2026. Each has a real cost.
 
-![Several platform nodes connected to one hub](/assets/art/multi-platform.jpg)
+![Several platform nodes connected to one hub](/art/multi-platform.jpg)
 
 <!-- art-auto -->
 
@@ -347,7 +345,7 @@ move to a hosted **Facebook scraper** instead of owning the plumbing.
 
 Once the rows land in a sheet, the data does the work. Four patterns we see most:
 
-![An API request flowing into an endpoint and returning records](/assets/art/api-request.jpg)
+![An API request flowing into an endpoint and returning records](/art/api-request.jpg)
 
 <!-- art-auto -->
 
@@ -606,7 +604,7 @@ get a lawyer's read before you scale.
 Search for the **best Facebook scraper** and you get a wall of tools. The **best Facebook scraper**
 for your job comes down to four questions:
 
-![Two options weighed side by side](/assets/art/comparison.jpg)
+![Two options weighed side by side](/art/comparison.jpg)
 
 <!-- art-auto -->
 
@@ -902,7 +900,7 @@ If you are a **social media manager**, this replaces the manual Facebook group p
 
 ## Try it now
 
-Ready to run it yourself? **[Open Facebook Group Posts Scraper · No Cookies on Apify →](https://apify.com/data-slayer/facebook-group-posts?utm_source=github&utm_medium=use-case&utm_campaign=scrape-facebook-group-posts-without-login)**
+Ready to run it yourself? **[Open Facebook Group Posts Scraper · No Cookies on Apify →](https://apify.com/data-slayer/facebook-group-posts?utm_source=github&utm_medium=use-case&utm_campaign=export-facebook-group-posts-to-csv)**
 
 No login, no code. Free tier included.
 
