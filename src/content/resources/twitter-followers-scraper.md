@@ -1,24 +1,22 @@
 ---
-layout: use-case
-title: "How to export X (Twitter) followers to CSV"
+layout: "use-case"
+title: "X (Twitter) followers scraper"
 description: "Extract follower lists from any public Twitter/X account without login. Get usernames, bios, follower/following counts, verification status, profile…"
-slug: "export-twitter-followers-to-csv"
-canonical_url: "https://dataslayer.dev/use-cases/export-twitter-followers-to-csv/"
-date: "2026-11-01"
-tags: ["twitter", "how-to", "social media manager"]
-target_keyword: "export twitter followers to csv"
+slug: "twitter-followers-scraper"
+canonical_url: "/resources/twitter-followers-scraper/"
+date: "2026-11-21"
+generated_at: "2026-11-01"
+tags: []
+target_keyword: "twitter followers scraper"
 actor_username: "data-slayer"
 actor_slug: "twitter-followers"
 actor_url: "https://apify.com/data-slayer/twitter-followers"
 persona: "social media manager"
-content_type: "how-to"
-neuronwriter_brief_id: null
+content_type: "landing"
+neuronwriter_brief_id: "null"
 neuronwriter_score: null
-status: "draft"
-cover: "/assets/covers/export-twitter-followers-to-csv.jpg"
+status: "published"
 ---
-# How to export X (Twitter) followers to CSV
-
 Pulling Twitter followers data by hand does not scale. You either copy-paste it one item at a time, or you fight the API — rate limits, auth, and pagination — and still end up with half the fields missing. For a social media manager, the data only matters if it is complete, fresh, and in a sheet you can act on. That is the gap Twitter/X Followers Scraper · No Cookies closes.
 
 > **Twitter/X Followers Scraper · No Cookies** runs **85 times a month** on Apify.
@@ -35,7 +33,7 @@ Instead of building a scraper, you point **Twitter/X Followers Scraper · No Coo
 ## How it works — step by step
 
 **1. Open the actor**
-Go to [`data-slayer/twitter-followers`](https://apify.com/data-slayer/twitter-followers?utm_source=github&utm_medium=use-case&utm_campaign=export-twitter-followers-to-csv) and click **Try for free**.
+Go to [`data-slayer/twitter-followers`](https://apify.com/data-slayer/twitter-followers?utm_source=github&utm_medium=use-case&utm_campaign=twitter-followers-scraper) and click **Try for free**.
 
 **2. Paste your input**
 ```json
@@ -85,7 +83,7 @@ proxies, cookies, and retries — you want the rows.
 
 There are three honest ways to get Twitter followers data in 2026. Each has a real cost.
 
-![Several platform nodes connected to one hub](/assets/art/multi-platform.jpg)
+![Several platform nodes connected to one hub](/art/multi-platform.jpg)
 
 <!-- art-auto -->
 
@@ -377,7 +375,7 @@ move to a hosted **Twitter scraper** instead of owning the plumbing.
 
 Once the rows land in a sheet, the data does the work. Four patterns we see most:
 
-![A growing follower network](/assets/art/followers.jpg)
+![A growing follower network](/art/followers.jpg)
 
 <!-- art-auto -->
 
@@ -666,7 +664,7 @@ get a lawyer's read before you scale.
 Search for the **best Twitter scraper** and you get a wall of tools. The **best Twitter scraper**
 for your job comes down to four questions:
 
-![Two options weighed side by side](/assets/art/comparison.jpg)
+![Two options weighed side by side](/art/comparison.jpg)
 
 <!-- art-auto -->
 
@@ -992,7 +990,7 @@ If you are a **social media manager**, this replaces the manual Twitter follower
 
 ## Try it now
 
-Ready to run it yourself? **[Open Twitter/X Followers Scraper · No Cookies on Apify →](https://apify.com/data-slayer/twitter-followers?utm_source=github&utm_medium=use-case&utm_campaign=export-twitter-followers-to-csv)**
+Ready to run it yourself? **[Open Twitter/X Followers Scraper · No Cookies on Apify →](https://apify.com/data-slayer/twitter-followers?utm_source=github&utm_medium=use-case&utm_campaign=twitter-followers-scraper)**
 
 No login, no code. Free tier included.
 

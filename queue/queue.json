@@ -1,14 +1,5 @@
 [
  {
-  "slug": "how-to-get-instagram-keyword-posts-data",
-  "priority": "P2",
-  "runs_30d": 128,
-  "target_query": "how to get instagram keyword posts data",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-keyword-posts-scraper",
-  "actor_title": "Instagram Keyword Posts Scraper"
- },
- {
   "slug": "instagram-keyword-posts-data-extraction-tool",
   "priority": "P2",
   "runs_30d": 128,
@@ -18,15 +9,6 @@
   "actor_title": "Instagram Keyword Posts Scraper"
  },
  {
-  "slug": "how-to-get-linkedin-post-engagers-email-no-cookies-data",
-  "priority": "P2",
-  "runs_30d": 105,
-  "target_query": "how to get linkedin post engagers email no cookies data",
-  "actor_account": "data-slayer",
-  "actor_slug": "linkedin-post-engagers-email-finder-no-cookies",
-  "actor_title": "LinkedIn Post Engagers Scraper"
- },
- {
   "slug": "linkedin-post-engagers-email-no-cookies-data-extraction-tool",
   "priority": "P2",
   "runs_30d": 105,
@@ -34,15 +16,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "linkedin-post-engagers-email-finder-no-cookies",
   "actor_title": "LinkedIn Post Engagers Scraper"
- },
- {
-  "slug": "instagram-hashtags-required-api-alternative",
-  "priority": "P2",
-  "runs_30d": 90,
-  "target_query": "instagram hashtags required api alternative",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-hashtags-scraper-no-login-required",
-  "actor_title": "Instagram Hashtag Finder \u00b7 No Login"
  },
  {
   "slug": "export-instagram-hashtags-required-to-csv",
@@ -72,15 +45,6 @@
   "actor_title": "Instagram Hashtag Finder \u00b7 No Login"
  },
  {
-  "slug": "twitter-followers-scraper",
-  "priority": "P2",
-  "runs_30d": 85,
-  "target_query": "twitter followers scraper",
-  "actor_account": "data-slayer",
-  "actor_slug": "twitter-followers",
-  "actor_title": "Twitter/X Followers Scraper \u00b7 No Cookies"
- },
- {
   "slug": "twitter-followers-api-alternative",
   "priority": "P2",
   "runs_30d": 85,
@@ -106,15 +70,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "twitter-followers",
   "actor_title": "Twitter/X Followers Scraper \u00b7 No Cookies"
- },
- {
-  "slug": "how-to-scrape-linkedin-people-without-getting-blocked",
-  "priority": "P2",
-  "runs_30d": 84,
-  "target_query": "how to scrape linkedin people without getting blocked",
-  "actor_account": "data-slayer",
-  "actor_slug": "linkedin-people-search",
-  "actor_title": "LinkedIn People Search (ICP)"
  },
  {
   "slug": "linkedin-people-scraper",
