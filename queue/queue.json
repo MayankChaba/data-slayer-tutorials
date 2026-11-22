@@ -1,32 +1,5 @@
 [
  {
-  "slug": "instagram-keyword-posts-data-extraction-tool",
-  "priority": "P2",
-  "runs_30d": 128,
-  "target_query": "instagram keyword posts data extraction tool",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-keyword-posts-scraper",
-  "actor_title": "Instagram Keyword Posts Scraper"
- },
- {
-  "slug": "linkedin-post-engagers-email-no-cookies-data-extraction-tool",
-  "priority": "P2",
-  "runs_30d": 105,
-  "target_query": "linkedin post engagers email no cookies data extraction tool",
-  "actor_account": "data-slayer",
-  "actor_slug": "linkedin-post-engagers-email-finder-no-cookies",
-  "actor_title": "LinkedIn Post Engagers Scraper"
- },
- {
-  "slug": "export-instagram-hashtags-required-to-csv",
-  "priority": "P2",
-  "runs_30d": 90,
-  "target_query": "export instagram hashtags required to csv",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-hashtags-scraper-no-login-required",
-  "actor_title": "Instagram Hashtag Finder \u00b7 No Login"
- },
- {
   "slug": "how-to-get-instagram-hashtags-required-data",
   "priority": "P2",
   "runs_30d": 90,
@@ -54,15 +27,6 @@
   "actor_title": "Twitter/X Followers Scraper \u00b7 No Cookies"
  },
  {
-  "slug": "how-to-get-twitter-followers-data",
-  "priority": "P2",
-  "runs_30d": 85,
-  "target_query": "how to get twitter followers data",
-  "actor_account": "data-slayer",
-  "actor_slug": "twitter-followers",
-  "actor_title": "Twitter/X Followers Scraper \u00b7 No Cookies"
- },
- {
   "slug": "twitter-followers-data-extraction-tool",
   "priority": "P2",
   "runs_30d": 85,
@@ -76,15 +40,6 @@
   "priority": "P2",
   "runs_30d": 84,
   "target_query": "linkedin people scraper",
-  "actor_account": "data-slayer",
-  "actor_slug": "linkedin-people-search",
-  "actor_title": "LinkedIn People Search (ICP)"
- },
- {
-  "slug": "scrape-linkedin-people-without-login",
-  "priority": "P2",
-  "runs_30d": 84,
-  "target_query": "scrape linkedin people without login",
   "actor_account": "data-slayer",
   "actor_slug": "linkedin-people-search",
   "actor_title": "LinkedIn People Search (ICP)"

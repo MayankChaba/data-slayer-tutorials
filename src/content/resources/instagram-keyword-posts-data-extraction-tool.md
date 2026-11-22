@@ -1,24 +1,22 @@
 ---
-layout: use-case
-title: "How to get Instagram keyword posts data"
+layout: "use-case"
+title: "Extracting Instagram keyword posts data"
 description: "Search public Instagram posts, Reels and carousels by keyword. Batch up to 10 phrases and export captions, engagement, creator details and media URLs with…"
-slug: "how-to-get-instagram-keyword-posts-data"
-canonical_url: "https://dataslayer.dev/use-cases/how-to-get-instagram-keyword-posts-data/"
-date: "2026-11-01"
-tags: ["instagram", "how-to", "social media manager"]
-target_keyword: "how to get instagram keyword posts data"
+slug: "instagram-keyword-posts-data-extraction-tool"
+canonical_url: "/resources/instagram-keyword-posts-data-extraction-tool/"
+date: "2026-11-22"
+generated_at: "2026-11-01"
+tags: []
+target_keyword: "instagram keyword posts data extraction tool"
 actor_username: "data-slayer"
 actor_slug: "instagram-keyword-posts-scraper"
 actor_url: "https://apify.com/data-slayer/instagram-keyword-posts-scraper"
 persona: "social media manager"
-content_type: "how-to"
-neuronwriter_brief_id: null
+content_type: "landing"
+neuronwriter_brief_id: "null"
 neuronwriter_score: null
-status: "draft"
-cover: "/assets/covers/how-to-get-instagram-keyword-posts-data.jpg"
+status: "published"
 ---
-# How to get Instagram keyword posts data
-
 Pulling Instagram keyword posts data by hand does not scale. You either copy-paste it one item at a time, or you fight the API — rate limits, auth, and pagination — and still end up with half the fields missing. For a social media manager, the data only matters if it is complete, fresh, and in a sheet you can act on. That is the gap Instagram Keyword Posts Scraper closes.
 
 > **Instagram Keyword Posts Scraper** runs **128 times a month** on Apify.
@@ -35,7 +33,7 @@ Instead of building a scraper, you point **Instagram Keyword Posts Scraper** ([`
 ## How it works — step by step
 
 **1. Open the actor**
-Go to [`data-slayer/instagram-keyword-posts-scraper`](https://apify.com/data-slayer/instagram-keyword-posts-scraper?utm_source=github&utm_medium=use-case&utm_campaign=how-to-get-instagram-keyword-posts-data) and click **Try for free**.
+Go to [`data-slayer/instagram-keyword-posts-scraper`](https://apify.com/data-slayer/instagram-keyword-posts-scraper?utm_source=github&utm_medium=use-case&utm_campaign=instagram-keyword-posts-data-extraction-tool) and click **Try for free**.
 
 **2. Paste your input**
 ```json
@@ -88,7 +86,7 @@ proxies, cookies, and retries — you want the rows.
 
 There are three honest ways to get Instagram keyword posts data in 2026. Each has a real cost.
 
-![Several platform nodes connected to one hub](/assets/art/multi-platform.jpg)
+![Several platform nodes connected to one hub](/art/multi-platform.jpg)
 
 <!-- art-auto -->
 
@@ -387,7 +385,7 @@ move to a hosted **Instagram scraper** instead of owning the plumbing.
 
 Once the rows land in a sheet, the data does the work. Four patterns we see most:
 
-![A magnifier over a cloud of hashtags](/assets/art/keyword-search.jpg)
+![A magnifier over a cloud of hashtags](/art/keyword-search.jpg)
 
 <!-- art-auto -->
 
@@ -683,7 +681,7 @@ get a lawyer's read before you scale.
 Search for the **best Instagram scraper** and you get a wall of tools. The **best Instagram scraper**
 for your job comes down to four questions:
 
-![Two options weighed side by side](/assets/art/comparison.jpg)
+![Two options weighed side by side](/art/comparison.jpg)
 
 <!-- art-auto -->
 
@@ -1016,7 +1014,7 @@ If you are a **social media manager**, this replaces the manual Instagram keywor
 
 ## Try it now
 
-Ready to run it yourself? **[Open Instagram Keyword Posts Scraper on Apify →](https://apify.com/data-slayer/instagram-keyword-posts-scraper?utm_source=github&utm_medium=use-case&utm_campaign=how-to-get-instagram-keyword-posts-data)**
+Ready to run it yourself? **[Open Instagram Keyword Posts Scraper on Apify →](https://apify.com/data-slayer/instagram-keyword-posts-scraper?utm_source=github&utm_medium=use-case&utm_campaign=instagram-keyword-posts-data-extraction-tool)**
 
 No login, no code. Free tier included.
 
