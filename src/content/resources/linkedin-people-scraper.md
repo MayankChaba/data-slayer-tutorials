@@ -1,50 +1,48 @@
 ---
-layout: use-case
-title: "Extracting LinkedIn post engagers email no cookies data"
-description: "Paste a LinkedIn post URL and get everyone who engaged with it — commenters, reactors, reposters — deduplicated into one list with full LinkedIn profile…"
-slug: "linkedin-post-engagers-email-no-cookies-data-extraction-tool"
-canonical_url: "https://dataslayer.dev/use-cases/linkedin-post-engagers-email-no-cookies-data-extraction-tool/"
-date: "2026-11-01"
-tags: ["linkedin", "landing", "lead-gen marketer"]
-target_keyword: "linkedin post engagers email no cookies data extraction tool"
+layout: "use-case"
+title: "LinkedIn people scraper"
+description: "Find LinkedIn people and decision-makers with ICP filters - job title, seniority, function, company, location, industry and more. No cookies."
+slug: "linkedin-people-scraper"
+canonical_url: "/resources/linkedin-people-scraper/"
+date: "2026-11-24"
+generated_at: "2026-11-01"
+tags: []
+target_keyword: "linkedin people scraper"
 actor_username: "data-slayer"
-actor_slug: "linkedin-post-engagers-email-finder-no-cookies"
-actor_url: "https://apify.com/data-slayer/linkedin-post-engagers-email-finder-no-cookies"
+actor_slug: "linkedin-people-search"
+actor_url: "https://apify.com/data-slayer/linkedin-people-search"
 persona: "lead-gen marketer"
 content_type: "landing"
-neuronwriter_brief_id: null
+neuronwriter_brief_id: "null"
 neuronwriter_score: null
-status: "draft"
-cover: "/assets/covers/linkedin-post-engagers-email-no-cookies-data-extraction-tool.jpg"
+status: "published"
 ---
-# Extracting LinkedIn post engagers email no cookies data
+Pulling Linkedin people search data by hand does not scale. You either copy-paste it one item at a time, or you fight the API — rate limits, auth, and pagination — and still end up with half the fields missing. For a lead-gen marketer, the data only matters if it is complete, fresh, and in a sheet you can act on. That is the gap LinkedIn People Search (ICP) closes.
 
-Pulling Linkedin post engagers email no cookies data by hand does not scale. You either copy-paste it one item at a time, or you fight the API — rate limits, auth, and pagination — and still end up with half the fields missing. For a lead-gen marketer, the data only matters if it is complete, fresh, and in a sheet you can act on. That is the gap LinkedIn Post Engagers Scraper closes.
-
-> **LinkedIn Post Engagers Scraper** runs **105 times a month** on Apify.
+> **LinkedIn People Search (ICP)** runs **84 times a month** on Apify.
 
 ## What you get
 
-- commenters, reactors, reposters
-- No cookies, no login
-- reposters — deduplicated into one list with full LinkedIn profile data. No cookies
+- Find LinkedIn people
+- decision-makers with ICP filters - job title
+- more. No cookies
 
-Instead of building a scraper, you point **LinkedIn Post Engagers Scraper** ([`data-slayer/linkedin-post-engagers-email-finder-no-cookies`](https://apify.com/data-slayer/linkedin-post-engagers-email-finder-no-cookies)) at your input and run it. It handles the requests, retries, and parsing, and returns one clean row per item in the format you already use.
+Instead of building a scraper, you point **LinkedIn People Search (ICP)** ([`data-slayer/linkedin-people-search`](https://apify.com/data-slayer/linkedin-people-search)) at your input and run it. It handles the requests, retries, and parsing, and returns one clean row per item in the format you already use.
 
 ## How it works — step by step
 
 **1. Open the actor**
-Go to [`data-slayer/linkedin-post-engagers-email-finder-no-cookies`](https://apify.com/data-slayer/linkedin-post-engagers-email-finder-no-cookies?utm_source=github&utm_medium=use-case&utm_campaign=linkedin-post-engagers-email-no-cookies-data-extraction-tool) and click **Try for free**.
+Go to [`data-slayer/linkedin-people-search`](https://apify.com/data-slayer/linkedin-people-search?utm_source=github&utm_medium=use-case&utm_campaign=linkedin-people-scraper) and click **Try for free**.
 
 **2. Paste your input**
 ```json
 {
-  "linkedin_post_url": "https://www.linkedin.com/posts/satyanadella_honored-to-share-that-microsoft-has-been-activity-7300837546804742144-5Mti"
+  "keywords": ""
 }
 ```
 
 **3. Run it**
-Click **Start**. A typical run finishes in under a minute and returns one row per item.
+Click **Start**. A typical run finishes in under a minute and returns one row per people search.
 
 **4. Get your data**
 Download as **JSON, CSV, or Excel**, or push straight to Google Sheets / Airtable via the built-in integrations.
@@ -58,7 +56,7 @@ Download as **JSON, CSV, or Excel**, or push straight to Google Sheets / Airtabl
 | `engagement` | `…` | filter / sort / export |
 | `collectedAt` | `2026-09-30T12:00:00Z` | time-series / scheduling |
 
-## Why scraping Linkedin post engagers email no cookies without getting blocked is hard in 2026
+## Why scraping Linkedin people search without getting blocked is hard in 2026
 
 Linkedin is one of the most aggressively defended sites on the web, and 2026 is the hardest
 year yet to pull Linkedin data at scale. If you have tried to **scrape Linkedin** yourself, you have
@@ -77,14 +75,14 @@ probably already hit one of these walls:
   scraper you wrote last quarter silently returns half the fields today.
 
 That is the difference between a script that works once on your laptop and a **Linkedin scraper**
-that runs every day without maintenance. For a post engagers email no cookies job you do not want to babysit
+that runs every day without maintenance. For a people search job you do not want to babysit
 proxies, cookies, and retries — you want the rows.
 
 ## Three ways to get Linkedin data — and which one to use
 
-There are three honest ways to get Linkedin post engagers email no cookies data in 2026. Each has a real cost.
+There are three honest ways to get Linkedin people search data in 2026. Each has a real cost.
 
-![Several platform nodes connected to one hub](/assets/art/multi-platform.jpg)
+![Several platform nodes connected to one hub](/art/multi-platform.jpg)
 
 <!-- art-auto -->
 
@@ -365,12 +363,12 @@ There are three honest ways to get Linkedin post engagers email no cookies data 
 | **Official Linkedin API** | Use the platform's own API | Heavily restricted, requires app review, returns a fraction of the public fields, and is not built for bulk extraction. |
 | **A ready-made scraping API / actor** | Point a maintained actor at your input and download clean rows | You pay per result, but you skip the proxy, login, and parsing work entirely. |
 
-For most post engagers email no cookies work the third option wins on total cost. A **scraping API** gives you the
+For most people search work the third option wins on total cost. A **scraping API** gives you the
 same **public Linkedin data** a hand-built Python scraper would, without the account-handling
 system around it. **Apify** hosts these actors and exposes them through a **web scraping
 API**, so you can run one by hand, on a schedule, or from code with the **Apify API**.
 
-## How to scrape Linkedin post engagers email no cookies without getting blocked
+## How to scrape Linkedin people search without getting blocked
 
 If you do build your own **Linkedin scraper**, these are the controls that actually keep it
 alive. Every one of them is already handled for you inside a maintained actor.
@@ -392,11 +390,11 @@ Do all six and you can **scrape Linkedin without getting blocked** for a while. 
 and you will **get blocked** on day one. That maintenance burden is the real reason teams
 move to a hosted **Linkedin scraper** instead of owning the plumbing.
 
-## What you can do with Linkedin post engagers email no cookies data
+## What you can do with Linkedin people search data
 
 Once the rows land in a sheet, the data does the work. Four patterns we see most:
 
-![An open path past a locked door](/assets/art/no-login.jpg)
+![A magnifier over a cloud of hashtags](/art/keyword-search.jpg)
 
 <!-- art-auto -->
 
@@ -682,7 +680,7 @@ Once the rows land in a sheet, the data does the work. Four patterns we see most
 
 All of it runs on **public data** — no login, no personal data, and no private accounts.
 
-## Is scraping Linkedin post engagers email no cookies legal?
+## Is scraping Linkedin people search legal?
 
 Scraping **public Linkedin data** is generally lawful in most jurisdictions, but the rules are
 not uniform and they change. A few principles keep you on the right side of it:
@@ -705,7 +703,7 @@ get a lawyer's read before you scale.
 Search for the **best Linkedin scraper** and you get a wall of tools. The **best Linkedin scraper**
 for your job comes down to four questions:
 
-![Two options weighed side by side](/assets/art/comparison.jpg)
+![Two options weighed side by side](/art/comparison.jpg)
 
 <!-- art-auto -->
 
@@ -1010,7 +1008,7 @@ hashtags — you do not stitch together four tools.
 If you have looked at **Bright Data** or another **scraping API**, the trade-off is the
 same everywhere: a **web scraping API** sells you the unblocking layer, and you still own
 the parsing. A hosted **Linkedin scraper API** goes one step further — it returns the parsed
-post engagers email no cookies rows, not just the HTML.
+people search rows, not just the HTML.
 
 | | Custom Python build | Bright Data / raw proxy | Hosted actor |
 |---|---|---|---|
@@ -1033,25 +1031,25 @@ Linkedin blocks naive scrapers aggressively: datacenter IPs, cold sessions, and 
 **Do I need coding skills to scrape Linkedin data?**
 No. You paste your input into the actor's form and click Start — no Python, no proxy setup, no cookie handling. Developers can still drive the same actor through the **Apify API**.
 
-**How much does it cost to scrape Linkedin post engagers email no cookies?**
+**How much does it cost to scrape Linkedin people search?**
 You pay Apify compute plus a small per-result price; check the actor's Pricing tab for the exact rate. The free tier covers small runs, so you can test before you commit.
 
-**Can I export Linkedin post engagers email no cookies to CSV or Excel?**
-Yes — download as JSON, CSV, or Excel, or connect Google Sheets / Airtable directly from the actor page: https://apify.com/data-slayer/linkedin-post-engagers-email-finder-no-cookies
+**Can I export Linkedin people search to CSV or Excel?**
+Yes — download as JSON, CSV, or Excel, or connect Google Sheets / Airtable directly from the actor page: https://apify.com/data-slayer/linkedin-people-search
 
 ## Who this is for
 
-If you are a **lead-gen marketer**, this replaces the manual Linkedin post engagers email no cookies pull. Run it on a schedule, push the output to Sheets or Airtable, and your report refreshes itself.
+If you are a **lead-gen marketer**, this replaces the manual Linkedin people search pull. Run it on a schedule, push the output to Sheets or Airtable, and your report refreshes itself.
 
 ## Related use cases
 
 - [how to scrape linkedin company without getting blocked](https://dataslayer.dev/use-cases/how-to-scrape-linkedin-company-without-getting-blocked/)
-- [how to scrape linkedin people without getting blocked](https://dataslayer.dev/use-cases/how-to-scrape-linkedin-people-without-getting-blocked/)
 - [how to scrape linkedin post reactions without getting blocked](https://dataslayer.dev/use-cases/how-to-scrape-linkedin-post-reactions-without-getting-blocked/)
+- [how to scrape linkedin audience email no cookies without getting blocked](https://dataslayer.dev/use-cases/how-to-scrape-linkedin-audience-email-no-cookies-without-getting-blocked/)
 
 ## Try it now
 
-Ready to run it yourself? **[Open LinkedIn Post Engagers Scraper on Apify →](https://apify.com/data-slayer/linkedin-post-engagers-email-finder-no-cookies?utm_source=github&utm_medium=use-case&utm_campaign=linkedin-post-engagers-email-no-cookies-data-extraction-tool)**
+Ready to run it yourself? **[Open LinkedIn People Search (ICP) on Apify →](https://apify.com/data-slayer/linkedin-people-search?utm_source=github&utm_medium=use-case&utm_campaign=linkedin-people-scraper)**
 
 No login, no code. Free tier included.
 

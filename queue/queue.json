@@ -1,14 +1,5 @@
 [
  {
-  "slug": "how-to-get-instagram-hashtags-required-data",
-  "priority": "P2",
-  "runs_30d": 90,
-  "target_query": "how to get instagram hashtags required data",
-  "actor_account": "data-slayer",
-  "actor_slug": "instagram-hashtags-scraper-no-login-required",
-  "actor_title": "Instagram Hashtag Finder \u00b7 No Login"
- },
- {
   "slug": "instagram-hashtags-required-data-extraction-tool",
   "priority": "P2",
   "runs_30d": 90,
@@ -18,15 +9,6 @@
   "actor_title": "Instagram Hashtag Finder \u00b7 No Login"
  },
  {
-  "slug": "twitter-followers-api-alternative",
-  "priority": "P2",
-  "runs_30d": 85,
-  "target_query": "twitter followers api alternative",
-  "actor_account": "data-slayer",
-  "actor_slug": "twitter-followers",
-  "actor_title": "Twitter/X Followers Scraper \u00b7 No Cookies"
- },
- {
   "slug": "twitter-followers-data-extraction-tool",
   "priority": "P2",
   "runs_30d": 85,
@@ -34,15 +16,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "twitter-followers",
   "actor_title": "Twitter/X Followers Scraper \u00b7 No Cookies"
- },
- {
-  "slug": "linkedin-people-scraper",
-  "priority": "P2",
-  "runs_30d": 84,
-  "target_query": "linkedin people scraper",
-  "actor_account": "data-slayer",
-  "actor_slug": "linkedin-people-search",
-  "actor_title": "LinkedIn People Search (ICP)"
  },
  {
   "slug": "linkedin-people-api-alternative",
@@ -79,15 +52,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "linkedin-people-search",
   "actor_title": "LinkedIn People Search (ICP)"
- },
- {
-  "slug": "how-to-scrape-facebook-events-without-getting-blocked",
-  "priority": "P2",
-  "runs_30d": 84,
-  "target_query": "how to scrape facebook events without getting blocked",
-  "actor_account": "data-slayer",
-  "actor_slug": "facebook-search-events",
-  "actor_title": "Facebook Events Scraper \u00b7 No Cookies"
  },
  {
   "slug": "facebook-events-scraper",
@@ -142,15 +106,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "facebook-search-events",
   "actor_title": "Facebook Events Scraper \u00b7 No Cookies"
- },
- {
-  "slug": "how-to-scrape-tiktok-comments-without-getting-blocked",
-  "priority": "P2",
-  "runs_30d": 75,
-  "target_query": "how to scrape tiktok comments without getting blocked",
-  "actor_account": "data-slayer",
-  "actor_slug": "tiktok-comments",
-  "actor_title": "TikTok Comments Scraper \u00b7 No Cookies"
  },
  {
   "slug": "tiktok-comments-scraper",
@@ -216,15 +171,6 @@
   "actor_title": "TikTok Comments Scraper \u00b7 No Cookies"
  },
  {
-  "slug": "how-to-scrape-tiktok-profile-without-getting-blocked",
-  "priority": "P2",
-  "runs_30d": 65,
-  "target_query": "how to scrape tiktok profile without getting blocked",
-  "actor_account": "data-slayer",
-  "actor_slug": "tiktok-profile-scraper",
-  "actor_title": "TikTok Profile Scraper \u00b7 No Cookies"
- },
- {
   "slug": "tiktok-profile-scraper",
   "priority": "P2",
   "runs_30d": 65,
@@ -288,15 +234,6 @@
   "actor_title": "TikTok Profile Scraper \u00b7 No Cookies"
  },
  {
-  "slug": "how-to-scrape-facebook-people-without-getting-blocked",
-  "priority": "P2",
-  "runs_30d": 55,
-  "target_query": "how to scrape facebook people without getting blocked",
-  "actor_account": "data-slayer",
-  "actor_slug": "facebook-search-people",
-  "actor_title": "Facebook People Search Scraper \u00b7 No Cookies"
- },
- {
   "slug": "facebook-people-scraper",
   "priority": "P2",
   "runs_30d": 55,
@@ -349,15 +286,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "facebook-search-people",
   "actor_title": "Facebook People Search Scraper \u00b7 No Cookies"
- },
- {
-  "slug": "how-to-scrape-facebook-page-reviews-without-getting-blocked",
-  "priority": "P2",
-  "runs_30d": 44,
-  "target_query": "how to scrape facebook page reviews without getting blocked",
-  "actor_account": "data-slayer",
-  "actor_slug": "facebook-page-reviews",
-  "actor_title": "Facebook Page Reviews Scraper \u00b7 No Cookies"
  },
  {
   "slug": "facebook-page-reviews-scraper",
