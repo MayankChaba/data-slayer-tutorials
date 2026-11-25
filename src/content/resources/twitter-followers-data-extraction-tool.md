@@ -1,46 +1,44 @@
 ---
-layout: use-case
-title: "How to scrape tiktok comments without getting blocked"
-description: "Extract comments from any TikTok video without login. Get comment text, like counts, reply threads, timestamps, language detection, pinned status, and…"
-slug: "how-to-scrape-tiktok-comments-without-getting-blocked"
-canonical_url: "https://dataslayer.dev/use-cases/how-to-scrape-tiktok-comments-without-getting-blocked/"
-date: "2026-11-01"
-tags: ["tiktok", "how-to", "social media manager"]
-target_keyword: "how to scrape tiktok comments without getting blocked"
+layout: "use-case"
+title: "Extracting X (Twitter) followers data"
+description: "Extract follower lists from any public Twitter/X account without login. Get usernames, bios, follower/following counts, verification status, profile…"
+slug: "twitter-followers-data-extraction-tool"
+canonical_url: "/resources/twitter-followers-data-extraction-tool/"
+date: "2026-11-25"
+generated_at: "2026-11-01"
+tags: []
+target_keyword: "twitter followers data extraction tool"
 actor_username: "data-slayer"
-actor_slug: "tiktok-comments"
-actor_url: "https://apify.com/data-slayer/tiktok-comments"
+actor_slug: "twitter-followers"
+actor_url: "https://apify.com/data-slayer/twitter-followers"
 persona: "social media manager"
-content_type: "how-to"
-neuronwriter_brief_id: null
+content_type: "landing"
+neuronwriter_brief_id: "null"
 neuronwriter_score: null
-status: "draft"
-cover: "/assets/covers/how-to-scrape-tiktok-comments-without-getting-blocked.jpg"
+status: "published"
 ---
-# How to scrape tiktok comments without getting blocked
+Pulling Twitter followers data by hand does not scale. You either copy-paste it one item at a time, or you fight the API — rate limits, auth, and pagination — and still end up with half the fields missing. For a social media manager, the data only matters if it is complete, fresh, and in a sheet you can act on. That is the gap Twitter/X Followers Scraper · No Cookies closes.
 
-Pulling Tiktok comments data by hand does not scale. You either copy-paste it one item at a time, or you fight the API — rate limits, auth, and pagination — and still end up with half the fields missing. For a social media manager, the data only matters if it is complete, fresh, and in a sheet you can act on. That is the gap TikTok Comments Scraper · No Cookies closes.
-
-> **TikTok Comments Scraper · No Cookies** runs **75 times a month** on Apify.
+> **Twitter/X Followers Scraper · No Cookies** runs **85 times a month** on Apify.
 
 ## What you get
 
-- No cookies, no authentication
-- like counts
-- reply threads
-- timestamps
+- No cookies, no API key
+- follower/following counts
+- verification status
+- profile images
 
-Instead of building a scraper, you point **TikTok Comments Scraper · No Cookies** ([`data-slayer/tiktok-comments`](https://apify.com/data-slayer/tiktok-comments)) at your input and run it. It handles the requests, retries, and parsing, and returns one clean row per item in the format you already use.
+Instead of building a scraper, you point **Twitter/X Followers Scraper · No Cookies** ([`data-slayer/twitter-followers`](https://apify.com/data-slayer/twitter-followers)) at your input and run it. It handles the requests, retries, and parsing, and returns one clean row per item in the format you already use.
 
 ## How it works — step by step
 
 **1. Open the actor**
-Go to [`data-slayer/tiktok-comments`](https://apify.com/data-slayer/tiktok-comments?utm_source=github&utm_medium=use-case&utm_campaign=how-to-scrape-tiktok-comments-without-getting-blocked) and click **Try for free**.
+Go to [`data-slayer/twitter-followers`](https://apify.com/data-slayer/twitter-followers?utm_source=github&utm_medium=use-case&utm_campaign=twitter-followers-data-extraction-tool) and click **Try for free**.
 
 **2. Paste your input**
 ```json
 {
-  "videoId": "7306132438047116586"
+  "userId": "elonmusk"
 }
 ```
 
@@ -59,13 +57,13 @@ Download as **JSON, CSV, or Excel**, or push straight to Google Sheets / Airtabl
 | `engagement` | `…` | filter / sort / export |
 | `collectedAt` | `2026-09-30T12:00:00Z` | time-series / scheduling |
 
-## Why scraping Tiktok comments without getting blocked is hard in 2026
+## Why scraping Twitter followers without getting blocked is hard in 2026
 
-Tiktok is one of the most aggressively defended sites on the web, and 2026 is the hardest
-year yet to pull Tiktok data at scale. If you have tried to **scrape Tiktok** yourself, you have
+Twitter is one of the most aggressively defended sites on the web, and 2026 is the hardest
+year yet to pull Twitter data at scale. If you have tried to **scrape Twitter** yourself, you have
 probably already hit one of these walls:
 
-- **Anti-bot detection.** Tiktok fingerprints the TLS handshake, the HTTP headers, and the
+- **Anti-bot detection.** Twitter fingerprints the TLS handshake, the HTTP headers, and the
   request timing of every client. A plain `requests` call is flagged before it ever reaches
   a public profile, and you **get blocked** with a login wall or an empty response.
 - **Rate limits.** The public endpoints throttle by IP and by session. Hit the rate limit
@@ -74,18 +72,18 @@ probably already hit one of these walls:
 - **Login walls and cookies.** Many surfaces (stories, some reels, follower lists) are only
   served to a logged-in session, so a naive scraper needs a real login, a cookie jar, and a
   way to refresh it — which is exactly what gets accounts disabled.
-- **Pagination and shifting JSON.** Tiktok changes its private JSON shape without notice, so a
+- **Pagination and shifting JSON.** Twitter changes its private JSON shape without notice, so a
   scraper you wrote last quarter silently returns half the fields today.
 
-That is the difference between a script that works once on your laptop and a **Tiktok scraper**
-that runs every day without maintenance. For a comments job you do not want to babysit
+That is the difference between a script that works once on your laptop and a **Twitter scraper**
+that runs every day without maintenance. For a followers job you do not want to babysit
 proxies, cookies, and retries — you want the rows.
 
-## Three ways to get Tiktok data — and which one to use
+## Three ways to get Twitter data — and which one to use
 
-There are three honest ways to get Tiktok comments data in 2026. Each has a real cost.
+There are three honest ways to get Twitter followers data in 2026. Each has a real cost.
 
-![Several platform nodes connected to one hub](/assets/art/multi-platform.jpg)
+![Several platform nodes connected to one hub](/art/multi-platform.jpg)
 
 <!-- art-auto -->
 
@@ -377,17 +375,17 @@ There are three honest ways to get Tiktok comments data in 2026. Each has a real
 | Approach | How it works | The catch |
 |---|---|---|
 | **Build your own scraper** | Write a Python scraper with `requests`, rotate residential proxies, manage a login session, parse the private JSON | Weeks of work, constant breakage, and you own the block/ban risk. Fine for a one-off, painful at scale. |
-| **Official Tiktok API** | Use the platform's own API | Heavily restricted, requires app review, returns a fraction of the public fields, and is not built for bulk extraction. |
+| **Official Twitter API** | Use the platform's own API | Heavily restricted, requires app review, returns a fraction of the public fields, and is not built for bulk extraction. |
 | **A ready-made scraping API / actor** | Point a maintained actor at your input and download clean rows | You pay per result, but you skip the proxy, login, and parsing work entirely. |
 
-For most comments work the third option wins on total cost. A **scraping API** gives you the
-same **public Tiktok data** a hand-built Python scraper would, without the account-handling
+For most followers work the third option wins on total cost. A **scraping API** gives you the
+same **public Twitter data** a hand-built Python scraper would, without the account-handling
 system around it. **Apify** hosts these actors and exposes them through a **web scraping
 API**, so you can run one by hand, on a schedule, or from code with the **Apify API**.
 
-## How to scrape Tiktok comments without getting blocked
+## How to scrape Twitter followers without getting blocked
 
-If you do build your own **Tiktok scraper**, these are the controls that actually keep it
+If you do build your own **Twitter scraper**, these are the controls that actually keep it
 alive. Every one of them is already handled for you inside a maintained actor.
 
 1. **Use residential proxies.** Datacenter IP ranges are blocked on sight. Rotate
@@ -403,15 +401,15 @@ alive. Every one of them is already handled for you inside a maintained actor.
 6. **Cache what you already have.** Re-fetch only new items. Most "blocks" are self-inflicted
    by re-scraping the same public profile hundreds of times.
 
-Do all six and you can **scrape Tiktok without getting blocked** for a while. Do none of them
+Do all six and you can **scrape Twitter without getting blocked** for a while. Do none of them
 and you will **get blocked** on day one. That maintenance burden is the real reason teams
-move to a hosted **Tiktok scraper** instead of owning the plumbing.
+move to a hosted **Twitter scraper** instead of owning the plumbing.
 
-## What you can do with Tiktok comments data
+## What you can do with Twitter followers data
 
 Once the rows land in a sheet, the data does the work. Four patterns we see most:
 
-![Threaded comment bubbles](/assets/art/comments.jpg)
+![A growing follower network](/art/followers.jpg)
 
 <!-- art-auto -->
 
@@ -711,9 +709,9 @@ Once the rows land in a sheet, the data does the work. Four patterns we see most
 
 All of it runs on **public data** — no login, no personal data, and no private accounts.
 
-## Is scraping Tiktok comments legal?
+## Is scraping Twitter followers legal?
 
-Scraping **public Tiktok data** is generally lawful in most jurisdictions, but the rules are
+Scraping **public Twitter data** is generally lawful in most jurisdictions, but the rules are
 not uniform and they change. A few principles keep you on the right side of it:
 
 - **Public data only.** If a field is visible to a logged-out visitor, it is fair game in
@@ -729,12 +727,12 @@ not uniform and they change. A few principles keep you on the right side of it:
 This article is not legal advice. When the use case is commercial and the data is personal,
 get a lawyer's read before you scale.
 
-## Best Tiktok scraper: how to choose one in 2026
+## Best Twitter scraper: how to choose one in 2026
 
-Search for the **best Tiktok scraper** and you get a wall of tools. The **best Tiktok scraper**
+Search for the **best Twitter scraper** and you get a wall of tools. The **best Twitter scraper**
 for your job comes down to four questions:
 
-![Two options weighed side by side](/assets/art/comparison.jpg)
+![Two options weighed side by side](/art/comparison.jpg)
 
 <!-- art-auto -->
 
@@ -1023,20 +1021,20 @@ for your job comes down to four questions:
 
 
 
-- **Does it run logged out?** If a tool needs your Tiktok login, it is putting your account at
-  risk. A good **Tiktok scraper** reads public data without a session.
+- **Does it run logged out?** If a tool needs your Twitter login, it is putting your account at
+  risk. A good **Twitter scraper** reads public data without a session.
 - **Does it handle the blocking for you?** Residential proxies, retries, and pacing should
   be the tool's problem, not yours.
 - **Does it return the fields you need?** A tool that returns ten fields when you need
   fifty is a false economy.
 - **Can you schedule it?** The value compounds when the data refreshes itself.
 
-Across the **Tiktok scrapers in 2026**, the ones that last are maintained, logged-out, and
+Across the **Twitter scrapers in 2026**, the ones that last are maintained, logged-out, and
 API-first. That is the design of the actor on this page.
 
-## What you can extract from Tiktok URLs, posts, reels and hashtags
+## What you can extract from Twitter URLs, posts, reels and hashtags
 
-The unit of work is a **Tiktok URL** or handle. From those you can **extract Tiktok** data
+The unit of work is a **Twitter URL** or handle. From those you can **extract Twitter** data
 across every public surface:
 
 - **Posts and reels** — captions, media, view counts, and engagement metrics.
@@ -1044,16 +1042,16 @@ across every public surface:
 - **Hashtags** — the public posts behind a **hashtag**, for trend and creator research.
 - **Profiles** — the **public profile** fields a logged-out visitor can see.
 
-You hand the actor the **Tiktok URLs** you care about and it returns one row per item. Because
-it is a single **Tiktok scraper API**, the same call works for posts, reels, comments, and
+You hand the actor the **Twitter URLs** you care about and it returns one row per item. Because
+it is a single **Twitter scraper API**, the same call works for posts, reels, comments, and
 hashtags — you do not stitch together four tools.
 
-## Tiktok scraping API vs Bright Data vs a custom build
+## Twitter scraping API vs Bright Data vs a custom build
 
 If you have looked at **Bright Data** or another **scraping API**, the trade-off is the
 same everywhere: a **web scraping API** sells you the unblocking layer, and you still own
-the parsing. A hosted **Tiktok scraper API** goes one step further — it returns the parsed
-comments rows, not just the HTML.
+the parsing. A hosted **Twitter scraper API** goes one step further — it returns the parsed
+followers rows, not just the HTML.
 
 | | Custom Python build | Bright Data / raw proxy | Hosted actor |
 |---|---|---|---|
@@ -1067,34 +1065,34 @@ line item is almost never the one that costs you a week of engineering every qua
 
 ## FAQ
 
-**Can I scrape Tiktok without logging in?**
-Yes — for public Tiktok data you do not need a login or cookies. The actor runs logged out on your side, which is exactly what keeps your own account safe.
+**Can I scrape Twitter without logging in?**
+Yes — for public Twitter data you do not need a login or cookies. The actor runs logged out on your side, which is exactly what keeps your own account safe.
 
-**Does Tiktok block scraping?**
-Tiktok blocks naive scrapers aggressively: datacenter IPs, cold sessions, and fast bursts all get flagged. A maintained **Tiktok scraper** rotates residential proxies, paces itself under the rate limit, and retries cleanly, so it does not get blocked.
+**Does Twitter block scraping?**
+Twitter blocks naive scrapers aggressively: datacenter IPs, cold sessions, and fast bursts all get flagged. A maintained **Twitter scraper** rotates residential proxies, paces itself under the rate limit, and retries cleanly, so it does not get blocked.
 
-**Do I need coding skills to scrape Tiktok data?**
+**Do I need coding skills to scrape Twitter data?**
 No. You paste your input into the actor's form and click Start — no Python, no proxy setup, no cookie handling. Developers can still drive the same actor through the **Apify API**.
 
-**How much does it cost to scrape Tiktok comments?**
+**How much does it cost to scrape Twitter followers?**
 You pay Apify compute plus a small per-result price; check the actor's Pricing tab for the exact rate. The free tier covers small runs, so you can test before you commit.
 
-**Can I export Tiktok comments to CSV or Excel?**
-Yes — download as JSON, CSV, or Excel, or connect Google Sheets / Airtable directly from the actor page: https://apify.com/data-slayer/tiktok-comments
+**Can I export Twitter followers to CSV or Excel?**
+Yes — download as JSON, CSV, or Excel, or connect Google Sheets / Airtable directly from the actor page: https://apify.com/data-slayer/twitter-followers
 
 ## Who this is for
 
-If you are a **social media manager**, this replaces the manual Tiktok comments pull. Run it on a schedule, push the output to Sheets or Airtable, and your report refreshes itself.
+If you are a **social media manager**, this replaces the manual Twitter followers pull. Run it on a schedule, push the output to Sheets or Airtable, and your report refreshes itself.
 
 ## Related use cases
 
-- [how to scrape tiktok profile without getting blocked](https://dataslayer.dev/use-cases/how-to-scrape-tiktok-profile-without-getting-blocked/)
-- [how to scrape tiktok followers without getting blocked](https://dataslayer.dev/use-cases/how-to-scrape-tiktok-followers-without-getting-blocked/)
-- [how to scrape tiktok popular posts without getting blocked](https://dataslayer.dev/use-cases/how-to-scrape-tiktok-popular-posts-without-getting-blocked/)
+- [how to scrape twitter trends by location without getting blocked](https://dataslayer.dev/use-cases/how-to-scrape-twitter-trends-by-location-without-getting-blocked/)
+- [how to scrape twitter followings without getting blocked](https://dataslayer.dev/use-cases/how-to-scrape-twitter-followings-without-getting-blocked/)
+- [how to scrape twitter list members without getting blocked](https://dataslayer.dev/use-cases/how-to-scrape-twitter-list-members-without-getting-blocked/)
 
 ## Try it now
 
-Ready to run it yourself? **[Open TikTok Comments Scraper · No Cookies on Apify →](https://apify.com/data-slayer/tiktok-comments?utm_source=github&utm_medium=use-case&utm_campaign=how-to-scrape-tiktok-comments-without-getting-blocked)**
+Ready to run it yourself? **[Open Twitter/X Followers Scraper · No Cookies on Apify →](https://apify.com/data-slayer/twitter-followers?utm_source=github&utm_medium=use-case&utm_campaign=twitter-followers-data-extraction-tool)**
 
 No login, no code. Free tier included.
 
