@@ -1,51 +1,49 @@
 ---
-layout: use-case
-title: "Scrape Facebook events without login"
-description: "Search and discover Facebook events by keyword without login. Get event titles, IDs, URLs, and event types. Build event databases for lead generation…"
-slug: "scrape-facebook-events-without-login"
-canonical_url: "https://dataslayer.dev/use-cases/scrape-facebook-events-without-login/"
-date: "2026-11-01"
-tags: ["facebook", "how-to", "lead-gen marketer"]
-target_keyword: "scrape facebook events without login"
+layout: "use-case"
+title: "Scrape Facebook people without login"
+description: "Search and find Facebook profiles by keyword without login. Get profile names, URLs, Facebook IDs, verification status, and profile pictures. Build…"
+slug: "scrape-facebook-people-without-login"
+canonical_url: "/resources/scrape-facebook-people-without-login/"
+date: "2026-11-26"
+generated_at: "2026-11-01"
+tags: []
+target_keyword: "scrape facebook people without login"
 actor_username: "data-slayer"
-actor_slug: "facebook-search-events"
-actor_url: "https://apify.com/data-slayer/facebook-search-events"
-persona: "lead-gen marketer"
+actor_slug: "facebook-search-people"
+actor_url: "https://apify.com/data-slayer/facebook-search-people"
+persona: "social media manager"
 content_type: "how-to"
-neuronwriter_brief_id: null
+neuronwriter_brief_id: "null"
 neuronwriter_score: null
-status: "draft"
-cover: "/assets/covers/scrape-facebook-events-without-login.jpg"
+status: "published"
 ---
-# Scrape Facebook events without login
+Pulling Facebook search people data by hand does not scale. You either copy-paste it one item at a time, or you fight the API — rate limits, auth, and pagination — and still end up with half the fields missing. For a social media manager, the data only matters if it is complete, fresh, and in a sheet you can act on. That is the gap Facebook People Search Scraper · No Cookies closes.
 
-Pulling Facebook search events data by hand does not scale. You either copy-paste it one item at a time, or you fight the API — rate limits, auth, and pagination — and still end up with half the fields missing. For a lead-gen marketer, the data only matters if it is complete, fresh, and in a sheet you can act on. That is the gap Facebook Events Scraper · No Cookies closes.
-
-> **Facebook Events Scraper · No Cookies** runs **84 times a month** on Apify.
+> **Facebook People Search Scraper · No Cookies** runs **55 times a month** on Apify.
 
 ## What you get
 
-- Search and discover Facebook events by keyword without login
-- Build event databases for lead generation, sponsorship prospecting, and competitive intelligence
+- Search and find Facebook profiles by keyword without login
+- Build prospect databases from Facebook people search results
 - No cookies, no authentication
 - JSON/CSV/Excel export
 
-Instead of building a scraper, you point **Facebook Events Scraper · No Cookies** ([`data-slayer/facebook-search-events`](https://apify.com/data-slayer/facebook-search-events)) at your input and run it. It handles the requests, retries, and parsing, and returns one clean row per item in the format you already use.
+Instead of building a scraper, you point **Facebook People Search Scraper · No Cookies** ([`data-slayer/facebook-search-people`](https://apify.com/data-slayer/facebook-search-people)) at your input and run it. It handles the requests, retries, and parsing, and returns one clean row per item in the format you already use.
 
 ## How it works — step by step
 
 **1. Open the actor**
-Go to [`data-slayer/facebook-search-events`](https://apify.com/data-slayer/facebook-search-events?utm_source=github&utm_medium=use-case&utm_campaign=scrape-facebook-events-without-login) and click **Try for free**.
+Go to [`data-slayer/facebook-search-people`](https://apify.com/data-slayer/facebook-search-people?utm_source=github&utm_medium=use-case&utm_campaign=scrape-facebook-people-without-login) and click **Try for free**.
 
 **2. Paste your input**
 ```json
 {
-  "searchQuery": "example"
+  "query": "new york"
 }
 ```
 
 **3. Run it**
-Click **Start**. A typical run finishes in under a minute and returns one row per item.
+Click **Start**. A typical run finishes in under a minute and returns one row per search people.
 
 **4. Get your data**
 Download as **JSON, CSV, or Excel**, or push straight to Google Sheets / Airtable via the built-in integrations.
@@ -59,7 +57,7 @@ Download as **JSON, CSV, or Excel**, or push straight to Google Sheets / Airtabl
 | `engagement` | `…` | filter / sort / export |
 | `collectedAt` | `2026-09-30T12:00:00Z` | time-series / scheduling |
 
-## Why scraping Facebook search events without getting blocked is hard in 2026
+## Why scraping Facebook search people without getting blocked is hard in 2026
 
 Facebook is one of the most aggressively defended sites on the web, and 2026 is the hardest
 year yet to pull Facebook data at scale. If you have tried to **scrape Facebook** yourself, you have
@@ -78,14 +76,14 @@ probably already hit one of these walls:
   scraper you wrote last quarter silently returns half the fields today.
 
 That is the difference between a script that works once on your laptop and a **Facebook scraper**
-that runs every day without maintenance. For a search events job you do not want to babysit
+that runs every day without maintenance. For a search people job you do not want to babysit
 proxies, cookies, and retries — you want the rows.
 
 ## Three ways to get Facebook data — and which one to use
 
-There are three honest ways to get Facebook search events data in 2026. Each has a real cost.
+There are three honest ways to get Facebook search people data in 2026. Each has a real cost.
 
-![Several platform nodes connected to one hub](/assets/art/multi-platform.jpg)
+![Several platform nodes connected to one hub](/art/multi-platform.jpg)
 
 <!-- art-auto -->
 
@@ -380,12 +378,12 @@ There are three honest ways to get Facebook search events data in 2026. Each has
 | **Official Facebook API** | Use the platform's own API | Heavily restricted, requires app review, returns a fraction of the public fields, and is not built for bulk extraction. |
 | **A ready-made scraping API / actor** | Point a maintained actor at your input and download clean rows | You pay per result, but you skip the proxy, login, and parsing work entirely. |
 
-For most search events work the third option wins on total cost. A **scraping API** gives you the
+For most search people work the third option wins on total cost. A **scraping API** gives you the
 same **public Facebook data** a hand-built Python scraper would, without the account-handling
 system around it. **Apify** hosts these actors and exposes them through a **web scraping
 API**, so you can run one by hand, on a schedule, or from code with the **Apify API**.
 
-## How to scrape Facebook search events without getting blocked
+## How to scrape Facebook search people without getting blocked
 
 If you do build your own **Facebook scraper**, these are the controls that actually keep it
 alive. Every one of them is already handled for you inside a maintained actor.
@@ -407,11 +405,11 @@ Do all six and you can **scrape Facebook without getting blocked** for a while. 
 and you will **get blocked** on day one. That maintenance burden is the real reason teams
 move to a hosted **Facebook scraper** instead of owning the plumbing.
 
-## What you can do with Facebook search events data
+## What you can do with Facebook search people data
 
 Once the rows land in a sheet, the data does the work. Four patterns we see most:
 
-![A magnifier over a cloud of hashtags](/assets/art/keyword-search.jpg)
+![A magnifier over a cloud of hashtags](/art/keyword-search.jpg)
 
 <!-- art-auto -->
 
@@ -711,7 +709,7 @@ Once the rows land in a sheet, the data does the work. Four patterns we see most
 
 All of it runs on **public data** — no login, no personal data, and no private accounts.
 
-## Is scraping Facebook search events legal?
+## Is scraping Facebook search people legal?
 
 Scraping **public Facebook data** is generally lawful in most jurisdictions, but the rules are
 not uniform and they change. A few principles keep you on the right side of it:
@@ -734,7 +732,7 @@ get a lawyer's read before you scale.
 Search for the **best Facebook scraper** and you get a wall of tools. The **best Facebook scraper**
 for your job comes down to four questions:
 
-![Two options weighed side by side](/assets/art/comparison.jpg)
+![Two options weighed side by side](/art/comparison.jpg)
 
 <!-- art-auto -->
 
@@ -1053,7 +1051,7 @@ hashtags — you do not stitch together four tools.
 If you have looked at **Bright Data** or another **scraping API**, the trade-off is the
 same everywhere: a **web scraping API** sells you the unblocking layer, and you still own
 the parsing. A hosted **Facebook scraper API** goes one step further — it returns the parsed
-search events rows, not just the HTML.
+search people rows, not just the HTML.
 
 | | Custom Python build | Bright Data / raw proxy | Hosted actor |
 |---|---|---|---|
@@ -1076,15 +1074,15 @@ Facebook blocks naive scrapers aggressively: datacenter IPs, cold sessions, and 
 **Do I need coding skills to scrape Facebook data?**
 No. You paste your input into the actor's form and click Start — no Python, no proxy setup, no cookie handling. Developers can still drive the same actor through the **Apify API**.
 
-**How much does it cost to scrape Facebook search events?**
+**How much does it cost to scrape Facebook search people?**
 You pay Apify compute plus a small per-result price; check the actor's Pricing tab for the exact rate. The free tier covers small runs, so you can test before you commit.
 
-**Can I export Facebook search events to CSV or Excel?**
-Yes — download as JSON, CSV, or Excel, or connect Google Sheets / Airtable directly from the actor page: https://apify.com/data-slayer/facebook-search-events
+**Can I export Facebook search people to CSV or Excel?**
+Yes — download as JSON, CSV, or Excel, or connect Google Sheets / Airtable directly from the actor page: https://apify.com/data-slayer/facebook-search-people
 
 ## Who this is for
 
-If you are a **lead-gen marketer**, this replaces the manual Facebook search events pull. Run it on a schedule, push the output to Sheets or Airtable, and your report refreshes itself.
+If you are a **social media manager**, this replaces the manual Facebook search people pull. Run it on a schedule, push the output to Sheets or Airtable, and your report refreshes itself.
 
 ## Related use cases
 
@@ -1094,7 +1092,7 @@ If you are a **lead-gen marketer**, this replaces the manual Facebook search eve
 
 ## Try it now
 
-Ready to run it yourself? **[Open Facebook Events Scraper · No Cookies on Apify →](https://apify.com/data-slayer/facebook-search-events?utm_source=github&utm_medium=use-case&utm_campaign=scrape-facebook-events-without-login)**
+Ready to run it yourself? **[Open Facebook People Search Scraper · No Cookies on Apify →](https://apify.com/data-slayer/facebook-search-people?utm_source=github&utm_medium=use-case&utm_campaign=scrape-facebook-people-without-login)**
 
 No login, no code. Free tier included.
 

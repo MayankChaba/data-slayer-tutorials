@@ -1,51 +1,51 @@
 ---
-layout: use-case
-title: "Scrape tiktok comments without login"
-description: "Extract comments from any TikTok video without login. Get comment text, like counts, reply threads, timestamps, language detection, pinned status, and…"
-slug: "scrape-tiktok-comments-without-login"
-canonical_url: "https://dataslayer.dev/use-cases/scrape-tiktok-comments-without-login/"
-date: "2026-11-01"
-tags: ["tiktok", "how-to", "social media manager"]
-target_keyword: "scrape tiktok comments without login"
+layout: "use-case"
+title: "Scrape tiktok profile without login"
+description: "Extract TikTok user profile data by username without login. Get follower/following counts, total likes, video count, bio, profile images, verification…"
+slug: "scrape-tiktok-profile-without-login"
+canonical_url: "/resources/scrape-tiktok-profile-without-login/"
+date: "2026-11-26"
+generated_at: "2026-11-01"
+tags: []
+target_keyword: "scrape tiktok profile without login"
 actor_username: "data-slayer"
-actor_slug: "tiktok-comments"
-actor_url: "https://apify.com/data-slayer/tiktok-comments"
-persona: "social media manager"
+actor_slug: "tiktok-profile-scraper"
+actor_url: "https://apify.com/data-slayer/tiktok-profile-scraper"
+persona: "lead-gen marketer"
 content_type: "how-to"
-neuronwriter_brief_id: null
+neuronwriter_brief_id: "null"
 neuronwriter_score: null
-status: "draft"
-cover: "/assets/covers/scrape-tiktok-comments-without-login.jpg"
+status: "published"
 ---
-# Scrape tiktok comments without login
+Pulling Tiktok profile data by hand does not scale. You either copy-paste it one item at a time, or you fight the API — rate limits, auth, and pagination — and still end up with half the fields missing. For a lead-gen marketer, the data only matters if it is complete, fresh, and in a sheet you can act on. That is the gap TikTok Profile Scraper · No Cookies closes.
 
-Pulling Tiktok comments data by hand does not scale. You either copy-paste it one item at a time, or you fight the API — rate limits, auth, and pagination — and still end up with half the fields missing. For a social media manager, the data only matters if it is complete, fresh, and in a sheet you can act on. That is the gap TikTok Comments Scraper · No Cookies closes.
-
-> **TikTok Comments Scraper · No Cookies** runs **75 times a month** on Apify.
+> **TikTok Profile Scraper · No Cookies** runs **65 times a month** on Apify.
 
 ## What you get
 
 - No cookies, no authentication
-- like counts
-- reply threads
-- timestamps
+- total likes
+- video count
+- profile images
 
-Instead of building a scraper, you point **TikTok Comments Scraper · No Cookies** ([`data-slayer/tiktok-comments`](https://apify.com/data-slayer/tiktok-comments)) at your input and run it. It handles the requests, retries, and parsing, and returns one clean row per item in the format you already use.
+Instead of building a scraper, you point **TikTok Profile Scraper · No Cookies** ([`data-slayer/tiktok-profile-scraper`](https://apify.com/data-slayer/tiktok-profile-scraper)) at your input and run it. It handles the requests, retries, and parsing, and returns one clean row per item in the format you already use.
 
 ## How it works — step by step
 
 **1. Open the actor**
-Go to [`data-slayer/tiktok-comments`](https://apify.com/data-slayer/tiktok-comments?utm_source=github&utm_medium=use-case&utm_campaign=scrape-tiktok-comments-without-login) and click **Try for free**.
+Go to [`data-slayer/tiktok-profile-scraper`](https://apify.com/data-slayer/tiktok-profile-scraper?utm_source=github&utm_medium=use-case&utm_campaign=scrape-tiktok-profile-without-login) and click **Try for free**.
 
 **2. Paste your input**
 ```json
 {
-  "videoId": "7306132438047116586"
+  "profiles": [
+    "https://www.tiktok.com/@tiktok"
+  ]
 }
 ```
 
 **3. Run it**
-Click **Start**. A typical run finishes in under a minute and returns one row per item.
+Click **Start**. A typical run finishes in under a minute and returns one row per profile.
 
 **4. Get your data**
 Download as **JSON, CSV, or Excel**, or push straight to Google Sheets / Airtable via the built-in integrations.
@@ -59,7 +59,7 @@ Download as **JSON, CSV, or Excel**, or push straight to Google Sheets / Airtabl
 | `engagement` | `…` | filter / sort / export |
 | `collectedAt` | `2026-09-30T12:00:00Z` | time-series / scheduling |
 
-## Why scraping Tiktok comments without getting blocked is hard in 2026
+## Why scraping Tiktok profile without getting blocked is hard in 2026
 
 Tiktok is one of the most aggressively defended sites on the web, and 2026 is the hardest
 year yet to pull Tiktok data at scale. If you have tried to **scrape Tiktok** yourself, you have
@@ -78,14 +78,14 @@ probably already hit one of these walls:
   scraper you wrote last quarter silently returns half the fields today.
 
 That is the difference between a script that works once on your laptop and a **Tiktok scraper**
-that runs every day without maintenance. For a comments job you do not want to babysit
+that runs every day without maintenance. For a profile job you do not want to babysit
 proxies, cookies, and retries — you want the rows.
 
 ## Three ways to get Tiktok data — and which one to use
 
-There are three honest ways to get Tiktok comments data in 2026. Each has a real cost.
+There are three honest ways to get Tiktok profile data in 2026. Each has a real cost.
 
-![Several platform nodes connected to one hub](/assets/art/multi-platform.jpg)
+![Several platform nodes connected to one hub](/art/multi-platform.jpg)
 
 <!-- art-auto -->
 
@@ -380,12 +380,12 @@ There are three honest ways to get Tiktok comments data in 2026. Each has a real
 | **Official Tiktok API** | Use the platform's own API | Heavily restricted, requires app review, returns a fraction of the public fields, and is not built for bulk extraction. |
 | **A ready-made scraping API / actor** | Point a maintained actor at your input and download clean rows | You pay per result, but you skip the proxy, login, and parsing work entirely. |
 
-For most comments work the third option wins on total cost. A **scraping API** gives you the
+For most profile work the third option wins on total cost. A **scraping API** gives you the
 same **public Tiktok data** a hand-built Python scraper would, without the account-handling
 system around it. **Apify** hosts these actors and exposes them through a **web scraping
 API**, so you can run one by hand, on a schedule, or from code with the **Apify API**.
 
-## How to scrape Tiktok comments without getting blocked
+## How to scrape Tiktok profile without getting blocked
 
 If you do build your own **Tiktok scraper**, these are the controls that actually keep it
 alive. Every one of them is already handled for you inside a maintained actor.
@@ -407,11 +407,11 @@ Do all six and you can **scrape Tiktok without getting blocked** for a while. Do
 and you will **get blocked** on day one. That maintenance burden is the real reason teams
 move to a hosted **Tiktok scraper** instead of owning the plumbing.
 
-## What you can do with Tiktok comments data
+## What you can do with Tiktok profile data
 
 Once the rows land in a sheet, the data does the work. Four patterns we see most:
 
-![Threaded comment bubbles](/assets/art/comments.jpg)
+![A single profile identity card](/art/profile.jpg)
 
 <!-- art-auto -->
 
@@ -711,7 +711,7 @@ Once the rows land in a sheet, the data does the work. Four patterns we see most
 
 All of it runs on **public data** — no login, no personal data, and no private accounts.
 
-## Is scraping Tiktok comments legal?
+## Is scraping Tiktok profile legal?
 
 Scraping **public Tiktok data** is generally lawful in most jurisdictions, but the rules are
 not uniform and they change. A few principles keep you on the right side of it:
@@ -734,7 +734,7 @@ get a lawyer's read before you scale.
 Search for the **best Tiktok scraper** and you get a wall of tools. The **best Tiktok scraper**
 for your job comes down to four questions:
 
-![Two options weighed side by side](/assets/art/comparison.jpg)
+![Two options weighed side by side](/art/comparison.jpg)
 
 <!-- art-auto -->
 
@@ -1053,7 +1053,7 @@ hashtags — you do not stitch together four tools.
 If you have looked at **Bright Data** or another **scraping API**, the trade-off is the
 same everywhere: a **web scraping API** sells you the unblocking layer, and you still own
 the parsing. A hosted **Tiktok scraper API** goes one step further — it returns the parsed
-comments rows, not just the HTML.
+profile rows, not just the HTML.
 
 | | Custom Python build | Bright Data / raw proxy | Hosted actor |
 |---|---|---|---|
@@ -1076,25 +1076,25 @@ Tiktok blocks naive scrapers aggressively: datacenter IPs, cold sessions, and fa
 **Do I need coding skills to scrape Tiktok data?**
 No. You paste your input into the actor's form and click Start — no Python, no proxy setup, no cookie handling. Developers can still drive the same actor through the **Apify API**.
 
-**How much does it cost to scrape Tiktok comments?**
+**How much does it cost to scrape Tiktok profile?**
 You pay Apify compute plus a small per-result price; check the actor's Pricing tab for the exact rate. The free tier covers small runs, so you can test before you commit.
 
-**Can I export Tiktok comments to CSV or Excel?**
-Yes — download as JSON, CSV, or Excel, or connect Google Sheets / Airtable directly from the actor page: https://apify.com/data-slayer/tiktok-comments
+**Can I export Tiktok profile to CSV or Excel?**
+Yes — download as JSON, CSV, or Excel, or connect Google Sheets / Airtable directly from the actor page: https://apify.com/data-slayer/tiktok-profile-scraper
 
 ## Who this is for
 
-If you are a **social media manager**, this replaces the manual Tiktok comments pull. Run it on a schedule, push the output to Sheets or Airtable, and your report refreshes itself.
+If you are a **lead-gen marketer**, this replaces the manual Tiktok profile pull. Run it on a schedule, push the output to Sheets or Airtable, and your report refreshes itself.
 
 ## Related use cases
 
-- [how to scrape tiktok profile without getting blocked](https://dataslayer.dev/use-cases/how-to-scrape-tiktok-profile-without-getting-blocked/)
 - [how to scrape tiktok followers without getting blocked](https://dataslayer.dev/use-cases/how-to-scrape-tiktok-followers-without-getting-blocked/)
 - [how to scrape tiktok popular posts without getting blocked](https://dataslayer.dev/use-cases/how-to-scrape-tiktok-popular-posts-without-getting-blocked/)
+- [how to scrape tiktok top ads without getting blocked](https://dataslayer.dev/use-cases/how-to-scrape-tiktok-top-ads-without-getting-blocked/)
 
 ## Try it now
 
-Ready to run it yourself? **[Open TikTok Comments Scraper · No Cookies on Apify →](https://apify.com/data-slayer/tiktok-comments?utm_source=github&utm_medium=use-case&utm_campaign=scrape-tiktok-comments-without-login)**
+Ready to run it yourself? **[Open TikTok Profile Scraper · No Cookies on Apify →](https://apify.com/data-slayer/tiktok-profile-scraper?utm_source=github&utm_medium=use-case&utm_campaign=scrape-tiktok-profile-without-login)**
 
 No login, no code. Free tier included.
 

@@ -1,14 +1,5 @@
 [
  {
-  "slug": "linkedin-people-api-alternative",
-  "priority": "P2",
-  "runs_30d": 84,
-  "target_query": "linkedin people api alternative",
-  "actor_account": "data-slayer",
-  "actor_slug": "linkedin-people-search",
-  "actor_title": "LinkedIn People Search (ICP)"
- },
- {
   "slug": "how-to-get-linkedin-people-data",
   "priority": "P2",
   "runs_30d": 84,
@@ -25,15 +16,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "linkedin-people-search",
   "actor_title": "LinkedIn People Search (ICP)"
- },
- {
-  "slug": "facebook-events-scraper",
-  "priority": "P2",
-  "runs_30d": 84,
-  "target_query": "facebook events scraper",
-  "actor_account": "data-slayer",
-  "actor_slug": "facebook-search-events",
-  "actor_title": "Facebook Events Scraper \u00b7 No Cookies"
  },
  {
   "slug": "facebook-events-api-alternative",
@@ -90,15 +72,6 @@
   "actor_title": "TikTok Comments Scraper \u00b7 No Cookies"
  },
  {
-  "slug": "export-tiktok-comments-to-csv",
-  "priority": "P2",
-  "runs_30d": 75,
-  "target_query": "export tiktok comments to csv",
-  "actor_account": "data-slayer",
-  "actor_slug": "tiktok-comments",
-  "actor_title": "TikTok Comments Scraper \u00b7 No Cookies"
- },
- {
   "slug": "find-competitor-and-creator-content-on-tiktok-for-social-media-managers",
   "priority": "P2",
   "runs_30d": 75,
@@ -130,15 +103,6 @@
   "priority": "P2",
   "runs_30d": 65,
   "target_query": "tiktok profile scraper",
-  "actor_account": "data-slayer",
-  "actor_slug": "tiktok-profile-scraper",
-  "actor_title": "TikTok Profile Scraper \u00b7 No Cookies"
- },
- {
-  "slug": "scrape-tiktok-profile-without-login",
-  "priority": "P2",
-  "runs_30d": 65,
-  "target_query": "scrape tiktok profile without login",
   "actor_account": "data-slayer",
   "actor_slug": "tiktok-profile-scraper",
   "actor_title": "TikTok Profile Scraper \u00b7 No Cookies"
@@ -193,15 +157,6 @@
   "priority": "P2",
   "runs_30d": 55,
   "target_query": "facebook people scraper",
-  "actor_account": "data-slayer",
-  "actor_slug": "facebook-search-people",
-  "actor_title": "Facebook People Search Scraper \u00b7 No Cookies"
- },
- {
-  "slug": "scrape-facebook-people-without-login",
-  "priority": "P2",
-  "runs_30d": 55,
-  "target_query": "scrape facebook people without login",
   "actor_account": "data-slayer",
   "actor_slug": "facebook-search-people",
   "actor_title": "Facebook People Search Scraper \u00b7 No Cookies"
