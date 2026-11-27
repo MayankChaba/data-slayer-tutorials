@@ -1,14 +1,5 @@
 [
  {
-  "slug": "how-to-get-linkedin-people-data",
-  "priority": "P2",
-  "runs_30d": 84,
-  "target_query": "how to get linkedin people data",
-  "actor_account": "data-slayer",
-  "actor_slug": "linkedin-people-search",
-  "actor_title": "LinkedIn People Search (ICP)"
- },
- {
   "slug": "linkedin-people-data-extraction-tool",
   "priority": "P2",
   "runs_30d": 84,
@@ -16,15 +7,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "linkedin-people-search",
   "actor_title": "LinkedIn People Search (ICP)"
- },
- {
-  "slug": "facebook-events-api-alternative",
-  "priority": "P2",
-  "runs_30d": 84,
-  "target_query": "facebook events api alternative",
-  "actor_account": "data-slayer",
-  "actor_slug": "facebook-search-events",
-  "actor_title": "Facebook Events Scraper \u00b7 No Cookies"
  },
  {
   "slug": "export-facebook-events-to-csv",
@@ -52,15 +34,6 @@
   "actor_account": "data-slayer",
   "actor_slug": "facebook-search-events",
   "actor_title": "Facebook Events Scraper \u00b7 No Cookies"
- },
- {
-  "slug": "tiktok-comments-scraper",
-  "priority": "P2",
-  "runs_30d": 75,
-  "target_query": "tiktok comments scraper",
-  "actor_account": "data-slayer",
-  "actor_slug": "tiktok-comments",
-  "actor_title": "TikTok Comments Scraper \u00b7 No Cookies"
  },
  {
   "slug": "tiktok-comments-api-alternative",
@@ -117,15 +90,6 @@
   "actor_title": "TikTok Profile Scraper \u00b7 No Cookies"
  },
  {
-  "slug": "export-tiktok-profile-to-csv",
-  "priority": "P2",
-  "runs_30d": 65,
-  "target_query": "export tiktok profile to csv",
-  "actor_account": "data-slayer",
-  "actor_slug": "tiktok-profile-scraper",
-  "actor_title": "TikTok Profile Scraper \u00b7 No Cookies"
- },
- {
   "slug": "find-buying-signal-contacts-on-tiktok-for-lead-gen-marketers",
   "priority": "P2",
   "runs_30d": 65,
@@ -166,15 +130,6 @@
   "priority": "P2",
   "runs_30d": 55,
   "target_query": "facebook people api alternative",
-  "actor_account": "data-slayer",
-  "actor_slug": "facebook-search-people",
-  "actor_title": "Facebook People Search Scraper \u00b7 No Cookies"
- },
- {
-  "slug": "export-facebook-people-to-csv",
-  "priority": "P2",
-  "runs_30d": 55,
-  "target_query": "export facebook people to csv",
   "actor_account": "data-slayer",
   "actor_slug": "facebook-search-people",
   "actor_title": "Facebook People Search Scraper \u00b7 No Cookies"
