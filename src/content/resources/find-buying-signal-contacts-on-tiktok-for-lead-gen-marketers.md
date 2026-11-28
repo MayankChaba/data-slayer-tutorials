@@ -1,24 +1,22 @@
 ---
-layout: use-case
-title: "How to export tiktok profile to CSV"
+layout: "use-case"
+title: "Finding buying-signal contacts on Tiktok"
 description: "Extract TikTok user profile data by username without login. Get follower/following counts, total likes, video count, bio, profile images, verification…"
-slug: "export-tiktok-profile-to-csv"
-canonical_url: "https://dataslayer.dev/use-cases/export-tiktok-profile-to-csv/"
-date: "2026-11-01"
-tags: ["tiktok", "how-to", "lead-gen marketer"]
-target_keyword: "export tiktok profile to csv"
+slug: "find-buying-signal-contacts-on-tiktok-for-lead-gen-marketers"
+canonical_url: "/resources/find-buying-signal-contacts-on-tiktok-for-lead-gen-marketers/"
+date: "2026-11-28"
+generated_at: "2026-11-01"
+tags: []
+target_keyword: "find buying-signal contacts on Tiktok for lead-gen marketers"
 actor_username: "data-slayer"
 actor_slug: "tiktok-profile-scraper"
 actor_url: "https://apify.com/data-slayer/tiktok-profile-scraper"
 persona: "lead-gen marketer"
-content_type: "how-to"
-neuronwriter_brief_id: null
+content_type: "use-case"
+neuronwriter_brief_id: "null"
 neuronwriter_score: null
-status: "draft"
-cover: "/assets/covers/export-tiktok-profile-to-csv.jpg"
+status: "published"
 ---
-# How to export tiktok profile to CSV
-
 Pulling Tiktok profile data by hand does not scale. You either copy-paste it one item at a time, or you fight the API — rate limits, auth, and pagination — and still end up with half the fields missing. For a lead-gen marketer, the data only matters if it is complete, fresh, and in a sheet you can act on. That is the gap TikTok Profile Scraper · No Cookies closes.
 
 > **TikTok Profile Scraper · No Cookies** runs **65 times a month** on Apify.
@@ -35,7 +33,7 @@ Instead of building a scraper, you point **TikTok Profile Scraper · No Cookies*
 ## How it works — step by step
 
 **1. Open the actor**
-Go to [`data-slayer/tiktok-profile-scraper`](https://apify.com/data-slayer/tiktok-profile-scraper?utm_source=github&utm_medium=use-case&utm_campaign=export-tiktok-profile-to-csv) and click **Try for free**.
+Go to [`data-slayer/tiktok-profile-scraper`](https://apify.com/data-slayer/tiktok-profile-scraper?utm_source=github&utm_medium=use-case&utm_campaign=find-buying-signal-contacts-on-tiktok-for-lead-gen-marketers) and click **Try for free**.
 
 **2. Paste your input**
 ```json
@@ -87,7 +85,7 @@ proxies, cookies, and retries — you want the rows.
 
 There are three honest ways to get Tiktok profile data in 2026. Each has a real cost.
 
-![Several platform nodes connected to one hub](/assets/art/multi-platform.jpg)
+![Several platform nodes connected to one hub](/art/multi-platform.jpg)
 
 <!-- art-auto -->
 
@@ -435,7 +433,7 @@ move to a hosted **Tiktok scraper** instead of owning the plumbing.
 
 Once the rows land in a sheet, the data does the work. Four patterns we see most:
 
-![A single profile identity card](/assets/art/profile.jpg)
+![A single profile identity card](/art/profile.jpg)
 
 <!-- art-auto -->
 
@@ -780,7 +778,7 @@ get a lawyer's read before you scale.
 Search for the **best Tiktok scraper** and you get a wall of tools. The **best Tiktok scraper**
 for your job comes down to four questions:
 
-![Two options weighed side by side](/assets/art/comparison.jpg)
+![Two options weighed side by side](/art/comparison.jpg)
 
 <!-- art-auto -->
 
@@ -1162,7 +1160,7 @@ If you are a **lead-gen marketer**, this replaces the manual Tiktok profile pull
 
 ## Try it now
 
-Ready to run it yourself? **[Open TikTok Profile Scraper · No Cookies on Apify →](https://apify.com/data-slayer/tiktok-profile-scraper?utm_source=github&utm_medium=use-case&utm_campaign=export-tiktok-profile-to-csv)**
+Ready to run it yourself? **[Open TikTok Profile Scraper · No Cookies on Apify →](https://apify.com/data-slayer/tiktok-profile-scraper?utm_source=github&utm_medium=use-case&utm_campaign=find-buying-signal-contacts-on-tiktok-for-lead-gen-marketers)**
 
 No login, no code. Free tier included.
 
